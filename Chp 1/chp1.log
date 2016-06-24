@@ -1,34 +1,24 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.9.25)  6 JAN 2015 02:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  23 JUN 2016 17:26
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
 **chp1.tex
 (./chp1.tex
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
-rman-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabi
-c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
-h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
-h, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, h
-ungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, ma
-rathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, 
-kurmanji, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk,
- polish, portuguese, romanian, romansh, russian, sanskrit, serbian, serbianc, s
-lovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, 
-welsh, loaded.
-(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamer.cls
-(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbasercs.sty
-Package: beamerbasercs 2012/09/19 (rcs-revision 9cdb60d8ebed)
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamer.cls
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbasercs.sty
+Package: beamerbasercs 2015/03/08 (rcs-revision 368aa9ba9d38)
 )
-Document Class: beamer 2011/09/12 development version 3.22 A class for typesett
-ing presentations (rcs-revision 70f9d8411e54)
-(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
-Package: beamerbasemodes 2012/04/15 (rcs-revision cc6557182d97)
+Document Class: beamer 2015/01/05 3.36 A class for typesetting presentations (r
+cs-revision 8a39122e1f63)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
+Package: beamerbasemodes 2013/09/03 (rcs-revision 768f2d98ca64)
 \beamer@tempbox=\box26
 \beamer@tempcount=\count79
 \c@beamerpauses=\count80
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbasedecode.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbasedecode.sty
 Package: beamerbasedecode 2010/05/01 (rcs-revision efa082c6111d)
 \beamer@slideinframe=\count81
 \beamer@minimum=\count82
@@ -36,7 +26,7 @@ Package: beamerbasedecode 2010/05/01 (rcs-revision efa082c6111d)
 \beamer@commentbox=\box27
 \beamer@modecount=\count83
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
@@ -83,24 +73,24 @@ Package ifpdf Info: pdfTeX in PDF mode is detected.
 \beamer@sectionadjust=\count100
 \beamer@tocsectionnumber=\count101
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbaseoptions.sty
-Package: beamerbaseoptions 2010/04/27 (rcs-revision 982469101dd6)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbaseoptions.sty
+Package: beamerbaseoptions 2013/03/10 (rcs-revision 47431932db0d)
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 ))
 \beamer@paperwidth=\skip42
 \beamer@paperheight=\skip43
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count102
@@ -118,37 +108,37 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 
 Class beamer Warning: ``slidestop'' is obsolete. Use ``t'' instead on input lin
-e 343.
+e 348.
 
 
 Class beamer Warning: ``mathserif'' is obsolete. Use font theme ``serif'' with 
-option ``onlymath'' on input line 343.
+option ``onlymath'' on input line 348.
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/graphics.cfg
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 94.
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count105
@@ -156,71 +146,78 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen127
 \Gin@req@width=\dimen128
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
-(/usr/local/texlive/2012/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
 x
 \pgfutil@everybye=\toks16
-)
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@tempdima=\dimen129
+\pgfutil@tempdimb=\dimen130
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box34
-(/usr/local/texlive/2012/texmf-dist/tex/latex/ms/everyshi.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
-Package: pgfrcs 2010/10/25 v2.10 (rcs-revision 1.24)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2013/12/20 v3.0.0 (rcs-revision 1.28)
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
-Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks17
 \pgfkeys@temptoks=\toks18
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
 ode.tex
 \pgfkeys@tmptoks=\toks19
 ))
-\pgf@x=\dimen129
-\pgf@y=\dimen130
-\pgf@xa=\dimen131
-\pgf@ya=\dimen132
-\pgf@xb=\dimen133
-\pgf@yb=\dimen134
-\pgf@xc=\dimen135
-\pgf@yc=\dimen136
+\pgf@x=\dimen131
+\pgf@y=\dimen132
+\pgf@xa=\dimen133
+\pgf@ya=\dimen134
+\pgf@xb=\dimen135
+\pgf@yb=\dimen136
+\pgf@xc=\dimen137
+\pgf@yc=\dimen138
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
 \c@pgf@counta=\count106
 \c@pgf@countb=\count107
 \c@pgf@countc=\count108
 \c@pgf@countd=\count109
+\t@pgf@toka=\toks20
+\t@pgf@tokb=\toks21
+\t@pgf@tokc=\toks22
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
-Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 900.
+Driver file for pgf: pgfsys-pdftex.def
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
 ef
-File: pgfsys-pdftex.def 2009/05/22  (rcs-revision 1.26)
+File: pgfsys-pdftex.def 2013/07/18  (rcs-revision 1.33)
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
 df.def
-File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
 code.tex
-File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
 \pgfsyssoftpath@smallbuffer@items=\count110
 \pgfsyssoftpath@bigbuffer@items=\count111
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
 code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
-)) (/usr/local/texlive/2012/texmf-dist/tex/latex/xcolor/xcolor.sty
+)) (/usr/local/texlive/2015/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/color.cfg
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -234,144 +231,150 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
-Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen137
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen139
 \pgfmath@count=\count112
 \pgfmath@box=\box35
-\pgfmath@toks=\toks20
-\pgfmath@stack@operand=\toks21
-\pgfmath@stack@operation=\toks22
+\pgfmath@toks=\toks23
+\pgfmath@stack@operand=\toks24
+\pgfmath@stack@operation=\toks25
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
 tex
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
 .code.tex)
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
 nometric.code.tex)
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
 m.code.tex)
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
 rison.code.tex)
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
 code.tex)
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
 .code.tex)
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
-code.tex)))
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count113
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
 de.tex
-File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
-\pgf@picminx=\dimen138
-\pgf@picmaxx=\dimen139
-\pgf@picminy=\dimen140
-\pgf@picmaxy=\dimen141
-\pgf@pathminx=\dimen142
-\pgf@pathmaxx=\dimen143
-\pgf@pathminy=\dimen144
-\pgf@pathmaxy=\dimen145
-\pgf@xx=\dimen146
-\pgf@xy=\dimen147
-\pgf@yx=\dimen148
-\pgf@yy=\dimen149
-\pgf@zx=\dimen150
-\pgf@zy=\dimen151
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen140
+\pgf@picmaxx=\dimen141
+\pgf@picminy=\dimen142
+\pgf@picmaxy=\dimen143
+\pgf@pathminx=\dimen144
+\pgf@pathmaxx=\dimen145
+\pgf@pathminy=\dimen146
+\pgf@pathmaxy=\dimen147
+\pgf@xx=\dimen148
+\pgf@xy=\dimen149
+\pgf@yx=\dimen150
+\pgf@yy=\dimen151
+\pgf@zx=\dimen152
+\pgf@zy=\dimen153
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
 ruct.code.tex
-File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
-\pgf@path@lastx=\dimen152
-\pgf@path@lasty=\dimen153
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen154
+\pgf@path@lasty=\dimen155
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
 .code.tex
-File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
-\pgf@shorten@end@additional=\dimen154
-\pgf@shorten@start@additional=\dimen155
+File: pgfcorepathusage.code.tex 2013/12/13  (rcs-revision 1.23)
+\pgf@shorten@end@additional=\dimen156
+\pgf@shorten@start@additional=\dimen157
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
 de.tex
-File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
+File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
 \pgfpic=\box36
 \pgf@hbox=\box37
 \pgf@layerbox@main=\box38
 \pgf@picture@serial@count=\count114
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
 ate.code.tex
-File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
-\pgflinewidth=\dimen156
+File: pgfcoregraphicstate.code.tex 2013/09/19  (rcs-revision 1.11)
+\pgflinewidth=\dimen158
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
 ations.code.tex
-File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
-\pgf@pt@x=\dimen157
-\pgf@pt@y=\dimen158
-\pgf@pt@temp=\dimen159
+File: pgfcoretransformations.code.tex 2013/10/10  (rcs-revision 1.17)
+\pgf@pt@x=\dimen159
+\pgf@pt@y=\dimen160
+\pgf@pt@temp=\dimen161
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
 e.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
 ode.tex
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
 ssing.code.tex
-File: pgfcorepathprocessing.code.tex 2008/10/09  (rcs-revision 1.8)
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
 de.tex
-File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
+File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
+\pgfarrowsep=\dimen162
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
 e.tex
-File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
-\pgf@max=\dimen160
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen163
 \pgf@sys@shading@range@num=\count115
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
 e.tex
-File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
 code.tex
-File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
+File: pgfcoreexternal.code.tex 2013/07/15  (rcs-revision 1.20)
 \pgfexternal@startupbox=\box39
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
 de.tex
-File: pgfcorelayers.code.tex 2010/08/27  (rcs-revision 1.2)
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
 ncy.code.tex
-File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
 code.tex
-File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
-(/usr/local/texlive/2012/texmf-dist/tex/latex/pgf/utilities/xxcolor.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/utilities/xxcolor.sty
 Package: xxcolor 2003/10/24 ver 0.1
 \XC@nummixins=\count116
 \XC@countmixins=\count117
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2012/08/21 v6.83c Hypertext links for LaTeX
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -406,58 +409,58 @@ Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
 Package: xcolor-patch 2011/01/30 xcolor patch
 Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
-Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package hobsub Info: Skipping package `atbegshi' (already loaded).
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/auxhook.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
-\@linkdim=\dimen161
+\@linkdim=\dimen164
 \Hy@linkcounter=\count118
 \Hy@pagecounter=\count119
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2012/08/21 v6.83c Hyperref: PDFDocEncoding definition (HO)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count120
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `bookmarks' set `true' on input line 4139.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 4139.
-Package hyperref Info: Option `implicit' set `false' on input line 4139.
-Package hyperref Info: Hyper figures OFF on input line 4263.
-Package hyperref Info: Link nesting OFF on input line 4268.
-Package hyperref Info: Hyper index ON on input line 4271.
-Package hyperref Info: Plain pages OFF on input line 4278.
-Package hyperref Info: Backreferencing OFF on input line 4283.
+Package hyperref Info: Option `bookmarks' set `true' on input line 4319.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4319.
+Package hyperref Info: Option `implicit' set `false' on input line 4319.
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
-Package hyperref Info: Bookmarks ON on input line 4501.
+Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count121
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/url/url.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
-Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4854.
-\XeTeXLinkMargin=\dimen162
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen165
 \Fld@menulength=\count122
-\Field@Width=\dimen163
-\Fld@charsize=\dimen164
-Package hyperref Info: Hyper figures OFF on input line 6094.
-Package hyperref Info: Link nesting OFF on input line 6099.
-Package hyperref Info: Hyper index ON on input line 6102.
-Package hyperref Info: backreferencing OFF on input line 6109.
-Package hyperref Info: Link coloring OFF on input line 6114.
-Package hyperref Info: Link coloring with OCG OFF on input line 6119.
-Package hyperref Info: PDF/A mode OFF on input line 6124.
-LaTeX Info: Redefining \ref on input line 6164.
-LaTeX Info: Redefining \pageref on input line 6168.
+\Field@Width=\dimen166
+\Fld@charsize=\dimen167
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
 \Hy@abspage=\count123
 
 
@@ -467,273 +470,375 @@ Package hyperref Message: Stopped early.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2012/08/21 v6.83c Hyperref driver for pdfTeX
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count124
 \c@bookmark@seq@number=\count125
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbaserequires.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbaserequires.sty
 Package: beamerbaserequires 2010/05/01  (rcs-revision efa082c6111d)
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbasecompatibility.st
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbasecompatibility.st
 y
 Package: beamerbasecompatibility 2012/05/01  (rcs-revision 67c48b3b652d)
-) (/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbasefont.sty
-Package: beamerbasefont 2012/09/19  (rcs-revision 733629cd0c6c)
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbasefont.sty
+Package: beamerbasefont 2015/01/05  (rcs-revision b4b4bee242e2)
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2009/06/22 v3.00
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
-\@emptytoks=\toks23
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks26
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )))
-(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty
 Package: beamerbasetranslator 2010/06/11  (rcs-revision 85fd1cc7fc42)
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/translator/translator.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/translator/translator.sty
 Package: translator 2010/06/12 ver 1.10
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/translator/translator-lang
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/translator/translator-lang
 uage-mappings.tex)))
-(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbasemisc.sty
-Package: beamerbasemisc 2012/02/24  (rcs-revision 2ff5461be705)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbasemisc.sty
+Package: beamerbasemisc 2013/09/03  (rcs-revision a55719c41d85)
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.sty
 Package: beamerbasetwoscreens 2010/05/01  (rcs-revision efa082c6111d)
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbaseoverlay.sty
-Package: beamerbaseoverlay 2012/04/03  (rcs-revision 45744d9ae88b)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbaseoverlay.sty
+Package: beamerbaseoverlay 2013/12/25  (rcs-revision f6bd5e3805da)
 \beamer@argscount=\count126
 \beamer@lastskipcover=\skip44
 \beamer@trivlistdepth=\count127
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbasetitle.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbasetitle.sty
 Package: beamerbasetitle 2010/09/21  (rcs-revision f0446ed0b6ae)
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbasesection.sty
-Package: beamerbasesection 2012/05/30  (rcs-revision 22ff49def670)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbasesection.sty
+Package: beamerbasesection 2013/06/07  (rcs-revision 60b9fe0f342f)
 \c@lecture=\count128
 \c@part=\count129
 \c@section=\count130
 \c@subsection=\count131
 \c@subsubsection=\count132
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbaseframe.sty
-Package: beamerbaseframe 2012/09/13  (rcs-revision dcd846607320)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbaseframe.sty
+Package: beamerbaseframe 2014/02/20  (rcs-revision 4b8ceeeff434)
 \beamer@framebox=\box40
 \beamer@frametitlebox=\box41
 \beamer@zoombox=\box42
 \beamer@zoomcount=\count133
 \beamer@zoomframecount=\count134
-\beamer@frametextheight=\dimen165
+\beamer@frametextheight=\dimen168
 \c@subsectionslide=\count135
 \beamer@frametopskip=\skip45
 \beamer@framebottomskip=\skip46
 \beamer@frametopskipautobreak=\skip47
 \beamer@framebottomskipautobreak=\skip48
-\beamer@envbody=\toks24
-\framewidth=\dimen166
+\beamer@envbody=\toks27
+\framewidth=\dimen169
 \c@framenumber=\count136
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty
-Package: beamerbaseverbatim 2012/08/30  (rcs-revision dfdb135076b3)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty
+Package: beamerbaseverbatim 2015/01/05  (rcs-revision 431510bb5890)
 \beamer@verbatimfileout=\write4
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
 Package: beamerbaseframesize 2011/09/12  (rcs-revision 70f9d8411e54)
 \beamer@splitbox=\box43
 \beamer@autobreakcount=\count137
-\beamer@autobreaklastheight=\dimen167
-\beamer@frametitletoks=\toks25
-\beamer@framesubtitletoks=\toks26
+\beamer@autobreaklastheight=\dimen170
+\beamer@frametitletoks=\toks28
+\beamer@framesubtitletoks=\toks29
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbaseframecomponents.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbaseframecomponents.
 sty
-Package: beamerbaseframecomponents 2012/09/13  (rcs-revision dcd846607320)
+Package: beamerbaseframecomponents 2013/10/18  (rcs-revision 5cf6c5555a45)
 \beamer@footins=\box44
-) (/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbasecolor.sty
-Package: beamerbasecolor 2010/06/06  (rcs-revision d1a9b48be06d)
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbasecolor.sty
+Package: beamerbasecolor 2015/02/21  (rcs-revision d944b04ee2d5)
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbasenotes.sty
-Package: beamerbasenotes 2010/05/01  (rcs-revision efa082c6111d)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbasenotes.sty
+Package: beamerbasenotes 2012/12/19  (rcs-revision 1686da3db3c9)
 \beamer@frameboxcopy=\box45
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbasetoc.sty
-Package: beamerbasetoc 2012/02/28  (rcs-revision 138681b92320)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbasetoc.sty
+Package: beamerbasetoc 2015/03/08  (rcs-revision 7270298bbaae)
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbasetemplates.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbasetemplates.sty
 Package: beamerbasetemplates 2010/05/01  (rcs-revision efa082c6111d)
-\beamer@sbttoks=\toks27
+\beamer@sbttoks=\toks30
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty
-Package: beamerbaseauxtemplates 2012/05/01  (rcs-revision 67c48b3b652d)
-(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty
+Package: beamerbaseauxtemplates 2014/06/30  (rcs-revision 580088513a67)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty
 Package: beamerbaseboxes 2012/05/13  (rcs-revision 56972908a390)
 \bmb@box=\box46
 \bmb@colorbox=\box47
 \bmb@boxshadow=\box48
 \bmb@boxshadowball=\box49
 \bmb@boxshadowballlarge=\box50
-\bmb@temp=\dimen168
-\bmb@dima=\dimen169
-\bmb@dimb=\dimen170
-\bmb@prevheight=\dimen171
+\bmb@temp=\dimen171
+\bmb@dima=\dimen172
+\bmb@dimb=\dimen173
+\bmb@prevheight=\dimen174
 )
-\beamer@blockheadheight=\dimen172
+\beamer@blockheadheight=\dimen175
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbaselocalstructure.s
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbaselocalstructure.s
 ty
-Package: beamerbaselocalstructure 2012/05/25  (rcs-revision 5ff5e8ed7c0e)
- (/usr/local/texlive/2012/texmf-dist/tex/latex/tools/enumerate.sty
-Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
-\@enLab=\toks28
+Package: beamerbaselocalstructure 2014/09/10  (rcs-revision 393f6dcff371)
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2014/10/28 v3.00 enumerate extensions (DPC)
+\@enLab=\toks31
 )
 \c@figure=\count138
 \c@table=\count139
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbasenavigation.sty
-Package: beamerbasenavigation 2012/04/03  (rcs-revision 42a0f21a412d)
-\beamer@section@min@dim=\dimen173
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbasenavigation.sty
+Package: beamerbasenavigation 2015/02/27  (rcs-revision 923f4bf87efa)
+\beamer@section@min@dim=\dimen176
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbasetheorems.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbasetheorems.sty
 Package: beamerbasetheorems 2010/06/06  (rcs-revision 7e7cc5e53e9d)
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2000/07/18 v2.13 AMS math features
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks29
-\ex@=\dimen174
+\@emptytoks=\toks32
+\ex@=\dimen177
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen175
+\pmbraise@=\dimen178
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count140
-LaTeX Info: Redefining \frac on input line 211.
+LaTeX Info: Redefining \frac on input line 210.
 \uproot@=\count141
 \leftroot@=\count142
-LaTeX Info: Redefining \overline on input line 307.
+LaTeX Info: Redefining \overline on input line 306.
 \classnum@=\count143
 \DOTSCASE@=\count144
-LaTeX Info: Redefining \ldots on input line 379.
-LaTeX Info: Redefining \dots on input line 382.
-LaTeX Info: Redefining \cdots on input line 467.
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
 \Mathstrutbox@=\box51
 \strutbox@=\box52
-\big@size=\dimen176
-LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\big@size=\dimen179
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \macc@depth=\count145
 \c@MaxMatrixCols=\count146
 \dotsspace@=\muskip11
 \c@parentequation=\count147
 \dspbrk@lvl=\count148
-\tag@help=\toks30
+\tag@help=\toks33
 \row@=\count149
 \column@=\count150
 \maxfields@=\count151
-\andhelp@=\toks31
-\eqnshift@=\dimen177
-\alignsep@=\dimen178
-\tagshift@=\dimen179
-\tagwidth@=\dimen180
-\totwidth@=\dimen181
-\lineht@=\dimen182
-\@envbody=\toks32
+\andhelp@=\toks34
+\eqnshift@=\dimen180
+\alignsep@=\dimen181
+\tagshift@=\dimen182
+\tagwidth@=\dimen183
+\totwidth@=\dimen184
+\lineht@=\dimen185
+\@envbody=\toks35
 \multlinegap=\skip52
 \multlinetaggap=\skip53
-\mathdisplay@stack=\toks33
-LaTeX Info: Redefining \[ on input line 2666.
-LaTeX Info: Redefining \] on input line 2667.
+\mathdisplay@stack=\toks36
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amscls/amsthm.sty
-Package: amsthm 2009/07/02 v2.20.1
-\thm@style=\toks34
-\thm@bodyfont=\toks35
-\thm@headfont=\toks36
-\thm@notefont=\toks37
-\thm@headpunct=\toks38
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2015/03/04 v2.20.2
+\thm@style=\toks37
+\thm@bodyfont=\toks38
+\thm@headfont=\toks39
+\thm@notefont=\toks40
+\thm@headpunct=\toks41
 \thm@preskip=\skip54
 \thm@postskip=\skip55
 \thm@headsep=\skip56
-\dth@everypar=\toks39
+\dth@everypar=\toks42
 )
 \c@theorem=\count152
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbasethemes.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/beamerbasethemes.sty
 Package: beamerbasethemes 2010/05/01  (rcs-revision efa082c6111d)
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/themes/theme/beamerthemede
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/themes/theme/beamerthemede
 fault.sty
 Package: beamerthemedefault 2010/06/17  (rcs-revision d02a7cf4d8ae)
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/themes/font/beamerfontthem
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/themes/font/beamerfontthem
 edefault.sty
-Package: beamerfontthemedefault 2010/06/17  (rcs-revision d02a7cf4d8ae)
+Package: beamerfontthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/themes/color/beamercolorth
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/themes/color/beamercolorth
 emedefault.sty
-Package: beamercolorthemedefault 2010/06/17  (rcs-revision d02a7cf4d8ae)
+Package: beamercolorthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/themes/inner/beamerinnerth
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/themes/inner/beamerinnerth
 emedefault.sty
-Package: beamerinnerthemedefault 2012/05/01  (rcs-revision 67c48b3b652d)
-\beamer@dima=\dimen183
-\beamer@dimb=\dimen184
+Package: beamerinnerthemedefault 2014/06/30  (rcs-revision 580088513a67)
+\beamer@dima=\dimen186
+\beamer@dimb=\dimen187
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/themes/outer/beamerouterth
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/themes/outer/beamerouterth
 emedefault.sty
-Package: beamerouterthemedefault 2010/06/17  (rcs-revision d02a7cf4d8ae)
+Package: beamerouterthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
 ))) (../lec_style.tex
-(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/themes/theme/beamerthemeAn
-nArbor.sty
-Package: beamerthemeAnnArbor 2010/06/17  (rcs-revision d02a7cf4d8ae)
+(/Users/mine/Library/texmf/tex/latex/metropolis/beamerthememetropolis.sty
+Package: beamerthememetropolis 2015/12/04 Metropolis Beamer theme
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/themes/inner/beamerinnerth
-emerounded.sty
-Package: beamerinnerthemerounded 2010/06/17  (rcs-revision d02a7cf4d8ae)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2015/05/04 v2.2 e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count153
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/themes/outer/beamerouterth
-emeinfolines.sty
-Package: beamerouterthemeinfolines 2012/05/30  (rcs-revision cbdb60c45607)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgfopts/pgfopts.sty
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/themes/color/beamercolorth
-emewolverine.sty
-Package: beamercolorthemewolverine 2010/06/17  (rcs-revision d02a7cf4d8ae)
+\pgfopts@list@add@a@toks=\toks43
+\pgfopts@list@add@b@toks=\toks44
+)
+(/Users/mine/Library/texmf/tex/latex/metropolis/beamerinnerthememetropolis.sty
+Package: beamerinnerthememetropolis 2015/12/04 Metropolis inner theme
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count154
+\calc@Bcount=\count155
+\calc@Adimen=\dimen188
+\calc@Bdimen=\dimen189
+\calc@Askip=\skip57
+\calc@Bskip=\skip58
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count156
+\calc@Cskip=\skip59
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+Package: pgf 2013/12/18 v3.0.0 (rcs-revision 1.14)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2013/10/31  (rcs-revision 1.34)
+\pgfnodeparttextbox=\box53
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2013/07/31  (rcs-revision 1.12)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.0 (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen190
+\pgf@nodesepend=\dimen191
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.0 (rcs-revision 1.1)
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/themes/color/beamercolorth
-emeseahorse.sty
-Package: beamercolorthemeseahorse 2010/06/17  (rcs-revision d02a7cf4d8ae)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.0 (rcs-revision 1.25)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen192
+\pgffor@skip=\dimen193
+\pgffor@stack=\toks45
+\pgffor@toks=\toks46
+))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
+\pgf@plot@mark@count=\count157
+\pgfplotmarksize=\dimen194
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+\tikz@lastx=\dimen195
+\tikz@lasty=\dimen196
+\tikz@lastxsaved=\dimen197
+\tikz@lastysaved=\dimen198
+\tikzleveldistance=\dimen199
+\tikzsiblingdistance=\dimen200
+\tikz@figbox=\box54
+\tikz@figbox@bg=\box55
+\tikz@tempbox=\box56
+\tikz@tempbox@bg=\box57
+\tikztreelevel=\count158
+\tikznumberofchildren=\count159
+\tikznumberofcurrentchild=\count160
+\tikz@fig@count=\count161
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count162
+\pgfmatrixcurrentcolumn=\count163
+\pgf@matrix@numberofcolumns=\count164
+)
+\tikz@expandcount=\count165
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.0 (rcs-revision 1.2)
+)))
+\metropolis@progressonsectionpage=\skip60
+\@metropolis@blockskip=\skip61
+\@metropolis@parskip=\skip62
+)
+(/Users/mine/Library/texmf/tex/latex/metropolis/beamerouterthememetropolis.sty
+Package: beamerouterthememetropolis 2015/12/04 Metropolis outer theme
+\@metropolis@frametitlestrut=\skip63
+\metropolis@progressinheadfoot=\skip64
+) (/Users/mine/Library/texmf/tex/latex/metropolis/beamercolorthememetropolis.st
+y
+Package: beamercolorthememetropolis 2015/12/04 Metropolis color theme
+) (/Users/mine/Library/texmf/tex/latex/metropolis/beamerfontthememetropolis.sty
+Package: beamerfontthememetropolis 2015/12/04 Metropolis font theme
+
+Package beamerthememetropolis Warning: You need to compile with XeLaTeX or LuaL
+aTeX to use the Fira fonts on input line 82.
+
+)) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf.sty
 Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 )
 Package grfext Info: Graphics extension search list:
@@ -741,123 +846,86 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 )))
-(/usr/local/texlive/2012/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2008/07/08 v3.8m The Babel package
+(/usr/local/texlive/2015/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2014/09/25 3.9l The Babel package
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/babel/english.ldf
-Language: english 2005/03/30 v3.3o English support from the babel system
+(/usr/local/texlive/2015/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2008/07/08 v3.8m Babel common definitions
-LaTeX Info: Redefining \textlatin on input line 82.
-\babel@savecnt=\count153
-\U@D=\dimen185
+(/usr/local/texlive/2015/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2014/09/25 3.9l Babel common definitions
+\babel@savecnt=\count166
+\U@D=\dimen201
+LaTeX Info: Redefining \textlatin on input line 1431.
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2008/03/30 v1.1d Input encoding file
-\inpenc@prehook=\toks40
-\inpenc@posthook=\toks41
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks47
+\inpenc@posthook=\toks48
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/base/latin1.def
-File: latin1.def 2008/03/30 v1.1d Input encoding file
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/latin1.def
+File: latin1.def 2015/03/17 v1.2c Input encoding file
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/latex/colortbl/colortbl.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/tools/array.sty
-Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen186
-\extrarowheight=\dimen187
-\NC@list=\toks42
-\extratabsurround=\skip57
-\backup@length=\skip58
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen202
+\extrarowheight=\dimen203
+\NC@list=\toks49
+\extratabsurround=\skip65
+\backup@length=\skip66
 )
-\everycr=\toks43
-\minrowclearance=\skip59
+\everycr=\toks50
+\minrowclearance=\skip67
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/multirow/multirow.sty
-\bigstrutjot=\dimen188
+(/usr/local/texlive/2015/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen204
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
-
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
-e.tex
-File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
-\pgfnodeparttextbox=\box53
-)
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
-tex
-File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
-)
-(/usr/local/texlive/2012/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
--0-65.sty
-Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen189
-\pgf@nodesepend=\dimen190
-)
-(/usr/local/texlive/2012/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
--1-18.sty
-Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
-)) (/usr/local/texlive/2012/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count154
-\calc@Bcount=\count155
-\calc@Adimen=\dimen191
-\calc@Bdimen=\dimen192
-\calc@Askip=\skip60
-\calc@Bskip=\skip61
-LaTeX Info: Redefining \setlength on input line 76.
-LaTeX Info: Redefining \addtolength on input line 77.
-\calc@Ccount=\count156
-\calc@Cskip=\skip62
-)
-(/usr/local/texlive/2012/texmf-dist/tex/generic/ulem/ulem.sty
-\UL@box=\box54
-\UL@hyphenbox=\box55
-\UL@skip=\skip63
-\UL@hook=\toks44
-\UL@height=\dimen193
-\UL@pe=\count157
-\UL@pixel=\dimen194
-\ULC@box=\box56
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box58
+\UL@hyphenbox=\box59
+\UL@skip=\skip68
+\UL@hook=\toks51
+\UL@height=\dimen205
+\UL@pe=\count167
+\UL@pixel=\dimen206
+\ULC@box=\box60
 Package: ulem 2012/05/18
-\ULdepth=\dimen195
+\ULdepth=\dimen207
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/tools/multicol.sty
-Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
-\c@tracingmulticols=\count158
-\mult@box=\box57
-\multicol@leftmargin=\dimen196
-\c@unbalance=\count159
-\c@collectmore=\count160
-\doublecol@number=\count161
-\multicoltolerance=\count162
-\multicolpretolerance=\count163
-\full@width=\dimen197
-\page@free=\dimen198
-\premulticols=\dimen199
-\postmulticols=\dimen200
-\multicolsep=\skip64
-\multicolbaselineskip=\skip65
-\partial@page=\box58
-\last@line=\box59
-\mult@rightbox=\box60
-\mult@grightbox=\box61
-\mult@gfirstbox=\box62
-\mult@firstbox=\box63
-\@tempa=\box64
-\@tempa=\box65
-\@tempa=\box66
-\@tempa=\box67
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2015/03/31 v1.8m multicolumn formatting (FMi)
+\c@tracingmulticols=\count168
+\mult@box=\box61
+\multicol@leftmargin=\dimen208
+\c@unbalance=\count169
+\c@collectmore=\count170
+\doublecol@number=\count171
+\multicoltolerance=\count172
+\multicolpretolerance=\count173
+\full@width=\dimen209
+\page@free=\dimen210
+\premulticols=\dimen211
+\postmulticols=\dimen212
+\multicolsep=\skip69
+\multicolbaselineskip=\skip70
+\partial@page=\box62
+\last@line=\box63
+\maxbalancingoverflow=\dimen213
+\mult@rightbox=\box64
+\mult@grightbox=\box65
+\mult@gfirstbox=\box66
+\mult@firstbox=\box67
 \@tempa=\box68
 \@tempa=\box69
 \@tempa=\box70
@@ -871,16 +939,20 @@ Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \@tempa=\box78
 \@tempa=\box79
 \@tempa=\box80
-\c@columnbadness=\count164
-\c@finalcolumnbadness=\count165
-\last@try=\dimen201
-\multicolovershoot=\dimen202
-\multicolundershoot=\dimen203
-\mult@nat@firstbox=\box81
-\colbreak@box=\box82
-\multicol@sort@counter=\count166
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\c@columnbadness=\count174
+\c@finalcolumnbadness=\count175
+\last@try=\dimen214
+\multicolovershoot=\dimen215
+\multicolundershoot=\dimen216
+\mult@nat@firstbox=\box85
+\colbreak@box=\box86
+\mc@col@check@num=\count176
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/base/textcomp.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -893,75 +965,76 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             only a restricted character set as indicated.
 (textcomp)             Family '?' is the default used for unknown fonts.
 (textcomp)             See the documentation for details.
-Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/base/ts1enc.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 )
-LaTeX Info: Redefining \oldstylenums on input line 266.
-Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
-Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
-Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
-Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
-Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
-Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
-Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
-Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
-Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
-Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
-Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
-Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
-Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
-Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
-Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
-Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
-Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
-Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
-Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
-Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
-Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
-Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
-Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
-Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
 
-Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
-Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
-Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
-Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
-Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
-Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
-Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
-Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
-Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
-Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
-Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
-Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
-Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
-Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
-Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
-Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
-Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
-Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
-Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
-Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
-Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
-Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
-Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
-Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
-Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
-Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
-Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
-Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
-Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
-Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
-Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
-Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
-Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
-Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
-Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
-Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/txfonts.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/txfonts.sty
 Package: txfonts 2008/01/22 v3.2.1
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -1048,150 +1121,103 @@ LaTeX Info: Redefining \not on input line 1043.
 LaTeX Info: Redefining \textsquare on input line 1063.
 LaTeX Info: Redefining \openbox on input line 1064.
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count167
-\lst@gtempboxa=\box83
-\lst@token=\toks45
-\lst@length=\count168
-\lst@currlwidth=\dimen204
-\lst@column=\count169
-\lst@pos=\count170
-\lst@lostspace=\dimen205
-\lst@width=\dimen206
-\lst@newlines=\count171
-\lst@lineno=\count172
-\lst@maxwidth=\dimen207
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count177
+\lst@gtempboxa=\box87
+\lst@token=\toks52
+\lst@length=\count178
+\lst@currlwidth=\dimen217
+\lst@column=\count179
+\lst@pos=\count180
+\lst@lostspace=\dimen218
+\lst@width=\dimen219
+\lst@newlines=\count181
+\lst@lineno=\count182
+\lst@maxwidth=\dimen220
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
-\c@lstnumber=\count173
-\lst@skipnumbers=\count174
-\lst@framebox=\box84
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
+\c@lstnumber=\count183
+\lst@skipnumbers=\count184
+\lst@framebox=\box88
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2007/02/22 1.4 listings configuration
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2014/09/06 1.5e listings configuration
 ))
-Package: listings 2007/02/22 1.4 (Carsten Heinz)
+Package: listings 2014/09/06 1.5e (Carsten Heinz)
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
-(/usr/local/texlive/2012/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
-(/usr/local/texlive/2012/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
-) (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
-Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
-\pgffor@iter=\dimen208
-\pgffor@skip=\dimen209
-\pgffor@stack=\toks46
-\pgffor@toks=\toks47
-))
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
-e.tex
-Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
-
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
-dlers.code.tex
-File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
-\pgf@plot@mark@count=\count175
-\pgfplotmarksize=\dimen210
-)
-\tikz@lastx=\dimen211
-\tikz@lasty=\dimen212
-\tikz@lastxsaved=\dimen213
-\tikz@lastysaved=\dimen214
-\tikzleveldistance=\dimen215
-\tikzsiblingdistance=\dimen216
-\tikz@figbox=\box85
-\tikz@tempbox=\box86
-\tikztreelevel=\count176
-\tikznumberofchildren=\count177
-\tikznumberofcurrentchild=\count178
-\tikz@fig@count=\count179
-
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
-e.tex
-File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
-\pgfmatrixcurrentrow=\count180
-\pgfmatrixcurrentcolumn=\count181
-\pgf@matrix@numberofcolumns=\count182
-)
-\tikz@expandcount=\count183
-
-(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
-s/tikzlibrarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
-)))
-(/usr/local/texlive/2012/texmf-dist/tex/latex/wasysym/wasysym.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/wasysym/wasysym.sty
 Package: wasysym 2003/10/30 v2.0 Wasy-2 symbol support package
 \symwasy=\mathgroup10
 LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
 (Font)                  U/wasy/m/n --> U/wasy/b/n on input line 90.
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
 Package: fancyvrb 2008/02/07
 
 Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
 <2008/02/07> (tvz)
-\FV@CodeLineNo=\count184
+\FV@CodeLineNo=\count185
 \FV@InFile=\read2
-\FV@TabBox=\box87
-\c@FancyVerbLine=\count185
-\FV@StepNumber=\count186
+\FV@TabBox=\box89
+\c@FancyVerbLine=\count186
+\FV@StepNumber=\count187
 \FV@OutFile=\write5
 )) (./chp1.aux)
 \openout1 = `chp1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 24.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 24.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 41.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 41.
 
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/omltxmi.fd
+(/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 24.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 24.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 41.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 41.
 
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/omstxsy.fd
+(/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 24.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 24.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 41.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 41.
 
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/omxtxex.fd
+(/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 24.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 24.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 41.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 41.
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/utxexa.fd
+(/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 24.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 41.
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/base/ts1cmr.fd
-File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Try loading font information for OT1+txss on input line 24.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Try loading font information for OT1+txss on input line 41.
 
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/ot1txss.fd
+(/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/ot1txss.fd
 File: ot1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 24.
+(Font)              scaled to size 10.40245pt on input line 41.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1201,14 +1227,14 @@ LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(21.90005pt, 320.39525pt, 21.90005pt)
+* h-part:(L,W,R)=(28.45274pt, 307.28987pt, 28.45274pt)
 * v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
 * \paperwidth=364.19536pt
 * \paperheight=273.14662pt
-* \textwidth=320.39525pt
+* \textwidth=307.28987pt
 * \textheight=244.6939pt
-* \oddsidemargin=-50.36993pt
-* \evensidemargin=-50.36993pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
 * \topmargin=-72.26999pt
 * \headheight=14.22636pt
 * \headsep=0.0pt
@@ -1227,34 +1253,34 @@ LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
+(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count187
-\scratchdimen=\dimen217
-\scratchbox=\box88
-\nofMPsegments=\count188
-\nofMParguments=\count189
-\everyMPshowfont=\toks48
-\MPscratchCnt=\count190
-\MPscratchDim=\dimen218
-\MPnumerator=\count191
-\makeMPintoPDFobject=\count192
-\everyMPtoPDFconversion=\toks49
+\scratchcounter=\count188
+\scratchdimen=\dimen221
+\scratchbox=\box90
+\nofMPsegments=\count189
+\nofMParguments=\count190
+\everyMPshowfont=\toks53
+\MPscratchCnt=\count191
+\MPscratchDim=\dimen222
+\MPnumerator=\count192
+\makeMPintoPDFobject=\count193
+\everyMPtoPDFconversion=\toks54
 ) ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box89
-Package hyperref Info: Link coloring OFF on input line 24.
+\AtBeginShipoutBox=\box91
+Package hyperref Info: Link coloring OFF on input line 41.
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2012/07/31 v2.42 Cross-referencing by name of section
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count193
+\c@section@level=\count194
 )
-LaTeX Info: Redefining \ref on input line 24.
-LaTeX Info: Redefining \pageref on input line 24.
-LaTeX Info: Redefining \nameref on input line 24.
+LaTeX Info: Redefining \ref on input line 41.
+LaTeX Info: Redefining \pageref on input line 41.
+LaTeX Info: Redefining \nameref on input line 41.
 
 (./chp1.out) (./chp1.out)
 \@outlinefile=\write6
@@ -1263,141 +1289,187 @@ LaTeX Info: Redefining \nameref on input line 24.
 \symnumbers=\mathgroup11
 \sympureletters=\mathgroup12
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/txr/m/n --> OT1/txr/m/n on input line 24.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 24.
+(Font)                  OT1/txr/m/n --> OT1/txr/m/n on input line 41.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 41.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/txr/bx/n --> OT1/txr/bx/n on input line 24.
+(Font)                  OT1/txr/bx/n --> OT1/txr/bx/n on input line 41.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/txr/bx/n --> OT1/txr/bx/n on input line 24.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 24.
+(Font)                  OT1/txr/bx/n --> OT1/txr/bx/n on input line 41.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 41.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/txss/m/n --> OT1/txss/m/n on input line 24.
+(Font)                  OT1/txss/m/n --> OT1/txss/m/n on input line 41.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/txss/b/n --> OT1/txss/m/n on input line 24.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 24.
+(Font)                  OT1/txss/b/n --> OT1/txss/m/n on input line 41.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 41.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/txr/m/it --> OT1/txr/m/it on input line 24.
+(Font)                  OT1/txr/m/it --> OT1/txr/m/it on input line 41.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/txr/bx/it --> OT1/txr/m/it on input line 24.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 24.
+(Font)                  OT1/txr/bx/it --> OT1/txr/m/it on input line 41.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 41.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/txtt/m/n --> OT1/txtt/m/n on input line 24.
+(Font)                  OT1/txtt/m/n --> OT1/txtt/m/n on input line 41.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/txtt/b/n --> OT1/txtt/m/n on input line 24.
+(Font)                  OT1/txtt/b/n --> OT1/txtt/m/n on input line 41.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/txr/m/n --> OT1/txr/bx/n on input line 24.
+(Font)                  OT1/txr/m/n --> OT1/txr/bx/n on input line 41.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 24.
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 41.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/txr/bx/n --> OT1/txr/bx/n on input line 24.
+(Font)                  OT1/txr/bx/n --> OT1/txr/bx/n on input line 41.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/txr/bx/n --> OT1/txr/bx/n on input line 24.
+(Font)                  OT1/txr/bx/n --> OT1/txr/bx/n on input line 41.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/txss/m/n --> OT1/txss/bx/n on input line 24.
+(Font)                  OT1/txss/m/n --> OT1/txss/bx/n on input line 41.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 24.
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 41.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/txtt/m/n --> OT1/txtt/bx/n on input line 24.
+(Font)                  OT1/txtt/m/n --> OT1/txtt/bx/n on input line 41.
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/translator/dicts/translato
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/translator/dicts/translato
 r-basic-dictionary/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/translator/dicts/translato
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/translator/dicts/translato
 r-bibliography-dictionary/translator-bibliography-dictionary-English.dict
 Dictionary: translator-bibliography-dictionary, Language: English 
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/translator/dicts/translato
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/translator/dicts/translato
 r-environment-dictionary/translator-environment-dictionary-English.dict
 Dictionary: translator-environment-dictionary, Language: English 
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/translator/dicts/translato
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/translator/dicts/translato
 r-months-dictionary/translator-months-dictionary-English.dict
 Dictionary: translator-months-dictionary, Language: English 
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/translator/dicts/translato
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/translator/dicts/translato
 r-numbers-dictionary/translator-numbers-dictionary-English.dict
 Dictionary: translator-numbers-dictionary, Language: English 
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/translator/dicts/translato
+(/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/translator/dicts/translato
 r-theorem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 24.
-\c@lstlisting=\count194
+LaTeX Info: Redefining \includegraphics on input line 41.
+\c@lstlisting=\count195
  (./chp1.nav)
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 24.
+(Font)              scaled to size 5.69998pt on input line 41.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 13.67995pt on input line 38.
-LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 38.
-LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 38.
-LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 3.79999pt on input line 38.
+(Font)              scaled to size 7.59998pt on input line 41.
 
-[1
+<../oiLogo_highres.png, id=157, 472.76625pt x 144.54pt>
+File: ../oiLogo_highres.png Graphic file (type png)
 
-{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./1-1_case_study/1-1_case_study.tex (./chp1.toc) [2
+<use ../oiLogo_highres.png>
+Package pdftex.def Info: ../oiLogo_highres.png used on input line 58.
+(pdftex.def)             Requested size: 56.9055pt x 17.39697pt.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 13.67995pt on input line 58.
+LaTeX Font Info:    Font shape `OT1/txss/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/txss/b/n' tried instead on input line 58.
+LaTeX Font Info:    Font shape `OT1/txss/b/n' will be
+(Font)              scaled to size 13.67995pt on input line 58.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 9.49997pt on input line 58.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 58.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/ot1txr.fd
+File: ot1txr.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+txsya on input line 58.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/utxsya.fd
+File: utxsya.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 58.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/utxsyb.fd
+File: utxsyb.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+txmia on input line 58.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/utxmia.fd
+File: utxmia.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 58.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/utxsyc.fd
+File: utxsyc.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+wasy on input line 58.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/wasysym/uwasy.fd
+File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
+)
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 8.54997pt on input line 58.
+
+Overfull \vbox (76.51149pt too high) detected at line 58
+ []
+
+<../kitten.jpg, id=160, 401.5pt x 301.125pt>
+File: ../kitten.jpg Graphic file (type jpg)
+ <use ../kitten.jpg>
+Package pdftex.def Info: ../kitten.jpg used on input line 58.
+(pdftex.def)             Requested size: 364.19536pt x 273.16493pt.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 3.79999pt on input line 58.
+ [1
+
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../kitt
+en.jpg> <../oiLogo_highres.png>] (./1-1_case_study/1-1_case_study.tex [2
 
 ]
+LaTeX Font Info:    Try loading font information for TS1+txss on input line 22.
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/ts1txss.fd
+File: ts1txss.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Font shape `TS1/txss/m/n' will be
+(Font)              scaled to size 10.40245pt on input line 22.
 LaTeX Font Info:    Font shape `OT1/txss/m/it' in size <6> not available
-(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 20.
+(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 22.
 LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
-(Font)              scaled to size 5.69998pt on input line 20.
+(Font)              scaled to size 5.69998pt on input line 22.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 11.39996pt on input line 22.
+LaTeX Font Info:    Font shape `OT1/txss/bx/n' in size <12> not available
+(Font)              Font shape `OT1/txss/b/n' tried instead on input line 22.
+LaTeX Font Info:    Font shape `OT1/txss/b/n' will be
+(Font)              scaled to size 11.39996pt on input line 22.
  [3
 
 ]
-LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 37.
+LaTeX Font Info:    Font shape `TS1/txss/m/n' will be
+(Font)              scaled to size 9.49997pt on input line 39.
 LaTeX Font Info:    Font shape `OT1/txss/m/it' in size <10> not available
-(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 37.
+(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 39.
 LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
-(Font)              scaled to size 9.49997pt on input line 37.
+(Font)              scaled to size 9.49997pt on input line 39.
  [4
 
 ]
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 73.
-
-(/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/ot1txr.fd
-File: ot1txr.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Try loading font information for U+txsya on input line 73.
-
-(/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/utxsya.fd
-File: utxsya.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 73.
-
-(/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/utxsyb.fd
-File: utxsyb.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Try loading font information for U+txmia on input line 73.
-
-(/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/utxmia.fd
-File: utxmia.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 73.
-
-(/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/utxsyc.fd
-File: utxsyc.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Try loading font information for U+wasy on input line 73.
-
-(/usr/local/texlive/2012/texmf-dist/tex/latex/wasysym/uwasy.fd
-File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
-)
 LaTeX Font Info:    Font shape `OT1/txss/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 73.
+(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 75.
 LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
-(Font)              scaled to size 10.40245pt on input line 73.
- [5
+(Font)              scaled to size 10.40245pt on input line 75.
 
-] [6
+Overfull \vbox (23.00943pt too high) detected at line 75
+ []
+
+[5
 
 ]
+Overfull \vbox (23.00943pt too high) detected at line 75
+ []
+
+[6
+
+]
+Overfull \vbox (23.00943pt too high) detected at line 75
+ []
+
 [7
 
 ] [8
@@ -1408,28 +1480,24 @@ LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
 
 ] [11
 
-]) (./1-2_data_basics/1-2_data_basics.tex (./chp1.toc)
-
-Class beamer Warning: Frame text is shrunk by a factor of 16.41235 percent inst
-ead of 0 percent on input line 3.
-
-[12
+]) (./1-2_data_basics/1-2_data_basics.tex [12
 
 ]
 LaTeX Font Info:    Try loading font information for OT1+txtt on input line 31.
 
- (/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/ot1txtt.fd
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/ot1txtt.fd
 File: ot1txtt.fd 2000/12/15 v3.1
 ) [13
 
 ]
-<1-2_data_basics/figures/variables/variables.pdf, id=304, 303.1325pt x 108.405p
+<1-2_data_basics/figures/variables/variables.pdf, id=241, 303.1325pt x 108.405p
 t>
 File: 1-2_data_basics/figures/variables/variables.pdf Graphic file (type pdf)
  <use 1-2_data_basics/figures/variables/variables.pdf>
 Package pdftex.def Info: 1-2_data_basics/figures/variables/variables.pdf used o
 n input line 44.
-(pdftex.def)             Requested size: 288.35376pt x 103.12144pt.
+(pdftex.def)             Requested size: 276.559pt x 98.90343pt.
  [14
 
  <./1-2_data_basics/figures/variables/variables.pdf>] [15
@@ -1458,14 +1526,17 @@ n input line 44.
 ] [26
 
 ]
-<1-2_data_basics/figures/gpa_study_hours/gpa_study_hours.pdf, id=416, 505.89pt 
+<1-2_data_basics/figures/gpa_study_hours/gpa_study_hours.pdf, id=314, 505.89pt 
 x 289.08pt>
 File: 1-2_data_basics/figures/gpa_study_hours/gpa_study_hours.pdf Graphic file 
 (type pdf)
  <use 1-2_data_basics/figures/gpa_study_hours/gpa_study_hours.pdf>
 Package pdftex.def Info: 1-2_data_basics/figures/gpa_study_hours/gpa_study_hour
 s.pdf used on input line 115.
-(pdftex.def)             Requested size: 224.2757pt x 128.15718pt.
+(pdftex.def)             Requested size: 215.10196pt x 122.91692pt.
+
+Overfull \vbox (9.1866pt too high) detected at line 115
+ []
 
 [27
 
@@ -1476,21 +1547,28 @@ File: 1-2_data_basics/figures/gpa_study_hours/gpa_study_hours.pdf Graphic file
 <use 1-2_data_basics/figures/gpa_study_hours/gpa_study_hours.pdf>
 Package pdftex.def Info: 1-2_data_basics/figures/gpa_study_hours/gpa_study_hour
 s.pdf used on input line 115.
-(pdftex.def)             Requested size: 224.2757pt x 128.15718pt.
- [28
+(pdftex.def)             Requested size: 215.10196pt x 122.91692pt.
+
+Overfull \vbox (9.1866pt too high) detected at line 115
+ []
+
+[28
 
 ]
 File: 1-2_data_basics/figures/gpa_study_hours/gpa_study_hours.pdf Graphic file 
 (type pdf)
-
-<use 1-2_data_basics/figures/gpa_study_hours/gpa_study_hours.pdf>
+ <use 1-2_data_basics/figures/gpa_study_hours/gpa_study_hours.pdf>
 Package pdftex.def Info: 1-2_data_basics/figures/gpa_study_hours/gpa_study_hour
 s.pdf used on input line 115.
-(pdftex.def)             Requested size: 224.2757pt x 128.15718pt.
- [29
+(pdftex.def)             Requested size: 215.10196pt x 122.91692pt.
+
+Overfull \vbox (9.1866pt too high) detected at line 115
+ []
+
+[29
 
 ]
-<1-2_data_basics/figures/possum_head_skull/possum_head_skull.pdf, id=450, 505.8
+<1-2_data_basics/figures/possum_head_skull/possum_head_skull.pdf, id=340, 505.8
 9pt x 289.08pt>
 File: 1-2_data_basics/figures/possum_head_skull/possum_head_skull.pdf Graphic f
 ile (type pdf)
@@ -1498,7 +1576,7 @@ ile (type pdf)
 <use 1-2_data_basics/figures/possum_head_skull/possum_head_skull.pdf>
 Package pdftex.def Info: 1-2_data_basics/figures/possum_head_skull/possum_head_
 skull.pdf used on input line 142.
-(pdftex.def)             Requested size: 160.19762pt x 91.54147pt.
+(pdftex.def)             Requested size: 153.64493pt x 87.79654pt.
  [30
 
  <./1-2_data_basics/figures/possum_head_skull/possum_head_skull.pdf>]
@@ -1508,30 +1586,29 @@ ile (type pdf)
 <use 1-2_data_basics/figures/possum_head_skull/possum_head_skull.pdf>
 Package pdftex.def Info: 1-2_data_basics/figures/possum_head_skull/possum_head_
 skull.pdf used on input line 142.
-(pdftex.def)             Requested size: 160.19762pt x 91.54147pt.
+(pdftex.def)             Requested size: 153.64493pt x 87.79654pt.
  [31
 
 ]
 [32
 
 ]) (./1-3_data_collection_principles/1-3_data_collection_principles.tex
-(./chp1.toc)
-
-Class beamer Warning: Frame text is shrunk by a factor of 19.97528 percent inst
-ead of 0 percent on input line 3.
-
 [33
 
 ]
-<1-3_data_collection_principles/figures/running.png, id=505, 615.29875pt x 468.
+<1-3_data_collection_principles/figures/running.png, id=370, 615.29875pt x 468.
 75125pt>
 File: 1-3_data_collection_principles/figures/running.png Graphic file (type png
 )
  <use 1-3_data_collection_principles/figures/running.png>
 Package pdftex.def Info: 1-3_data_collection_principles/figures/running.png use
 d on input line 36.
-(pdftex.def)             Requested size: 160.19762pt x 122.03696pt.
- [34
+(pdftex.def)             Requested size: 153.64493pt x 117.04446pt.
+
+Overfull \vbox (21.16467pt too high) detected at line 36
+ []
+
+[34
 
  <./1-3_data_collection_principles/figures/running.png>]
 File: 1-3_data_collection_principles/figures/running.png Graphic file (type png
@@ -1540,58 +1617,77 @@ File: 1-3_data_collection_principles/figures/running.png Graphic file (type png
 <use 1-3_data_collection_principles/figures/running.png>
 Package pdftex.def Info: 1-3_data_collection_principles/figures/running.png use
 d on input line 36.
-(pdftex.def)             Requested size: 160.19762pt x 122.03696pt.
- [35
+(pdftex.def)             Requested size: 153.64493pt x 117.04446pt.
+
+Overfull \vbox (21.16467pt too high) detected at line 36
+ []
+
+[35
 
 ]
 File: 1-3_data_collection_principles/figures/running.png Graphic file (type png
 )
-
-<use 1-3_data_collection_principles/figures/running.png>
+ <use 1-3_data_collection_principles/figures/running.png>
 Package pdftex.def Info: 1-3_data_collection_principles/figures/running.png use
 d on input line 36.
-(pdftex.def)             Requested size: 160.19762pt x 122.03696pt.
- [36
+(pdftex.def)             Requested size: 153.64493pt x 117.04446pt.
+
+Overfull \vbox (21.16467pt too high) detected at line 36
+ []
+
+[36
 
 ]
 File: 1-3_data_collection_principles/figures/running.png Graphic file (type png
 )
-
-<use 1-3_data_collection_principles/figures/running.png>
+ <use 1-3_data_collection_principles/figures/running.png>
 Package pdftex.def Info: 1-3_data_collection_principles/figures/running.png use
 d on input line 36.
-(pdftex.def)             Requested size: 160.19762pt x 122.03696pt.
- [37
+(pdftex.def)             Requested size: 153.64493pt x 117.04446pt.
+
+Overfull \vbox (21.16467pt too high) detected at line 36
+ []
+
+[37
 
 ]
 File: 1-3_data_collection_principles/figures/running.png Graphic file (type png
 )
-
-<use 1-3_data_collection_principles/figures/running.png>
+ <use 1-3_data_collection_principles/figures/running.png>
 Package pdftex.def Info: 1-3_data_collection_principles/figures/running.png use
 d on input line 36.
-(pdftex.def)             Requested size: 160.19762pt x 122.03696pt.
- [38
+(pdftex.def)             Requested size: 153.64493pt x 117.04446pt.
+
+Overfull \vbox (21.16467pt too high) detected at line 36
+ []
+
+[38
 
 ]
 File: 1-3_data_collection_principles/figures/running.png Graphic file (type png
 )
-
-<use 1-3_data_collection_principles/figures/running.png>
+ <use 1-3_data_collection_principles/figures/running.png>
 Package pdftex.def Info: 1-3_data_collection_principles/figures/running.png use
 d on input line 36.
-(pdftex.def)             Requested size: 160.19762pt x 122.03696pt.
- [39
+(pdftex.def)             Requested size: 153.64493pt x 117.04446pt.
 
-] [40
+Overfull \vbox (21.16467pt too high) detected at line 36
+ []
+
+[39
+
+]
+Overfull \vbox (56.51968pt too high) detected at line 61
+ []
+
+[40
 
 ] [41
 
-]
-[42
+] [42
 
 ]
-<1-3_data_collection_principles/figures/census_illegal_immig.png, id=591, 762.8
+<1-3_data_collection_principles/figures/census_illegal_immig.png, id=430, 762.8
 5pt x 368.37625pt>
 File: 1-3_data_collection_principles/figures/census_illegal_immig.png Graphic f
 ile (type png)
@@ -1599,52 +1695,52 @@ ile (type png)
 <use 1-3_data_collection_principles/figures/census_illegal_immig.png>
 Package pdftex.def Info: 1-3_data_collection_principles/figures/census_illegal_
 immig.png used on input line 104.
-(pdftex.def)             Requested size: 288.35376pt x 139.24245pt.
+(pdftex.def)             Requested size: 276.559pt x 133.54842pt.
  [43
 
  <./1-3_data_collection_principles/figures/census_illegal_immig.png>]
-Overfull \vbox (0.81717pt too high) detected at line 138
+Overfull \vbox (44.6237pt too high) detected at line 138
  []
 
 [44
 
 ]
-Overfull \vbox (0.81717pt too high) detected at line 138
+Overfull \vbox (44.6237pt too high) detected at line 138
  []
 
 [45
 
 ]
-Overfull \vbox (0.81717pt too high) detected at line 138
+Overfull \vbox (44.6237pt too high) detected at line 138
  []
 
 [46
 
 ]
-Overfull \vbox (0.81717pt too high) detected at line 138
+Overfull \vbox (44.6237pt too high) detected at line 138
  []
 
 [47
 
 ]
-Overfull \vbox (0.81717pt too high) detected at line 138
+Overfull \vbox (44.6237pt too high) detected at line 138
  []
 
 [48
 
 ]
-<1-3_data_collection_principles/figures/vol_resp_bias/vol_resp_bias_q.png, id=6
-43, 218.8175pt x 160.6pt>
+<1-3_data_collection_principles/figures/vol_resp_bias/vol_resp_bias_q.png, id=4
+65, 218.8175pt x 160.6pt>
 File: 1-3_data_collection_principles/figures/vol_resp_bias/vol_resp_bias_q.png 
 Graphic file (type png)
 
 <use 1-3_data_collection_principles/figures/vol_resp_bias/vol_resp_bias_q.png>
 Package pdftex.def Info: 1-3_data_collection_principles/figures/vol_resp_bias/v
 ol_resp_bias_q.png used on input line 167.
-(pdftex.def)             Requested size: 80.0988pt x 58.78882pt.
+(pdftex.def)             Requested size: 76.82246pt x 56.38237pt.
 
 <1-3_data_collection_principles/figures/vol_resp_bias/vol_resp_bias_res.png, id
-=644, 218.8175pt x 174.6525pt>
+=466, 218.8175pt x 174.6525pt>
 File: 1-3_data_collection_principles/figures/vol_resp_bias/vol_resp_bias_res.pn
 g Graphic file (type png)
 
@@ -1652,8 +1748,12 @@ g Graphic file (type png)
 >
 Package pdftex.def Info: 1-3_data_collection_principles/figures/vol_resp_bias/v
 ol_resp_bias_res.png used on input line 167.
-(pdftex.def)             Requested size: 80.0988pt x 63.93285pt.
- [49
+(pdftex.def)             Requested size: 76.82246pt x 61.31583pt.
+
+Overfull \vbox (27.662pt too high) detected at line 167
+ []
+
+[49
 
  <./1-3_data_collection_principles/figures/vol_resp_bias/vol_resp_bias_q.png> <
 ./1-3_data_collection_principles/figures/vol_resp_bias/vol_resp_bias_res.png>]
@@ -1663,7 +1763,7 @@ Graphic file (type png)
 <use 1-3_data_collection_principles/figures/vol_resp_bias/vol_resp_bias_q.png>
 Package pdftex.def Info: 1-3_data_collection_principles/figures/vol_resp_bias/v
 ol_resp_bias_q.png used on input line 167.
-(pdftex.def)             Requested size: 80.0988pt x 58.78882pt.
+(pdftex.def)             Requested size: 76.82246pt x 56.38237pt.
 File: 1-3_data_collection_principles/figures/vol_resp_bias/vol_resp_bias_res.pn
 g Graphic file (type png)
 
@@ -1671,8 +1771,12 @@ g Graphic file (type png)
 >
 Package pdftex.def Info: 1-3_data_collection_principles/figures/vol_resp_bias/v
 ol_resp_bias_res.png used on input line 167.
-(pdftex.def)             Requested size: 80.0988pt x 63.93285pt.
- [50
+(pdftex.def)             Requested size: 76.82246pt x 61.31583pt.
+
+Overfull \vbox (27.662pt too high) detected at line 167
+ []
+
+[50
 
 ]
 File: 1-3_data_collection_principles/figures/vol_resp_bias/vol_resp_bias_q.png 
@@ -1681,7 +1785,7 @@ Graphic file (type png)
 <use 1-3_data_collection_principles/figures/vol_resp_bias/vol_resp_bias_q.png>
 Package pdftex.def Info: 1-3_data_collection_principles/figures/vol_resp_bias/v
 ol_resp_bias_q.png used on input line 167.
-(pdftex.def)             Requested size: 80.0988pt x 58.78882pt.
+(pdftex.def)             Requested size: 76.82246pt x 56.38237pt.
 File: 1-3_data_collection_principles/figures/vol_resp_bias/vol_resp_bias_res.pn
 g Graphic file (type png)
 
@@ -1689,8 +1793,12 @@ g Graphic file (type png)
 >
 Package pdftex.def Info: 1-3_data_collection_principles/figures/vol_resp_bias/v
 ol_resp_bias_res.png used on input line 167.
-(pdftex.def)             Requested size: 80.0988pt x 63.93285pt.
- [51
+(pdftex.def)             Requested size: 76.82246pt x 61.31583pt.
+
+Overfull \vbox (27.662pt too high) detected at line 167
+ []
+
+[51
 
 ]
 File: 1-3_data_collection_principles/figures/vol_resp_bias/vol_resp_bias_q.png 
@@ -1699,7 +1807,7 @@ Graphic file (type png)
 <use 1-3_data_collection_principles/figures/vol_resp_bias/vol_resp_bias_q.png>
 Package pdftex.def Info: 1-3_data_collection_principles/figures/vol_resp_bias/v
 ol_resp_bias_q.png used on input line 167.
-(pdftex.def)             Requested size: 80.0988pt x 58.78882pt.
+(pdftex.def)             Requested size: 76.82246pt x 56.38237pt.
 File: 1-3_data_collection_principles/figures/vol_resp_bias/vol_resp_bias_res.pn
 g Graphic file (type png)
 
@@ -1707,8 +1815,12 @@ g Graphic file (type png)
 >
 Package pdftex.def Info: 1-3_data_collection_principles/figures/vol_resp_bias/v
 ol_resp_bias_res.png used on input line 167.
-(pdftex.def)             Requested size: 80.0988pt x 63.93285pt.
- [52
+(pdftex.def)             Requested size: 76.82246pt x 61.31583pt.
+
+Overfull \vbox (27.662pt too high) detected at line 167
+ []
+
+[52
 
 ]
 File: 1-3_data_collection_principles/figures/vol_resp_bias/vol_resp_bias_q.png 
@@ -1717,7 +1829,7 @@ Graphic file (type png)
 <use 1-3_data_collection_principles/figures/vol_resp_bias/vol_resp_bias_q.png>
 Package pdftex.def Info: 1-3_data_collection_principles/figures/vol_resp_bias/v
 ol_resp_bias_q.png used on input line 167.
-(pdftex.def)             Requested size: 80.0988pt x 58.78882pt.
+(pdftex.def)             Requested size: 76.82246pt x 56.38237pt.
 File: 1-3_data_collection_principles/figures/vol_resp_bias/vol_resp_bias_res.pn
 g Graphic file (type png)
 
@@ -1725,11 +1837,15 @@ g Graphic file (type png)
 >
 Package pdftex.def Info: 1-3_data_collection_principles/figures/vol_resp_bias/v
 ol_resp_bias_res.png used on input line 167.
-(pdftex.def)             Requested size: 80.0988pt x 63.93285pt.
- [53
+(pdftex.def)             Requested size: 76.82246pt x 61.31583pt.
+
+Overfull \vbox (27.662pt too high) detected at line 167
+ []
+
+[53
 
 ]
-<1-3_data_collection_principles/figures/landon_fdr/landon.png, id=689, 40.65187
+<1-3_data_collection_principles/figures/landon_fdr/landon.png, id=495, 40.65187
 pt x 46.07213pt>
 File: 1-3_data_collection_principles/figures/landon_fdr/landon.png Graphic file
  (type png)
@@ -1737,29 +1853,29 @@ File: 1-3_data_collection_principles/figures/landon_fdr/landon.png Graphic file
 <use 1-3_data_collection_principles/figures/landon_fdr/landon.png>
 Package pdftex.def Info: 1-3_data_collection_principles/figures/landon_fdr/land
 on.png used on input line 193.
-(pdftex.def)             Requested size: 112.14029pt x 127.10223pt.
+(pdftex.def)             Requested size: 107.55333pt x 121.90353pt.
 
-<1-3_data_collection_principles/figures/landon_fdr/fdr.png, id=690, 245.91875pt
+<1-3_data_collection_principles/figures/landon_fdr/fdr.png, id=496, 245.91875pt
  x 289.08pt>
 File: 1-3_data_collection_principles/figures/landon_fdr/fdr.png Graphic file (t
 ype png)
  <use 1-3_data_collection_principles/figures/landon_fdr/fdr.png>
 Package pdftex.def Info: 1-3_data_collection_principles/figures/landon_fdr/fdr.
 png used on input line 193.
-(pdftex.def)             Requested size: 112.14029pt x 131.82272pt.
+(pdftex.def)             Requested size: 107.55333pt x 126.42807pt.
 
 [54
 
  <./1-3_data_collection_principles/figures/landon_fdr/landon.png (PNG copy)> <.
 /1-3_data_collection_principles/figures/landon_fdr/fdr.png (PNG copy)>]
-<1-3_data_collection_principles/figures/literaryDigest.png, id=699, 218.8175pt 
+<1-3_data_collection_principles/figures/literaryDigest.png, id=502, 218.8175pt 
 x 301.125pt>
 File: 1-3_data_collection_principles/figures/literaryDigest.png Graphic file (t
 ype png)
  <use 1-3_data_collection_principles/figures/literaryDigest.png>
 Package pdftex.def Info: 1-3_data_collection_principles/figures/literaryDigest.
 png used on input line 226.
-(pdftex.def)             Requested size: 96.11954pt x 132.27484pt.
+(pdftex.def)             Requested size: 92.1879pt x 126.86218pt.
 
 [55
 
@@ -1770,22 +1886,22 @@ png used on input line 226.
 
 ]
 
-Class beamer Warning: Frame text is shrunk by a factor of 7.98492 percent inste
-ad of 0 percent on input line 294.
+Class beamer Warning: Frame text is shrunk by a factor of 23.34137 percent inst
+ead of 0 percent on input line 294.
 
 [58
 
 ]
 
-Class beamer Warning: Frame text is shrunk by a factor of 7.98492 percent inste
-ad of 0 percent on input line 294.
+Class beamer Warning: Frame text is shrunk by a factor of 23.34137 percent inst
+ead of 0 percent on input line 294.
 
 [59
 
 ] [60
 
 ]
-<1-3_data_collection_principles/figures/xkcd_correlation.png, id=750, 414.64912
+<1-3_data_collection_principles/figures/xkcd_correlation.png, id=536, 414.64912
 pt x 167.12437pt>
 File: 1-3_data_collection_principles/figures/xkcd_correlation.png Graphic file 
 (type png)
@@ -1793,9 +1909,9 @@ File: 1-3_data_collection_principles/figures/xkcd_correlation.png Graphic file
 <use 1-3_data_collection_principles/figures/xkcd_correlation.png>
 Package pdftex.def Info: 1-3_data_collection_principles/figures/xkcd_correlatio
 n.png used on input line 347.
-(pdftex.def)             Requested size: 176.21835pt x 71.02563pt.
+(pdftex.def)             Requested size: 169.01036pt x 68.1185pt.
 
-Overfull \vbox (1.12436pt too high) detected at line 347
+Overfull \vbox (30.9842pt too high) detected at line 347
  []
 
 [61
@@ -1807,9 +1923,9 @@ File: 1-3_data_collection_principles/figures/xkcd_correlation.png Graphic file
 <use 1-3_data_collection_principles/figures/xkcd_correlation.png>
 Package pdftex.def Info: 1-3_data_collection_principles/figures/xkcd_correlatio
 n.png used on input line 347.
-(pdftex.def)             Requested size: 176.21835pt x 71.02563pt.
+(pdftex.def)             Requested size: 169.01036pt x 68.1185pt.
 
-Overfull \vbox (1.12436pt too high) detected at line 347
+Overfull \vbox (30.9842pt too high) detected at line 347
  []
 
 [62
@@ -1820,31 +1936,31 @@ File: 1-3_data_collection_principles/figures/xkcd_correlation.png Graphic file
  <use 1-3_data_collection_principles/figures/xkcd_correlation.png>
 Package pdftex.def Info: 1-3_data_collection_principles/figures/xkcd_correlatio
 n.png used on input line 347.
-(pdftex.def)             Requested size: 176.21835pt x 71.02563pt.
+(pdftex.def)             Requested size: 169.01036pt x 68.1185pt.
 
-Overfull \vbox (1.12436pt too high) detected at line 347
+Overfull \vbox (30.9842pt too high) detected at line 347
  []
 
 [63
 
-]) (./1-4_obs_studies_sampling/1-4_obs_studies_sampling.tex (./chp1.toc)
-
-Class beamer Warning: Frame text is shrunk by a factor of 7.547 percent instead
- of 0 percent on input line 3.
+]) (./1-4_obs_studies_sampling/1-4_obs_studies_sampling.tex
+Underfull \hbox (badness 3460) in paragraph at lines 3--3
+[][]\OT1/txss/b/n/14.4 Observational stud-ies and sam-
+ []
 
 [64
 
 ]
-<1-4_obs_studies_sampling/figures/breakfast/breakfast1.png, id=797, 654.445pt x
+<1-4_obs_studies_sampling/figures/breakfast/breakfast1.png, id=563, 654.445pt x
  557.08125pt>
 File: 1-4_obs_studies_sampling/figures/breakfast/breakfast1.png Graphic file (t
 ype png)
  <use 1-4_obs_studies_sampling/figures/breakfast/breakfast1.png>
 Package pdftex.def Info: 1-4_obs_studies_sampling/figures/breakfast/breakfast1.
 png used on input line 20.
-(pdftex.def)             Requested size: 256.31717pt x 218.17885pt.
+(pdftex.def)             Requested size: 245.83282pt x 209.25346pt.
 
-Overfull \vbox (1.95369pt too high) detected at line 20
+Overfull \vbox (7.47534pt too high) detected at line 20
  []
 
 [65
@@ -1864,16 +1980,16 @@ LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
 ] [69
 
 ]
-<1-4_obs_studies_sampling/figures/breakfast/breakfast2.png, id=840, 347.2975pt 
+<1-4_obs_studies_sampling/figures/breakfast/breakfast2.png, id=593, 347.2975pt 
 x 110.4125pt>
 File: 1-4_obs_studies_sampling/figures/breakfast/breakfast2.png Graphic file (t
 ype png)
  <use 1-4_obs_studies_sampling/figures/breakfast/breakfast2.png>
 Package pdftex.def Info: 1-4_obs_studies_sampling/figures/breakfast/breakfast2.
 png used on input line 79.
-(pdftex.def)             Requested size: 160.19762pt x 50.93187pt.
+(pdftex.def)             Requested size: 153.64493pt x 48.84782pt.
 
-<1-4_obs_studies_sampling/figures/breakfast/breakfast3.png, id=841, 370.38374pt
+<1-4_obs_studies_sampling/figures/breakfast/breakfast3.png, id=594, 370.38374pt
  x 105.39375pt>
 File: 1-4_obs_studies_sampling/figures/breakfast/breakfast3.png Graphic file (t
 ype png)
@@ -1881,9 +1997,9 @@ ype png)
 <use 1-4_obs_studies_sampling/figures/breakfast/breakfast3.png>
 Package pdftex.def Info: 1-4_obs_studies_sampling/figures/breakfast/breakfast3.
 png used on input line 79.
-(pdftex.def)             Requested size: 160.19762pt x 45.58537pt.
+(pdftex.def)             Requested size: 153.64493pt x 43.7199pt.
 
-<1-4_obs_studies_sampling/figures/breakfast/breakfast4.png, id=842, 412.54124pt
+<1-4_obs_studies_sampling/figures/breakfast/breakfast4.png, id=595, 412.54124pt
  x 115.43124pt>
 File: 1-4_obs_studies_sampling/figures/breakfast/breakfast4.png Graphic file (t
 ype png)
@@ -1891,11 +2007,11 @@ ype png)
 <use 1-4_obs_studies_sampling/figures/breakfast/breakfast4.png>
 Package pdftex.def Info: 1-4_obs_studies_sampling/figures/breakfast/breakfast4.
 png used on input line 79.
-(pdftex.def)             Requested size: 160.19762pt x 44.82425pt.
+(pdftex.def)             Requested size: 153.64493pt x 42.99069pt.
 
 
-Class beamer Warning: Frame text is shrunk by a factor of 20.54901 percent inst
-ead of 0 percent on input line 79.
+Class beamer Warning: Frame text is shrunk by a factor of 29.1565 percent inste
+ad of 0 percent on input line 79.
 
 [70
 
@@ -1908,25 +2024,25 @@ ype png)
 <use 1-4_obs_studies_sampling/figures/breakfast/breakfast2.png>
 Package pdftex.def Info: 1-4_obs_studies_sampling/figures/breakfast/breakfast2.
 png used on input line 79.
-(pdftex.def)             Requested size: 160.19762pt x 50.93187pt.
+(pdftex.def)             Requested size: 153.64493pt x 48.84782pt.
 File: 1-4_obs_studies_sampling/figures/breakfast/breakfast3.png Graphic file (t
 ype png)
 
 <use 1-4_obs_studies_sampling/figures/breakfast/breakfast3.png>
 Package pdftex.def Info: 1-4_obs_studies_sampling/figures/breakfast/breakfast3.
 png used on input line 79.
-(pdftex.def)             Requested size: 160.19762pt x 45.58537pt.
+(pdftex.def)             Requested size: 153.64493pt x 43.7199pt.
 File: 1-4_obs_studies_sampling/figures/breakfast/breakfast4.png Graphic file (t
 ype png)
 
 <use 1-4_obs_studies_sampling/figures/breakfast/breakfast4.png>
 Package pdftex.def Info: 1-4_obs_studies_sampling/figures/breakfast/breakfast4.
 png used on input line 79.
-(pdftex.def)             Requested size: 160.19762pt x 44.82425pt.
+(pdftex.def)             Requested size: 153.64493pt x 42.99069pt.
 
 
-Class beamer Warning: Frame text is shrunk by a factor of 20.54901 percent inst
-ead of 0 percent on input line 79.
+Class beamer Warning: Frame text is shrunk by a factor of 29.1565 percent inste
+ad of 0 percent on input line 79.
 
 [71
 
@@ -1936,25 +2052,25 @@ ype png)
  <use 1-4_obs_studies_sampling/figures/breakfast/breakfast2.png>
 Package pdftex.def Info: 1-4_obs_studies_sampling/figures/breakfast/breakfast2.
 png used on input line 79.
-(pdftex.def)             Requested size: 160.19762pt x 50.93187pt.
+(pdftex.def)             Requested size: 153.64493pt x 48.84782pt.
 File: 1-4_obs_studies_sampling/figures/breakfast/breakfast3.png Graphic file (t
 ype png)
 
 <use 1-4_obs_studies_sampling/figures/breakfast/breakfast3.png>
 Package pdftex.def Info: 1-4_obs_studies_sampling/figures/breakfast/breakfast3.
 png used on input line 79.
-(pdftex.def)             Requested size: 160.19762pt x 45.58537pt.
+(pdftex.def)             Requested size: 153.64493pt x 43.7199pt.
 File: 1-4_obs_studies_sampling/figures/breakfast/breakfast4.png Graphic file (t
 ype png)
 
 <use 1-4_obs_studies_sampling/figures/breakfast/breakfast4.png>
 Package pdftex.def Info: 1-4_obs_studies_sampling/figures/breakfast/breakfast4.
 png used on input line 79.
-(pdftex.def)             Requested size: 160.19762pt x 44.82425pt.
+(pdftex.def)             Requested size: 153.64493pt x 42.99069pt.
 
 
-Class beamer Warning: Frame text is shrunk by a factor of 20.54901 percent inst
-ead of 0 percent on input line 79.
+Class beamer Warning: Frame text is shrunk by a factor of 29.1565 percent inste
+ad of 0 percent on input line 79.
 
 [72
 
@@ -1964,25 +2080,25 @@ ype png)
  <use 1-4_obs_studies_sampling/figures/breakfast/breakfast2.png>
 Package pdftex.def Info: 1-4_obs_studies_sampling/figures/breakfast/breakfast2.
 png used on input line 79.
-(pdftex.def)             Requested size: 160.19762pt x 50.93187pt.
+(pdftex.def)             Requested size: 153.64493pt x 48.84782pt.
 File: 1-4_obs_studies_sampling/figures/breakfast/breakfast3.png Graphic file (t
 ype png)
 
 <use 1-4_obs_studies_sampling/figures/breakfast/breakfast3.png>
 Package pdftex.def Info: 1-4_obs_studies_sampling/figures/breakfast/breakfast3.
 png used on input line 79.
-(pdftex.def)             Requested size: 160.19762pt x 45.58537pt.
+(pdftex.def)             Requested size: 153.64493pt x 43.7199pt.
 File: 1-4_obs_studies_sampling/figures/breakfast/breakfast4.png Graphic file (t
 ype png)
 
 <use 1-4_obs_studies_sampling/figures/breakfast/breakfast4.png>
 Package pdftex.def Info: 1-4_obs_studies_sampling/figures/breakfast/breakfast4.
 png used on input line 79.
-(pdftex.def)             Requested size: 160.19762pt x 44.82425pt.
+(pdftex.def)             Requested size: 153.64493pt x 42.99069pt.
 
 
-Class beamer Warning: Frame text is shrunk by a factor of 20.54901 percent inst
-ead of 0 percent on input line 79.
+Class beamer Warning: Frame text is shrunk by a factor of 29.1565 percent inste
+ad of 0 percent on input line 79.
 
 [73
 
@@ -1991,59 +2107,83 @@ ead of 0 percent on input line 79.
 ] [75
 
 ]
-<1-4_obs_studies_sampling/figures/sampling_methods/srs.pdf, id=902, 425.59pt x 
-214.70073pt>
-File: 1-4_obs_studies_sampling/figures/sampling_methods/srs.pdf Graphic file (t
-ype pdf)
- <use 1-4_obs_studies_sampling/figures/sampling_methods/srs.pdf>
-Package pdftex.def Info: 1-4_obs_studies_sampling/figures/sampling_methods/srs.
-pdf used on input line 134.
-(pdftex.def)             Requested size: 288.35376pt x 145.47693pt.
+<1-4_obs_studies_sampling/figures/sampling_methods/simple.pdf, id=638, 532.4011
+5pt x 271.29364pt>
+File: 1-4_obs_studies_sampling/figures/sampling_methods/simple.pdf Graphic file
+ (type pdf)
 
-[76
+<use 1-4_obs_studies_sampling/figures/sampling_methods/simple.pdf>
+Package pdftex.def Info: 1-4_obs_studies_sampling/figures/sampling_methods/simp
+le.pdf used on input line 134.
+(pdftex.def)             Requested size: 276.559pt x 140.9286pt.
+ [76
 
- <./1-4_obs_studies_sampling/figures/sampling_methods/srs.pdf>]
-<1-4_obs_studies_sampling/figures/sampling_methods/stratified.pdf, id=932, 425.
-59pt x 216.55264pt>
+ <./1-4_obs_studies_sampling/figures/sampling_methods/simple.pdf>]
+<1-4_obs_studies_sampling/figures/sampling_methods/stratified.pdf, id=664, 533.
+995pt x 271.03198pt>
 File: 1-4_obs_studies_sampling/figures/sampling_methods/stratified.pdf Graphic 
 file (type pdf)
 
 <use 1-4_obs_studies_sampling/figures/sampling_methods/stratified.pdf>
 Package pdftex.def Info: 1-4_obs_studies_sampling/figures/sampling_methods/stra
 tified.pdf used on input line 147.
-(pdftex.def)             Requested size: 288.35376pt x 146.73175pt.
+(pdftex.def)             Requested size: 276.559pt x 140.37498pt.
  [77
 
  <./1-4_obs_studies_sampling/figures/sampling_methods/stratified.pdf>]
-<1-4_obs_studies_sampling/figures/sampling_methods/cluster.pdf, id=961, 425.59p
-t x 217.4532pt>
+<1-4_obs_studies_sampling/figures/sampling_methods/cluster.pdf, id=690, 533.995
+pt x 270.5283pt>
 File: 1-4_obs_studies_sampling/figures/sampling_methods/cluster.pdf Graphic fil
 e (type pdf)
 
 <use 1-4_obs_studies_sampling/figures/sampling_methods/cluster.pdf>
 Package pdftex.def Info: 1-4_obs_studies_sampling/figures/sampling_methods/clus
 ter.pdf used on input line 160.
-(pdftex.def)             Requested size: 288.35376pt x 147.34195pt.
- [78
+(pdftex.def)             Requested size: 276.559pt x 140.11412pt.
 
- <./1-4_obs_studies_sampling/figures/sampling_methods/cluster.pdf>] [79
+Overfull \vbox (15.86197pt too high) detected at line 160
+ []
 
-] [80
+[78
 
-])
-(./1-5_experiments/1-5_experiments.tex (./chp1.toc) [81
+ <./1-4_obs_studies_sampling/figures/sampling_methods/cluster.pdf>]
+<1-4_obs_studies_sampling/figures/sampling_methods/multistage.pdf, id=716, 533.
+19643pt x 270.70395pt>
+File: 1-4_obs_studies_sampling/figures/sampling_methods/multistage.pdf Graphic 
+file (type pdf)
 
-] [82
+<use 1-4_obs_studies_sampling/figures/sampling_methods/multistage.pdf>
+Package pdftex.def Info: 1-4_obs_studies_sampling/figures/sampling_methods/mult
+istage.pdf used on input line 173.
+(pdftex.def)             Requested size: 276.559pt x 140.40749pt.
+
+Overfull \vbox (2.52309pt too high) detected at line 173
+ []
+
+[79
+
+ <./1-4_obs_studies_sampling/figures/sampling_methods/multistage.pdf>]
+[80
+
+] [81
+
+]) (./1-5_experiments/1-5_experiments.tex [82
+
+] [83
 
 ]
-<1-3_data_collection_principles/figures/gu.png, id=1028, 251.94125pt x 519.9425
-pt>
+<1-3_data_collection_principles/figures/gu.png, id=765, 251.94125pt x 519.9425p
+t>
 File: 1-3_data_collection_principles/figures/gu.png Graphic file (type png)
  <use 1-3_data_collection_principles/figures/gu.png>
 Package pdftex.def Info: 1-3_data_collection_principles/figures/gu.png used on 
 input line 66.
-(pdftex.def)             Requested size: 80.0988pt x 165.29808pt.
- [83
+(pdftex.def)             Requested size: 76.82246pt x 158.53859pt.
+
+Overfull \vbox (48.04297pt too high) detected at line 66
+ []
+
+[84
 
  <./1-3_data_collection_principles/figures/gu.png>]
 File: 1-3_data_collection_principles/figures/gu.png Graphic file (type png)
@@ -2051,77 +2191,91 @@ File: 1-3_data_collection_principles/figures/gu.png Graphic file (type png)
 <use 1-3_data_collection_principles/figures/gu.png>
 Package pdftex.def Info: 1-3_data_collection_principles/figures/gu.png used on 
 input line 66.
-(pdftex.def)             Requested size: 80.0988pt x 165.29808pt.
- [84
+(pdftex.def)             Requested size: 76.82246pt x 158.53859pt.
+
+Overfull \vbox (48.04297pt too high) detected at line 66
+ []
+
+[85
 
 ]
 File: 1-3_data_collection_principles/figures/gu.png Graphic file (type png)
-
-<use 1-3_data_collection_principles/figures/gu.png>
+ <use 1-3_data_collection_principles/figures/gu.png>
 Package pdftex.def Info: 1-3_data_collection_principles/figures/gu.png used on 
 input line 66.
-(pdftex.def)             Requested size: 80.0988pt x 165.29808pt.
- [85
+(pdftex.def)             Requested size: 76.82246pt x 158.53859pt.
+
+Overfull \vbox (48.04297pt too high) detected at line 66
+ []
+
+[86
 
 ]
 File: 1-3_data_collection_principles/figures/gu.png Graphic file (type png)
-
-<use 1-3_data_collection_principles/figures/gu.png>
+ <use 1-3_data_collection_principles/figures/gu.png>
 Package pdftex.def Info: 1-3_data_collection_principles/figures/gu.png used on 
 input line 66.
-(pdftex.def)             Requested size: 80.0988pt x 165.29808pt.
- [86
+(pdftex.def)             Requested size: 76.82246pt x 158.53859pt.
+
+Overfull \vbox (48.04297pt too high) detected at line 66
+ []
+
+[87
 
 ]
 File: 1-3_data_collection_principles/figures/gu.png Graphic file (type png)
-
-<use 1-3_data_collection_principles/figures/gu.png>
+ <use 1-3_data_collection_principles/figures/gu.png>
 Package pdftex.def Info: 1-3_data_collection_principles/figures/gu.png used on 
 input line 66.
-(pdftex.def)             Requested size: 80.0988pt x 165.29808pt.
- [87
+(pdftex.def)             Requested size: 76.82246pt x 158.53859pt.
 
-] [88
+Overfull \vbox (48.04297pt too high) detected at line 66
+ []
 
-] [89
-
-] [90
+[88
 
 ]
-[91
+Overfull \vbox (39.43225pt too high) detected at line 82
+ []
+
+[89
+
+]
+Overfull \vbox (39.43225pt too high) detected at line 82
+ []
+
+[90
+
+] [91
 
 ] [92
 
 ] [93
 
+] [94
+
 ]
-<1-5_experiments/figures/random_sample_assignment.pdf, id=1110, 980.71227pt x 4
-98.85382pt>
+<1-5_experiments/figures/random_sample_assignment.pdf, id=824, 980.71227pt x 49
+8.85382pt>
 File: 1-5_experiments/figures/random_sample_assignment.pdf Graphic file (type p
 df)
  <use 1-5_experiments/figures/random_sample_assignment.pdf>
 Package pdftex.def Info: 1-5_experiments/figures/random_sample_assignment.pdf u
 sed on input line 145.
-(pdftex.def)             Requested size: 320.39525pt x 162.97047pt.
- [94
+(pdftex.def)             Requested size: 307.28987pt x 156.31007pt.
+ [95
 
  <./1-5_experiments/figures/random_sample_assignment.pdf>])
-(./1-6_numerical_data/1-6_numerical_data.tex (./chp1.toc)
-
-Class beamer Warning: Frame text is shrunk by a factor of 29.45709 percent inst
-ead of 0 percent on input line 3.
-
-[95
+(./1-6_numerical_data/1-6_numerical_data.tex [96
 
 ]
-<1-6_numerical_data/figures/life_exp_child.png, id=1172, 632.3625pt x 485.815pt
->
+<1-6_numerical_data/figures/life_exp_child.png, id=860, 632.3625pt x 485.815pt>
 File: 1-6_numerical_data/figures/life_exp_child.png Graphic file (type png)
- <use 1-6_numerical_data/figures/life_exp_child.png>
+<use 1-6_numerical_data/figures/life_exp_child.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/life_exp_child.png used on 
 input line 36.
-(pdftex.def)             Requested size: 128.15614pt x 98.45113pt.
- [96
+(pdftex.def)             Requested size: 122.91406pt x 94.4259pt.
+ [97
 
  <./1-6_numerical_data/figures/life_exp_child.png>]
 File: 1-6_numerical_data/figures/life_exp_child.png Graphic file (type png)
@@ -2129,8 +2283,8 @@ File: 1-6_numerical_data/figures/life_exp_child.png Graphic file (type png)
 <use 1-6_numerical_data/figures/life_exp_child.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/life_exp_child.png used on 
 input line 36.
-(pdftex.def)             Requested size: 128.15614pt x 98.45113pt.
- [97
+(pdftex.def)             Requested size: 122.91406pt x 94.4259pt.
+ [98
 
 ]
 File: 1-6_numerical_data/figures/life_exp_child.png Graphic file (type png)
@@ -2138,111 +2292,111 @@ File: 1-6_numerical_data/figures/life_exp_child.png Graphic file (type png)
 <use 1-6_numerical_data/figures/life_exp_child.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/life_exp_child.png used on 
 input line 36.
-(pdftex.def)             Requested size: 128.15614pt x 98.45113pt.
- [98
+(pdftex.def)             Requested size: 122.91406pt x 94.4259pt.
+ [99
 
 ]
-<1-6_numerical_data/figures/gpa_dot_plot/gpa_dot_plot.pdf, id=1201, 505.89pt x 
-108.405pt>
+<1-6_numerical_data/figures/gpa_dot_plot/gpa_dot_plot.pdf, id=881, 505.89pt x 1
+08.405pt>
 File: 1-6_numerical_data/figures/gpa_dot_plot/gpa_dot_plot.pdf Graphic file (ty
 pe pdf)
  <use 1-6_numerical_data/figures/gpa_dot_plot/gpa_dot_plot.pdf>
 Package pdftex.def Info: 1-6_numerical_data/figures/gpa_dot_plot/gpa_dot_plot.p
 df used on input line 55.
-(pdftex.def)             Requested size: 320.39525pt x 68.65775pt.
+(pdftex.def)             Requested size: 307.28987pt x 65.84904pt.
 
-[99
+[100
 
  <./1-6_numerical_data/figures/gpa_dot_plot/gpa_dot_plot.pdf>]
-<1-6_numerical_data/figures/gpa_dot_plot/gpa_dot_plot_mean.pdf, id=1218, 505.89
-pt x 108.405pt>
+<1-6_numerical_data/figures/gpa_dot_plot/gpa_dot_plot_mean.pdf, id=896, 505.89p
+t x 108.405pt>
 File: 1-6_numerical_data/figures/gpa_dot_plot/gpa_dot_plot_mean.pdf Graphic fil
 e (type pdf)
 
 <use 1-6_numerical_data/figures/gpa_dot_plot/gpa_dot_plot_mean.pdf>
 Package pdftex.def Info: 1-6_numerical_data/figures/gpa_dot_plot/gpa_dot_plot_m
 ean.pdf used on input line 75.
-(pdftex.def)             Requested size: 320.39525pt x 68.65775pt.
- [100
+(pdftex.def)             Requested size: 307.28987pt x 65.84904pt.
+ [101
 
- <./1-6_numerical_data/figures/gpa_dot_plot/gpa_dot_plot_mean.pdf>] [101
+ <./1-6_numerical_data/figures/gpa_dot_plot/gpa_dot_plot_mean.pdf>] [102
 
 ]
-<1-6_numerical_data/figures/gpa_dot_plot/gpa_dot_plot_stacked.pdf, id=1245, 505
-.89pt x 216.81pt>
+<1-6_numerical_data/figures/gpa_dot_plot/gpa_dot_plot_stacked.pdf, id=917, 505.
+89pt x 216.81pt>
 File: 1-6_numerical_data/figures/gpa_dot_plot/gpa_dot_plot_stacked.pdf Graphic 
 file (type pdf)
 
 <use 1-6_numerical_data/figures/gpa_dot_plot/gpa_dot_plot_stacked.pdf>
 Package pdftex.def Info: 1-6_numerical_data/figures/gpa_dot_plot/gpa_dot_plot_s
 tacked.pdf used on input line 109.
-(pdftex.def)             Requested size: 320.39525pt x 137.31552pt.
- [102
+(pdftex.def)             Requested size: 307.28987pt x 131.6981pt.
+ [103
 
  <./1-6_numerical_data/figures/gpa_dot_plot/gpa_dot_plot_stacked.pdf>]
 \openout4 = `chp1.vrb'.
 
  (./chp1.vrb
-<1-6_numerical_data/figures/extracurr_hrs_hist/extracurr_hrs_hist.pdf, id=1260,
- 505.89pt x 289.08pt>
+<1-6_numerical_data/figures/extracurr_hrs_hist/extracurr_hrs_hist.pdf, id=930, 
+505.89pt x 289.08pt>
 File: 1-6_numerical_data/figures/extracurr_hrs_hist/extracurr_hrs_hist.pdf Grap
 hic file (type pdf)
 
 <use 1-6_numerical_data/figures/extracurr_hrs_hist/extracurr_hrs_hist.pdf>
 Package pdftex.def Info: 1-6_numerical_data/figures/extracurr_hrs_hist/extracur
 r_hrs_hist.pdf used on input line 14.
-(pdftex.def)             Requested size: 240.29643pt x 137.31442pt.
+(pdftex.def)             Requested size: 230.46739pt x 131.69922pt.
 )
-Overfull \vbox (5.2871pt too high) detected at line 134
+Overfull \vbox (43.35422pt too high) detected at line 134
  []
 
-[103
+[104
 
  <./1-6_numerical_data/figures/extracurr_hrs_hist/extracurr_hrs_hist.pdf>]
-<1-6_numerical_data/figures/extracurr_hrs_hist/extracurr_hrs_hist2.pdf, id=1274
-, 505.89pt x 289.08pt>
+<1-6_numerical_data/figures/extracurr_hrs_hist/extracurr_hrs_hist2.pdf, id=941,
+ 505.89pt x 289.08pt>
 File: 1-6_numerical_data/figures/extracurr_hrs_hist/extracurr_hrs_hist2.pdf Gra
 phic file (type pdf)
 
 <use 1-6_numerical_data/figures/extracurr_hrs_hist/extracurr_hrs_hist2.pdf>
 Package pdftex.def Info: 1-6_numerical_data/figures/extracurr_hrs_hist/extracur
 r_hrs_hist2.pdf used on input line 150.
-(pdftex.def)             Requested size: 144.17688pt x 82.38864pt.
+(pdftex.def)             Requested size: 138.2795pt x 79.01865pt.
 File: 1-6_numerical_data/figures/extracurr_hrs_hist/extracurr_hrs_hist.pdf Grap
 hic file (type pdf)
 
 <use 1-6_numerical_data/figures/extracurr_hrs_hist/extracurr_hrs_hist.pdf>
 Package pdftex.def Info: 1-6_numerical_data/figures/extracurr_hrs_hist/extracur
 r_hrs_hist.pdf used on input line 150.
-(pdftex.def)             Requested size: 144.17688pt x 82.38864pt.
+(pdftex.def)             Requested size: 138.2795pt x 79.01865pt.
 
-<1-6_numerical_data/figures/extracurr_hrs_hist/extracurr_hrs_hist20.pdf, id=127
-5, 505.89pt x 289.08pt>
+<1-6_numerical_data/figures/extracurr_hrs_hist/extracurr_hrs_hist20.pdf, id=942
+, 505.89pt x 289.08pt>
 File: 1-6_numerical_data/figures/extracurr_hrs_hist/extracurr_hrs_hist20.pdf Gr
 aphic file (type pdf)
 
 <use 1-6_numerical_data/figures/extracurr_hrs_hist/extracurr_hrs_hist20.pdf>
 Package pdftex.def Info: 1-6_numerical_data/figures/extracurr_hrs_hist/extracur
 r_hrs_hist20.pdf used on input line 150.
-(pdftex.def)             Requested size: 144.17688pt x 82.38864pt.
+(pdftex.def)             Requested size: 138.2795pt x 79.01865pt.
 
-<1-6_numerical_data/figures/extracurr_hrs_hist/extracurr_hrs_hist30.pdf, id=127
-6, 505.89pt x 289.08pt>
+<1-6_numerical_data/figures/extracurr_hrs_hist/extracurr_hrs_hist30.pdf, id=943
+, 505.89pt x 289.08pt>
 File: 1-6_numerical_data/figures/extracurr_hrs_hist/extracurr_hrs_hist30.pdf Gr
 aphic file (type pdf)
 
 <use 1-6_numerical_data/figures/extracurr_hrs_hist/extracurr_hrs_hist30.pdf>
 Package pdftex.def Info: 1-6_numerical_data/figures/extracurr_hrs_hist/extracur
 r_hrs_hist30.pdf used on input line 150.
-(pdftex.def)             Requested size: 144.17688pt x 82.38864pt.
+(pdftex.def)             Requested size: 138.2795pt x 79.01865pt.
 
-[104
+[105
 
  <./1-6_numerical_data/figures/extracurr_hrs_hist/extracurr_hrs_hist2.pdf> <./1
 -6_numerical_data/figures/extracurr_hrs_hist/extracurr_hrs_hist20.pdf> <./1-6_n
 umerical_data/figures/extracurr_hrs_hist/extracurr_hrs_hist30.pdf>]
 <1-6_numerical_data/figures/singleBiMultiModalUnifPlots/singleBiMultiModalUnifP
-lots.pdf, id=1301, 505.89pt x 144.54pt>
+lots.pdf, id=964, 505.89pt x 144.54pt>
 File: 1-6_numerical_data/figures/singleBiMultiModalUnifPlots/singleBiMultiModal
 UnifPlots.pdf Graphic file (type pdf)
 
@@ -2250,33 +2404,37 @@ UnifPlots.pdf Graphic file (type pdf)
 nifPlots.pdf>
 Package pdftex.def Info: 1-6_numerical_data/figures/singleBiMultiModalUnifPlots
 /singleBiMultiModalUnifPlots.pdf used on input line 165.
-(pdftex.def)             Requested size: 240.29643pt x 68.6572pt.
- [105
+(pdftex.def)             Requested size: 230.46739pt x 65.8496pt.
+
+Overfull \vbox (11.77234pt too high) detected at line 165
+ []
+
+[106
 
  <./1-6_numerical_data/figures/singleBiMultiModalUnifPlots/singleBiMultiModalUn
 ifPlots.pdf>]
-<1-6_numerical_data/figures/skewedSymPlots/skewedSymPlots.pdf, id=1315, 505.89p
-t x 216.81pt>
+<1-6_numerical_data/figures/skewedSymPlots/skewedSymPlots.pdf, id=975, 505.89pt
+ x 216.81pt>
 File: 1-6_numerical_data/figures/skewedSymPlots/skewedSymPlots.pdf Graphic file
  (type pdf)
 
 <use 1-6_numerical_data/figures/skewedSymPlots/skewedSymPlots.pdf>
 Package pdftex.def Info: 1-6_numerical_data/figures/skewedSymPlots/skewedSymPlo
 ts.pdf used on input line 180.
-(pdftex.def)             Requested size: 256.31717pt x 109.85043pt.
- [106
+(pdftex.def)             Requested size: 245.83282pt x 105.35782pt.
+ [107
 
  <./1-6_numerical_data/figures/skewedSymPlots/skewedSymPlots.pdf>]
-<1-6_numerical_data/figures/outlierPlots/outlierPlots.pdf, id=1329, 505.89pt x 
-216.81pt>
+<1-6_numerical_data/figures/outlierPlots/outlierPlots.pdf, id=987, 505.89pt x 2
+16.81pt>
 File: 1-6_numerical_data/figures/outlierPlots/outlierPlots.pdf Graphic file (ty
 pe pdf)
  <use 1-6_numerical_data/figures/outlierPlots/outlierPlots.pdf>
 Package pdftex.def Info: 1-6_numerical_data/figures/outlierPlots/outlierPlots.p
 df used on input line 193.
-(pdftex.def)             Requested size: 256.31717pt x 109.85043pt.
+(pdftex.def)             Requested size: 245.83282pt x 105.35782pt.
 
-[107
+[108
 
  <./1-6_numerical_data/figures/outlierPlots/outlierPlots.pdf>]
 File: 1-6_numerical_data/figures/extracurr_hrs_hist/extracurr_hrs_hist.pdf Grap
@@ -2285,9 +2443,12 @@ hic file (type pdf)
 <use 1-6_numerical_data/figures/extracurr_hrs_hist/extracurr_hrs_hist.pdf>
 Package pdftex.def Info: 1-6_numerical_data/figures/extracurr_hrs_hist/extracur
 r_hrs_hist.pdf used on input line 208.
-(pdftex.def)             Requested size: 240.29643pt x 137.31442pt.
+(pdftex.def)             Requested size: 230.46739pt x 131.69922pt.
 
-[108
+Overfull \vbox (11.63913pt too high) detected at line 208
+ []
+
+[109
 
 ]
 File: 1-6_numerical_data/figures/extracurr_hrs_hist/extracurr_hrs_hist.pdf Grap
@@ -2296,75 +2457,78 @@ hic file (type pdf)
 <use 1-6_numerical_data/figures/extracurr_hrs_hist/extracurr_hrs_hist.pdf>
 Package pdftex.def Info: 1-6_numerical_data/figures/extracurr_hrs_hist/extracur
 r_hrs_hist.pdf used on input line 208.
-(pdftex.def)             Requested size: 240.29643pt x 137.31442pt.
+(pdftex.def)             Requested size: 230.46739pt x 131.69922pt.
 
-[109
+Overfull \vbox (11.63913pt too high) detected at line 208
+ []
+
+[110
 
 ]
-<1-6_numerical_data/figures/shape_sketches/unimodal.png, id=1360, 691.58376pt x
+<1-6_numerical_data/figures/shape_sketches/unimodal.png, id=1009, 691.58376pt x
  411.5375pt>
 File: 1-6_numerical_data/figures/shape_sketches/unimodal.png Graphic file (type
  png)
  <use 1-6_numerical_data/figures/shape_sketches/unimodal.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/unimodal.png
  used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 47.66177pt.
+(pdftex.def)             Requested size: 76.82246pt x 45.70883pt.
 
-<1-6_numerical_data/figures/shape_sketches/bimodal.png, id=1361, 953.5625pt x 4
+<1-6_numerical_data/figures/shape_sketches/bimodal.png, id=1010, 953.5625pt x 4
 57.71pt>
 File: 1-6_numerical_data/figures/shape_sketches/bimodal.png Graphic file (type 
 png)
  <use 1-6_numerical_data/figures/shape_sketches/bimodal.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/bimodal.png 
 used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 38.44737pt.
+(pdftex.def)             Requested size: 76.82246pt x 36.86897pt.
 
-<1-6_numerical_data/figures/shape_sketches/multimodal.png, id=1362, 1023.825pt 
+<1-6_numerical_data/figures/shape_sketches/multimodal.png, id=1011, 1023.825pt 
 x 524.96124pt>
 File: 1-6_numerical_data/figures/shape_sketches/multimodal.png Graphic file (ty
 pe png)
  <use 1-6_numerical_data/figures/shape_sketches/multimodal.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/multimodal.p
 ng used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 41.06856pt.
+(pdftex.def)             Requested size: 76.82246pt x 39.38641pt.
 
-<1-6_numerical_data/figures/shape_sketches/uniform.png, id=1363, 555.07375pt x 
+<1-6_numerical_data/figures/shape_sketches/uniform.png, id=1012, 555.07375pt x 
 418.56375pt>
 File: 1-6_numerical_data/figures/shape_sketches/uniform.png Graphic file (type 
 png)
  <use 1-6_numerical_data/figures/shape_sketches/uniform.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/uniform.png 
 used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 60.39958pt.
+(pdftex.def)             Requested size: 76.82246pt x 57.9279pt.
 
-<1-6_numerical_data/figures/shape_sketches/right_skew.png, id=1364, 907.39pt x 
+<1-6_numerical_data/figures/shape_sketches/right_skew.png, id=1013, 907.39pt x 
 461.725pt>
 File: 1-6_numerical_data/figures/shape_sketches/right_skew.png Graphic file (ty
 pe png)
  <use 1-6_numerical_data/figures/shape_sketches/right_skew.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/right_skew.p
 ng used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 40.75732pt.
+(pdftex.def)             Requested size: 76.82246pt x 39.08759pt.
 
-<1-6_numerical_data/figures/shape_sketches/left_skew.png, id=1365, 874.26625pt 
+<1-6_numerical_data/figures/shape_sketches/left_skew.png, id=1014, 874.26625pt 
 x 407.5225pt>
 File: 1-6_numerical_data/figures/shape_sketches/left_skew.png Graphic file (typ
 e png)
  <use 1-6_numerical_data/figures/shape_sketches/left_skew.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/left_skew.pn
 g used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 37.33458pt.
+(pdftex.def)             Requested size: 76.82246pt x 35.80487pt.
 
-<1-6_numerical_data/figures/shape_sketches/symmetric.png, id=1366, 736.7525pt x
+<1-6_numerical_data/figures/shape_sketches/symmetric.png, id=1015, 736.7525pt x
  474.77374pt>
 File: 1-6_numerical_data/figures/shape_sketches/symmetric.png Graphic file (typ
 e png)
  <use 1-6_numerical_data/figures/shape_sketches/symmetric.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/symmetric.pn
 g used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 51.61673pt.
+(pdftex.def)             Requested size: 76.82246pt x 49.50136pt.
 
-[110
+[111
 
  <./1-6_numerical_data/figures/shape_sketches/unimodal.png> <./1-6_numerical_da
 ta/figures/shape_sketches/bimodal.png> <./1-6_numerical_data/figures/shape_sket
@@ -2378,101 +2542,49 @@ File: 1-6_numerical_data/figures/shape_sketches/unimodal.png Graphic file (type
 <use 1-6_numerical_data/figures/shape_sketches/unimodal.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/unimodal.png
  used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 47.66177pt.
+(pdftex.def)             Requested size: 76.82246pt x 45.70883pt.
 File: 1-6_numerical_data/figures/shape_sketches/bimodal.png Graphic file (type 
 png)
 
 <use 1-6_numerical_data/figures/shape_sketches/bimodal.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/bimodal.png 
 used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 38.44737pt.
+(pdftex.def)             Requested size: 76.82246pt x 36.86897pt.
 File: 1-6_numerical_data/figures/shape_sketches/multimodal.png Graphic file (ty
 pe png)
 
 <use 1-6_numerical_data/figures/shape_sketches/multimodal.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/multimodal.p
 ng used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 41.06856pt.
+(pdftex.def)             Requested size: 76.82246pt x 39.38641pt.
 File: 1-6_numerical_data/figures/shape_sketches/uniform.png Graphic file (type 
 png)
 
 <use 1-6_numerical_data/figures/shape_sketches/uniform.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/uniform.png 
 used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 60.39958pt.
+(pdftex.def)             Requested size: 76.82246pt x 57.9279pt.
 File: 1-6_numerical_data/figures/shape_sketches/right_skew.png Graphic file (ty
 pe png)
 
 <use 1-6_numerical_data/figures/shape_sketches/right_skew.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/right_skew.p
 ng used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 40.75732pt.
+(pdftex.def)             Requested size: 76.82246pt x 39.08759pt.
 File: 1-6_numerical_data/figures/shape_sketches/left_skew.png Graphic file (typ
 e png)
 
 <use 1-6_numerical_data/figures/shape_sketches/left_skew.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/left_skew.pn
 g used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 37.33458pt.
+(pdftex.def)             Requested size: 76.82246pt x 35.80487pt.
 File: 1-6_numerical_data/figures/shape_sketches/symmetric.png Graphic file (typ
 e png)
 
 <use 1-6_numerical_data/figures/shape_sketches/symmetric.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/symmetric.pn
 g used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 51.61673pt.
- [111
-
-]
-File: 1-6_numerical_data/figures/shape_sketches/unimodal.png Graphic file (type
- png)
-
-<use 1-6_numerical_data/figures/shape_sketches/unimodal.png>
-Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/unimodal.png
- used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 47.66177pt.
-File: 1-6_numerical_data/figures/shape_sketches/bimodal.png Graphic file (type 
-png)
-
-<use 1-6_numerical_data/figures/shape_sketches/bimodal.png>
-Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/bimodal.png 
-used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 38.44737pt.
-File: 1-6_numerical_data/figures/shape_sketches/multimodal.png Graphic file (ty
-pe png)
-
-<use 1-6_numerical_data/figures/shape_sketches/multimodal.png>
-Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/multimodal.p
-ng used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 41.06856pt.
-File: 1-6_numerical_data/figures/shape_sketches/uniform.png Graphic file (type 
-png)
-
-<use 1-6_numerical_data/figures/shape_sketches/uniform.png>
-Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/uniform.png 
-used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 60.39958pt.
-File: 1-6_numerical_data/figures/shape_sketches/right_skew.png Graphic file (ty
-pe png)
-
-<use 1-6_numerical_data/figures/shape_sketches/right_skew.png>
-Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/right_skew.p
-ng used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 40.75732pt.
-File: 1-6_numerical_data/figures/shape_sketches/left_skew.png Graphic file (typ
-e png)
-
-<use 1-6_numerical_data/figures/shape_sketches/left_skew.png>
-Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/left_skew.pn
-g used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 37.33458pt.
-File: 1-6_numerical_data/figures/shape_sketches/symmetric.png Graphic file (typ
-e png)
-
-<use 1-6_numerical_data/figures/shape_sketches/symmetric.png>
-Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/symmetric.pn
-g used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 51.61673pt.
+(pdftex.def)             Requested size: 76.82246pt x 49.50136pt.
  [112
 
 ]
@@ -2482,49 +2594,49 @@ File: 1-6_numerical_data/figures/shape_sketches/unimodal.png Graphic file (type
 <use 1-6_numerical_data/figures/shape_sketches/unimodal.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/unimodal.png
  used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 47.66177pt.
+(pdftex.def)             Requested size: 76.82246pt x 45.70883pt.
 File: 1-6_numerical_data/figures/shape_sketches/bimodal.png Graphic file (type 
 png)
 
 <use 1-6_numerical_data/figures/shape_sketches/bimodal.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/bimodal.png 
 used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 38.44737pt.
+(pdftex.def)             Requested size: 76.82246pt x 36.86897pt.
 File: 1-6_numerical_data/figures/shape_sketches/multimodal.png Graphic file (ty
 pe png)
 
 <use 1-6_numerical_data/figures/shape_sketches/multimodal.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/multimodal.p
 ng used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 41.06856pt.
+(pdftex.def)             Requested size: 76.82246pt x 39.38641pt.
 File: 1-6_numerical_data/figures/shape_sketches/uniform.png Graphic file (type 
 png)
 
 <use 1-6_numerical_data/figures/shape_sketches/uniform.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/uniform.png 
 used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 60.39958pt.
+(pdftex.def)             Requested size: 76.82246pt x 57.9279pt.
 File: 1-6_numerical_data/figures/shape_sketches/right_skew.png Graphic file (ty
 pe png)
 
 <use 1-6_numerical_data/figures/shape_sketches/right_skew.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/right_skew.p
 ng used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 40.75732pt.
+(pdftex.def)             Requested size: 76.82246pt x 39.08759pt.
 File: 1-6_numerical_data/figures/shape_sketches/left_skew.png Graphic file (typ
 e png)
 
 <use 1-6_numerical_data/figures/shape_sketches/left_skew.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/left_skew.pn
 g used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 37.33458pt.
+(pdftex.def)             Requested size: 76.82246pt x 35.80487pt.
 File: 1-6_numerical_data/figures/shape_sketches/symmetric.png Graphic file (typ
 e png)
 
 <use 1-6_numerical_data/figures/shape_sketches/symmetric.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/symmetric.pn
 g used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 51.61673pt.
+(pdftex.def)             Requested size: 76.82246pt x 49.50136pt.
  [113
 
 ]
@@ -2534,49 +2646,49 @@ File: 1-6_numerical_data/figures/shape_sketches/unimodal.png Graphic file (type
 <use 1-6_numerical_data/figures/shape_sketches/unimodal.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/unimodal.png
  used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 47.66177pt.
+(pdftex.def)             Requested size: 76.82246pt x 45.70883pt.
 File: 1-6_numerical_data/figures/shape_sketches/bimodal.png Graphic file (type 
 png)
 
 <use 1-6_numerical_data/figures/shape_sketches/bimodal.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/bimodal.png 
 used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 38.44737pt.
+(pdftex.def)             Requested size: 76.82246pt x 36.86897pt.
 File: 1-6_numerical_data/figures/shape_sketches/multimodal.png Graphic file (ty
 pe png)
 
 <use 1-6_numerical_data/figures/shape_sketches/multimodal.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/multimodal.p
 ng used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 41.06856pt.
+(pdftex.def)             Requested size: 76.82246pt x 39.38641pt.
 File: 1-6_numerical_data/figures/shape_sketches/uniform.png Graphic file (type 
 png)
 
 <use 1-6_numerical_data/figures/shape_sketches/uniform.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/uniform.png 
 used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 60.39958pt.
+(pdftex.def)             Requested size: 76.82246pt x 57.9279pt.
 File: 1-6_numerical_data/figures/shape_sketches/right_skew.png Graphic file (ty
 pe png)
 
 <use 1-6_numerical_data/figures/shape_sketches/right_skew.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/right_skew.p
 ng used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 40.75732pt.
+(pdftex.def)             Requested size: 76.82246pt x 39.08759pt.
 File: 1-6_numerical_data/figures/shape_sketches/left_skew.png Graphic file (typ
 e png)
 
 <use 1-6_numerical_data/figures/shape_sketches/left_skew.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/left_skew.pn
 g used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 37.33458pt.
+(pdftex.def)             Requested size: 76.82246pt x 35.80487pt.
 File: 1-6_numerical_data/figures/shape_sketches/symmetric.png Graphic file (typ
 e png)
 
 <use 1-6_numerical_data/figures/shape_sketches/symmetric.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/symmetric.pn
 g used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 51.61673pt.
+(pdftex.def)             Requested size: 76.82246pt x 49.50136pt.
  [114
 
 ]
@@ -2586,49 +2698,49 @@ File: 1-6_numerical_data/figures/shape_sketches/unimodal.png Graphic file (type
 <use 1-6_numerical_data/figures/shape_sketches/unimodal.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/unimodal.png
  used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 47.66177pt.
+(pdftex.def)             Requested size: 76.82246pt x 45.70883pt.
 File: 1-6_numerical_data/figures/shape_sketches/bimodal.png Graphic file (type 
 png)
 
 <use 1-6_numerical_data/figures/shape_sketches/bimodal.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/bimodal.png 
 used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 38.44737pt.
+(pdftex.def)             Requested size: 76.82246pt x 36.86897pt.
 File: 1-6_numerical_data/figures/shape_sketches/multimodal.png Graphic file (ty
 pe png)
 
 <use 1-6_numerical_data/figures/shape_sketches/multimodal.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/multimodal.p
 ng used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 41.06856pt.
+(pdftex.def)             Requested size: 76.82246pt x 39.38641pt.
 File: 1-6_numerical_data/figures/shape_sketches/uniform.png Graphic file (type 
 png)
 
 <use 1-6_numerical_data/figures/shape_sketches/uniform.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/uniform.png 
 used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 60.39958pt.
+(pdftex.def)             Requested size: 76.82246pt x 57.9279pt.
 File: 1-6_numerical_data/figures/shape_sketches/right_skew.png Graphic file (ty
 pe png)
 
 <use 1-6_numerical_data/figures/shape_sketches/right_skew.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/right_skew.p
 ng used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 40.75732pt.
+(pdftex.def)             Requested size: 76.82246pt x 39.08759pt.
 File: 1-6_numerical_data/figures/shape_sketches/left_skew.png Graphic file (typ
 e png)
 
 <use 1-6_numerical_data/figures/shape_sketches/left_skew.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/left_skew.pn
 g used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 37.33458pt.
+(pdftex.def)             Requested size: 76.82246pt x 35.80487pt.
 File: 1-6_numerical_data/figures/shape_sketches/symmetric.png Graphic file (typ
 e png)
 
 <use 1-6_numerical_data/figures/shape_sketches/symmetric.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/symmetric.pn
 g used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 51.61673pt.
+(pdftex.def)             Requested size: 76.82246pt x 49.50136pt.
  [115
 
 ]
@@ -2638,49 +2750,49 @@ File: 1-6_numerical_data/figures/shape_sketches/unimodal.png Graphic file (type
 <use 1-6_numerical_data/figures/shape_sketches/unimodal.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/unimodal.png
  used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 47.66177pt.
+(pdftex.def)             Requested size: 76.82246pt x 45.70883pt.
 File: 1-6_numerical_data/figures/shape_sketches/bimodal.png Graphic file (type 
 png)
 
 <use 1-6_numerical_data/figures/shape_sketches/bimodal.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/bimodal.png 
 used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 38.44737pt.
+(pdftex.def)             Requested size: 76.82246pt x 36.86897pt.
 File: 1-6_numerical_data/figures/shape_sketches/multimodal.png Graphic file (ty
 pe png)
 
 <use 1-6_numerical_data/figures/shape_sketches/multimodal.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/multimodal.p
 ng used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 41.06856pt.
+(pdftex.def)             Requested size: 76.82246pt x 39.38641pt.
 File: 1-6_numerical_data/figures/shape_sketches/uniform.png Graphic file (type 
 png)
 
 <use 1-6_numerical_data/figures/shape_sketches/uniform.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/uniform.png 
 used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 60.39958pt.
+(pdftex.def)             Requested size: 76.82246pt x 57.9279pt.
 File: 1-6_numerical_data/figures/shape_sketches/right_skew.png Graphic file (ty
 pe png)
 
 <use 1-6_numerical_data/figures/shape_sketches/right_skew.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/right_skew.p
 ng used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 40.75732pt.
+(pdftex.def)             Requested size: 76.82246pt x 39.08759pt.
 File: 1-6_numerical_data/figures/shape_sketches/left_skew.png Graphic file (typ
 e png)
 
 <use 1-6_numerical_data/figures/shape_sketches/left_skew.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/left_skew.pn
 g used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 37.33458pt.
+(pdftex.def)             Requested size: 76.82246pt x 35.80487pt.
 File: 1-6_numerical_data/figures/shape_sketches/symmetric.png Graphic file (typ
 e png)
 
 <use 1-6_numerical_data/figures/shape_sketches/symmetric.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/symmetric.pn
 g used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 51.61673pt.
+(pdftex.def)             Requested size: 76.82246pt x 49.50136pt.
  [116
 
 ]
@@ -2690,49 +2802,49 @@ File: 1-6_numerical_data/figures/shape_sketches/unimodal.png Graphic file (type
 <use 1-6_numerical_data/figures/shape_sketches/unimodal.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/unimodal.png
  used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 47.66177pt.
+(pdftex.def)             Requested size: 76.82246pt x 45.70883pt.
 File: 1-6_numerical_data/figures/shape_sketches/bimodal.png Graphic file (type 
 png)
 
 <use 1-6_numerical_data/figures/shape_sketches/bimodal.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/bimodal.png 
 used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 38.44737pt.
+(pdftex.def)             Requested size: 76.82246pt x 36.86897pt.
 File: 1-6_numerical_data/figures/shape_sketches/multimodal.png Graphic file (ty
 pe png)
 
 <use 1-6_numerical_data/figures/shape_sketches/multimodal.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/multimodal.p
 ng used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 41.06856pt.
+(pdftex.def)             Requested size: 76.82246pt x 39.38641pt.
 File: 1-6_numerical_data/figures/shape_sketches/uniform.png Graphic file (type 
 png)
 
 <use 1-6_numerical_data/figures/shape_sketches/uniform.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/uniform.png 
 used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 60.39958pt.
+(pdftex.def)             Requested size: 76.82246pt x 57.9279pt.
 File: 1-6_numerical_data/figures/shape_sketches/right_skew.png Graphic file (ty
 pe png)
 
 <use 1-6_numerical_data/figures/shape_sketches/right_skew.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/right_skew.p
 ng used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 40.75732pt.
+(pdftex.def)             Requested size: 76.82246pt x 39.08759pt.
 File: 1-6_numerical_data/figures/shape_sketches/left_skew.png Graphic file (typ
 e png)
 
 <use 1-6_numerical_data/figures/shape_sketches/left_skew.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/left_skew.pn
 g used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 37.33458pt.
+(pdftex.def)             Requested size: 76.82246pt x 35.80487pt.
 File: 1-6_numerical_data/figures/shape_sketches/symmetric.png Graphic file (typ
 e png)
 
 <use 1-6_numerical_data/figures/shape_sketches/symmetric.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/symmetric.pn
 g used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 51.61673pt.
+(pdftex.def)             Requested size: 76.82246pt x 49.50136pt.
  [117
 
 ]
@@ -2742,86 +2854,147 @@ File: 1-6_numerical_data/figures/shape_sketches/unimodal.png Graphic file (type
 <use 1-6_numerical_data/figures/shape_sketches/unimodal.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/unimodal.png
  used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 47.66177pt.
+(pdftex.def)             Requested size: 76.82246pt x 45.70883pt.
 File: 1-6_numerical_data/figures/shape_sketches/bimodal.png Graphic file (type 
 png)
 
 <use 1-6_numerical_data/figures/shape_sketches/bimodal.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/bimodal.png 
 used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 38.44737pt.
+(pdftex.def)             Requested size: 76.82246pt x 36.86897pt.
 File: 1-6_numerical_data/figures/shape_sketches/multimodal.png Graphic file (ty
 pe png)
 
 <use 1-6_numerical_data/figures/shape_sketches/multimodal.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/multimodal.p
 ng used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 41.06856pt.
+(pdftex.def)             Requested size: 76.82246pt x 39.38641pt.
 File: 1-6_numerical_data/figures/shape_sketches/uniform.png Graphic file (type 
 png)
 
 <use 1-6_numerical_data/figures/shape_sketches/uniform.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/uniform.png 
 used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 60.39958pt.
+(pdftex.def)             Requested size: 76.82246pt x 57.9279pt.
 File: 1-6_numerical_data/figures/shape_sketches/right_skew.png Graphic file (ty
 pe png)
 
 <use 1-6_numerical_data/figures/shape_sketches/right_skew.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/right_skew.p
 ng used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 40.75732pt.
+(pdftex.def)             Requested size: 76.82246pt x 39.08759pt.
 File: 1-6_numerical_data/figures/shape_sketches/left_skew.png Graphic file (typ
 e png)
 
 <use 1-6_numerical_data/figures/shape_sketches/left_skew.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/left_skew.pn
 g used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 37.33458pt.
+(pdftex.def)             Requested size: 76.82246pt x 35.80487pt.
 File: 1-6_numerical_data/figures/shape_sketches/symmetric.png Graphic file (typ
 e png)
 
 <use 1-6_numerical_data/figures/shape_sketches/symmetric.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/symmetric.pn
 g used on input line 263.
-(pdftex.def)             Requested size: 80.0988pt x 51.61673pt.
+(pdftex.def)             Requested size: 76.82246pt x 49.50136pt.
  [118
 
-] [119
+]
+File: 1-6_numerical_data/figures/shape_sketches/unimodal.png Graphic file (type
+ png)
+
+<use 1-6_numerical_data/figures/shape_sketches/unimodal.png>
+Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/unimodal.png
+ used on input line 263.
+(pdftex.def)             Requested size: 76.82246pt x 45.70883pt.
+File: 1-6_numerical_data/figures/shape_sketches/bimodal.png Graphic file (type 
+png)
+
+<use 1-6_numerical_data/figures/shape_sketches/bimodal.png>
+Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/bimodal.png 
+used on input line 263.
+(pdftex.def)             Requested size: 76.82246pt x 36.86897pt.
+File: 1-6_numerical_data/figures/shape_sketches/multimodal.png Graphic file (ty
+pe png)
+
+<use 1-6_numerical_data/figures/shape_sketches/multimodal.png>
+Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/multimodal.p
+ng used on input line 263.
+(pdftex.def)             Requested size: 76.82246pt x 39.38641pt.
+File: 1-6_numerical_data/figures/shape_sketches/uniform.png Graphic file (type 
+png)
+
+<use 1-6_numerical_data/figures/shape_sketches/uniform.png>
+Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/uniform.png 
+used on input line 263.
+(pdftex.def)             Requested size: 76.82246pt x 57.9279pt.
+File: 1-6_numerical_data/figures/shape_sketches/right_skew.png Graphic file (ty
+pe png)
+
+<use 1-6_numerical_data/figures/shape_sketches/right_skew.png>
+Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/right_skew.p
+ng used on input line 263.
+(pdftex.def)             Requested size: 76.82246pt x 39.08759pt.
+File: 1-6_numerical_data/figures/shape_sketches/left_skew.png Graphic file (typ
+e png)
+
+<use 1-6_numerical_data/figures/shape_sketches/left_skew.png>
+Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/left_skew.pn
+g used on input line 263.
+(pdftex.def)             Requested size: 76.82246pt x 35.80487pt.
+File: 1-6_numerical_data/figures/shape_sketches/symmetric.png Graphic file (typ
+e png)
+
+<use 1-6_numerical_data/figures/shape_sketches/symmetric.png>
+Package pdftex.def Info: 1-6_numerical_data/figures/shape_sketches/symmetric.pn
+g used on input line 263.
+(pdftex.def)             Requested size: 76.82246pt x 49.50136pt.
+ [119
+
+] [120
 
 ]
-[120
+[121
 
-] [121
+] [122
 
 ]
-<1-6_numerical_data/figures/typical.png, id=1473, 651.43375pt x 399.4925pt>
+<1-6_numerical_data/figures/typical.png, id=1085, 651.43375pt x 399.4925pt>
 File: 1-6_numerical_data/figures/typical.png Graphic file (type png)
 
 <use 1-6_numerical_data/figures/typical.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/typical.png used on input l
 ine 314.
-(pdftex.def)             Requested size: 240.29643pt x 147.35881pt.
- [122
+(pdftex.def)             Requested size: 230.46739pt x 141.33621pt.
+
+Overfull \vbox (8.25497pt too high) detected at line 314
+ []
+
+[123
 
  <./1-6_numerical_data/figures/typical.png>]
 File: 1-6_numerical_data/figures/typical.png Graphic file (type png)
- <use 1-6_numerical_data/figures/typical.png>
+
+<use 1-6_numerical_data/figures/typical.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/typical.png used on input l
 ine 314.
-(pdftex.def)             Requested size: 240.29643pt x 147.35881pt.
- [123
+(pdftex.def)             Requested size: 230.46739pt x 141.33621pt.
+
+Overfull \vbox (8.25497pt too high) detected at line 314
+ []
+
+[124
 
 ]
-<1-6_numerical_data/figures/sleep_hist/sleep_hist.pdf, id=1493, 505.89pt x 289.
+<1-6_numerical_data/figures/sleep_hist/sleep_hist.pdf, id=1099, 505.89pt x 289.
 08pt>
 File: 1-6_numerical_data/figures/sleep_hist/sleep_hist.pdf Graphic file (type p
 df)
  <use 1-6_numerical_data/figures/sleep_hist/sleep_hist.pdf>
 Package pdftex.def Info: 1-6_numerical_data/figures/sleep_hist/sleep_hist.pdf u
 sed on input line 356.
-(pdftex.def)             Requested size: 160.19762pt x 91.54147pt.
- [124
+(pdftex.def)             Requested size: 153.64493pt x 87.79654pt.
+ [125
 
  <./1-6_numerical_data/figures/sleep_hist/sleep_hist.pdf>]
 File: 1-6_numerical_data/figures/sleep_hist/sleep_hist.pdf Graphic file (type p
@@ -2830,8 +3003,8 @@ df)
 <use 1-6_numerical_data/figures/sleep_hist/sleep_hist.pdf>
 Package pdftex.def Info: 1-6_numerical_data/figures/sleep_hist/sleep_hist.pdf u
 sed on input line 356.
-(pdftex.def)             Requested size: 160.19762pt x 91.54147pt.
- [125
+(pdftex.def)             Requested size: 153.64493pt x 87.79654pt.
+ [126
 
 ]
 File: 1-6_numerical_data/figures/sleep_hist/sleep_hist.pdf Graphic file (type p
@@ -2840,22 +3013,12 @@ df)
 <use 1-6_numerical_data/figures/sleep_hist/sleep_hist.pdf>
 Package pdftex.def Info: 1-6_numerical_data/figures/sleep_hist/sleep_hist.pdf u
 sed on input line 356.
-(pdftex.def)             Requested size: 160.19762pt x 91.54147pt.
- [126
-
-] [127
+(pdftex.def)             Requested size: 153.64493pt x 87.79654pt.
+ [127
 
 ] [128
 
-]
-File: 1-6_numerical_data/figures/sleep_hist/sleep_hist.pdf Graphic file (type p
-df)
-
-<use 1-6_numerical_data/figures/sleep_hist/sleep_hist.pdf>
-Package pdftex.def Info: 1-6_numerical_data/figures/sleep_hist/sleep_hist.pdf u
-sed on input line 405.
-(pdftex.def)             Requested size: 160.19762pt x 91.54147pt.
- [129
+] [129
 
 ]
 File: 1-6_numerical_data/figures/sleep_hist/sleep_hist.pdf Graphic file (type p
@@ -2864,46 +3027,65 @@ df)
 <use 1-6_numerical_data/figures/sleep_hist/sleep_hist.pdf>
 Package pdftex.def Info: 1-6_numerical_data/figures/sleep_hist/sleep_hist.pdf u
 sed on input line 405.
-(pdftex.def)             Requested size: 160.19762pt x 91.54147pt.
- [130
+(pdftex.def)             Requested size: 153.64493pt x 87.79654pt.
+
+Overfull \vbox (3.98987pt too high) detected at line 405
+ []
+
+[130
 
 ]
 File: 1-6_numerical_data/figures/sleep_hist/sleep_hist.pdf Graphic file (type p
 df)
-
-<use 1-6_numerical_data/figures/sleep_hist/sleep_hist.pdf>
+ <use 1-6_numerical_data/figures/sleep_hist/sleep_hist.pdf>
 Package pdftex.def Info: 1-6_numerical_data/figures/sleep_hist/sleep_hist.pdf u
 sed on input line 405.
-(pdftex.def)             Requested size: 160.19762pt x 91.54147pt.
- [131
+(pdftex.def)             Requested size: 153.64493pt x 87.79654pt.
 
-] [132
+Overfull \vbox (3.98987pt too high) detected at line 405
+ []
+
+[131
+
+]
+File: 1-6_numerical_data/figures/sleep_hist/sleep_hist.pdf Graphic file (type p
+df)
+ <use 1-6_numerical_data/figures/sleep_hist/sleep_hist.pdf>
+Package pdftex.def Info: 1-6_numerical_data/figures/sleep_hist/sleep_hist.pdf u
+sed on input line 405.
+(pdftex.def)             Requested size: 153.64493pt x 87.79654pt.
+
+Overfull \vbox (3.98987pt too high) detected at line 405
+ []
+
+[132
+
+] [133
 
 ]
 \openout4 = `chp1.vrb'.
 
-
-(./chp1.vrb
+ (./chp1.vrb
 Overfull \hbox (21.90005pt too wide) in paragraph at lines 11--13
 []  
  []
 
-) [133
+) [134
 
 ]
-<1-6_numerical_data/figures/study_hours/study_hours_box.pdf, id=1581, 433.62pt 
+<1-6_numerical_data/figures/study_hours/study_hours_box.pdf, id=1159, 433.62pt 
 x 289.08pt>
 File: 1-6_numerical_data/figures/study_hours/study_hours_box.pdf Graphic file (
 type pdf)
  <use 1-6_numerical_data/figures/study_hours/study_hours_box.pdf>
 Package pdftex.def Info: 1-6_numerical_data/figures/study_hours/study_hours_box
 .pdf used on input line 462.
-(pdftex.def)             Requested size: 224.2757pt x 149.51965pt.
+(pdftex.def)             Requested size: 215.10196pt x 143.4016pt.
 
-[134
+[135
 
  <./1-6_numerical_data/figures/study_hours/study_hours_box.pdf>]
-<1-6_numerical_data/figures/study_hours/study_hours_box_layout.pdf, id=1597, 43
+<1-6_numerical_data/figures/study_hours/study_hours_box_layout.pdf, id=1172, 43
 3.62pt x 289.08pt>
 File: 1-6_numerical_data/figures/study_hours/study_hours_box_layout.pdf Graphic
  file (type pdf)
@@ -2911,12 +3093,12 @@ File: 1-6_numerical_data/figures/study_hours/study_hours_box_layout.pdf Graphic
 <use 1-6_numerical_data/figures/study_hours/study_hours_box_layout.pdf>
 Package pdftex.def Info: 1-6_numerical_data/figures/study_hours/study_hours_box
 _layout.pdf used on input line 473.
-(pdftex.def)             Requested size: 304.3745pt x 202.92804pt.
+(pdftex.def)             Requested size: 291.92444pt x 194.62654pt.
 
-Overfull \vbox (0.61215pt too high) detected at line 473
+Overfull \vbox (2.17847pt too high) detected at line 473
  []
 
-[135
+[136
 
  <./1-6_numerical_data/figures/study_hours/study_hours_box_layout.pdf>]
 \openout4 = `chp1.vrb'.
@@ -2931,13 +3113,6 @@ LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 (Font)              scaled to size 6.64998pt on input line 20.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 (Font)              scaled to size 4.74998pt on input line 20.
-) [136
-
-] (./chp1.vrb
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--16
-[] 
- []
-
 ) [137
 
 ] (./chp1.vrb
@@ -2947,12 +3122,19 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--16
 
 ) [138
 
-] [139
+] (./chp1.vrb
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--16
+[] 
+ []
+
+) [139
 
 ] [140
 
+] [141
+
 ]
-<1-6_numerical_data/figures/house_income/house_income_dot_stacked.pdf, id=1659,
+<1-6_numerical_data/figures/house_income/house_income_dot_stacked.pdf, id=1215,
  505.89pt x 216.81pt>
 File: 1-6_numerical_data/figures/house_income/house_income_dot_stacked.pdf Grap
 hic file (type pdf)
@@ -2960,9 +3142,12 @@ hic file (type pdf)
 <use 1-6_numerical_data/figures/house_income/house_income_dot_stacked.pdf>
 Package pdftex.def Info: 1-6_numerical_data/figures/house_income/house_income_d
 ot_stacked.pdf used on input line 542.
-(pdftex.def)             Requested size: 320.39525pt x 137.31552pt.
+(pdftex.def)             Requested size: 307.28987pt x 131.6981pt.
 
-[141
+Overfull \vbox (3.91089pt too high) detected at line 542
+ []
+
+[142
 
  <./1-6_numerical_data/figures/house_income/house_income_dot_stacked.pdf>]
 File: 1-6_numerical_data/figures/house_income/house_income_dot_stacked.pdf Grap
@@ -2971,65 +3156,65 @@ hic file (type pdf)
 <use 1-6_numerical_data/figures/house_income/house_income_dot_stacked.pdf>
 Package pdftex.def Info: 1-6_numerical_data/figures/house_income/house_income_d
 ot_stacked.pdf used on input line 568.
-(pdftex.def)             Requested size: 320.39525pt x 137.31552pt.
+(pdftex.def)             Requested size: 307.28987pt x 131.6981pt.
 LaTeX Font Info:    Font shape `OT1/txss/bx/n' in size <10> not available
 (Font)              Font shape `OT1/txss/b/n' tried instead on input line 568.
 LaTeX Font Info:    Font shape `OT1/txss/b/n' will be
 (Font)              scaled to size 9.49997pt on input line 568.
 
-Overfull \vbox (3.19962pt too high) detected at line 568
+Overfull \vbox (21.92458pt too high) detected at line 568
  []
 
-[142
-
-] [143
+[143
 
 ] [144
 
 ] [145
 
+] [146
+
 ]
-<1-6_numerical_data/figures/mean_med/sym.pdf, id=1707, 361.35pt x 216.81pt>
+<1-6_numerical_data/figures/mean_med/sym.pdf, id=1248, 361.35pt x 216.81pt>
 File: 1-6_numerical_data/figures/mean_med/sym.pdf Graphic file (type pdf)
 
 <use 1-6_numerical_data/figures/mean_med/sym.pdf>
 Package pdftex.def Info: 1-6_numerical_data/figures/mean_med/sym.pdf used on in
 put line 618.
-(pdftex.def)             Requested size: 105.73102pt x 63.439pt.
+(pdftex.def)             Requested size: 101.40622pt x 60.84201pt.
 
-<1-6_numerical_data/figures/mean_med/rs.pdf, id=1708, 361.35pt x 216.81pt>
+<1-6_numerical_data/figures/mean_med/rs.pdf, id=1249, 361.35pt x 216.81pt>
 File: 1-6_numerical_data/figures/mean_med/rs.pdf Graphic file (type pdf)
 
 <use 1-6_numerical_data/figures/mean_med/rs.pdf>
 Package pdftex.def Info: 1-6_numerical_data/figures/mean_med/rs.pdf used on inp
 ut line 618.
-(pdftex.def)             Requested size: 105.73102pt x 63.439pt.
+(pdftex.def)             Requested size: 101.40622pt x 60.84201pt.
 
-<1-6_numerical_data/figures/mean_med/ls.pdf, id=1709, 361.35pt x 216.81pt>
+<1-6_numerical_data/figures/mean_med/ls.pdf, id=1250, 361.35pt x 216.81pt>
 File: 1-6_numerical_data/figures/mean_med/ls.pdf Graphic file (type pdf)
 
 <use 1-6_numerical_data/figures/mean_med/ls.pdf>
 Package pdftex.def Info: 1-6_numerical_data/figures/mean_med/ls.pdf used on inp
 ut line 618.
-(pdftex.def)             Requested size: 105.73102pt x 63.439pt.
+(pdftex.def)             Requested size: 101.40622pt x 60.84201pt.
 
-Overfull \vbox (6.07059pt too high) detected at line 618
+Overfull \vbox (29.99898pt too high) detected at line 618
  []
 
-[146
+[147
 
  <./1-6_numerical_data/figures/mean_med/sym.pdf> <./1-6_numerical_data/figures/
 mean_med/rs.pdf> <./1-6_numerical_data/figures/mean_med/ls.pdf>]
-<1-6_numerical_data/figures/notes_perc/notes_perc_hist.pdf, id=1736, 505.89pt x
+<1-6_numerical_data/figures/notes_perc/notes_perc_hist.pdf, id=1275, 505.89pt x
  289.08pt>
 File: 1-6_numerical_data/figures/notes_perc/notes_perc_hist.pdf Graphic file (t
 ype pdf)
  <use 1-6_numerical_data/figures/notes_perc/notes_perc_hist.pdf>
 Package pdftex.def Info: 1-6_numerical_data/figures/notes_perc/notes_perc_hist.
 pdf used on input line 651.
-(pdftex.def)             Requested size: 201.84676pt x 115.34323pt.
+(pdftex.def)             Requested size: 193.59044pt x 110.62346pt.
 
-[147
+[148
 
  <./1-6_numerical_data/figures/notes_perc/notes_perc_hist.pdf>]
 File: 1-6_numerical_data/figures/notes_perc/notes_perc_hist.pdf Graphic file (t
@@ -3038,11 +3223,11 @@ ype pdf)
 <use 1-6_numerical_data/figures/notes_perc/notes_perc_hist.pdf>
 Package pdftex.def Info: 1-6_numerical_data/figures/notes_perc/notes_perc_hist.
 pdf used on input line 651.
-(pdftex.def)             Requested size: 201.84676pt x 115.34323pt.
- [148
+(pdftex.def)             Requested size: 193.59044pt x 110.62346pt.
+ [149
 
 ]
-<1-6_numerical_data/figures/basket_games/basket_games_hist.pdf, id=1758, 505.89
+<1-6_numerical_data/figures/basket_games/basket_games_hist.pdf, id=1291, 505.89
 pt x 289.08pt>
 File: 1-6_numerical_data/figures/basket_games/basket_games_hist.pdf Graphic fil
 e (type pdf)
@@ -3050,9 +3235,9 @@ e (type pdf)
 <use 1-6_numerical_data/figures/basket_games/basket_games_hist.pdf>
 Package pdftex.def Info: 1-6_numerical_data/figures/basket_games/basket_games_h
 ist.pdf used on input line 673.
-(pdftex.def)             Requested size: 160.19762pt x 91.54147pt.
+(pdftex.def)             Requested size: 153.64493pt x 87.79654pt.
 
-<1-6_numerical_data/figures/basket_games/basket_games_hist_log.pdf, id=1759, 50
+<1-6_numerical_data/figures/basket_games/basket_games_hist_log.pdf, id=1292, 50
 5.89pt x 289.08pt>
 File: 1-6_numerical_data/figures/basket_games/basket_games_hist_log.pdf Graphic
  file (type pdf)
@@ -3060,9 +3245,12 @@ File: 1-6_numerical_data/figures/basket_games/basket_games_hist_log.pdf Graphic
 <use 1-6_numerical_data/figures/basket_games/basket_games_hist_log.pdf>
 Package pdftex.def Info: 1-6_numerical_data/figures/basket_games/basket_games_h
 ist_log.pdf used on input line 673.
-(pdftex.def)             Requested size: 160.19762pt x 91.54147pt.
+(pdftex.def)             Requested size: 153.64493pt x 87.79654pt.
 
-[149
+Overfull \vbox (18.06647pt too high) detected at line 673
+ []
+
+[150
 
  <./1-6_numerical_data/figures/basket_games/basket_games_hist.pdf> <./1-6_numer
 ical_data/figures/basket_games/basket_games_hist_log.pdf>]
@@ -3072,58 +3260,68 @@ e (type pdf)
 <use 1-6_numerical_data/figures/basket_games/basket_games_hist.pdf>
 Package pdftex.def Info: 1-6_numerical_data/figures/basket_games/basket_games_h
 ist.pdf used on input line 673.
-(pdftex.def)             Requested size: 160.19762pt x 91.54147pt.
+(pdftex.def)             Requested size: 153.64493pt x 87.79654pt.
 File: 1-6_numerical_data/figures/basket_games/basket_games_hist_log.pdf Graphic
  file (type pdf)
 
 <use 1-6_numerical_data/figures/basket_games/basket_games_hist_log.pdf>
 Package pdftex.def Info: 1-6_numerical_data/figures/basket_games/basket_games_h
 ist_log.pdf used on input line 673.
-(pdftex.def)             Requested size: 160.19762pt x 91.54147pt.
+(pdftex.def)             Requested size: 153.64493pt x 87.79654pt.
 
-[150
+Overfull \vbox (18.06647pt too high) detected at line 673
+ []
 
-] [151
-
-] [152
-
-] [153
+[151
 
 ]
-<1-6_numerical_data/figures/change_in_pop_intensity.png, id=1811, 886.31125pt x
+Overfull \vbox (3.48027pt too high) detected at line 702
+ []
+
+[152
+
+]
+Overfull \vbox (3.48027pt too high) detected at line 702
+ []
+
+[153
+
+]
+Overfull \vbox (3.48027pt too high) detected at line 702
+ []
+
+[154
+
+]
+<1-6_numerical_data/figures/change_in_pop_intensity.png, id=1329, 886.31125pt x
  393.47pt>
 File: 1-6_numerical_data/figures/change_in_pop_intensity.png Graphic file (type
  png)
  <use 1-6_numerical_data/figures/change_in_pop_intensity.png>
 Package pdftex.def Info: 1-6_numerical_data/figures/change_in_pop_intensity.png
  used on input line 721.
-(pdftex.def)             Requested size: 304.3745pt x 135.12288pt.
-
-[154
-
- <./1-6_numerical_data/figures/change_in_pop_intensity.png>])
-(./1-7_categorical_data/1-7_categorical_data.tex (./chp1.toc)
-
-Class beamer Warning: Frame text is shrunk by a factor of 19.97528 percent inst
-ead of 0 percent on input line 3.
+(pdftex.def)             Requested size: 291.92444pt x 129.59933pt.
 
 [155
 
-] [156
+ <./1-6_numerical_data/figures/change_in_pop_intensity.png>])
+(./1-7_categorical_data/1-7_categorical_data.tex [156
 
 ] [157
 
+] [158
+
 ]
-<1-7_categorical_data/figures/gender_spouse/gender_bar.pdf, id=1861, 505.89pt x
+<1-7_categorical_data/figures/gender_spouse/gender_bar.pdf, id=1354, 505.89pt x
  289.08pt>
 File: 1-7_categorical_data/figures/gender_spouse/gender_bar.pdf Graphic file (t
 ype pdf)
  <use 1-7_categorical_data/figures/gender_spouse/gender_bar.pdf>
 Package pdftex.def Info: 1-7_categorical_data/figures/gender_spouse/gender_bar.
 pdf used on input line 54.
-(pdftex.def)             Requested size: 144.17688pt x 82.38864pt.
+(pdftex.def)             Requested size: 138.2795pt x 79.01865pt.
 
-<1-7_categorical_data/figures/gender_spouse/gender_rel_bar.pdf, id=1862, 505.89
+<1-7_categorical_data/figures/gender_spouse/gender_rel_bar.pdf, id=1355, 505.89
 pt x 289.08pt>
 File: 1-7_categorical_data/figures/gender_spouse/gender_rel_bar.pdf Graphic fil
 e (type pdf)
@@ -3131,8 +3329,12 @@ e (type pdf)
 <use 1-7_categorical_data/figures/gender_spouse/gender_rel_bar.pdf>
 Package pdftex.def Info: 1-7_categorical_data/figures/gender_spouse/gender_rel_
 bar.pdf used on input line 54.
-(pdftex.def)             Requested size: 144.17688pt x 82.38864pt.
- [158
+(pdftex.def)             Requested size: 138.2795pt x 79.01865pt.
+
+Overfull \vbox (30.79774pt too high) detected at line 54
+ []
+
+[159
 
  <./1-7_categorical_data/figures/gender_spouse/gender_bar.pdf> <./1-7_categoric
 al_data/figures/gender_spouse/gender_rel_bar.pdf>]
@@ -3142,34 +3344,38 @@ ype pdf)
 <use 1-7_categorical_data/figures/gender_spouse/gender_bar.pdf>
 Package pdftex.def Info: 1-7_categorical_data/figures/gender_spouse/gender_bar.
 pdf used on input line 54.
-(pdftex.def)             Requested size: 144.17688pt x 82.38864pt.
+(pdftex.def)             Requested size: 138.2795pt x 79.01865pt.
 File: 1-7_categorical_data/figures/gender_spouse/gender_rel_bar.pdf Graphic fil
 e (type pdf)
 
 <use 1-7_categorical_data/figures/gender_spouse/gender_rel_bar.pdf>
 Package pdftex.def Info: 1-7_categorical_data/figures/gender_spouse/gender_rel_
 bar.pdf used on input line 54.
-(pdftex.def)             Requested size: 144.17688pt x 82.38864pt.
- [159
+(pdftex.def)             Requested size: 138.2795pt x 79.01865pt.
+
+Overfull \vbox (30.79774pt too high) detected at line 54
+ []
+
+[160
 
 ]
 File: 1-7_categorical_data/figures/gender_spouse/gender_bar.pdf Graphic file (t
 ype pdf)
-
-<use 1-7_categorical_data/figures/gender_spouse/gender_bar.pdf>
+ <use 1-7_categorical_data/figures/gender_spouse/gender_bar.pdf>
 Package pdftex.def Info: 1-7_categorical_data/figures/gender_spouse/gender_bar.
 pdf used on input line 54.
-(pdftex.def)             Requested size: 144.17688pt x 82.38864pt.
+(pdftex.def)             Requested size: 138.2795pt x 79.01865pt.
 File: 1-7_categorical_data/figures/gender_spouse/gender_rel_bar.pdf Graphic fil
 e (type pdf)
 
 <use 1-7_categorical_data/figures/gender_spouse/gender_rel_bar.pdf>
 Package pdftex.def Info: 1-7_categorical_data/figures/gender_spouse/gender_rel_
 bar.pdf used on input line 54.
-(pdftex.def)             Requested size: 144.17688pt x 82.38864pt.
- [160
+(pdftex.def)             Requested size: 138.2795pt x 79.01865pt.
 
-]
+Overfull \vbox (30.79774pt too high) detected at line 54
+ []
+
 [161
 
 ] [162
@@ -3178,8 +3384,10 @@ bar.pdf used on input line 54.
 
 ] [164
 
+] [165
+
 ]
-<1-7_categorical_data/figures/gender_spouse/gender_seg_bar.pdf, id=1930, 361.35
+<1-7_categorical_data/figures/gender_spouse/gender_seg_bar.pdf, id=1403, 361.35
 pt x 361.35pt>
 File: 1-7_categorical_data/figures/gender_spouse/gender_seg_bar.pdf Graphic fil
 e (type pdf)
@@ -3187,9 +3395,9 @@ e (type pdf)
 <use 1-7_categorical_data/figures/gender_spouse/gender_seg_bar.pdf>
 Package pdftex.def Info: 1-7_categorical_data/figures/gender_spouse/gender_seg_
 bar.pdf used on input line 118.
-(pdftex.def)             Requested size: 105.73102pt x 105.73166pt.
+(pdftex.def)             Requested size: 101.40622pt x 101.40337pt.
 
-<1-7_categorical_data/figures/gender_spouse/gender_rel_seg_bar.pdf, id=1931, 36
+<1-7_categorical_data/figures/gender_spouse/gender_rel_seg_bar.pdf, id=1404, 36
 1.35pt x 361.35pt>
 File: 1-7_categorical_data/figures/gender_spouse/gender_rel_seg_bar.pdf Graphic
  file (type pdf)
@@ -3197,9 +3405,9 @@ File: 1-7_categorical_data/figures/gender_spouse/gender_rel_seg_bar.pdf Graphic
 <use 1-7_categorical_data/figures/gender_spouse/gender_rel_seg_bar.pdf>
 Package pdftex.def Info: 1-7_categorical_data/figures/gender_spouse/gender_rel_
 seg_bar.pdf used on input line 118.
-(pdftex.def)             Requested size: 105.73102pt x 105.73166pt.
+(pdftex.def)             Requested size: 101.40622pt x 101.40337pt.
 
-<1-7_categorical_data/figures/gender_spouse/gender_mosaic.pdf, id=1932, 361.35p
+<1-7_categorical_data/figures/gender_spouse/gender_mosaic.pdf, id=1405, 361.35p
 t x 361.35pt>
 File: 1-7_categorical_data/figures/gender_spouse/gender_mosaic.pdf Graphic file
  (type pdf)
@@ -3207,13 +3415,13 @@ File: 1-7_categorical_data/figures/gender_spouse/gender_mosaic.pdf Graphic file
 <use 1-7_categorical_data/figures/gender_spouse/gender_mosaic.pdf>
 Package pdftex.def Info: 1-7_categorical_data/figures/gender_spouse/gender_mosa
 ic.pdf used on input line 118.
-(pdftex.def)             Requested size: 105.73102pt x 105.73166pt.
- [165
+(pdftex.def)             Requested size: 101.40622pt x 101.40337pt.
+ [166
 
  <./1-7_categorical_data/figures/gender_spouse/gender_seg_bar.pdf> <./1-7_categ
 orical_data/figures/gender_spouse/gender_rel_seg_bar.pdf> <./1-7_categorical_da
 ta/figures/gender_spouse/gender_mosaic.pdf>]
-<1-7_categorical_data/figures/mammal_pie_chart/mammal_pie_chart.pdf, id=1963, 2
+<1-7_categorical_data/figures/mammal_pie_chart/mammal_pie_chart.pdf, id=1434, 2
 72.67496pt x 272.27457pt>
 File: 1-7_categorical_data/figures/mammal_pie_chart/mammal_pie_chart.pdf Graphi
 c file (type pdf)
@@ -3221,123 +3429,135 @@ c file (type pdf)
 <use 1-7_categorical_data/figures/mammal_pie_chart/mammal_pie_chart.pdf>
 Package pdftex.def Info: 1-7_categorical_data/figures/mammal_pie_chart/mammal_p
 ie_chart.pdf used on input line 140.
-(pdftex.def)             Requested size: 128.15614pt x 127.96906pt.
+(pdftex.def)             Requested size: 122.91406pt x 122.7343pt.
 
 <1-7_categorical_data/figures/mammal_pie_chart/mammal_pie_chart_legend.pdf, id=
-1964, 170.08604pt x 437.30046pt>
+1435, 170.08604pt x 437.30046pt>
 File: 1-7_categorical_data/figures/mammal_pie_chart/mammal_pie_chart_legend.pdf
  Graphic file (type pdf)
 
 <use 1-7_categorical_data/figures/mammal_pie_chart/mammal_pie_chart_legend.pdf>
 Package pdftex.def Info: 1-7_categorical_data/figures/mammal_pie_chart/mammal_p
 ie_chart_legend.pdf used on input line 140.
-(pdftex.def)             Requested size: 64.07806pt x 164.75462pt.
-[166
+(pdftex.def)             Requested size: 61.45703pt x 158.00856pt.
+
+Overfull \vbox (9.05737pt too high) detected at line 140
+ []
+
+[167
 
  <./1-7_categorical_data/figures/mammal_pie_chart/mammal_pie_chart.pdf> <./1-7_
 categorical_data/figures/mammal_pie_chart/mammal_pie_chart_legend.pdf>]
-<1-7_categorical_data/figures/year_clubs/year_clubs.pdf, id=2001, 650.43pt x 28
+<1-7_categorical_data/figures/year_clubs/year_clubs.pdf, id=1470, 650.43pt x 28
 9.08pt>
 File: 1-7_categorical_data/figures/year_clubs/year_clubs.pdf Graphic file (type
  pdf)
  <use 1-7_categorical_data/figures/year_clubs/year_clubs.pdf>
 Package pdftex.def Info: 1-7_categorical_data/figures/year_clubs/year_clubs.pdf
  used on input line 158.
-(pdftex.def)             Requested size: 320.39525pt x 142.4003pt.
- [167
+(pdftex.def)             Requested size: 307.28987pt x 136.57777pt.
+ [168
 
  <./1-7_categorical_data/figures/year_clubs/year_clubs.pdf>])
-(./1-8_gender_discrimination/1-8_gender_discrimination.tex (./chp1.toc)
-
-Class beamer Warning: Frame text is shrunk by a factor of 16.41235 percent inst
-ead of 0 percent on input line 3.
-
-[168
+(./1-8_gender_discrimination/1-8_gender_discrimination.tex [169
 
 ]
-Overfull \vbox (0.9639pt too high) detected at line 31
- []
-
-[169
-
-]
-Overfull \vbox (0.9639pt too high) detected at line 31
+Overfull \vbox (68.48048pt too high) detected at line 31
  []
 
 [170
+
+]
+Overfull \vbox (68.48048pt too high) detected at line 31
+ []
+
+[171
 
 ]
 LaTeX Font Info:    Font shape `OT1/txss/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/txss/b/n' tried instead on input line 59.
 LaTeX Font Info:    Font shape `OT1/txss/b/n' will be
 (Font)              scaled to size 10.40245pt on input line 59.
- [171
-
-] [172
+ [172
 
 ] [173
 
-] [174
+]
+Overfull \vbox (8.65976pt too high) detected at line 80
+ []
 
-] [175
+[174
+
+]
+Overfull \vbox (8.65976pt too high) detected at line 80
+ []
+
+[175
 
 ] [176
 
+] [177
+
 ]
-<1-8_gender_discrimination/figures/trial.png, id=2102, 356.83313pt x 275.52937p
+<1-8_gender_discrimination/figures/trial.png, id=1531, 356.83313pt x 275.52937p
 t>
 File: 1-8_gender_discrimination/figures/trial.png Graphic file (type png)
  <use 1-8_gender_discrimination/figures/trial.png>
 Package pdftex.def Info: 1-8_gender_discrimination/figures/trial.png used on in
 put line 140.
-(pdftex.def)             Requested size: 160.19762pt x 123.69698pt.
+(pdftex.def)             Requested size: 153.64493pt x 118.63507pt.
 LaTeX Font Info:    Font shape `OT1/txss/m/it' in size <5> not available
 (Font)              Font shape `OT1/txss/m/sl' tried instead on input line 140.
 
 LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
 (Font)              scaled to size 4.74998pt on input line 140.
- [177
 
- <./1-8_gender_discrimination/figures/trial.png (PNG copy)>] [178
+Overfull \vbox (20.98412pt too high) detected at line 140
+ []
 
-] [179
+[178
+
+ <./1-8_gender_discrimination/figures/trial.png (PNG copy)>] [179
 
 ] [180
 
-] [181
+]
+[181
+
+] [182
 
 ]
-Overfull \vbox (3.72134pt too high) detected at line 242
+Overfull \vbox (34.99306pt too high) detected at line 242
  []
 
-[182
+[183
 
 ]
-<1-8_gender_discrimination/figures/step1.png, id=2153, 1079.03125pt x 585.18625
+<1-8_gender_discrimination/figures/step1.png, id=1564, 1079.03125pt x 585.18625
 pt>
 File: 1-8_gender_discrimination/figures/step1.png Graphic file (type png)
  <use 1-8_gender_discrimination/figures/step1.png>
 Package pdftex.def Info: 1-8_gender_discrimination/figures/step1.png used on in
 put line 253.
-(pdftex.def)             Requested size: 320.39525pt x 173.76245pt.
- [183
+(pdftex.def)             Requested size: 307.28987pt x 166.6548pt.
+ [184
 
  <./1-8_gender_discrimination/figures/step1.png>]
-<1-8_gender_discrimination/figures/step2.png, id=2163, 1617.04124pt x 1001.7425
+<1-8_gender_discrimination/figures/step2.png, id=1571, 1617.04124pt x 1001.7425
 pt>
 File: 1-8_gender_discrimination/figures/step2.png Graphic file (type png)
  <use 1-8_gender_discrimination/figures/step2.png>
 Package pdftex.def Info: 1-8_gender_discrimination/figures/step2.png used on in
 put line 265.
-(pdftex.def)             Requested size: 320.39525pt x 198.48013pt.
- [184
+(pdftex.def)             Requested size: 307.28987pt x 190.36362pt.
+ [185
 
- <./1-8_gender_discrimination/figures/step2.png>] [185
+ <./1-8_gender_discrimination/figures/step2.png>] [186
 
-] [186
+] [187
 
 ]
-<1-8_gender_discrimination/figures/discRandDotPlot/discRandDotPlot.pdf, id=2188
+<1-8_gender_discrimination/figures/discRandDotPlot/discRandDotPlot.pdf, id=1589
 , 361.35pt x 216.81pt>
 File: 1-8_gender_discrimination/figures/discRandDotPlot/discRandDotPlot.pdf Gra
 phic file (type pdf)
@@ -3345,12 +3565,12 @@ phic file (type pdf)
 <use 1-8_gender_discrimination/figures/discRandDotPlot/discRandDotPlot.pdf>
 Package pdftex.def Info: 1-8_gender_discrimination/figures/discRandDotPlot/disc
 RandDotPlot.pdf used on input line 297.
-(pdftex.def)             Requested size: 256.31717pt x 153.7906pt.
+(pdftex.def)             Requested size: 245.83282pt x 147.50162pt.
 
-Overfull \vbox (8.04364pt too high) detected at line 297
+Overfull \vbox (25.25714pt too high) detected at line 297
  []
 
-[187
+[188
 
  <./1-8_gender_discrimination/figures/discRandDotPlot/discRandDotPlot.pdf>])
 \tf@nav=\write7
@@ -3362,38 +3582,39 @@ Overfull \vbox (8.04364pt too high) detected at line 297
 \tf@snm=\write9
 \openout9 = `chp1.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 81.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 81.
  (./chp1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 53.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 81.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 81.
 Package rerunfilecheck Info: File `chp1.out' has not changed.
-(rerunfilecheck)             Checksum: 687D0762EF087A172BFDBFF1001DCFFC;2607.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
+(rerunfilecheck)             Checksum: 089712B44CDAA77FE6BBEBB3E9CD46AF;2608.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 81.
  ) 
 Here is how much of TeX's memory you used:
- 22652 strings out of 493488
- 423590 string characters out of 3141326
- 477290 words of memory out of 3000000
- 24828 multiletter control sequences out of 15000+200000
- 68015 words of font info for 153 fonts, out of 3000000 for 9000
- 957 hyphenation exceptions out of 8191
- 49i,17n,64p,566b,769s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2012/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/local/texlive/
-2012/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2012/t
-exmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2012/texmf-di
-st/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2012/texmf-dist/font
-s/type1/public/txfonts/txsy.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1
-/public/txfonts/txtt.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/he
-lvetic/uhvb8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/helvetic/
-uhvr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.
-pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/
-local/texlive/2012/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on chp1.pdf (187 pages, 2646966 bytes).
+ 24847 strings out of 493089
+ 479747 string characters out of 6134842
+ 539075 words of memory out of 5000000
+ 27174 multiletter control sequences out of 15000+600000
+ 72407 words of font info for 162 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 63i,16n,92p,1751b,713s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/txfonts/rtcxss.pfb></usr/local/texliv
+e/2015/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/local/texlive/2015/
+texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2015/texmf-
+dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2015/texmf-dist/fo
+nts/type1/public/txfonts/txex.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
+e1/public/txfonts/txsy.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publ
+ic/txfonts/txtt.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helveti
+c/uhvb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8
+a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local
+/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on chp1.pdf (188 pages, 2633668 bytes).
 PDF statistics:
- 2334 PDF objects out of 2487 (max. 8388607)
- 1966 compressed objects within 20 object streams
- 411 named destinations out of 1000 (max. 500000)
- 683 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1735 PDF objects out of 2073 (max. 8388607)
+ 1371 compressed objects within 14 object streams
+ 413 named destinations out of 1000 (max. 500000)
+ 656 words of extra memory for PDF output out of 10000 (max. 10000000)
 

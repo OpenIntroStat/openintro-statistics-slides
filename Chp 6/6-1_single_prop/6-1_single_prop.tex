@@ -1,3 +1,5 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \section{Inference for a single proportion}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -42,12 +44,12 @@ Total						& 670
 
 \begin{itemize}
 
-\item \hl{Parameter of interest:} Proportion of \red{all} Americans who have good intuition about experimental design.
+\item \hl{Parameter of interest:} Proportion of \orange{all} Americans who have good intuition about experimental design.
 \[ \mathhl{p}~\scriptsize{(\text{a population proportion})} \]
 
 \pause
 
-\item \hl{Point estimate:} Proportion of \red{sampled} Americans who have good intuition about experimental design.
+\item \hl{Point estimate:} Proportion of \orange{sampled} Americans who have good intuition about experimental design.
 \[ \mathhl{\hat{p}}~\scriptsize{(\text{a sample proportion})} \]
 
 \end{itemize}
@@ -191,7 +193,7 @@ Given: $n = 670, \hat{p} = 0.85$. First check conditions.
 \pq{We are given that  $n = 670, \hat{p} = 0.85$, we also just learned that the standard error of the sample proportion is $SE = \sqrt{\frac{p(1-p)}{n}}$. Which of the below is the correct calculation of the 95\% confidence interval?}
 
 \begin{enumerate}[(a)]
-\solnMult{$0.85 \pm 1.96 \times \sqrt{\frac{0.85 \times 0.15}{670}}$} \soln{\only<2>{\red{$\rightarrow (0.82, 0.88)$}}}
+\solnMult{$0.85 \pm 1.96 \times \sqrt{\frac{0.85 \times 0.15}{670}}$} \soln{\only<2>{\orange{$\rightarrow (0.82, 0.88)$}}}
 \item $0.85 \pm 1.65 \times \sqrt{\frac{0.85 \times 0.15}{670}}$
 \item $0.85 \pm 1.96 \times \frac{0.85 \times 0.15}{\sqrt{670}}$
 \item $571 \pm 1.96 \times \sqrt{\frac{571 \times 99}{670}}$
@@ -230,13 +232,13 @@ Given: $n = 670, \hat{p} = 0.85$. First check conditions.
 \[ ME = z^\star \times SE\]
 \pause
 \begin{eqnarray*}
-0.01 &\ge& 1.96 \times \sqrt{\frac{0.85 \times 0.15}{n}} \red{$\rightarrow$ \text{Use estimate for $\hat{p}$ from previous study}} \\
+0.01 &\ge& 1.96 \times \sqrt{\frac{0.85 \times 0.15}{n}} \orange{$\rightarrow$ \text{Use estimate for $\hat{p}$ from previous study}} \\
 \pause
 0.01^2 &\ge& 1.96^2 \times \frac{0.85 \times 0.15}{n} \\
 \pause
 n &\ge& \frac{1.96^2 \times 0.85 \times 0.15}{0.01^2} \\
 \pause
-n &\ge& 4898.04 \pause \red{~$\rightarrow$ n \text{ should be at least 4,899}}
+n &\ge& 4898.04 \pause \orange{~$\rightarrow$ n \text{ should be at least 4,899}}
 \end{eqnarray*}
 
 \end{frame}
@@ -274,8 +276,8 @@ n &\ge& 4898.04 \pause \red{~$\rightarrow$ n \text{ should be at least 4,899}}
 
 \item Success-failure condition:
 \begin{itemize}
-\item CI: At least 10 \red{observed} successes and failures
-\item HT: At least 10 \red{expected} successes and failures, calculated using the null value
+\item CI: At least 10 \orange{observed} successes and failures
+\item HT: At least 10 \orange{expected} successes and failures, calculated using the null value
 \end{itemize}
 
 \item Standard error:

@@ -1,27 +1,27 @@
-\beamer@endinputifotherversion {3.22pt}
+\beamer@endinputifotherversion {3.36pt}
 \headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
 \headcommand {\beamer@framepages {1}{1}}
 \headcommand {\sectionentry {1}{Line fitting, residuals, and correlation}{2}{Line fitting, residuals, and correlation}{0}}
 \headcommand {\beamer@sectionpages {1}{1}}
 \headcommand {\beamer@subsectionpages {1}{1}}
-\headcommand {\slideentry {1}{0}{2}{2/2}{}{0}}
+\headcommand {\slideentry {1}{0}{1}{2/2}{}{0}}
 \headcommand {\beamer@framepages {2}{2}}
-\headcommand {\slideentry {1}{0}{3}{3/3}{}{0}}
+\headcommand {\slideentry {1}{0}{2}{3/3}{}{0}}
 \headcommand {\beamer@framepages {3}{3}}
-\headcommand {\slideentry {1}{0}{4}{4/9}{}{0}}
+\headcommand {\slideentry {1}{0}{3}{4/9}{}{0}}
 \headcommand {\beamer@framepages {4}{9}}
-\headcommand {\slideentry {1}{0}{5}{10/12}{}{0}}
+\headcommand {\slideentry {1}{0}{4}{10/12}{}{0}}
 \headcommand {\beamer@framepages {10}{12}}
-\headcommand {\slideentry {1}{0}{6}{13/14}{}{0}}
+\headcommand {\slideentry {1}{0}{5}{13/14}{}{0}}
 \headcommand {\beamer@framepages {13}{14}}
-\headcommand {\slideentry {1}{0}{7}{15/16}{}{0}}
+\headcommand {\slideentry {1}{0}{6}{15/16}{}{0}}
 \headcommand {\beamer@framepages {15}{16}}
-\headcommand {\slideentry {1}{0}{8}{17/18}{}{0}}
+\headcommand {\slideentry {1}{0}{7}{17/18}{}{0}}
 \headcommand {\beamer@framepages {17}{18}}
 \headcommand {\sectionentry {2}{Fitting a line by least squares regression}{19}{Fitting a line by least squares regression}{0}}
 \headcommand {\beamer@sectionpages {2}{18}}
 \headcommand {\beamer@subsectionpages {2}{18}}
-\headcommand {\slideentry {2}{0}{9}{19/19}{}{0}}
+\headcommand {\slideentry {2}{0}{1}{19/19}{}{0}}
 \headcommand {\beamer@framepages {19}{19}}
 \headcommand {\beamer@subsectionentry {0}{2}{1}{20}{Eyeballing the line}}\headcommand {\beamer@subsectionpages {19}{19}}
 \headcommand {\slideentry {2}{1}{1}{20/21}{Eyeballing the line}{0}}
@@ -93,28 +93,28 @@
 \headcommand {\sectionentry {3}{Types of outliers in linear regression}{86}{Types of outliers in linear regression}{0}}
 \headcommand {\beamer@sectionpages {19}{85}}
 \headcommand {\beamer@subsectionpages {77}{85}}
-\headcommand {\slideentry {3}{0}{4}{86/86}{}{0}}
+\headcommand {\slideentry {3}{0}{1}{86/86}{}{0}}
 \headcommand {\beamer@framepages {86}{86}}
-\headcommand {\slideentry {3}{0}{5}{87/87}{}{0}}
+\headcommand {\slideentry {3}{0}{2}{87/87}{}{0}}
 \headcommand {\beamer@framepages {87}{87}}
-\headcommand {\slideentry {3}{0}{6}{88/89}{}{0}}
+\headcommand {\slideentry {3}{0}{3}{88/89}{}{0}}
 \headcommand {\beamer@framepages {88}{89}}
-\headcommand {\slideentry {3}{0}{7}{90/93}{}{0}}
+\headcommand {\slideentry {3}{0}{4}{90/93}{}{0}}
 \headcommand {\beamer@framepages {90}{93}}
-\headcommand {\slideentry {3}{0}{8}{94/94}{}{0}}
+\headcommand {\slideentry {3}{0}{5}{94/94}{}{0}}
 \headcommand {\beamer@framepages {94}{94}}
-\headcommand {\slideentry {3}{0}{9}{95/96}{}{0}}
+\headcommand {\slideentry {3}{0}{6}{95/96}{}{0}}
 \headcommand {\beamer@framepages {95}{96}}
-\headcommand {\slideentry {3}{0}{10}{97/98}{}{0}}
+\headcommand {\slideentry {3}{0}{7}{97/98}{}{0}}
 \headcommand {\beamer@framepages {97}{98}}
-\headcommand {\slideentry {3}{0}{11}{99/100}{}{0}}
+\headcommand {\slideentry {3}{0}{8}{99/100}{}{0}}
 \headcommand {\beamer@framepages {99}{100}}
-\headcommand {\slideentry {3}{0}{12}{101/101}{}{0}}
+\headcommand {\slideentry {3}{0}{9}{101/101}{}{0}}
 \headcommand {\beamer@framepages {101}{101}}
 \headcommand {\sectionentry {4}{Inference for linear regression}{102}{Inference for linear regression}{0}}
 \headcommand {\beamer@sectionpages {86}{101}}
 \headcommand {\beamer@subsectionpages {86}{101}}
-\headcommand {\slideentry {4}{0}{13}{102/102}{}{0}}
+\headcommand {\slideentry {4}{0}{1}{102/102}{}{0}}
 \headcommand {\beamer@framepages {102}{102}}
 \headcommand {\beamer@subsectionentry {0}{4}{1}{103}{Understanding regression output from software}}\headcommand {\beamer@subsectionpages {102}{102}}
 \headcommand {\slideentry {4}{1}{1}{103/103}{Understanding regression output from software}{0}}
@@ -147,4 +147,4 @@
 \headcommand {\beamer@subsectionpages {126}{140}}
 \headcommand {\beamer@sectionpages {102}{140}}
 \headcommand {\beamer@documentpages {140}}
-\headcommand {\def \inserttotalframenumber {56}}
+\headcommand {\def \inserttotalframenumber {59}}

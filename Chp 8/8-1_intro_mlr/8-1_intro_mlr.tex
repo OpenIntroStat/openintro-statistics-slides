@@ -1,3 +1,5 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \section{Introduction to multiple regression}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -225,18 +227,18 @@ F-statistic: 76.73 on 2 and 12 DF,  p-value: 1.455e-07
 
 \begin{enumerate}
 
-\item For \hl{hardcover} books: plug in \red{0} for \var{cover}
+\item For \hl{hardcover} books: plug in \orange{0} for \var{cover}
 \begin{eqnarray*}
-\widehat{weight} &=& 197.96 + 0.72~volume - 184.05 \times \red{0} \\
+\widehat{weight} &=& 197.96 + 0.72~volume - 184.05 \times \orange{0} \\
 \pause
 &=& 197.96 +  0.72~volume
 \end{eqnarray*}
 
 \pause
 
-\item For \orange{paperback} books: plug in \red{1} for \var{cover}
+\item For \orange{paperback} books: plug in \orange{1} for \var{cover}
 \begin{eqnarray*}
-\widehat{weight} &=& 197.96 + 0.72~volume - 184.05 \times \red{1} \\
+\widehat{weight} &=& 197.96 + 0.72~volume - 184.05 \times \orange{1} \\
 \pause
 &=& 13.91 +  0.72~volume
 \end{eqnarray*}
@@ -318,7 +320,7 @@ F-statistic: 76.73 on 2 and 12 DF,  p-value: 1.455e-07
 }
 
 \begin{enumerate}[(a)]
-\solnMult{197.96 + 0.72 * 600 - 184.05 * 1} \soln{\only<2>{\red{~$= 445.91$ grams}}}
+\solnMult{197.96 + 0.72 * 600 - 184.05 * 1} \soln{\only<2>{\orange{~$= 445.91$ grams}}}
 \item 184.05 + 0.72 * 600 - 197.96 * 1
 \item 197.96 + 0.72 * 600 - 184.05 * 0
 \item 197.96 + 0.72 * 1 - 184.05 * 600
@@ -553,13 +555,13 @@ Total & 50 & 480.25 \\
 
 \begin{changemargin}{-1cm}{-1cm}
 \begin{eqnarray*}
-\text{Sum of squares of $y$: } SS_{Total} &=& \sum(y - \bar{y})^2 = 480.25 \red{ {\footnotesize ~$\rightarrow$ total variability}} \\
+\text{Sum of squares of $y$: } SS_{Total} &=& \sum(y - \bar{y})^2 = 480.25 \orange{ {\footnotesize ~$\rightarrow$ total variability}} \\
 \pause
 %\text{Variance of $y$: } V(y) &=&  \frac{\sum(y - \bar{y})^2}{n-1} = 9.6 \\
 %\pause
-\text{Sum of squares of residuals: } SS_{Error} &=& \sum e_i^2 = 347.68 \red{ { \footnotesize ~$\rightarrow$ unexplained variability}} \\
+\text{Sum of squares of residuals: } SS_{Error} &=& \sum e_i^2 = 347.68 \orange{ { \footnotesize ~$\rightarrow$ unexplained variability}} \\
 \pause
-\text{Sum of squares of $x$: } SS_{Model} &=& SS_{Total} - SS_{Error} \red{ {\footnotesize ~$\rightarrow$ explained variability}} \\
+\text{Sum of squares of $x$: } SS_{Model} &=& SS_{Total} - SS_{Error} \orange{ {\footnotesize ~$\rightarrow$ explained variability}} \\
 &=& 480.25 - 347.68 = 132.57
 \end{eqnarray*}
 \end{changemargin}
@@ -652,7 +654,7 @@ Total & 50 &    480.25\\
  & Estimate & Std. Error & t value & Pr($>$$|$t$|$) \\ 
   \hline
 (Intercept) & 3.31 & 1.90 & 1.74 & 0.09 \\ 
-  female\_house & \only<1>{0.69} \only<2>{\red{0.69}} & 0.16 & 4.32 & 0.00 \\ 
+  female\_house & \only<1>{0.69} \only<2>{\orange{0.69}} & 0.16 & 4.32 & 0.00 \\ 
    \hline
 \end{tabular}
 \end{center}
@@ -666,7 +668,7 @@ $\:$ \\
  & Estimate & Std. Error & t value & Pr($>$$|$t$|$) \\ 
   \hline
 (Intercept) & -2.58 & 5.78 & -0.45 & 0.66 \\ 
-  female\_house & \only<1>{0.89} \only<2>{\red{0.89}}  & 0.24 & 3.67 & 0.00 \\ 
+  female\_house & \only<1>{0.89} \only<2>{\orange{0.89}}  & 0.24 & 3.67 & 0.00 \\ 
   white & 0.04 & 0.04 & 1.08 & 0.29 \\   
    \hline
 \end{tabular}

@@ -1,4 +1,4 @@
-\beamer@endinputifotherversion {3.22pt}
+\beamer@endinputifotherversion {3.36pt}
 \select@language {english}
 \beamer@sectionintoc {1}{Case study}{2}{0}{1}
 \beamer@sectionintoc {2}{Data basics}{12}{0}{2}
@@ -15,24 +15,24 @@
 \beamer@sectionintoc {4}{Observational studies and sampling strategies}{64}{0}{4}
 \beamer@subsectionintoc {4}{1}{Confounding}{65}{0}{4}
 \beamer@subsectionintoc {4}{2}{Sampling strategies}{75}{0}{4}
-\beamer@sectionintoc {5}{Experiments}{81}{0}{5}
-\beamer@sectionintoc {6}{Examining numerical data}{95}{0}{6}
-\beamer@subsectionintoc {6}{1}{Scatterplots for paired data}{96}{0}{6}
-\beamer@subsectionintoc {6}{2}{Dot plots and the mean}{99}{0}{6}
-\beamer@subsectionintoc {6}{3}{Histograms and shape}{103}{0}{6}
-\beamer@subsectionintoc {6}{4}{Variance and standard deviation}{124}{0}{6}
-\beamer@subsectionintoc {6}{5}{Box plots, quartiles, and the median}{132}{0}{6}
-\beamer@subsectionintoc {6}{6}{Robust statistics}{141}{0}{6}
-\beamer@subsectionintoc {6}{7}{Transforming data}{149}{0}{6}
-\beamer@subsectionintoc {6}{8}{Mapping data}{154}{0}{6}
-\beamer@sectionintoc {7}{Considering categorical data}{155}{0}{7}
-\beamer@subsectionintoc {7}{1}{Contingency tables and bar plots}{156}{0}{7}
-\beamer@subsectionintoc {7}{2}{Row and column proportions}{161}{0}{7}
-\beamer@subsectionintoc {7}{3}{Segmented bar and mosaic plots}{165}{0}{7}
-\beamer@subsectionintoc {7}{4}{Pie charts}{166}{0}{7}
-\beamer@subsectionintoc {7}{5}{Comparing numerical data across groups}{167}{0}{7}
-\beamer@sectionintoc {8}{Case study: Gender discrimination}{168}{0}{8}
-\beamer@subsectionintoc {8}{1}{Study description and data}{169}{0}{8}
-\beamer@subsectionintoc {8}{2}{Competing claims}{175}{0}{8}
-\beamer@subsectionintoc {8}{3}{Testing via simulation}{181}{0}{8}
-\beamer@subsectionintoc {8}{4}{Checking for independence}{185}{0}{8}
+\beamer@sectionintoc {5}{Experiments}{82}{0}{5}
+\beamer@sectionintoc {6}{Examining numerical data}{96}{0}{6}
+\beamer@subsectionintoc {6}{1}{Scatterplots for paired data}{97}{0}{6}
+\beamer@subsectionintoc {6}{2}{Dot plots and the mean}{100}{0}{6}
+\beamer@subsectionintoc {6}{3}{Histograms and shape}{104}{0}{6}
+\beamer@subsectionintoc {6}{4}{Variance and standard deviation}{125}{0}{6}
+\beamer@subsectionintoc {6}{5}{Box plots, quartiles, and the median}{133}{0}{6}
+\beamer@subsectionintoc {6}{6}{Robust statistics}{142}{0}{6}
+\beamer@subsectionintoc {6}{7}{Transforming data}{150}{0}{6}
+\beamer@subsectionintoc {6}{8}{Mapping data}{155}{0}{6}
+\beamer@sectionintoc {7}{Considering categorical data}{156}{0}{7}
+\beamer@subsectionintoc {7}{1}{Contingency tables and bar plots}{157}{0}{7}
+\beamer@subsectionintoc {7}{2}{Row and column proportions}{162}{0}{7}
+\beamer@subsectionintoc {7}{3}{Segmented bar and mosaic plots}{166}{0}{7}
+\beamer@subsectionintoc {7}{4}{Pie charts}{167}{0}{7}
+\beamer@subsectionintoc {7}{5}{Comparing numerical data across groups}{168}{0}{7}
+\beamer@sectionintoc {8}{Case study: Gender discrimination}{169}{0}{8}
+\beamer@subsectionintoc {8}{1}{Study description and data}{170}{0}{8}
+\beamer@subsectionintoc {8}{2}{Competing claims}{176}{0}{8}
+\beamer@subsectionintoc {8}{3}{Testing via simulation}{182}{0}{8}
+\beamer@subsectionintoc {8}{4}{Checking for independence}{186}{0}{8}

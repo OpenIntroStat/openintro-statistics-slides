@@ -1,41 +1,68 @@
-\documentclass[slidestop,compress,mathserif]{beamer}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Slide options
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%% To get handouts:
+% Option 1: Slides with solutions
+
+\documentclass[slidestop,compress,mathserif]{beamer}
+\newcommand{\soln}[1]{\textit{#1}}
+\newcommand{\solnGr}[1]{#1}
+
+% Option 2: Handouts without solutions
+
 %\documentclass[11pt,containsverbatim,handout]{beamer}
-%% include when making handouts
 %\usepackage{pgfpages}
 %\pgfpagesuselayout{4 on 1}[letterpaper,landscape,border shrink=5mm]
-
-%%% To get rid of solutions on handouts:
-\newcommand{\soln}[1]{\textit{#1}}				% For slides
-%\newcommand{\soln}[1]{ }	% For handouts
-
-\newcommand{\solnGr}[1]{#1}
+%\newcommand{\soln}[1]{ }
 %\newcommand{\solnGr}{ }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Style
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \input{../lec_style.tex}
 
-%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Preamble
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \title[Chp 6: Inference for categorical data]{Chapter 6: Inference for categorical data}
-\author{OpenIntro Statistics, 2nd Edition}
+\author{OpenIntro Statistics, 3rd Edition}
+\institute{$\:$ \\ {\footnotesize Slides developed by Mine \c{C}etinkaya-Rundel of OpenIntro. \\
+The slides may be copied, edited, and/or shared via the \webLink{http://creativecommons.org/licenses/by-sa/3.0/us/}{CC BY-SA license.} \\
+Some images may be included under fair use guidelines (educational purposes).}}
 \date{}
-\institute{}
 
-%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Begin document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
 
-%%%%%%%%%%%%%%%%%%%%%
 
-% Title Page
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Title page
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{frame}[plain]
+{
+\addtocounter{framenumber}{-1} 
+{\removepagenumbers 
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{../kitten.jpg}}
+\begin{frame}
+
+\hfill \includegraphics[width=20mm]{../oiLogo_highres}
 
 \titlepage
 
 \end{frame}
+}
+}
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Sections
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \input{6-1_single_prop/6-1_single_prop}
@@ -46,7 +73,8 @@
 \input{6-6_small_two_props/6-6_small_two_props}
 
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% End document
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \end{document}

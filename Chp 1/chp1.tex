@@ -1,42 +1,67 @@
-\documentclass[slidestop,compress,mathserif]{beamer}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Slide options
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%% To get handouts:
+% Option 1: Slides with solutions
+
+\documentclass[slidestop,compress,mathserif]{beamer}
+\newcommand{\soln}[1]{\textit{#1}}
+\newcommand{\solnGr}[1]{#1}
+
+% Option 2: Handouts without solutions
+
 %\documentclass[11pt,containsverbatim,handout]{beamer}
-%% include when making handouts
 %\usepackage{pgfpages}
 %\pgfpagesuselayout{4 on 1}[letterpaper,landscape,border shrink=5mm]
+%\newcommand{\soln}[1]{ }
+%\newcommand{\solnGr}{ }
 
-%%% To get rid of solutions on handouts:
-\newcommand{\soln}[1]{\textit{#1}}				% For slides
-%\newcommand{\soln}[1]{ }	% For handouts
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Style
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \input{../lec_style.tex}
 
-%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Preamble
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \title[Chp 1: Intro. to data]{Chapter 1: Introduction to data}
-\author{OpenIntro Statistics, 2nd Edition}
-\institute{}
+\author{OpenIntro Statistics, 3rd Edition}
+\institute{$\:$ \\ {\footnotesize Slides developed by Mine \c{C}etinkaya-Rundel of OpenIntro. \\
+The slides may be copied, edited, and/or shared via the \webLink{http://creativecommons.org/licenses/by-sa/3.0/us/}{CC BY-SA license.} \\
+Some images may be included under fair use guidelines (educational purposes).}}
 \date{}
 
-%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Begin document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
 
-%%%%%%%%%%%%%%%%%%%%%
 
-% Title Page
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Title page
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+{
+\addtocounter{framenumber}{-1} 
+{\removepagenumbers 
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{../kitten.jpg}}
 \begin{frame}
+
+\hfill \includegraphics[width=20mm]{../oiLogo_highres}
 
 \titlepage
 
-{\footnotesize Slides developed by Mine \c{C}etinkaya-Rundel of OpenIntro \\
-The slides may be copied, edited, and/or shared via the \webLink{http://creativecommons.org/licenses/by-sa/3.0/us/}{CC BY-SA license} \\
-Some images may be included under fair use guidelines (educational purposes)}
-
 \end{frame}
+}
+}
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Sections
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \input{1-1_case_study/1-1_case_study}
@@ -48,6 +73,9 @@ Some images may be included under fair use guidelines (educational purposes)}
 \input{1-7_categorical_data/1-7_categorical_data}
 \input{1-8_gender_discrimination/1-8_gender_discrimination}
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% End document
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \end{document}

@@ -1,4 +1,4 @@
-\beamer@endinputifotherversion {3.22pt}
+\beamer@endinputifotherversion {3.36pt}
 \select@language {english}
 \beamer@sectionintoc {1}{Variability in estimates}{2}{0}{1}
 \beamer@subsectionintoc {1}{1}{Application exercise}{7}{0}{1}
@@ -24,7 +24,4 @@
 \beamer@subsectionintoc {5}{2}{Hypothesis testing for nearly normal point estimates}{121}{0}{5}
 \beamer@subsectionintoc {5}{3}{Non-normal point estimates}{129}{0}{5}
 \beamer@subsectionintoc {5}{4}{When to retreat}{130}{0}{5}
-\beamer@sectionintoc {6}{Sample size and power}{131}{0}{6}
-\beamer@subsectionintoc {6}{1}{Finding a sample size for a certain margin of error}{132}{0}{6}
-\beamer@subsectionintoc {6}{2}{Power and the Type 2 Error rate}{136}{0}{6}
-\beamer@sectionintoc {7}{Statistical vs. practical significance}{178}{0}{7}
+\beamer@subsectionintoc {5}{5}{Statistical significance versus practical significance}{131}{0}{5}

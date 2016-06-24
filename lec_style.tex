@@ -1,10 +1,8 @@
-\usetheme{AnnArbor}
+\usetheme{metropolis}
 
-% Load color theme: There are a variety of color themes available, not limited to the ones listed below. Make sure to use only one at a time and comment out the rest.
-%\usecolortheme{albatross}
-%\usecolortheme{dolphin}
-\usecolortheme{seahorse}
-%\usecolortheme{seagull}
+%%%%%%%%%%%%%%%%
+% Packages
+%%%%%%%%%%%%%%%%
 
 \usepackage{geometry}
 \usepackage{graphicx}
@@ -56,22 +54,23 @@
 % Template colors
 %%%%%%%%%%%%%%%%
 
-\setbeamercolor*{palette primary}{fg=white,bg= oiB!80!black!90}
-\setbeamercolor*{palette secondary}{fg=black,bg= oiB!80!black}
-\setbeamercolor*{palette tertiary}{fg=white,bg= oiB!80!black!80}
-\setbeamercolor*{palette quaternary}{fg=white,bg= oiB}
-\setbeamercolor{structure}{fg= oiB}
-\setbeamercolor{frametitle}{bg= oiB!90}
-\setbeamertemplate{blocks}[shadow=false]
-\setbeamersize{text margin left=2em,text margin right=2em}
+%\setbeamercolor*{palette primary}{fg=white,bg= oiB!80!black!90}
+%\setbeamercolor*{palette secondary}{fg=black,bg= oiB!80!black}
+%\setbeamercolor*{palette tertiary}{fg=white,bg= oiB!80!black!80}
+%\setbeamercolor*{palette quaternary}{fg=white,bg= oiB}
+%\setbeamercolor{structure}{fg= oiB}
+%\setbeamercolor{frametitle}{bg= oiB!90}
+%\setbeamertemplate{blocks}[shadow=false]
+%\setbeamersize{text margin left=2em,text margin right=2em}
 
-\setbeamercolor{code body}{bg=gray!20!white!80,fg=black}
+%\setbeamercolor{code body}{bg=gray!20!white!80,fg=black}
+
 
 %%%%%%%%%%%%%%%%
 % Get rid of fancy enumerated list bullets
 %%%%%%%%%%%%%%%%
 
-\setbeamertemplate{enumerate items}[default]
+%\setbeamertemplate{enumerate items}[default]
 
 %%%%%%%%%%%%%%%%
 % Custom commands
@@ -148,7 +147,7 @@
 \newcommand{\solnMult}[1]{
 \item[] \vspace{-0.59cm}
 \only<1>{\item #1}
-\soln{\only<2->{\item \red{#1}}}
+\soln{\only<2->{\item \orange{#1}}}
 }
 
 % cancel
@@ -161,25 +160,7 @@
 
 % removepagenumbers
 \newcommand{\removepagenumbers}{% 
-  \setbeamertemplate{footline}{
-    %
-    \begin{beamercolorbox}[colsep=1.5pt]{upper separation line foot}
-    \end{beamercolorbox}
-    \begin{beamercolorbox}[ht=2.5ex,dp=1.125ex,%
-      leftskip=.3cm,rightskip=.3cm plus1fil]{author in head/foot}%
-      \leavevmode{\usebeamerfont{author in head/foot}\insertshortauthor}%
-%      \hfill%
-%      {\usebeamerfont{author in head/foot}\usebeamercolor[fg]{institute in head/foot}\insertshortinstitute}%
-    \end{beamercolorbox}%
-    \begin{beamercolorbox}[ht=2.5ex,dp=1.125ex,%
-      leftskip=.3cm,rightskip=.3cm plus1fil]{title in head/foot}%
-      {\usebeamerfont{title in head/foot}\insertshorttitle}%
-      \hfill%
-      {\usebeamerfont{author in head/foot}\usebeamercolor[fg]{institute in head/foot}\insertshortinstitute}%
-    \end{beamercolorbox}%
-    \begin{beamercolorbox}[colsep=1.5pt]{lower separation line foot}
-    \end{beamercolorbox}
-    }
+  \setbeamertemplate{footline}{}
 }
 
 %%%%%%%%%%%%%%%%
@@ -188,7 +169,7 @@
 
 % app: application exercise
 
-\setbeamercolor{app body}{bg=white,fg=oiG}
+\setbeamercolor{app body}{fg=oiG}
 
 \newcommand{\app}[1]{
 \begin{beamerboxesrounded}[shadow = false, lower = app body]{}
@@ -198,7 +179,7 @@
 
 % dq: discussion question
 
-\setbeamercolor{disc ques body}{bg=white,fg=oiB}
+\setbeamercolor{disc ques body}{fg=oiB}
 
 \newcommand{\dq}[1]{
 \begin{beamerboxesrounded}[shadow = false, lower = disc ques body]{}
@@ -208,7 +189,7 @@
 
 % pq: practice question
 
-\setbeamercolor{prac ques body}{bg=white,fg=oiB}
+\setbeamercolor{prac ques body}{fg=oiB}
 
 \newcommand{\pq}[1]{
 \begin{beamerboxesrounded}[shadow = false, lower = prac ques body]{}
@@ -218,7 +199,7 @@
 
 % formula
 
-\setbeamercolor{formula body}{bg=white,fg=oiB!55!black!95}
+\setbeamercolor{formula body}{fg=oiB!55!black!95}
 
 \newcommand{\formula}[1]{
 \begin{beamerboxesrounded}[shadow = false, lower = formula body]{}
@@ -262,19 +243,3 @@
 %%%%%%%%%%%%%%%%
 
 \DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
-
-%%%%%%%%%%%%%%%%
-% TOC slides
-%%%%%%%%%%%%%%%%
-
-\AtBeginSection[] 
-{ 
-  \addtocounter{framenumber}{-1} 
-  % 
-  {\removepagenumbers 
-    \begin{frame}<beamer> [shrink]
-    \tableofcontents[currentsection,hideothersubsections] 
-    \vspace{0.25cm}
-  \end{frame} 
-  } 
-} 

@@ -1,3 +1,5 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \section{Normal distribution}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -207,7 +209,7 @@ There are many ways to compute percentiles/areas under the curve:
 }
 \end{beamerboxesrounded}
 \begin{itemize}
-\item Applet: {\small \webURL{http://www.socr.ucla.edu/htmls/SOCR_Distributions.html}}
+\item Applet: {\small \webURL{https://gallery.shinyapps.io/dist_calc/}}
 \begin{center}
 \includegraphics[width=0.8\textwidth]{3-1_normal_distribution/figures/applet}
 \end{center}
@@ -244,7 +246,7 @@ $Z$ & 0.00 & 0.01 & 0.02 & 0.03 & 0.04 & 0.05 & 0.06 & 0.07 & 0.08 & 0.09 \\
   \hline
   \hline
 \rowcolor[gray]{.6}
-  1.0 & \red{\tiny{0.8413}} & \tiny{0.8438} & \tiny{0.8461} & \tiny{0.8485} & \tiny{0.8508} & \tiny{0.8531} & \tiny{0.8554} & \tiny{0.8577} & \tiny{0.8599} & \tiny{0.8621} \\
+  1.0 & \orange{\tiny{0.8413}} & \tiny{0.8438} & \tiny{0.8461} & \tiny{0.8485} & \tiny{0.8508} & \tiny{0.8531} & \tiny{0.8554} & \tiny{0.8577} & \tiny{0.8599} & \tiny{0.8621} \\
   1.1 & \tiny{0.8643} & \tiny{0.8665} & \tiny{0.8686} & \tiny{0.8708} & \tiny{0.8729} & \tiny{0.8749} & \tiny{0.8770} & \tiny{0.8790} & \tiny{0.8810} & \tiny{0.8830} \\
   1.2 & \tiny{0.8849} & \tiny{0.8869} & \tiny{0.8888} & \tiny{0.8907} & \tiny{0.8925} & \tiny{0.8944} & \tiny{0.8962} & \tiny{0.8980} & \tiny{0.8997} & \tiny{0.9015} \\
 \end{tabular}
@@ -353,7 +355,7 @@ Let $X$ = amount of ketchup in a bottle: $X \sim N(\mu = 36, \sigma = 0.11)$ \\
     \hline
   \tiny{0.0233} & \tiny{0.0239} & \tiny{0.0244} & \tiny{0.0250} & \tiny{0.0256} & \tiny{0.0262} & \tiny{0.0268} & \tiny{0.0274} & \tiny{0.0281} & \tiny{0.0287} & $-1.9$ \\
 \rowcolor[gray]{.6}
-  \tiny{0.0294} & \tiny{0.0301} & \tiny{0.0307} & \tiny{0.0314} & \tiny{0.0322} & \tiny{0.0329} & \tiny{0.0336} & \red{\tiny{0.0344}} & \tiny{0.0351} & \tiny{0.0359} & $-1.8$ \\
+  \tiny{0.0294} & \tiny{0.0301} & \tiny{0.0307} & \tiny{0.0314} & \tiny{0.0322} & \tiny{0.0329} & \tiny{0.0336} & \orange{\tiny{0.0344}} & \tiny{0.0351} & \tiny{0.0359} & $-1.8$ \\
   \tiny{0.0367} & \tiny{0.0375} & \tiny{0.0384} & \tiny{0.0392} & \tiny{0.0401} & \tiny{0.0409} & \tiny{0.0418} & \tiny{0.0427} & \tiny{0.0436} & \tiny{0.0446} & $-1.7$ \\
   \tiny{0.0455} & \tiny{0.0465} & \tiny{0.0475} & \tiny{0.0485} & \tiny{0.0495} & \tiny{0.0505} & \tiny{0.0516} & \tiny{0.0526} & \tiny{0.0537} & \tiny{0.0548} & $-1.6$ \\
   \tiny{0.0559} & \tiny{0.0571} & \tiny{0.0582} & \tiny{0.0594} & \tiny{0.0606} & \tiny{0.0618} & \tiny{0.0630} & \tiny{0.0643} & \tiny{0.0655} & \tiny{0.0668} & $-1.5$ \\
@@ -465,7 +467,7 @@ P(35.8 < X < 36.2) &=& P(-1.82 < Z < 1.82) = 0.9656 - 0.0344 = 0.9312
     \hline
   \tiny{0.0233} & \tiny{0.0239} & \tiny{0.0244} & \tiny{0.0250} & \tiny{0.0256} & $-1.9$ \\
   \rowcolor[gray]{.9}
-  \tiny{0.0294} & \tiny{\red{0.0301}} & \tiny{0.0307} & \tiny{0.0314} & \tiny{0.0322} &$-1.8$ \\
+  \tiny{0.0294} & \tiny{\orange{0.0301}} & \tiny{0.0307} & \tiny{0.0314} & \tiny{0.0322} &$-1.8$ \\
   \tiny{0.0367} & \tiny{0.0375} & \tiny{0.0384} & \tiny{0.0392} & \tiny{0.0401} &$-1.7$ \\
 \hline
 \end{tabular}
@@ -473,7 +475,7 @@ P(35.8 < X < 36.2) &=& P(-1.82 < Z < 1.82) = 0.9656 - 0.0344 = 0.9312
 }
 \pause
 \begin{eqnarray*}
-P(X < x) &=& 0.03 \rightarrow P(Z < \red{-1.88}) = 0.03 \\ \pause
+P(X < x) &=& 0.03 \rightarrow P(Z < \orange{-1.88}) = 0.03 \\ \pause
 Z &=& \frac{obs~-~mean}{SD} \rightarrow \frac{x - 98.2}{0.73} = -1.88 \\ \pause
 x &=& (-1.88 \times 0.73) + 98.2 = 96.8\degree F
 \end{eqnarray*}
@@ -517,7 +519,7 @@ $Z$ & 0.05 & 0.06 & 0.07 & 0.08 & 0.09 \\
   1.0 & \tiny{0.8531} & \tiny{0.8554} & \tiny{0.8577} & \tiny{0.8599} & \tiny{0.8621} \\
   1.1  & \tiny{0.8749} & \tiny{0.8770} & \tiny{0.8790} & \tiny{0.8810} & \tiny{0.8830} \\
    \rowcolor[gray]{.9}
- 1.2 & \tiny{0.8944} & \tiny{0.8962} & \tiny{0.8980} & \tiny{\red{0.8997}} & \tiny{0.9015} \\
+ 1.2 & \tiny{0.8944} & \tiny{0.8962} & \tiny{0.8980} & \tiny{\orange{0.8997}} & \tiny{0.9015} \\
   1.3 & \tiny{0.9115} & \tiny{0.9131} & \tiny{0.9147} & \tiny{0.9162} & \tiny{0.9177} \\
    \hline
 \end{tabular}
@@ -526,7 +528,7 @@ $Z$ & 0.05 & 0.06 & 0.07 & 0.08 & 0.09 \\
 }
 \pause
 \begin{eqnarray*}
-P(X > x) &=& 0.10 \rightarrow P(Z < \red{1.28}) = 0.90 \\ \pause
+P(X > x) &=& 0.10 \rightarrow P(Z < \orange{1.28}) = 0.90 \\ \pause
 Z &=& \frac{obs~-~mean}{SD} \rightarrow \frac{x - 98.2}{0.73} = 1.28 \\ \pause
 x &=& (1.28 \times 0.73) + 98.2 = 99.1
 \end{eqnarray*}

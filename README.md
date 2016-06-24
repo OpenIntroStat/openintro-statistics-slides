@@ -1,7 +1,3 @@
-# openintro-statistics-slides
-
-Slides for the OpenIntro Statistics textbook, Second Edition.
-
 These slides are available at http://www.openintro.org under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported license (CC BY-NC-SA):
 
 http://creativecommons.org/licenses/by-nc-sa/3.0/

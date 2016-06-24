@@ -1,23 +1,21 @@
-\BOOKMARK [2][]{Outline0.1}{Paired data}{}% 1
-\BOOKMARK [3][]{Outline0.1.1.3}{Paired observations}{Outline0.1}% 2
-\BOOKMARK [3][]{Outline0.1.2.11}{Inference for paired data}{Outline0.1}% 3
-\BOOKMARK [2][]{Outline0.2}{Difference of two means}{}% 4
-\BOOKMARK [3][]{Outline0.2.1.27}{Confidence intervals for differences of means}{Outline0.2}% 5
-\BOOKMARK [3][]{Outline0.2.2.57}{Hypothesis tests for differences of means}{Outline0.2}% 6
-\BOOKMARK [2][]{Outline0.3}{One-sample means with the t distribution}{}% 7
-\BOOKMARK [3][]{Outline0.3.1.82}{The normality condition}{Outline0.3}% 8
-\BOOKMARK [3][]{Outline0.3.2.85}{Introducing the t distribution}{Outline0.3}% 9
-\BOOKMARK [3][]{Outline0.3.3.92}{Evaluating hypotheses using the t distribution}{Outline0.3}% 10
-\BOOKMARK [3][]{Outline0.3.4.108}{Constructing confidence intervals using the t distribution}{Outline0.3}% 11
-\BOOKMARK [3][]{Outline0.3.5.122}{Synthesis}{Outline0.3}% 12
-\BOOKMARK [2][]{Outline0.4}{The t distribution for the difference of two means}{}% 13
-\BOOKMARK [3][]{Outline0.4.1.139}{Sampling distribution for the difference of two means}{Outline0.4}% 14
-\BOOKMARK [3][]{Outline0.4.2.140}{Hypothesis testing for the difference of two means}{Outline0.4}% 15
-\BOOKMARK [3][]{Outline0.4.3.151}{Confidence intervals for the difference of two means}{Outline0.4}% 16
-\BOOKMARK [3][]{Outline0.4.4.161}{Recap}{Outline0.4}% 17
-\BOOKMARK [2][]{Outline0.5}{Comparing means with ANOVA}{}% 18
-\BOOKMARK [3][]{Outline0.5.1.166}{Aldrin in the Wolf River}{Outline0.5}% 19
-\BOOKMARK [3][]{Outline0.5.2.187}{ANOVA and the F test}{Outline0.5}% 20
-\BOOKMARK [3][]{Outline0.5.3.189}{ANOVA output, deconstructed}{Outline0.5}% 21
-\BOOKMARK [3][]{Outline0.5.4.217}{Checking conditions}{Outline0.5}% 22
-\BOOKMARK [3][]{Outline0.5.5.221}{Multiple comparisons \046 Type 1 error rate}{Outline0.5}% 23
+\BOOKMARK [2][]{Outline0.1}{One-sample means with the t distribution}{}% 1
+\BOOKMARK [3][]{Outline0.1.1.16}{The normality condition}{Outline0.1}% 2
+\BOOKMARK [3][]{Outline0.1.2.19}{Introducing the t distribution}{Outline0.1}% 3
+\BOOKMARK [3][]{Outline0.1.3.26}{Evaluating hypotheses using the t distribution}{Outline0.1}% 4
+\BOOKMARK [3][]{Outline0.1.4.42}{Constructing confidence intervals using the t distribution}{Outline0.1}% 5
+\BOOKMARK [3][]{Outline0.1.5.56}{Synthesis}{Outline0.1}% 6
+\BOOKMARK [2][]{Outline0.2}{Paired data}{}% 7
+\BOOKMARK [3][]{Outline0.2.1.65}{Paired observations}{Outline0.2}% 8
+\BOOKMARK [3][]{Outline0.2.2.73}{Inference for paired data}{Outline0.2}% 9
+\BOOKMARK [2][]{Outline0.3}{Difference of two means}{}% 10
+\BOOKMARK [3][]{Outline0.3.1.97}{Sampling distribution for the difference of two means}{Outline0.3}% 11
+\BOOKMARK [3][]{Outline0.3.2.98}{Hypothesis testing for the difference of two means}{Outline0.3}% 12
+\BOOKMARK [3][]{Outline0.3.3.109}{Confidence intervals for the difference of two means}{Outline0.3}% 13
+\BOOKMARK [3][]{Outline0.3.4.119}{Recap}{Outline0.3}% 14
+\BOOKMARK [2][]{Outline0.4}{Computing the power for a 2-sample test}{}% 15
+\BOOKMARK [2][]{Outline0.5}{Comparing means with ANOVA}{}% 16
+\BOOKMARK [3][]{Outline0.5.1.153}{Aldrin in the Wolf River}{Outline0.5}% 17
+\BOOKMARK [3][]{Outline0.5.2.174}{ANOVA and the F test}{Outline0.5}% 18
+\BOOKMARK [3][]{Outline0.5.3.176}{ANOVA output, deconstructed}{Outline0.5}% 19
+\BOOKMARK [3][]{Outline0.5.4.204}{Checking conditions}{Outline0.5}% 20
+\BOOKMARK [3][]{Outline0.5.5.208}{Multiple comparisons \046 Type 1 error rate}{Outline0.5}% 21

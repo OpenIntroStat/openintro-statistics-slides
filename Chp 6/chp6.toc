@@ -1,4 +1,4 @@
-\beamer@endinputifotherversion {3.22pt}
+\beamer@endinputifotherversion {3.36pt}
 \select@language {english}
 \beamer@sectionintoc {1}{Inference for a single proportion}{2}{0}{1}
 \beamer@subsectionintoc {1}{1}{Identifying when a sample proportion is nearly normal}{13}{0}{1}

@@ -1,25 +1,25 @@
-\beamer@endinputifotherversion {3.22pt}
+\beamer@endinputifotherversion {3.36pt}
 \headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
 \headcommand {\beamer@framepages {1}{1}}
 \headcommand {\sectionentry {1}{Case study}{2}{Case study}{0}}
 \headcommand {\beamer@sectionpages {1}{1}}
 \headcommand {\beamer@subsectionpages {1}{1}}
-\headcommand {\slideentry {1}{0}{2}{2/2}{}{0}}
+\headcommand {\slideentry {1}{0}{1}{2/2}{}{0}}
 \headcommand {\beamer@framepages {2}{2}}
-\headcommand {\slideentry {1}{0}{3}{3/3}{}{0}}
+\headcommand {\slideentry {1}{0}{2}{3/3}{}{0}}
 \headcommand {\beamer@framepages {3}{3}}
-\headcommand {\slideentry {1}{0}{4}{4/4}{}{0}}
+\headcommand {\slideentry {1}{0}{3}{4/4}{}{0}}
 \headcommand {\beamer@framepages {4}{4}}
-\headcommand {\slideentry {1}{0}{5}{5/7}{}{0}}
+\headcommand {\slideentry {1}{0}{4}{5/7}{}{0}}
 \headcommand {\beamer@framepages {5}{7}}
-\headcommand {\slideentry {1}{0}{6}{8/9}{}{0}}
+\headcommand {\slideentry {1}{0}{5}{8/9}{}{0}}
 \headcommand {\beamer@framepages {8}{9}}
-\headcommand {\slideentry {1}{0}{7}{10/11}{}{0}}
+\headcommand {\slideentry {1}{0}{6}{10/11}{}{0}}
 \headcommand {\beamer@framepages {10}{11}}
 \headcommand {\sectionentry {2}{Data basics}{12}{Data basics}{0}}
 \headcommand {\beamer@sectionpages {2}{11}}
 \headcommand {\beamer@subsectionpages {2}{11}}
-\headcommand {\slideentry {2}{0}{8}{12/12}{}{0}}
+\headcommand {\slideentry {2}{0}{1}{12/12}{}{0}}
 \headcommand {\beamer@framepages {12}{12}}
 \headcommand {\beamer@subsectionentry {0}{2}{1}{13}{Observations and variables}}\headcommand {\beamer@subsectionpages {12}{12}}
 \headcommand {\slideentry {2}{1}{1}{13/13}{Observations and variables}{0}}
@@ -42,7 +42,7 @@
 \headcommand {\sectionentry {3}{Overview of data collection principles}{33}{Overview of data collection principles}{0}}
 \headcommand {\beamer@sectionpages {12}{32}}
 \headcommand {\beamer@subsectionpages {30}{32}}
-\headcommand {\slideentry {3}{0}{3}{33/33}{}{0}}
+\headcommand {\slideentry {3}{0}{1}{33/33}{}{0}}
 \headcommand {\beamer@framepages {33}{33}}
 \headcommand {\beamer@subsectionentry {0}{3}{1}{34}{Populations and samples}}\headcommand {\beamer@subsectionpages {33}{33}}
 \headcommand {\slideentry {3}{1}{1}{34/39}{Populations and samples}{0}}
@@ -78,7 +78,7 @@
 \headcommand {\sectionentry {4}{Observational studies and sampling strategies}{64}{Observational studies and sampling strategies}{0}}
 \headcommand {\beamer@sectionpages {33}{63}}
 \headcommand {\beamer@subsectionpages {61}{63}}
-\headcommand {\slideentry {4}{0}{2}{64/64}{}{0}}
+\headcommand {\slideentry {4}{0}{1}{64/64}{}{0}}
 \headcommand {\beamer@framepages {64}{64}}
 \headcommand {\beamer@subsectionentry {0}{4}{1}{65}{Confounding}}\headcommand {\beamer@subsectionpages {64}{64}}
 \headcommand {\slideentry {4}{1}{1}{65/65}{Confounding}{0}}
@@ -98,165 +98,167 @@
 \headcommand {\beamer@framepages {77}{77}}
 \headcommand {\slideentry {4}{2}{4}{78/78}{Sampling strategies}{0}}
 \headcommand {\beamer@framepages {78}{78}}
-\headcommand {\slideentry {4}{2}{5}{79/80}{Sampling strategies}{0}}
-\headcommand {\beamer@framepages {79}{80}}
-\headcommand {\sectionentry {5}{Experiments}{81}{Experiments}{0}}
-\headcommand {\beamer@sectionpages {64}{80}}
-\headcommand {\beamer@subsectionpages {75}{80}}
-\headcommand {\slideentry {5}{0}{6}{81/81}{}{0}}
-\headcommand {\beamer@framepages {81}{81}}
-\headcommand {\slideentry {5}{0}{7}{82/82}{}{0}}
+\headcommand {\slideentry {4}{2}{5}{79/79}{Sampling strategies}{0}}
+\headcommand {\beamer@framepages {79}{79}}
+\headcommand {\slideentry {4}{2}{6}{80/81}{Sampling strategies}{0}}
+\headcommand {\beamer@framepages {80}{81}}
+\headcommand {\sectionentry {5}{Experiments}{82}{Experiments}{0}}
+\headcommand {\beamer@sectionpages {64}{81}}
+\headcommand {\beamer@subsectionpages {75}{81}}
+\headcommand {\slideentry {5}{0}{1}{82/82}{}{0}}
 \headcommand {\beamer@framepages {82}{82}}
-\headcommand {\slideentry {5}{0}{8}{83/87}{}{0}}
-\headcommand {\beamer@framepages {83}{87}}
-\headcommand {\slideentry {5}{0}{9}{88/89}{}{0}}
-\headcommand {\beamer@framepages {88}{89}}
-\headcommand {\slideentry {5}{0}{10}{90/90}{}{0}}
-\headcommand {\beamer@framepages {90}{90}}
-\headcommand {\slideentry {5}{0}{11}{91/91}{}{0}}
+\headcommand {\slideentry {5}{0}{2}{83/83}{}{0}}
+\headcommand {\beamer@framepages {83}{83}}
+\headcommand {\slideentry {5}{0}{3}{84/88}{}{0}}
+\headcommand {\beamer@framepages {84}{88}}
+\headcommand {\slideentry {5}{0}{4}{89/90}{}{0}}
+\headcommand {\beamer@framepages {89}{90}}
+\headcommand {\slideentry {5}{0}{5}{91/91}{}{0}}
 \headcommand {\beamer@framepages {91}{91}}
-\headcommand {\slideentry {5}{0}{12}{92/93}{}{0}}
-\headcommand {\beamer@framepages {92}{93}}
-\headcommand {\slideentry {5}{0}{13}{94/94}{}{0}}
-\headcommand {\beamer@framepages {94}{94}}
-\headcommand {\sectionentry {6}{Examining numerical data}{95}{Examining numerical data}{0}}
-\headcommand {\beamer@sectionpages {81}{94}}
-\headcommand {\beamer@subsectionpages {81}{94}}
-\headcommand {\slideentry {6}{0}{14}{95/95}{}{0}}
+\headcommand {\slideentry {5}{0}{6}{92/92}{}{0}}
+\headcommand {\beamer@framepages {92}{92}}
+\headcommand {\slideentry {5}{0}{7}{93/94}{}{0}}
+\headcommand {\beamer@framepages {93}{94}}
+\headcommand {\slideentry {5}{0}{8}{95/95}{}{0}}
 \headcommand {\beamer@framepages {95}{95}}
-\headcommand {\beamer@subsectionentry {0}{6}{1}{96}{Scatterplots for paired data}}\headcommand {\beamer@subsectionpages {95}{95}}
-\headcommand {\slideentry {6}{1}{1}{96/98}{Scatterplots for paired data}{0}}
-\headcommand {\beamer@framepages {96}{98}}
-\headcommand {\beamer@subsectionentry {0}{6}{2}{99}{Dot plots and the mean}}\headcommand {\beamer@subsectionpages {96}{98}}
-\headcommand {\slideentry {6}{2}{1}{99/99}{Dot plots and the mean}{0}}
-\headcommand {\beamer@framepages {99}{99}}
-\headcommand {\slideentry {6}{2}{2}{100/100}{Dot plots and the mean}{0}}
+\headcommand {\sectionentry {6}{Examining numerical data}{96}{Examining numerical data}{0}}
+\headcommand {\beamer@sectionpages {82}{95}}
+\headcommand {\beamer@subsectionpages {82}{95}}
+\headcommand {\slideentry {6}{0}{1}{96/96}{}{0}}
+\headcommand {\beamer@framepages {96}{96}}
+\headcommand {\beamer@subsectionentry {0}{6}{1}{97}{Scatterplots for paired data}}\headcommand {\beamer@subsectionpages {96}{96}}
+\headcommand {\slideentry {6}{1}{1}{97/99}{Scatterplots for paired data}{0}}
+\headcommand {\beamer@framepages {97}{99}}
+\headcommand {\beamer@subsectionentry {0}{6}{2}{100}{Dot plots and the mean}}\headcommand {\beamer@subsectionpages {97}{99}}
+\headcommand {\slideentry {6}{2}{1}{100/100}{Dot plots and the mean}{0}}
 \headcommand {\beamer@framepages {100}{100}}
-\headcommand {\slideentry {6}{2}{3}{101/101}{Dot plots and the mean}{0}}
+\headcommand {\slideentry {6}{2}{2}{101/101}{Dot plots and the mean}{0}}
 \headcommand {\beamer@framepages {101}{101}}
-\headcommand {\slideentry {6}{2}{4}{102/102}{Dot plots and the mean}{0}}
+\headcommand {\slideentry {6}{2}{3}{102/102}{Dot plots and the mean}{0}}
 \headcommand {\beamer@framepages {102}{102}}
-\headcommand {\beamer@subsectionentry {0}{6}{3}{103}{Histograms and shape}}\headcommand {\beamer@subsectionpages {99}{102}}
-\headcommand {\slideentry {6}{3}{1}{103/103}{Histograms and shape}{0}}
+\headcommand {\slideentry {6}{2}{4}{103/103}{Dot plots and the mean}{0}}
 \headcommand {\beamer@framepages {103}{103}}
-\headcommand {\slideentry {6}{3}{2}{104/104}{Histograms and shape}{0}}
+\headcommand {\beamer@subsectionentry {0}{6}{3}{104}{Histograms and shape}}\headcommand {\beamer@subsectionpages {100}{103}}
+\headcommand {\slideentry {6}{3}{1}{104/104}{Histograms and shape}{0}}
 \headcommand {\beamer@framepages {104}{104}}
-\headcommand {\slideentry {6}{3}{3}{105/105}{Histograms and shape}{0}}
+\headcommand {\slideentry {6}{3}{2}{105/105}{Histograms and shape}{0}}
 \headcommand {\beamer@framepages {105}{105}}
-\headcommand {\slideentry {6}{3}{4}{106/106}{Histograms and shape}{0}}
+\headcommand {\slideentry {6}{3}{3}{106/106}{Histograms and shape}{0}}
 \headcommand {\beamer@framepages {106}{106}}
-\headcommand {\slideentry {6}{3}{5}{107/107}{Histograms and shape}{0}}
+\headcommand {\slideentry {6}{3}{4}{107/107}{Histograms and shape}{0}}
 \headcommand {\beamer@framepages {107}{107}}
-\headcommand {\slideentry {6}{3}{6}{108/109}{Histograms and shape}{0}}
-\headcommand {\beamer@framepages {108}{109}}
-\headcommand {\slideentry {6}{3}{7}{110/118}{Histograms and shape}{0}}
-\headcommand {\beamer@framepages {110}{118}}
-\headcommand {\slideentry {6}{3}{8}{119/120}{Histograms and shape}{0}}
-\headcommand {\beamer@framepages {119}{120}}
-\headcommand {\slideentry {6}{3}{9}{121/121}{Histograms and shape}{0}}
-\headcommand {\beamer@framepages {121}{121}}
-\headcommand {\slideentry {6}{3}{10}{122/123}{Histograms and shape}{0}}
-\headcommand {\beamer@framepages {122}{123}}
-\headcommand {\beamer@subsectionentry {0}{6}{4}{124}{Variance and standard deviation}}\headcommand {\beamer@subsectionpages {103}{123}}
-\headcommand {\slideentry {6}{4}{1}{124/126}{Variance and standard deviation}{0}}
-\headcommand {\beamer@framepages {124}{126}}
-\headcommand {\slideentry {6}{4}{2}{127/128}{Variance and standard deviation}{0}}
-\headcommand {\beamer@framepages {127}{128}}
-\headcommand {\slideentry {6}{4}{3}{129/131}{Variance and standard deviation}{0}}
-\headcommand {\beamer@framepages {129}{131}}
-\headcommand {\beamer@subsectionentry {0}{6}{5}{132}{Box plots, quartiles, and the median}}\headcommand {\beamer@subsectionpages {124}{131}}
-\headcommand {\slideentry {6}{5}{1}{132/132}{Box plots, quartiles, and the median}{0}}
-\headcommand {\beamer@framepages {132}{132}}
-\headcommand {\slideentry {6}{5}{2}{133/133}{Box plots, quartiles, and the median}{0}}
+\headcommand {\slideentry {6}{3}{5}{108/108}{Histograms and shape}{0}}
+\headcommand {\beamer@framepages {108}{108}}
+\headcommand {\slideentry {6}{3}{6}{109/110}{Histograms and shape}{0}}
+\headcommand {\beamer@framepages {109}{110}}
+\headcommand {\slideentry {6}{3}{7}{111/119}{Histograms and shape}{0}}
+\headcommand {\beamer@framepages {111}{119}}
+\headcommand {\slideentry {6}{3}{8}{120/121}{Histograms and shape}{0}}
+\headcommand {\beamer@framepages {120}{121}}
+\headcommand {\slideentry {6}{3}{9}{122/122}{Histograms and shape}{0}}
+\headcommand {\beamer@framepages {122}{122}}
+\headcommand {\slideentry {6}{3}{10}{123/124}{Histograms and shape}{0}}
+\headcommand {\beamer@framepages {123}{124}}
+\headcommand {\beamer@subsectionentry {0}{6}{4}{125}{Variance and standard deviation}}\headcommand {\beamer@subsectionpages {104}{124}}
+\headcommand {\slideentry {6}{4}{1}{125/127}{Variance and standard deviation}{0}}
+\headcommand {\beamer@framepages {125}{127}}
+\headcommand {\slideentry {6}{4}{2}{128/129}{Variance and standard deviation}{0}}
+\headcommand {\beamer@framepages {128}{129}}
+\headcommand {\slideentry {6}{4}{3}{130/132}{Variance and standard deviation}{0}}
+\headcommand {\beamer@framepages {130}{132}}
+\headcommand {\beamer@subsectionentry {0}{6}{5}{133}{Box plots, quartiles, and the median}}\headcommand {\beamer@subsectionpages {125}{132}}
+\headcommand {\slideentry {6}{5}{1}{133/133}{Box plots, quartiles, and the median}{0}}
 \headcommand {\beamer@framepages {133}{133}}
-\headcommand {\slideentry {6}{5}{3}{134/134}{Box plots, quartiles, and the median}{0}}
+\headcommand {\slideentry {6}{5}{2}{134/134}{Box plots, quartiles, and the median}{0}}
 \headcommand {\beamer@framepages {134}{134}}
-\headcommand {\slideentry {6}{5}{4}{135/135}{Box plots, quartiles, and the median}{0}}
+\headcommand {\slideentry {6}{5}{3}{135/135}{Box plots, quartiles, and the median}{0}}
 \headcommand {\beamer@framepages {135}{135}}
-\headcommand {\slideentry {6}{5}{5}{136/138}{Box plots, quartiles, and the median}{0}}
-\headcommand {\beamer@framepages {136}{138}}
-\headcommand {\slideentry {6}{5}{6}{139/140}{Box plots, quartiles, and the median}{0}}
-\headcommand {\beamer@framepages {139}{140}}
-\headcommand {\beamer@subsectionentry {0}{6}{6}{141}{Robust statistics}}\headcommand {\beamer@subsectionpages {132}{140}}
-\headcommand {\slideentry {6}{6}{1}{141/141}{Robust statistics}{0}}
-\headcommand {\beamer@framepages {141}{141}}
-\headcommand {\slideentry {6}{6}{2}{142/142}{Robust statistics}{0}}
+\headcommand {\slideentry {6}{5}{4}{136/136}{Box plots, quartiles, and the median}{0}}
+\headcommand {\beamer@framepages {136}{136}}
+\headcommand {\slideentry {6}{5}{5}{137/139}{Box plots, quartiles, and the median}{0}}
+\headcommand {\beamer@framepages {137}{139}}
+\headcommand {\slideentry {6}{5}{6}{140/141}{Box plots, quartiles, and the median}{0}}
+\headcommand {\beamer@framepages {140}{141}}
+\headcommand {\beamer@subsectionentry {0}{6}{6}{142}{Robust statistics}}\headcommand {\beamer@subsectionpages {133}{141}}
+\headcommand {\slideentry {6}{6}{1}{142/142}{Robust statistics}{0}}
 \headcommand {\beamer@framepages {142}{142}}
-\headcommand {\slideentry {6}{6}{3}{143/145}{Robust statistics}{0}}
-\headcommand {\beamer@framepages {143}{145}}
-\headcommand {\slideentry {6}{6}{4}{146/146}{Robust statistics}{0}}
-\headcommand {\beamer@framepages {146}{146}}
-\headcommand {\slideentry {6}{6}{5}{147/148}{Robust statistics}{0}}
-\headcommand {\beamer@framepages {147}{148}}
-\headcommand {\beamer@subsectionentry {0}{6}{7}{149}{Transforming data}}\headcommand {\beamer@subsectionpages {141}{148}}
-\headcommand {\slideentry {6}{7}{1}{149/150}{Transforming data}{0}}
-\headcommand {\beamer@framepages {149}{150}}
-\headcommand {\slideentry {6}{7}{2}{151/153}{Transforming data}{0}}
-\headcommand {\beamer@framepages {151}{153}}
-\headcommand {\beamer@subsectionentry {0}{6}{8}{154}{Mapping data}}\headcommand {\beamer@subsectionpages {149}{153}}
-\headcommand {\slideentry {6}{8}{1}{154/154}{Mapping data}{0}}
-\headcommand {\beamer@framepages {154}{154}}
-\headcommand {\sectionentry {7}{Considering categorical data}{155}{Considering categorical data}{0}}
-\headcommand {\beamer@sectionpages {95}{154}}
-\headcommand {\beamer@subsectionpages {154}{154}}
-\headcommand {\slideentry {7}{0}{2}{155/155}{}{0}}
+\headcommand {\slideentry {6}{6}{2}{143/143}{Robust statistics}{0}}
+\headcommand {\beamer@framepages {143}{143}}
+\headcommand {\slideentry {6}{6}{3}{144/146}{Robust statistics}{0}}
+\headcommand {\beamer@framepages {144}{146}}
+\headcommand {\slideentry {6}{6}{4}{147/147}{Robust statistics}{0}}
+\headcommand {\beamer@framepages {147}{147}}
+\headcommand {\slideentry {6}{6}{5}{148/149}{Robust statistics}{0}}
+\headcommand {\beamer@framepages {148}{149}}
+\headcommand {\beamer@subsectionentry {0}{6}{7}{150}{Transforming data}}\headcommand {\beamer@subsectionpages {142}{149}}
+\headcommand {\slideentry {6}{7}{1}{150/151}{Transforming data}{0}}
+\headcommand {\beamer@framepages {150}{151}}
+\headcommand {\slideentry {6}{7}{2}{152/154}{Transforming data}{0}}
+\headcommand {\beamer@framepages {152}{154}}
+\headcommand {\beamer@subsectionentry {0}{6}{8}{155}{Mapping data}}\headcommand {\beamer@subsectionpages {150}{154}}
+\headcommand {\slideentry {6}{8}{1}{155/155}{Mapping data}{0}}
 \headcommand {\beamer@framepages {155}{155}}
-\headcommand {\beamer@subsectionentry {0}{7}{1}{156}{Contingency tables and bar plots}}\headcommand {\beamer@subsectionpages {155}{155}}
-\headcommand {\slideentry {7}{1}{1}{156/157}{Contingency tables and bar plots}{0}}
-\headcommand {\beamer@framepages {156}{157}}
-\headcommand {\slideentry {7}{1}{2}{158/160}{Contingency tables and bar plots}{0}}
-\headcommand {\beamer@framepages {158}{160}}
-\headcommand {\beamer@subsectionentry {0}{7}{2}{161}{Row and column proportions}}\headcommand {\beamer@subsectionpages {156}{160}}
-\headcommand {\slideentry {7}{2}{1}{161/164}{Row and column proportions}{0}}
-\headcommand {\beamer@framepages {161}{164}}
-\headcommand {\beamer@subsectionentry {0}{7}{3}{165}{Segmented bar and mosaic plots}}\headcommand {\beamer@subsectionpages {161}{164}}
-\headcommand {\slideentry {7}{3}{1}{165/165}{Segmented bar and mosaic plots}{0}}
-\headcommand {\beamer@framepages {165}{165}}
-\headcommand {\beamer@subsectionentry {0}{7}{4}{166}{Pie charts}}\headcommand {\beamer@subsectionpages {165}{165}}
-\headcommand {\slideentry {7}{4}{1}{166/166}{Pie charts}{0}}
+\headcommand {\sectionentry {7}{Considering categorical data}{156}{Considering categorical data}{0}}
+\headcommand {\beamer@sectionpages {96}{155}}
+\headcommand {\beamer@subsectionpages {155}{155}}
+\headcommand {\slideentry {7}{0}{1}{156/156}{}{0}}
+\headcommand {\beamer@framepages {156}{156}}
+\headcommand {\beamer@subsectionentry {0}{7}{1}{157}{Contingency tables and bar plots}}\headcommand {\beamer@subsectionpages {156}{156}}
+\headcommand {\slideentry {7}{1}{1}{157/158}{Contingency tables and bar plots}{0}}
+\headcommand {\beamer@framepages {157}{158}}
+\headcommand {\slideentry {7}{1}{2}{159/161}{Contingency tables and bar plots}{0}}
+\headcommand {\beamer@framepages {159}{161}}
+\headcommand {\beamer@subsectionentry {0}{7}{2}{162}{Row and column proportions}}\headcommand {\beamer@subsectionpages {157}{161}}
+\headcommand {\slideentry {7}{2}{1}{162/165}{Row and column proportions}{0}}
+\headcommand {\beamer@framepages {162}{165}}
+\headcommand {\beamer@subsectionentry {0}{7}{3}{166}{Segmented bar and mosaic plots}}\headcommand {\beamer@subsectionpages {162}{165}}
+\headcommand {\slideentry {7}{3}{1}{166/166}{Segmented bar and mosaic plots}{0}}
 \headcommand {\beamer@framepages {166}{166}}
-\headcommand {\beamer@subsectionentry {0}{7}{5}{167}{Comparing numerical data across groups}}\headcommand {\beamer@subsectionpages {166}{166}}
-\headcommand {\slideentry {7}{5}{1}{167/167}{Comparing numerical data across groups}{0}}
+\headcommand {\beamer@subsectionentry {0}{7}{4}{167}{Pie charts}}\headcommand {\beamer@subsectionpages {166}{166}}
+\headcommand {\slideentry {7}{4}{1}{167/167}{Pie charts}{0}}
 \headcommand {\beamer@framepages {167}{167}}
-\headcommand {\sectionentry {8}{Case study: Gender discrimination}{168}{Case study: Gender discrimination}{0}}
-\headcommand {\beamer@sectionpages {155}{167}}
-\headcommand {\beamer@subsectionpages {167}{167}}
-\headcommand {\slideentry {8}{0}{2}{168/168}{}{0}}
+\headcommand {\beamer@subsectionentry {0}{7}{5}{168}{Comparing numerical data across groups}}\headcommand {\beamer@subsectionpages {167}{167}}
+\headcommand {\slideentry {7}{5}{1}{168/168}{Comparing numerical data across groups}{0}}
 \headcommand {\beamer@framepages {168}{168}}
-\headcommand {\beamer@subsectionentry {0}{8}{1}{169}{Study description and data}}\headcommand {\beamer@subsectionpages {168}{168}}
-\headcommand {\slideentry {8}{1}{1}{169/170}{Study description and data}{0}}
-\headcommand {\beamer@framepages {169}{170}}
-\headcommand {\slideentry {8}{1}{2}{171/172}{Study description and data}{0}}
-\headcommand {\beamer@framepages {171}{172}}
-\headcommand {\slideentry {8}{1}{3}{173/174}{Study description and data}{0}}
-\headcommand {\beamer@framepages {173}{174}}
-\headcommand {\beamer@subsectionentry {0}{8}{2}{175}{Competing claims}}\headcommand {\beamer@subsectionpages {169}{174}}
-\headcommand {\slideentry {8}{2}{1}{175/176}{Competing claims}{0}}
-\headcommand {\beamer@framepages {175}{176}}
-\headcommand {\slideentry {8}{2}{2}{177/177}{Competing claims}{0}}
-\headcommand {\beamer@framepages {177}{177}}
-\headcommand {\slideentry {8}{2}{3}{178/178}{Competing claims}{0}}
+\headcommand {\sectionentry {8}{Case study: Gender discrimination}{169}{Case study: Gender discrimination}{0}}
+\headcommand {\beamer@sectionpages {156}{168}}
+\headcommand {\beamer@subsectionpages {168}{168}}
+\headcommand {\slideentry {8}{0}{1}{169/169}{}{0}}
+\headcommand {\beamer@framepages {169}{169}}
+\headcommand {\beamer@subsectionentry {0}{8}{1}{170}{Study description and data}}\headcommand {\beamer@subsectionpages {169}{169}}
+\headcommand {\slideentry {8}{1}{1}{170/171}{Study description and data}{0}}
+\headcommand {\beamer@framepages {170}{171}}
+\headcommand {\slideentry {8}{1}{2}{172/173}{Study description and data}{0}}
+\headcommand {\beamer@framepages {172}{173}}
+\headcommand {\slideentry {8}{1}{3}{174/175}{Study description and data}{0}}
+\headcommand {\beamer@framepages {174}{175}}
+\headcommand {\beamer@subsectionentry {0}{8}{2}{176}{Competing claims}}\headcommand {\beamer@subsectionpages {170}{175}}
+\headcommand {\slideentry {8}{2}{1}{176/177}{Competing claims}{0}}
+\headcommand {\beamer@framepages {176}{177}}
+\headcommand {\slideentry {8}{2}{2}{178/178}{Competing claims}{0}}
 \headcommand {\beamer@framepages {178}{178}}
-\headcommand {\slideentry {8}{2}{4}{179/179}{Competing claims}{0}}
+\headcommand {\slideentry {8}{2}{3}{179/179}{Competing claims}{0}}
 \headcommand {\beamer@framepages {179}{179}}
-\headcommand {\slideentry {8}{2}{5}{180/180}{Competing claims}{0}}
+\headcommand {\slideentry {8}{2}{4}{180/180}{Competing claims}{0}}
 \headcommand {\beamer@framepages {180}{180}}
-\headcommand {\beamer@subsectionentry {0}{8}{3}{181}{Testing via simulation}}\headcommand {\beamer@subsectionpages {175}{180}}
-\headcommand {\slideentry {8}{3}{1}{181/181}{Testing via simulation}{0}}
+\headcommand {\slideentry {8}{2}{5}{181/181}{Competing claims}{0}}
 \headcommand {\beamer@framepages {181}{181}}
-\headcommand {\slideentry {8}{3}{2}{182/182}{Testing via simulation}{0}}
+\headcommand {\beamer@subsectionentry {0}{8}{3}{182}{Testing via simulation}}\headcommand {\beamer@subsectionpages {176}{181}}
+\headcommand {\slideentry {8}{3}{1}{182/182}{Testing via simulation}{0}}
 \headcommand {\beamer@framepages {182}{182}}
-\headcommand {\slideentry {8}{3}{3}{183/183}{Testing via simulation}{0}}
+\headcommand {\slideentry {8}{3}{2}{183/183}{Testing via simulation}{0}}
 \headcommand {\beamer@framepages {183}{183}}
-\headcommand {\slideentry {8}{3}{4}{184/184}{Testing via simulation}{0}}
+\headcommand {\slideentry {8}{3}{3}{184/184}{Testing via simulation}{0}}
 \headcommand {\beamer@framepages {184}{184}}
-\headcommand {\beamer@subsectionentry {0}{8}{4}{185}{Checking for independence}}\headcommand {\beamer@subsectionpages {181}{184}}
-\headcommand {\slideentry {8}{4}{1}{185/186}{Checking for independence}{0}}
-\headcommand {\beamer@framepages {185}{186}}
-\headcommand {\slideentry {8}{4}{2}{187/187}{Checking for independence}{0}}
-\headcommand {\beamer@framepages {187}{187}}
-\headcommand {\beamer@partpages {1}{187}}
-\headcommand {\beamer@subsectionpages {185}{187}}
-\headcommand {\beamer@sectionpages {168}{187}}
-\headcommand {\beamer@documentpages {187}}
-\headcommand {\def \inserttotalframenumber {94}}
+\headcommand {\slideentry {8}{3}{4}{185/185}{Testing via simulation}{0}}
+\headcommand {\beamer@framepages {185}{185}}
+\headcommand {\beamer@subsectionentry {0}{8}{4}{186}{Checking for independence}}\headcommand {\beamer@subsectionpages {182}{185}}
+\headcommand {\slideentry {8}{4}{1}{186/187}{Checking for independence}{0}}
+\headcommand {\beamer@framepages {186}{187}}
+\headcommand {\slideentry {8}{4}{2}{188/188}{Checking for independence}{0}}
+\headcommand {\beamer@framepages {188}{188}}
+\headcommand {\beamer@partpages {1}{188}}
+\headcommand {\beamer@subsectionpages {186}{188}}
+\headcommand {\beamer@sectionpages {169}{188}}
+\headcommand {\beamer@documentpages {188}}
+\headcommand {\def \inserttotalframenumber {102}}

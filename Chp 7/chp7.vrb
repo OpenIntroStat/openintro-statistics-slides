@@ -10,7 +10,7 @@ Coefficients:
 bioIQ             0.90144    0.09633   9.358  1.2e-09
 
 Residual standard error: 7.729 on 25 degrees of freedom
-Multiple R-squared: 0.7779, Adjusted R-squared: 0.769
+Multiple R-squared: 0.7779,	Adjusted R-squared: 0.769
 F-statistic: 87.56 on 1 and 25 DF,  p-value: 1.204e-09
 \end{verbatim}
 }

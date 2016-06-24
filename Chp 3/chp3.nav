@@ -1,16 +1,16 @@
-\beamer@endinputifotherversion {3.26pt}
+\beamer@endinputifotherversion {3.36pt}
 \headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
 \headcommand {\beamer@framepages {1}{1}}
 \headcommand {\sectionentry {1}{Normal distribution}{2}{Normal distribution}{0}}
 \headcommand {\beamer@sectionpages {1}{1}}
 \headcommand {\beamer@subsectionpages {1}{1}}
-\headcommand {\slideentry {1}{0}{2}{2/2}{}{0}}
+\headcommand {\slideentry {1}{0}{1}{2/2}{}{0}}
 \headcommand {\beamer@framepages {2}{2}}
-\headcommand {\slideentry {1}{0}{3}{3/3}{}{0}}
+\headcommand {\slideentry {1}{0}{2}{3/3}{}{0}}
 \headcommand {\beamer@framepages {3}{3}}
-\headcommand {\slideentry {1}{0}{4}{4/5}{}{0}}
+\headcommand {\slideentry {1}{0}{3}{4/5}{}{0}}
 \headcommand {\beamer@framepages {4}{5}}
-\headcommand {\slideentry {1}{0}{5}{6/7}{}{0}}
+\headcommand {\slideentry {1}{0}{4}{6/7}{}{0}}
 \headcommand {\beamer@framepages {6}{7}}
 \headcommand {\beamer@subsectionentry {0}{1}{1}{8}{Normal distribution model}}\headcommand {\beamer@subsectionpages {2}{7}}
 \headcommand {\slideentry {1}{1}{1}{8/8}{Normal distribution model}{0}}
@@ -54,7 +54,7 @@
 \headcommand {\sectionentry {2}{Evaluating the normal approximation}{51}{Evaluating the normal approximation}{0}}
 \headcommand {\beamer@sectionpages {2}{50}}
 \headcommand {\beamer@subsectionpages {42}{50}}
-\headcommand {\slideentry {2}{0}{5}{51/51}{}{0}}
+\headcommand {\slideentry {2}{0}{1}{51/51}{}{0}}
 \headcommand {\beamer@framepages {51}{51}}
 \headcommand {\beamer@subsectionentry {0}{2}{1}{52}{Normal probability plot}}\headcommand {\beamer@subsectionpages {51}{51}}
 \headcommand {\slideentry {2}{1}{1}{52/52}{Normal probability plot}{0}}
@@ -68,7 +68,7 @@
 \headcommand {\sectionentry {3}{Geometric distribution}{57}{Geometric distribution}{0}}
 \headcommand {\beamer@sectionpages {51}{56}}
 \headcommand {\beamer@subsectionpages {52}{56}}
-\headcommand {\slideentry {3}{0}{5}{57/57}{}{0}}
+\headcommand {\slideentry {3}{0}{1}{57/57}{}{0}}
 \headcommand {\beamer@framepages {57}{57}}
 \headcommand {\beamer@subsectionentry {0}{3}{1}{58}{Bernoulli distribution}}\headcommand {\beamer@subsectionpages {57}{57}}
 \headcommand {\slideentry {3}{1}{1}{58/58}{Bernoulli distribution}{0}}
@@ -91,7 +91,7 @@
 \headcommand {\sectionentry {4}{Binomial distribution}{77}{Binomial distribution}{0}}
 \headcommand {\beamer@sectionpages {57}{76}}
 \headcommand {\beamer@subsectionpages {61}{76}}
-\headcommand {\slideentry {4}{0}{6}{77/77}{}{0}}
+\headcommand {\slideentry {4}{0}{1}{77/77}{}{0}}
 \headcommand {\beamer@framepages {77}{77}}
 \headcommand {\beamer@subsectionentry {0}{4}{1}{78}{The binomial distribution}}\headcommand {\beamer@subsectionpages {77}{77}}
 \headcommand {\slideentry {4}{1}{1}{78/84}{The binomial distribution}{0}}
@@ -145,4 +145,4 @@
 \headcommand {\beamer@subsectionpages {128}{144}}
 \headcommand {\beamer@sectionpages {77}{144}}
 \headcommand {\beamer@documentpages {144}}
-\headcommand {\def \inserttotalframenumber {56}}
+\headcommand {\def \inserttotalframenumber {59}}

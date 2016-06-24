@@ -1,3 +1,5 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \section{Model selection}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -109,7 +111,7 @@ $R^2_{adj}$ = 0.057
 }
 
 \begin{enumerate}[(a)]
-\solnMult{higher} \soln{\only<2>{\red{$\rightarrow$ Beauty held constant, male professors are rated 0.17 points higher on average than female professors.}}}
+\solnMult{higher} \soln{\only<2>{\orange{$\rightarrow$ Beauty held constant, male professors are rated 0.17 points higher on average than female professors.}}}
 \item lower
 \item about the same
 \end{enumerate}
@@ -307,7 +309,7 @@ $\:$ \\
 \begin{tabular}{l | l | c}
 \textbf{Step}		& \textbf{Variables included}	& $\mathbf{R^2_{adj}}$ \\
 \hline
-Full		& beauty + gender + age + formal + lower + native + minority + students + tenure & \red{0.0839} \pause \\
+Full		& beauty + gender + age + formal + lower + native + minority + students + tenure & \orange{0.0839} \pause \\
 \hline
 Step 1 	& gender + age + formal + lower + native + minority + students + tenure		& 0.0642 \\
 		& beauty + age + formal + lower + native + minority + students + tenure		& 0.0557 \\
@@ -315,7 +317,7 @@ Step 1 	& gender + age + formal + lower + native + minority + students + tenure	
 		& beauty + gender + age + lower + native + minority + students + tenure		& 0.0777 \\
 		& beauty + gender + age + formal + native + minority + students + tenure		& 0.0837 \\
 		& beauty + gender + age + formal + lower + minority + students + tenure		& 0.0788 \\
-		& beauty + gender + age + formal + lower + native + students + tenure		& \red{0.0842} \\
+		& beauty + gender + age + formal + lower + native + students + tenure		& \orange{0.0842} \\
 		& beauty + gender + age + formal + lower + native + minority + tenure		& 0.0838 \\
 		& beauty + gender + age + formal + lower + native + minority + students		& 0.0733 \pause \\
 \hline		
@@ -323,7 +325,7 @@ Step 2	& gender + age + formal + lower + native + students + tenure 				& 0.0647
 		& beauty + age + formal + lower + native + students + tenure 				& 0.0543 \\
 		& beauty + gender + formal + lower + native + students + tenure 			& 0.0708 \\
 		& beauty + gender + age + lower + native + students + tenure 				&0.0776  \\
-		& beauty + gender + age + formal + native + students + tenure 			& \red{0.0846} \\
+		& beauty + gender + age + formal + native + students + tenure 			& \orange{0.0846} \\
 		& beauty + gender + age + formal + lower + native + tenure 				& 0.0844 \\
 		& beauty + gender + age + formal + lower + native + students 				& 0.0725 \pause \\
 \hline
@@ -332,7 +334,7 @@ Step 3	& gender + age + formal + native + students + tenure 					& 0.0653 \\
 		& beauty + gender + formal + native + students + tenure					& 0.0707 \\
 		& beauty + gender + age + native + students + tenure					& 0.0786 \\
 		& beauty + gender + age + formal + students + tenure					& 0.0756 \\
-		& beauty + gender + age + formal + native + tenure						& \red{0.0855} \\
+		& beauty + gender + age + formal + native + tenure						& \orange{0.0855} \\
 		& beauty + gender + age + formal + native + students					& 0.0713 \pause \\
 \hline
 Step 4	& gender + age + formal + native + tenure 							& 0.0667 \\
@@ -385,23 +387,23 @@ Best model: beauty + gender + age + formal + native + tenure
 \hline
 Full		& beauty	& gender		& age	& formal		& lower 	& native	 	& minority		& students	& tenure		& tenure \\
 		& 		& male		& 		& yes		& yes	 & non english	& yes		& 			& tenure track	& tenured \\
-		&  0.00 	&  0.00 		& 0.01	& 0.04		& 0.29	& 0.06		& \red{0.35}	& 0.30		& 0.02		& 0.02 \pause \\
+		&  0.00 	&  0.00 		& 0.01	& 0.04		& 0.29	& 0.06		& \orange{0.35}	& 0.30		& 0.02		& 0.02 \pause \\
 \hline
 Step 1	& beauty	& gender		& age	& formal		& lower 		& native	 	& 			& students	& tenure		& tenure \\
 		& 		& male		& 		& yes		& yes		& non english	& 			& 			& tenure track	& tenured \\
-		&  0.00 	&  0.00 		& 0.01	& 0.04		& \red{0.38}	& 0.03		&			& 0.34		& 0.02		& 0.01 \pause\\
+		&  0.00 	&  0.00 		& 0.01	& 0.04		& \orange{0.38}	& 0.03		&			& 0.34		& 0.02		& 0.01 \pause\\
 \hline
 Step 2	& beauty	& gender		& age	& formal		& 	 		& native	 	& 			& students	& tenure		& tenure \\
 		& 		& male		& 		& yes		& 			& non english	& 			& 			& tenure track	& tenured \\
-		&  0.00 	&  0.00 		& 0.01	& 0.05		& 			& 0.02		&			& \red{0.44}	& 0.01		& 0.01\pause \\
+		&  0.00 	&  0.00 		& 0.01	& 0.05		& 			& 0.02		&			& \orange{0.44}	& 0.01		& 0.01\pause \\
 \hline
 Step 3 	& beauty	& gender		& age	& formal		& 	 		& native	 	& 			& 			& tenure		& tenure \\
 		& 		& male		& 		& yes		& 			& non english	& 			& 			& tenure track	& tenured \\
-		&  0.00 	&  0.00 		& 0.01	& \red{0.06}	& 			& 0.02		&			& 			& 0.01		& 0.01 \pause \\
+		&  0.00 	&  0.00 		& 0.01	& \orange{0.06}	& 			& 0.02		&			& 			& 0.01		& 0.01 \pause \\
 \hline
 Step 	4	& beauty	& gender		& age	& 			& 	 		& native	 	& 			& 			& tenure		& tenure \\
 		& 		& male		& 		& 			& 			& non english	& 			& 			& tenure track	& tenured \\
-		&  0.00 	&  0.00 		& 0.01	&			& 			& \red{0.06}	&			& 			& 0.01		& 0.01 \pause \\
+		&  0.00 	&  0.00 		& 0.01	&			& 			& \orange{0.06}	&			& 			& 0.01		& 0.01 \pause \\
 \hline
 Step 5 	& beauty	& gender		& age	& 			& 	 		& 		 	& 			& 			& tenure		& tenure \\
 		& 		& male		& 		& 			& 			&			& 			& 			& tenure track	& tenured \\

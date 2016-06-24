@@ -1,4 +1,4 @@
-\beamer@endinputifotherversion {3.26pt}
+\beamer@endinputifotherversion {3.36pt}
 \select@language {english}
 \beamer@sectionintoc {1}{Normal distribution}{2}{0}{1}
 \beamer@subsectionintoc {1}{1}{Normal distribution model}{8}{0}{1}

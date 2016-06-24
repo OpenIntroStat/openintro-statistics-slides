@@ -1,41 +1,69 @@
-\documentclass[slidestop,compress,mathserif]{beamer}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Slide options
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%% To get handouts:
+% Option 1: Slides with solutions
+
+\documentclass[slidestop,compress,mathserif]{beamer}
+\newcommand{\soln}[1]{\textit{#1}}
+\newcommand{\solnGr}[1]{#1}
+
+% Option 2: Handouts without solutions
+
 %\documentclass[11pt,containsverbatim,handout]{beamer}
-%% include when making handouts
 %\usepackage{pgfpages}
 %\pgfpagesuselayout{4 on 1}[letterpaper,landscape,border shrink=5mm]
-
-%%% To get rid of solutions on handouts:
-\newcommand{\soln}[1]{\textit{#1}}				% For slides
-%\newcommand{\soln}[1]{ }	% For handouts
-
-\newcommand{\solnGr}[1]{#1}
+%\newcommand{\soln}[1]{ }
 %\newcommand{\solnGr}{ }
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Style
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \input{../lec_style.tex}
 
-%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Preamble
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \title[Chp 4: Foundations for inference]{Chapter 4: Foundations for inference}
-\author{OpenIntro Statistics, 2nd Edition}
+\author{OpenIntro Statistics, 3rd Edition}
+\institute{$\:$ \\ {\footnotesize Slides developed by Mine \c{C}etinkaya-Rundel of OpenIntro. \\
+The slides may be copied, edited, and/or shared via the \webLink{http://creativecommons.org/licenses/by-sa/3.0/us/}{CC BY-SA license.} \\
+Some images may be included under fair use guidelines (educational purposes).}}
 \date{}
-\institute{}
 
-%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Begin document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
 
-%%%%%%%%%%%%%%%%%%%%%
 
-% Title Page
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Title page
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{frame}[plain]
+{
+\addtocounter{framenumber}{-1} 
+{\removepagenumbers 
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{../kitten.jpg}}
+\begin{frame}
+
+\hfill \includegraphics[width=20mm]{../oiLogo_highres}
 
 \titlepage
 
 \end{frame}
+}
+}
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Sections
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \input{4-1_var_in_est/4-1_var_in_est }
@@ -43,9 +71,10 @@
 \input{4-3_hyp_test/4-3_hyp_test}
 \input{4-4_clt/4-4_clt}
 \input{4-5_inf_other_est/4-5_inf_other_est}
-\input{4-6_samp_size_power/4-6_samp_size_power}
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% End document
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \end{document}

@@ -1,46 +1,70 @@
-\documentclass[slidestop,compress,mathserif]{beamer}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Slide options
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%% To get handouts:
+% Option 1: Slides with solutions
+
+\documentclass[slidestop,compress,mathserif]{beamer}
+\newcommand{\soln}[1]{\textit{#1}}
+\newcommand{\solnGr}[1]{#1}
+
+% Option 2: Handouts without solutions
+
 %\documentclass[11pt,containsverbatim,handout]{beamer}
-%% include when making handouts
 %\usepackage{pgfpages}
 %\pgfpagesuselayout{4 on 1}[letterpaper,landscape,border shrink=5mm]
-
-%%% To get rid of solutions on handouts:
-\newcommand{\soln}[1]{\textit{#1}}				% For slides
-%\newcommand{\soln}[1]{ }	% For handouts
-
-\newcommand{\solnGr}[1]{#1}
+%\newcommand{\soln}[1]{ }
 %\newcommand{\solnGr}{ }
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Style
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \input{../lec_style.tex}
 
-%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Preamble
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \title[Chp 3: Distributions of RVs]{Chapter 3: Distributions of Random Variables}
-\author{OpenIntro Statistics, 2nd Edition}
+\author{OpenIntro Statistics, 3rd Edition}
+\institute{$\:$ \\ {\footnotesize Slides developed by Mine \c{C}etinkaya-Rundel of OpenIntro. \\
+The slides may be copied, edited, and/or shared via the \webLink{http://creativecommons.org/licenses/by-sa/3.0/us/}{CC BY-SA license.} \\
+Some images may be included under fair use guidelines (educational purposes).}}
 \date{}
-\institute{}
 
-%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Begin document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
 
-%%%%%%%%%%%%%%%%%%%%%
 
-% Title Page
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Title page
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{frame}[plain]
+{
+\addtocounter{framenumber}{-1} 
+{\removepagenumbers 
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{../kitten.jpg}}
+\begin{frame}
+
+\hfill \includegraphics[width=20mm]{../oiLogo_highres}
 
 \titlepage
 
-{\footnotesize Slides developed by Mine \c{C}etinkaya-Rundel of OpenIntro \\
-The slides may be copied, edited, and/or shared via the \webLink{http://creativecommons.org/licenses/by-sa/3.0/us/}{CC BY-SA license} \\
-Some images may be included under fair use guidelines (educational purposes)}
-
 \end{frame}
+}
+}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Sections
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 \input{3-1_normal_distribution/3-1_normal_distribution}
 \input{3-2_evaluating_normal_approx/3-2_evaluating_normal_approx}
@@ -48,6 +72,9 @@ Some images may be included under fair use guidelines (educational purposes)}
 \input{3-4_binomial_distribution/3-4_binomial_distribution}
 \input{3-5_more_discrete_distributions/3-5_more_discrete_distributions}
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% End document
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \end{document}

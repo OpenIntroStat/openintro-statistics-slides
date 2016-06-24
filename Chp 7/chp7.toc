@@ -1,4 +1,4 @@
-\beamer@endinputifotherversion {3.22pt}
+\beamer@endinputifotherversion {3.36pt}
 \select@language {english}
 \beamer@sectionintoc {1}{Line fitting, residuals, and correlation}{2}{0}{1}
 \beamer@sectionintoc {2}{Fitting a line by least squares regression}{19}{0}{2}

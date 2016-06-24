@@ -1,12 +1,12 @@
-\beamer@endinputifotherversion {3.22pt}
+\beamer@endinputifotherversion {3.36pt}
 \headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
 \headcommand {\beamer@framepages {1}{1}}
 \headcommand {\sectionentry {1}{Introduction to multiple regression}{2}{Introduction to multiple regression}{0}}
 \headcommand {\beamer@sectionpages {1}{1}}
 \headcommand {\beamer@subsectionpages {1}{1}}
-\headcommand {\slideentry {1}{0}{2}{2/2}{}{0}}
+\headcommand {\slideentry {1}{0}{1}{2/2}{}{0}}
 \headcommand {\beamer@framepages {2}{2}}
-\headcommand {\slideentry {1}{0}{3}{3/3}{}{0}}
+\headcommand {\slideentry {1}{0}{2}{3/3}{}{0}}
 \headcommand {\beamer@framepages {3}{3}}
 \headcommand {\beamer@subsectionentry {0}{1}{1}{4}{Many variables in a model}}\headcommand {\beamer@subsectionpages {2}{3}}
 \headcommand {\slideentry {1}{1}{1}{4/4}{Many variables in a model}{0}}
@@ -67,7 +67,7 @@
 \headcommand {\sectionentry {2}{Model selection}{67}{Model selection}{0}}
 \headcommand {\beamer@sectionpages {2}{66}}
 \headcommand {\beamer@subsectionpages {36}{66}}
-\headcommand {\slideentry {2}{0}{13}{67/67}{}{0}}
+\headcommand {\slideentry {2}{0}{1}{67/67}{}{0}}
 \headcommand {\beamer@framepages {67}{67}}
 \headcommand {\beamer@subsectionentry {0}{2}{1}{68}{Identifying significance}}\headcommand {\beamer@subsectionpages {67}{67}}
 \headcommand {\slideentry {2}{1}{1}{68/68}{Identifying significance}{0}}
@@ -108,30 +108,30 @@
 \headcommand {\sectionentry {3}{Checking model conditions using graphs}{102}{Checking model conditions using graphs}{0}}
 \headcommand {\beamer@sectionpages {67}{101}}
 \headcommand {\beamer@subsectionpages {84}{101}}
-\headcommand {\slideentry {3}{0}{8}{102/102}{}{0}}
+\headcommand {\slideentry {3}{0}{1}{102/102}{}{0}}
 \headcommand {\beamer@framepages {102}{102}}
-\headcommand {\slideentry {3}{0}{9}{103/103}{}{0}}
+\headcommand {\slideentry {3}{0}{2}{103/103}{}{0}}
 \headcommand {\beamer@framepages {103}{103}}
-\headcommand {\slideentry {3}{0}{10}{104/104}{}{0}}
+\headcommand {\slideentry {3}{0}{3}{104/104}{}{0}}
 \headcommand {\beamer@framepages {104}{104}}
-\headcommand {\slideentry {3}{0}{11}{105/105}{}{0}}
+\headcommand {\slideentry {3}{0}{4}{105/105}{}{0}}
 \headcommand {\beamer@framepages {105}{105}}
-\headcommand {\slideentry {3}{0}{12}{106/107}{}{0}}
+\headcommand {\slideentry {3}{0}{5}{106/107}{}{0}}
 \headcommand {\beamer@framepages {106}{107}}
-\headcommand {\slideentry {3}{0}{13}{108/108}{}{0}}
+\headcommand {\slideentry {3}{0}{6}{108/108}{}{0}}
 \headcommand {\beamer@framepages {108}{108}}
-\headcommand {\slideentry {3}{0}{14}{109/109}{}{0}}
+\headcommand {\slideentry {3}{0}{7}{109/109}{}{0}}
 \headcommand {\beamer@framepages {109}{109}}
-\headcommand {\slideentry {3}{0}{15}{110/110}{}{0}}
+\headcommand {\slideentry {3}{0}{8}{110/110}{}{0}}
 \headcommand {\beamer@framepages {110}{110}}
 \headcommand {\sectionentry {4}{Logistic regression}{111}{Logistic regression}{0}}
 \headcommand {\beamer@sectionpages {102}{110}}
 \headcommand {\beamer@subsectionpages {102}{110}}
-\headcommand {\slideentry {4}{0}{16}{111/111}{}{0}}
+\headcommand {\slideentry {4}{0}{1}{111/111}{}{0}}
 \headcommand {\beamer@framepages {111}{111}}
-\headcommand {\slideentry {4}{0}{17}{112/114}{}{0}}
+\headcommand {\slideentry {4}{0}{2}{112/114}{}{0}}
 \headcommand {\beamer@framepages {112}{114}}
-\headcommand {\slideentry {4}{0}{18}{115/115}{}{0}}
+\headcommand {\slideentry {4}{0}{3}{115/115}{}{0}}
 \headcommand {\beamer@framepages {115}{115}}
 \headcommand {\beamer@subsectionentry {0}{4}{1}{116}{Generalized linear models}}\headcommand {\beamer@subsectionpages {111}{115}}
 \headcommand {\slideentry {4}{1}{1}{116/116}{Generalized linear models}{0}}
@@ -247,4 +247,4 @@
 \headcommand {\beamer@subsectionpages {211}{224}}
 \headcommand {\beamer@sectionpages {111}{224}}
 \headcommand {\beamer@documentpages {224}}
-\headcommand {\def \inserttotalframenumber {107}}
+\headcommand {\def \inserttotalframenumber {110}}
