@@ -1,0 +1,50 @@
+\documentclass[slidestop,compress,mathserif]{beamer}
+
+%%% To get handouts:
+%\documentclass[11pt,containsverbatim,handout]{beamer}
+%% include when making handouts
+%\usepackage{pgfpages}
+%\pgfpagesuselayout{4 on 1}[letterpaper,landscape,border shrink=5mm]
+
+%%% To get rid of solutions on handouts:
+\newcommand{\soln}[1]{\textit{#1}}				% For slides
+%\newcommand{\soln}[1]{ }	% For handouts
+
+\newcommand{\solnGr}[1]{#1}
+%\newcommand{\solnGr}{ }
+
+\input{../lec_style.tex}
+
+%%%%%%%%%%%%%%%%%%%%%
+
+\title[Chp 5: Inference for numerical data]{Chapter 5: Inference for numerical data}
+\author{OpenIntro Statistics, 2nd Edition}
+\date{}
+\institute{}
+
+%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%
+
+% Title Page
+
+\begin{frame}[plain]
+
+\titlepage
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{5-1_paired/5-1_paired}
+\input{5-2_diff_two_mean/5-2_diff_two_mean}
+\input{5-3_one_t/5-3_one_t}
+\input{5-4_two_t/5-4_two_t}
+\input{5-5_anova/5-5_anova}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}

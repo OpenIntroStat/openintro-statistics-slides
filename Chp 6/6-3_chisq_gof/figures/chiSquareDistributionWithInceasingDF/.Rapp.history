@@ -1,0 +1,1608 @@
+load("/Volumes/REVOLUTION/stockBehavior/stockBehavior.RData")
+d$R
+s <- c()#
+si <- TRUE#
+k  <- 1#
+n  <- 0#
+for(i in 2:length(R)){#
+	if((R[i] > 0) != si){#
+		n  <- n+1#
+		s[n] <- k#
+		k  <- 1#
+		si <- !si#
+	} else {#
+		k <- k+1#
+	}#
+}#
+#
+sHold <- s#
+histPlot(sHold-0.51, ylim=c(0, 3000), breaks=seq(0, 15, 0.5))#
+#
+R <- sample(R)#
+s <- c()#
+si <- TRUE#
+k  <- 1#
+n  <- 0#
+for(i in 2:length(R)){#
+	if((R[i] > 0) != si){#
+		n  <- n+1#
+		s[n] <- k#
+		k  <- 1#
+		si <- !si#
+	} else {#
+		k <- k+1#
+	}#
+}#
+histPlot(s-0.01, add=TRUE, breaks=seq(0, 18, 0.5), col='#22558833')
+library(openintro)
+s <- c()#
+si <- TRUE#
+k  <- 1#
+n  <- 0#
+for(i in 2:length(R)){#
+	if((R[i] > 0) != si){#
+		n  <- n+1#
+		s[n] <- k#
+		k  <- 1#
+		si <- !si#
+	} else {#
+		k <- k+1#
+	}#
+}#
+#
+sHold <- s#
+histPlot(sHold-0.51, ylim=c(0, 3000), breaks=seq(0, 15, 0.5))#
+#
+R <- sample(R)#
+s <- c()#
+si <- TRUE#
+k  <- 1#
+n  <- 0#
+for(i in 2:length(R)){#
+	if((R[i] > 0) != si){#
+		n  <- n+1#
+		s[n] <- k#
+		k  <- 1#
+		si <- !si#
+	} else {#
+		k <- k+1#
+	}#
+}#
+histPlot(s-0.01, add=TRUE, breaks=seq(0, 18, 0.5), col='#22558833')
+s <- c()#
+si <- TRUE#
+k  <- 1#
+n  <- 0#
+for(i in 2:length(R)){#
+	if((R[i] > 0) != si){#
+		n  <- n+1#
+		s[n] <- k#
+		k  <- 1#
+		si <- !si#
+	} else {#
+		k <- k+1#
+	}#
+}#
+#
+sHold <- s
+histPlot(sHold-0.51, ylim=c(0, 3000), breaks=seq(0, 15, 0.5))#
+#
+R <- sample(R)#
+s <- c()#
+si <- TRUE#
+k  <- 1#
+n  <- 0#
+for(i in 2:length(R)){#
+	if((R[i] > 0) != si){#
+		n  <- n+1#
+		s[n] <- k#
+		k  <- 1#
+		si <- !si#
+	} else {#
+		k <- k+1#
+	}#
+}#
+histPlot(s-0.01, add=TRUE, breaks=seq(0, 18, 0.5), col='#22558833')
+load("stockBehavior.RData")
+sHold
+table(as.character(sHold))
+?table
+table(as.character(sHold))
+dim(table(as.character(sHold)))
+as.matrix(table(as.character(sHold)))
+as.matrix(table(as.character(sHold)))[c(1,6:14,2:5),]
+as.matrix(table(as.character(sHold)))[c(1,6:13,2:5),]
+c(counts[1:12], 0, counts[13])
+counts <- as.matrix(table(as.character(sHold)))[c(1,6:13,2:5),]
+ c(counts[1:12], 0, counts[13])
+names(counts)[13] <- 13
+counts
+counts <- as.matrix(table(as.character(sHold)))[c(1,6:13,2:5),]#
+#
+counts <- c(counts[1:12], 0, counts[13])#
+names(counts)[13:14] <- 13:14
+counts
+counts <- c(counts[1:9], sum(counts[10:14]))#
+counts
+counts <- as.matrix(table(as.character(sHold)))[c(1,6:13,2:5),]#
+#
+counts <- c(counts[1:12], 0, counts[13])#
+counts <- c(counts[1:9], sum(counts[10:13]))#
+names(counts)[10] <- "10+"#
+counts
+any(d$R == 0)
+sum(d$R == 0)
+s <- c()#
+si <- TRUE#
+k  <- 1#
+n  <- 0#
+for(i in 2:length(R)){#
+	if((R[i] == 0)){#
+		#
+	} else if((R[i] > 0) != si){#
+		n  <- n+1#
+		s[n] <- k#
+		k  <- 1#
+		si <- !si#
+	} else {#
+		k <- k+1#
+	}#
+}#
+#
+sHold <- s
+#
+histPlot(sHold-0.51, ylim=c(0, 3000), breaks=seq(0, 15, 0.5))
+sHold
+R
+R <- d$R
+R
+rev(d$R[,1])
+R <- rev(d$R[,1])
+signs <- (R > 0)#
+si <- signs#
+streaks <- 0#
+k <- 1#
+n <- 0
+load("stockBehavior.RData")#
+#
+# we want to analyze how many days it takes#
+# before we observe "up" days#
+#
+R <- rev(d$R[,1])#
+#
+signs <- (R <= 0)#
+si <- signs#
+streaks <- 0#
+k <- 0#
+n <- 0#
+for(i in 1:length(R)){#
+	if(signs[i]){#
+		n  <- n+1#
+	} else {#
+		k <- k+1#
+		n <- n+1#
+		streaks[k] <- n#
+		n <- 0#
+	}#
+}
+hist(streaks)
+histPlot(streaks-0.51, breaks=seq(0, 15, 0.5))
+histPlot(streaks-0.51, breaks=seq(0, 13, 0.5))
+histPlot(streaks-0.01, breaks=seq(0, 13, 0.5))
+histPlot(streaks, breaks=seq(0.25, 13.25, 0.5))
+table(as.character(streaks))
+sum(streaks > 1)
+sum(streaks == 1)
+sum(signs)/length(signs)
+4514/(3524+4514)
+length(R)
+R <- rev(d$R[1:10000,1])#
+#
+signs <- (R <= 0)#
+p <- sum(signs)/length(signs)#
+si <- signs#
+streaks <- 0#
+k <- 0#
+n <- 0#
+for(i in 1:length(R)){#
+	if(signs[i]){#
+		n  <- n+1#
+	} else {#
+		k <- k+1#
+		n <- n+1#
+		streaks[k] <- n#
+		n <- 0#
+	}#
+}#
+histPlot(streaks, breaks=seq(0.25, 13.25, 0.5))
+table(as.character(streaks))
+as.matrix(table(as.character(streaks)))[c(1,4:12,2:4),]
+as.matrix(table(as.character(streaks)))[c(1,5:12,2:4),]
+counts <- as.matrix(table(as.character(streaks)))[c(1,5:12,2:4),]
+chisq.test
+chisq.test(counts)
+counts
+p <- sum(!signs)/length(signs)
+(1-p)^(0:8)*p
+R
+R[1]
+R <- rev(d$R[1:5000,1])#
+#
+signs <- (R <= 0)#
+p <- sum(!signs)/length(signs)#
+si <- signs#
+streaks <- 0#
+k <- 0#
+n <- 0#
+for(i in 1:length(R)){#
+	if(signs[i]){#
+		n  <- n+1#
+	} else {#
+		k <- k+1#
+		n <- n+1#
+		streaks[k] <- n#
+		n <- 0#
+	}#
+}#
+histPlot(streaks, breaks=seq(0.25, 13.25, 0.5))
+table(as.character(streaks))
+order(as.numeric(names(counts)))
+counts <- as.matrix(table(as.character(streaks)))
+order(as.numeric(names(counts)))
+names(counts)
+table(as.character(streaks))
+names(table(as.character(streaks)))
+order(as.numeric(names(counts)))
+as.numeric(names(counts))
+names(counts)
+counts <- table(as.character(streaks))#
+order(as.numeric(names(counts)))
+counts <- table(as.character(streaks))
+matrix(counts)[order(as.numeric(names(counts))),]
+matrix(counts)
+table(as.character(streaks))
+matrix(counts)
+counts <- table(as.character(streaks))#
+Names  <- names(counts)#
+Order  <- order(as.numeric(names(counts)))
+Names
+Order
+counts <- table(as.character(streaks))#
+Names  <- names(counts)#
+Order  <- order(as.numeric(names(counts)))#
+counts <- matrix(counts)[Order,]#
+names(counts) <- Names
+counts
+as.numeric(Names)
+frac   <- (1-p)^(0:6)*p
+frac
+frac   <- (1-p)^(0:5)*p
+frac
+sum(frac)
+1-sum(frac)
+c(frac, 1-sum(frac))
+props <- c(frac, 1-sum(frac))
+props
+5000*props
+sum(counts)*props
+sum(counts)*props - counts
+frac   <- (1-p)^(0:5)*p#
+props <- c(frac, 1-sum(frac))#
+#
+sum(counts)*props - counts
+counts[7] <- sum(counts[7:8])
+frac   <- (1-p)^(0:5)*p#
+props <- c(frac, 1-sum(frac))
+sum(counts)*props - counts
+counts <- table(as.character(streaks))#
+Names  <- names(counts)#
+Order  <- order(as.numeric(names(counts)))#
+counts <- matrix(counts)[Order,]#
+names(counts) <- Names#
+#
+counts[7] <- sum(counts[7:8])#
+counts[8] <- NULL#
+frac   <- (1-p)^(0:5)*p#
+props <- c(frac, 1-sum(frac))#
+#
+#
+sum(counts)*props - counts
+length(counts)
+counts[8]
+counts <- counts[1:7]#
+frac   <- (1-p)^(0:5)*p#
+props <- c(frac, 1-sum(frac))#
+#
+#
+sum(counts)*props - counts
+expCounts <- sum(counts)*props#
+diffs <- counts - expCounts#
+diffs^2/expCounts
+sum(diffs^2/expCounts)
+pchisq(17.08, 6)
+load("stockBehavior.RData")#
+#
+# we want to analyze how many days it takes#
+# before we observe "up" days#
+#
+R <- rev(d$R[1:5000,1])#
+#
+signs <- (R <= 0)#
+p <- sum(!signs)/length(signs)#
+si <- signs#
+streaks <- 0#
+k <- 0#
+n <- 0#
+for(i in 1:length(R)){#
+	if(signs[i]){#
+		n  <- n+1#
+	} else {#
+		k <- k+1#
+		n <- n+1#
+		streaks[k] <- n#
+		n <- 0#
+	}#
+}#
+histPlot(streaks, breaks=seq(0.25, 13.25, 0.5))#
+#
+counts <- table(as.character(streaks))#
+Names  <- names(counts)#
+Order  <- order(as.numeric(names(counts)))#
+counts <- matrix(counts)[Order,]#
+names(counts) <- Names#
+#
+counts[7] <- sum(counts[7:8])#
+counts <- counts[1:7]#
+frac   <- (1-p)^(0:5)*p#
+props <- c(frac, 1-sum(frac))#
+#
+expCounts <- sum(counts)*props#
+diffs <- counts - expCounts#
+sum(diffs^2/expCounts)
+pchisq(X2, length(diffs)-1)
+X2 <- sum(diffs^2/expCounts)#
+pchisq(X2, length(diffs)-1)
+1-pchisq(X2, length(diffs)-1)
+load("stockBehavior.RData")#
+#
+# we want to analyze how many days it takes#
+# before we observe "up" days#
+#
+R <- rev(d$R[1:5000,1])#
+#
+signs <- (R <= 0)#
+p <- sum(!signs)/length(signs)#
+si <- signs#
+streaks <- 0#
+k <- 0#
+n <- 0#
+for(i in 1:length(R)){#
+	if(signs[i]){#
+		n  <- n+1#
+	} else {#
+		k <- k+1#
+		n <- n+1#
+		streaks[k] <- n#
+		n <- 0#
+	}#
+}#
+histPlot(streaks, breaks=seq(0.25, 13.25, 0.5))#
+#
+counts <- table(as.character(streaks))#
+Names  <- names(counts)#
+Order  <- order(as.numeric(names(counts)))#
+counts <- matrix(counts)[Order,]#
+names(counts) <- Names#
+#
+counts[7] <- sum(counts[7:8])#
+counts <- counts[1:7]#
+frac   <- (1-p)^(0:5)*p#
+props <- c(frac, 1-sum(frac))#
+#
+expCounts <- sum(counts)*props#
+diffs <- counts - expCounts#
+X2 <- sum(diffs^2/expCounts)#
+1-pchisq(X2, length(diffs)-1)
+load("stockBehavior.RData")#
+#
+# we want to analyze how many days it takes#
+# before we observe "up" days#
+#
+R <- rev(d$R[1:5000,1])#
+#
+signs <- (R <= 0)#
+p <- sum(!signs)/length(signs)#
+si <- signs#
+streaks <- 0#
+k <- 0#
+n <- 0#
+for(i in 1:length(R)){#
+	if(signs[i]){#
+		n  <- n+1#
+	} else {#
+		k <- k+1#
+		n <- n+1#
+		streaks[k] <- n#
+		n <- 0#
+	}#
+}#
+histPlot(streaks, breaks=seq(0.25, 13.25, 0.5))#
+#
+counts <- table(as.character(streaks))#
+Names  <- names(counts)#
+Order  <- order(as.numeric(names(counts)))#
+counts <- matrix(counts)[Order,]#
+names(counts) <- Names#
+#
+counts[7] <- sum(counts[7:length(counts)])#
+counts <- counts[1:7]#
+frac   <- (1-p)^(0:5)*p#
+props <- c(frac, 1-sum(frac))#
+#
+expCounts <- sum(counts)*props#
+diffs <- counts - expCounts#
+X2 <- sum(diffs^2/expCounts)#
+1-pchisq(X2, length(diffs)-1)
+load("stockBehavior.RData")#
+#
+# we want to analyze how many days it takes#
+# before we observe "up" days#
+#
+R <- rev(d$R[1:15000,1])#
+#
+signs <- (R <= 0)#
+p <- sum(!signs)/length(signs)#
+si <- signs#
+streaks <- 0#
+k <- 0#
+n <- 0#
+for(i in 1:length(R)){#
+	if(signs[i]){#
+		n  <- n+1#
+	} else {#
+		k <- k+1#
+		n <- n+1#
+		streaks[k] <- n#
+		n <- 0#
+	}#
+}#
+histPlot(streaks, breaks=seq(0.25, 13.25, 0.5))#
+#
+counts <- table(as.character(streaks))#
+Names  <- names(counts)#
+Order  <- order(as.numeric(names(counts)))#
+counts <- matrix(counts)[Order,]#
+names(counts) <- Names#
+#
+counts[7] <- sum(counts[7:length(counts)])#
+counts <- counts[1:7]#
+frac   <- (1-p)^(0:5)*p#
+props <- c(frac, 1-sum(frac))#
+#
+expCounts <- sum(counts)*props#
+diffs <- counts - expCounts#
+X2 <- sum(diffs^2/expCounts)#
+1-pchisq(X2, length(diffs)-1)
+X2
+diffs
+counts
+load("stockBehavior.RData")#
+#
+# we want to analyze how many days it takes#
+# before we observe "up" days#
+#
+R <- rev(d$R[1:15000,1])#
+#
+signs <- (R <= 0)#
+p <- sum(!signs)/length(signs)#
+si <- signs#
+streaks <- 0#
+k <- 0#
+n <- 0#
+for(i in 1:length(R)){#
+	if(signs[i]){#
+		n  <- n+1#
+	} else {#
+		k <- k+1#
+		n <- n+1#
+		streaks[k] <- n#
+		n <- 0#
+	}#
+}#
+histPlot(streaks, breaks=seq(0.25, 13.25, 0.5))#
+#
+counts <- table(as.character(streaks))#
+Names  <- names(counts)#
+Order  <- order(as.numeric(names(counts)))#
+counts <- matrix(counts)[Order,]#
+names(counts) <- Names[Order]#
+#
+counts[7] <- sum(counts[7:length(counts)])#
+counts <- counts[1:7]#
+frac   <- (1-p)^(0:5)*p#
+props <- c(frac, 1-sum(frac))#
+#
+expCounts <- sum(counts)*props#
+diffs <- counts - expCounts#
+X2 <- sum(diffs^2/expCounts)#
+1-pchisq(X2, length(diffs)-1)
+counts
+expCounts
+load("stockBehavior.RData")#
+#
+# we want to analyze how many days it takes#
+# before we observe "up" days#
+#
+R <- rev(d$R[1:5000,1])#
+#
+signs <- (R <= 0)#
+p <- sum(!signs)/length(signs)#
+si <- signs#
+streaks <- 0#
+k <- 0#
+n <- 0#
+for(i in 1:length(R)){#
+	if(signs[i]){#
+		n  <- n+1#
+	} else {#
+		k <- k+1#
+		n <- n+1#
+		streaks[k] <- n#
+		n <- 0#
+	}#
+}#
+histPlot(streaks, breaks=seq(0.25, 13.25, 0.5))#
+#
+counts <- table(as.character(streaks))#
+Names  <- names(counts)#
+Order  <- order(as.numeric(names(counts)))#
+counts <- matrix(counts)[Order,]#
+names(counts) <- Names[Order]#
+#
+counts[7] <- sum(counts[7:length(counts)])#
+counts <- counts[1:7]#
+frac   <- (1-p)^(0:5)*p#
+props <- c(frac, 1-sum(frac))#
+#
+expCounts <- sum(counts)*props#
+diffs <- counts - expCounts#
+X2 <- sum(diffs^2/expCounts)#
+1-pchisq(X2, length(diffs)-1)
+R[1]
+R <- rev(d$R[1:5000,1])
+rev(d$R[1:5000,1])
+rev(d$R[100:5000,1])
+rev(d$R[160:5000,1])
+rev(d$R[144:5000,1])
+rev(d$R[140:5000,1])
+rev(d$R[141:5000,1])
+rev(d$R[139:5000,1])
+(R <- rev(d$R[139:5000,1]))
+(R <- rev(d$R[139:5139,1]))
+(R <- rev(d$R[139:5139,1]))[1]
+(R <- rev(d$R[139:5239,1]))[1]
+(R <- rev(d$R[139:5189,1]))[1]
+(R <- rev(d$R[139:5175,1]))[1]
+(R <- rev(d$R[139:5182,1]))[1]
+(R <- rev(d$R[139:5182,1]))[1:5]
+(R <- rev(d$R[139:5181,1]))[1:5]
+load("stockBehavior.RData")#
+#
+# we want to analyze how many days it takes#
+# before we observe "up" days#
+#
+(R <- rev(d$R[139:5181,1]))#
+#
+signs <- (R <= 0)#
+p <- sum(!signs)/length(signs)#
+si <- signs#
+streaks <- 0#
+k <- 0#
+n <- 0#
+for(i in 1:length(R)){#
+	if(signs[i]){#
+		n  <- n+1#
+	} else {#
+		k <- k+1#
+		n <- n+1#
+		streaks[k] <- n#
+		n <- 0#
+	}#
+}#
+histPlot(streaks, breaks=seq(0.25, 13.25, 0.5))#
+#
+counts <- table(as.character(streaks))#
+Names  <- names(counts)#
+Order  <- order(as.numeric(names(counts)))#
+counts <- matrix(counts)[Order,]#
+names(counts) <- Names[Order]#
+#
+counts[7] <- sum(counts[7:length(counts)])#
+counts <- counts[1:7]#
+frac   <- (1-p)^(0:5)*p#
+props <- c(frac, 1-sum(frac))#
+#
+expCounts <- sum(counts)*props#
+diffs <- counts - expCounts#
+X2 <- sum(diffs^2/expCounts)#
+1-pchisq(X2, length(diffs)-1)
+load("stockBehavior.RData")#
+#
+# we want to analyze how many days it takes#
+# before we observe "up" days#
+#
+(R <- rev(d$R[139:5181,1]))#
+#
+signs <- (R <= 0)#
+p <- sum(!signs)/length(signs)#
+si <- signs#
+streaks <- 0#
+k <- 0#
+n <- 0#
+for(i in 1:length(R)){#
+	if(signs[i]){#
+		n  <- n+1#
+	} else {#
+		k <- k+1#
+		n <- n+1#
+		streaks[k] <- n#
+		n <- 0#
+	}#
+}#
+histPlot(streaks, breaks=seq(0.25, 13.25, 0.5))#
+#
+counts <- table(as.character(streaks))#
+Names  <- names(counts)#
+Order  <- order(as.numeric(names(counts)))#
+counts <- matrix(counts)[Order,]#
+names(counts) <- Names[Order]#
+#
+counts[7] <- sum(counts[7:length(counts)])#
+(counts <- counts[1:7])#
+frac   <- (1-p)^(0:5)*p#
+props <- c(frac, 1-sum(frac))#
+#
+(expCounts <- sum(counts)*props)#
+diffs <- counts - expCounts#
+X2 <- sum(diffs^2/expCounts)#
+1-pchisq(X2, length(diffs)-1)
+load("stockBehavior.RData")#
+#
+# we want to analyze how many days it takes#
+# before we observe "up" days#
+#
+(R <- rev(d$R[139:5181,1]))#
+#
+signs <- (R <= 0)#
+p <- sum(!signs)/length(signs)#
+si <- signs#
+streaks <- 0#
+k <- 0#
+n <- 0#
+for(i in 1:length(R)){#
+	if(signs[i]){#
+		n  <- n+1#
+	} else {#
+		k <- k+1#
+		n <- n+1#
+		streaks[k] <- n#
+		n <- 0#
+	}#
+}#
+histPlot(streaks, breaks=seq(0.25, 13.25, 0.5))#
+#
+counts <- table(as.character(streaks))
+counts
+Names  <- names(counts)#
+Order  <- order(as.numeric(names(counts)))#
+counts <- matrix(counts)[Order,]#
+names(counts) <- Names[Order]#
+#
+counts[7] <- sum(counts[7:length(counts)])#
+(counts <- counts[1:7])#
+frac   <- (1-p)^(0:5)*p#
+props <- c(frac, 1-sum(frac))
+#
+(expCounts <- sum(counts)*props)#
+diffs <- counts - expCounts#
+X2 <- sum(diffs^2/expCounts)#
+1-pchisq(X2, length(diffs)-1)
+diffs
+(diffs^2/expCounts)
+counts
+sum(counts)
+library(openintro)#
+library(stockPortfolio)#
+d <- getReturns("^GSPC", freq='d')#
+R <- rev(d$R[,1])#
+#
+s <- c()#
+si <- TRUE#
+k  <- 1#
+n  <- 0#
+for(i in 2:length(R)){#
+	if((R[i] == 0)){#
+		#
+	} else if((R[i] > 0) != si){#
+		n  <- n+1#
+		s[n] <- k#
+		k  <- 1#
+		si <- !si#
+	} else {#
+		k <- k+1#
+	}#
+}#
+#
+sHold <- s#
+#
+#
+histPlot(sHold-0.51, ylim=c(0, 3000), breaks=seq(0, 15, 0.5))
+sum(sHold > 9)
+sum(R > 0)/length(R)
+R
+sum(s==1)
+sum(s==2)
+#
+s <- c()#
+si <- TRUE#
+k  <- 1#
+n  <- 0#
+for(i in 2:length(R)){#
+	if((R[i] == 0)){#
+		k <- k+1#
+	} else if((R[i] > 0) != si){#
+		n  <- n+1#
+		s[n] <- k#
+		k  <- 1#
+		si <- !si#
+	} else {#
+		k <- k+1#
+	}#
+}#
+#
+sHold <- s#
+#
+#
+histPlot(sHold-0.51, ylim=c(0, 3000), breaks=seq(0, 15, 0.5))
+sum(s == 1)#
+sum(s == 2)#
+sum(s == 3)#
+sum(s == 4)#
+sum(s == 5)#
+sum(s == 6)#
+sum(s >= 7)
+sum(s > 7)
+sum(s == 7)#
+sum(s > 7)
+length(s)
+sum(s)
+sum(s == 0)
+length(R)
+sHold <- s#
+sum(s == 1)#
+sum(s == 2)#
+sum(s == 3)#
+sum(s == 4)#
+sum(s == 5)#
+sum(s == 6)#
+sum(s >= 7)
+2327+1223+707+352+160+92+74
+load("/Users/ddiez/Desktop/oiStatistics/05/data/stockBehavior/stockBehavior.RData")
+R
+library(openintro)#
+library(stockPortfolio)#
+d <- getReturns("^GSPC", freq='d', start='1990-01-01', end='2009-12-31')#
+R <- rev(d$R[,1])#
+#
+s <- c()#
+si <- TRUE#
+k  <- 1#
+n  <- 0#
+for(i in 2:length(R)){#
+	if((R[i] == 0)){#
+		k <- k+1#
+	} else if((R[i] > 0) != si){#
+		n  <- n+1#
+		s[n] <- k#
+		k  <- 1#
+		si <- !si#
+	} else {#
+		k <- k+1#
+	}#
+}#
+#
+sHold <- s#
+sum(s == 1)#
+sum(s == 2)#
+sum(s == 3)#
+sum(s == 4)#
+sum(s == 5)#
+sum(s == 6)#
+sum(s >= 7)
+#
+#
+histPlot(sHold-0.51, ylim=c(0, 3000), breaks=seq(0, 15, 0.5))
+R <- sample(R)#
+s <- c()#
+si <- TRUE#
+k  <- 1#
+n  <- 0#
+for(i in 2:length(R)){#
+	if((R[i] > 0) != si){#
+		n  <- n+1#
+		s[n] <- k#
+		k  <- 1#
+		si <- !si#
+	} else {#
+		k <- k+1#
+	}#
+}#
+histPlot(s-0.01, add=TRUE, breaks=seq(0, 18, 0.5), col='#22558833')
+library(openintro)#
+library(stockPortfolio)#
+d <- getReturns("^GSPC", freq='d', start='1990-01-01', end='2009-12-31')#
+R <- rev(d$R[,1])#
+#
+s <- c()#
+si <- TRUE#
+k  <- 1#
+n  <- 0#
+for(i in 2:length(R)){#
+	if((R[i] == 0)){#
+		k <- k+1#
+	} else if((R[i] > 0) != si){#
+		n  <- n+1#
+		s[n] <- k#
+		k  <- 1#
+		si <- !si#
+	} else {#
+		k <- k+1#
+	}#
+}#
+#
+sHold <- s#
+sum(s == 1)#
+sum(s == 2)#
+sum(s == 3)#
+sum(s == 4)#
+sum(s == 5)#
+sum(s == 6)#
+sum(s >= 7)
+length(s)
+sum(R > 0)/length(R)
+sum(R > 0)/length(R) -> p
+p
+2587*p
+2587*p*(1-p)^(0:5)
+round(2587*p*(1-p)^(0:5))
+2587 - sum(round(2587*p*(1-p)^(0:5)))
+library(openintro)#
+C <- c(1298, 685, 367, 157, 77, 33, 20)#
+E <- c(1368, 644, 304, 143, 67, 32, 28)
+C <- rep(1:7, c(1298, 685, 367, 157, 77, 33, 20))#
+E <- rep(1:7, c(1368, 644, 304, 143, 67, 32, 28))
+C[1:10]
+C[1298]
+C[1299]
+histPlot(C-0.12, breaks=seq(0, 8, 0.25))
+histPlot(C-0.12, breaks=seq(0, 8, 0.25), add=TRUE, col='#225588')
+histPlot(C-0.13, breaks=seq(0, 8, 0.25))#
+histPlot(C+0.13, breaks=seq(0, 8, 0.25), add=TRUE, col='#225588')
+histPlot(C-0.13, breaks=seq(0, 8, 0.25))#
+histPlot(E+0.13, breaks=seq(0, 8, 0.25), add=TRUE, col='#225588')
+histPlot(C-0.13, breaks=seq(0, 8, 0.25), xlim=c(0.5, 7.5))#
+histPlot(E+0.13, breaks=seq(0, 8, 0.25), add=TRUE, col='#225588')
+histPlot(C-0.13, breaks=seq(0, 8, 0.25), xlim=c(0.5, 7.5), axes=FALSE)#
+histPlot(E+0.13, breaks=seq(0, 8, 0.25), add=TRUE, col='#225588')#
+axis(1, 1:7, c(1:6, "7+"))
+sum(s >= 7)/length(s)
+sum(s >= 7)
+axis(2)
+#
+par(mar=c(3.5, 4.5, 1, 1), las=1, mgp=c(2.3, 0.7, 0))#
+histPlot(C-0.13, breaks=seq(0, 8, 0.25), xlim=c(0.5, 7.5), axes=FALSE)#
+histPlot(E+0.13, breaks=seq(0, 8, 0.25), add=TRUE, col='#225588')#
+axis(1, 1:7, c(1:6, "7+"))#
+axis(2)
+#
+#
+par(mar=c(3.5, 4.5, 1, 1), las=1, mgp=c(2.3, 0.7, 0))#
+histPlot(C-0.13, breaks=seq(0, 8, 0.25), xlim=c(0.5, 7.5), axes=FALSE, xlab='Wait until positive day', ylim='')#
+histPlot(E+0.13, breaks=seq(0, 8, 0.25), add=TRUE, col='#225588')#
+axis(1, 1:7, c(1:6, "7+"))#
+axis(2)#
+par(las=0)#
+mtext('Frequency', 2, line=3.2)
+library(openintro)#
+C <- rep(1:7, c(1298, 685, 367, 157, 77, 33, 20))#
+E <- rep(1:7, c(1368, 644, 304, 143, 67, 32, 28))#
+#
+#
+par(mar=c(3.5, 4.5, 1, 1), las=1, mgp=c(2.3, 0.7, 0))#
+histPlot(C-0.13, breaks=seq(0, 8, 0.25), xlim=c(0.5, 7.5), axes=FALSE, xlab='Wait until positive day', ylab='')#
+histPlot(E+0.13, breaks=seq(0, 8, 0.25), add=TRUE, col='#225588')#
+axis(1, 1:7, c(1:6, "7+"))#
+axis(2)#
+par(las=0)#
+mtext('Frequency', 2, line=3.2)
+library(openintro)#
+C <- rep(1:7, c(1298, 685, 367, 157, 77, 33, 20))#
+E <- rep(1:7, c(1368, 644, 304, 143, 67, 32, 28))#
+#
+#
+par(mar=c(3.5, 4.5, 1, 1), las=1, mgp=c(2.3, 0.7, 0))#
+histPlot(C-0.13, breaks=seq(0, 8, 0.25), xlim=c(0.5, 7.5), axes=FALSE, xlab='Wait until positive day', ylab='')#
+histPlot(E+0.13, breaks=seq(0, 8, 0.25), add=TRUE, col='#22558888')#
+axis(1, 1:7, c(1:6, "7+"))#
+axis(2)#
+par(las=0)#
+mtext('Frequency', 2, line=3.2)#
+legend
+library(openintro)#
+C <- rep(1:7, c(1298, 685, 367, 157, 77, 33, 20))#
+E <- rep(1:7, c(1368, 644, 304, 143, 67, 32, 28))#
+#
+#
+par(mar=c(3.5, 4.5, 1, 1), las=1, mgp=c(2.3, 0.7, 0))#
+histPlot(C-0.13, breaks=seq(0, 8, 0.25), xlim=c(0.5, 7.5), axes=FALSE, xlab='Wait until positive day', ylab='', ylim=c(0, 1400))#
+histPlot(E+0.13, breaks=seq(0, 8, 0.25), add=TRUE, col='#22558888')#
+axis(1, 1:7, c(1:6, "7+"))#
+axis(2)#
+par(las=0)#
+mtext('Frequency', 2, line=3.2)#
+legend
+library(openintro)#
+C <- rep(1:7, c(1298, 685, 367, 157, 77, 33, 20))#
+E <- rep(1:7, c(1368, 644, 304, 143, 67, 32, 28))#
+#
+#
+par(mar=c(3.5, 4.5, 1, 1), las=1, mgp=c(2.3, 0.7, 0))#
+histPlot(C-0.13, breaks=seq(0, 8, 0.25), xlim=c(0.5, 7.5), axes=FALSE, xlab='Wait until positive day', ylab='', ylim=c(0, 1400))#
+histPlot(E+0.13, breaks=seq(0, 8, 0.25), add=TRUE, col='#22558888')#
+axis(1, 1:7, c(1:6, "7+"))#
+axis(2, at=seq(0, 1200, 400))#
+par(las=0)#
+mtext('Frequency', 2, line=3.2)#
+legend
+library(openintro)#
+C <- rep(1:7, c(1298, 685, 367, 157, 77, 33, 20))#
+E <- rep(1:7, c(1368, 644, 304, 143, 67, 32, 28))#
+#
+pdf('geomFitEvaluationForSP500For1990To2009.pdf', 5, 3)#
+par(mar=c(3.5, 4.5, 1, 1), las=1, mgp=c(2.3, 0.7, 0))#
+histPlot(C-0.13, breaks=seq(0, 8, 0.25), xlim=c(0.5, 7.5), axes=FALSE, xlab='Wait until positive day', ylab='', ylim=c(0, 1400), col='#00000033')#
+histPlot(E+0.13, breaks=seq(0, 8, 0.25), add=TRUE, col='#22558888')#
+axis(1, 1:7, c(1:6, "7+"))#
+axis(2, at=seq(0, 1200, 400))#
+par(las=0)#
+mtext('Frequency', 2, line=3.2)#
+legend('topright', fill=c('#00000033', '#22558888'), legend=c('Observed', 'Expected'))#
+dev.off()
+library(openintro)#
+C <- rep(1:7, c(1298, 685, 367, 157, 77, 33, 20))#
+E <- rep(1:7, c(1368, 644, 304, 143, 67, 32, 28))#
+#
+pdf('geomFitEvaluationForSP500For1990To2009.pdf', 6, 3)#
+par(mar=c(3.5, 4.2, 1, 1), las=1, mgp=c(2.3, 0.7, 0))#
+histPlot(C-0.13, breaks=seq(0, 8, 0.25), xlim=c(0.5, 7.5), axes=FALSE, xlab='Wait until positive day', ylab='', ylim=c(0, 1400), col='#00000033')#
+histPlot(E+0.13, breaks=seq(0, 8, 0.25), add=TRUE, col='#22558888')#
+axis(1, 1:7, c(1:6, "7+"))#
+axis(2, at=seq(0, 1200, 400))#
+par(las=0)#
+mtext('Frequency', 2, line=3)#
+legend('topright', fill=c('#00000033', '#22558888'), legend=c('Observed', 'Expected'))#
+dev.off()
+library(openintro)#
+C <- rep(1:7, c(1298, 685, 367, 157, 77, 33, 20))#
+E <- rep(1:7, c(1368, 644, 304, 143, 67, 32, 28))#
+#
+pdf('geomFitEvaluationForSP500For1990To2009.pdf', 6, 3)#
+par(mar=c(3.3, 4.2, 1, 1), las=1, mgp=c(2.1, 0.7, 0))#
+histPlot(C-0.13, breaks=seq(0, 8, 0.25), xlim=c(0.5, 7.5), axes=FALSE, xlab='Wait until positive day', ylab='', ylim=c(0, 1400), col='#00000033')#
+histPlot(E+0.13, breaks=seq(0, 8, 0.25), add=TRUE, col='#22558888')#
+axis(1, 1:7, c(1:6, "7+"))#
+axis(2, at=seq(0, 1200, 400))#
+par(las=0)#
+mtext('Frequency', 2, line=3)#
+legend('topright', fill=c('#00000033', '#22558888'), legend=c('Observed', 'Expected'))#
+dev.off()
+sum((C-E)^2/E)
+E
+library(openintro)#
+CC <- c(1298, 685, 367, 157, 77, 33, 20)#
+C  <- rep(1:7, CC)#
+EE <- c(1368, 644, 304, 143, 67, 32, 28)#
+E  <- rep(1:7, EE)#
+#
+pdf('geomFitEvaluationForSP500For1990To2009.pdf', 6, 3)#
+par(mar=c(3.3, 4.2, 1, 1), las=1, mgp=c(2.1, 0.7, 0))#
+histPlot(C-0.13, breaks=seq(0, 8, 0.25), xlim=c(0.5, 7.5), axes=FALSE, xlab='Wait until positive day', ylab='', ylim=c(0, 1400), col='#00000033')#
+histPlot(E+0.13, breaks=seq(0, 8, 0.25), add=TRUE, col='#22558888')#
+axis(1, 1:7, c(1:6, "7+"))#
+axis(2, at=seq(0, 1200, 400))#
+par(las=0)#
+mtext('Frequency', 2, line=3)#
+legend('topright', fill=c('#00000033', '#22558888'), legend=c('Observed', 'Expected'))#
+dev.off()
+sum((CC-EE)^2/EE)
+pchisq(24.42817, 6)
+1-pchisq(24.42817, 6)
+pdf('geomFitPValueForSP500For1990To2009.pdf', 5, 3)#
+par(mar=c(2, 1, 1, 1), mgp=c(2.1, 0.8, 0), las=1)#
+x <- seq(0, 24.43, 0.05)#
+y <- dchisq(x, 5)*1:length(x)#
+plot(x, y, type='l', axes=FALSE)#
+abline(h=0)#
+axis(1)#
+#
+these <- which(x > 5.1)#
+X <- x[c(these[1], these, rev(these)[1])]#
+Y <- c(0, y[these], 0)#
+polygon(X, Y, col='#2277AA33', border='#00000044')#
+#
+dev.off()
+pdf('geomFitPValueForSP500For1990To2009.pdf', 5, 3)#
+par(mar=c(2, 1, 1, 1), mgp=c(2.1, 0.8, 0), las=1)#
+x <- seq(0, 30, 0.05)#
+y <- dchisq(x, 5)*1:length(x)#
+plot(x, y, type='l', axes=FALSE)#
+abline(h=0)#
+axis(1)#
+#
+these <- which(x > 24.43)#
+X <- x[c(these[1], these, rev(these)[1])]#
+Y <- c(0, y[these], 0)#
+polygon(X, Y, col='#2277AA33', border='#00000044')#
+#
+dev.off()
+pdf('geomFitPValueForSP500For1990To2009.pdf', 5, 3)#
+par(mar=c(2, 1, 1, 1), mgp=c(2.1, 0.8, 0), las=1)#
+x <- seq(0, 30, 0.05)#
+y <- dchisq(x, 5) #*1:length(x)#
+plot(x, y, type='l', axes=FALSE)#
+abline(h=0)#
+axis(1)#
+#
+these <- which(x > 24.43)#
+X <- x[c(these[1], these, rev(these)[1])]#
+Y <- c(0, y[these], 0)#
+polygon(X, Y, col='#2277AA33', border='#00000044')#
+#
+dev.off()
+pdf('geomFitPValueForSP500For1990To2009.pdf', 5, 3)#
+par(mar=c(2, 1, 1, 1), mgp=c(2.1, 0.8, 0), las=1)#
+x <- seq(0, 30, 0.05)#
+y <- dchisq(x, 7) #*1:length(x)#
+plot(x, y, type='l', axes=FALSE)#
+abline(h=0)#
+axis(1)#
+#
+these <- which(x > 24.43)#
+X <- x[c(these[1], these, rev(these)[1])]#
+Y <- c(0, y[these], 0)#
+polygon(X, Y, col='#2277AA33', border='#00000044')#
+#
+dev.off()
+pdf('geomFitPValueForSP500For1990To2009.pdf', 5, 3)#
+par(mar=c(2, 1, 1, 1), mgp=c(2.1, 0.8, 0), las=1)#
+x <- seq(0, 30, 0.05)#
+y <- dchisq(x, 7) #*1:length(x)#
+plot(x, y, type='l', axes=FALSE)#
+abline(h=0)#
+axis(1)#
+#
+these <- which(x > 24.43)#
+X <- x[c(these[1], these, rev(these)[1])]#
+Y <- c(0, y[these], 0)#
+polygon(X, Y, col='#2277AA33', border='#00000044')#
+lines(c(24.43, 30), c(0, 0), lwd=1.7)#
+#
+dev.off()
+pdf('geomFitPValueForSP500For1990To2009.pdf', 5, 3)#
+par(mar=c(2, 1, 1, 1), mgp=c(2.1, 0.8, 0), las=1)#
+x <- seq(0, 30, 0.05)#
+y <- dchisq(x, 7) #*1:length(x)#
+plot(x, y, type='l', axes=FALSE)#
+abline(h=0)#
+axis(1)#
+#
+these <- which(x > 24.43)#
+X <- x[c(these[1], these, rev(these)[1])]#
+Y <- c(0, y[these], 0)#
+polygon(X, Y, col='#2277AA33', border='#00000044')#
+lines(c(24.43, 30), c(0, 0), lwd=1.7)#
+arrows(23, max(y)/3, 25.5, max(y)/30, length=0.1)#
+#
+dev.off()
+pdf('geomFitPValueForSP500For1990To2009.pdf', 5, 3)#
+par(mar=c(2, 1, 1, 1), mgp=c(2.1, 0.8, 0), las=1)#
+x <- seq(0, 30, 0.05)#
+y <- dchisq(x, 7) #*1:length(x)#
+plot(x, y, type='l', axes=FALSE)#
+abline(h=0)#
+axis(1)#
+#
+these <- which(x > 24.43)#
+X <- x[c(these[1], these, rev(these)[1])]#
+Y <- c(0, y[these], 0)#
+polygon(X, Y, col='#2277AA33', border='#00000044')#
+lines(c(24.43, 30), c(0, 0), lwd=1.7)#
+arrows(23, max(y)/3, 25.5, max(y)/30, length=0.1)#
+text(23, max(y)/3, 'Area is very slim!', pos=3)#
+#
+dev.off()
+pdf('geomFitPValueForSP500For1990To2009.pdf', 5, 3)#
+par(mar=c(2, 1, 1, 1), mgp=c(2.1, 0.8, 0), las=1)#
+x <- seq(0, 30, 0.05)#
+y <- dchisq(x, 7) #*1:length(x)#
+plot(x, y, type='l', axes=FALSE)#
+abline(h=0)#
+axis(1)#
+#
+these <- which(x > 24.43)#
+X <- x[c(these[1], these, rev(these)[1])]#
+Y <- c(0, y[these], 0)#
+polygon(X, Y, col='#2277AA33', border='#00000044')#
+lines(c(24.43, 30), c(0, 0), lwd=1.7)#
+arrows(23, max(y)/3, 25.5, max(y)/30, length=0.1)#
+text(23, max(y)/3, 'Area representing the p-value\nis very slim!', pos=3)#
+#
+dev.off()
+pdf('geomFitPValueForSP500For1990To2009.pdf', 5, 3)#
+par(mar=c(2, 1, 1, 1), mgp=c(2.1, 0.8, 0), las=1)#
+x <- seq(0, 30, 0.05)#
+y <- dchisq(x, 7) #*1:length(x)#
+plot(x, y, type='l', axes=FALSE)#
+abline(h=0)#
+axis(1)#
+#
+these <- which(x > 24.43)#
+X <- x[c(these[1], these, rev(these)[1])]#
+Y <- c(0, y[these], 0)#
+polygon(X, Y, col='#2277AA33', border='#00000044')#
+lines(c(24.43, 30), c(0, 0), lwd=1.7)#
+arrows(23, max(y)/3, 25.5, max(y)/30, length=0.1)#
+text(23, max(y)/3, 'Area representing the\np-value is very slim!', pos=3)#
+#
+dev.off()
+pdf('geomFitPValueForSP500For1990To2009.pdf', 5, 3)#
+par(mar=c(2, 1, 1, 1), mgp=c(2.1, 0.8, 0), las=1)#
+x <- seq(0, 30, 0.05)#
+y <- dchisq(x, 7) #*1:length(x)#
+plot(x, y, type='l', axes=FALSE)#
+abline(h=0)#
+axis(1)#
+#
+these <- which(x > 24.43)#
+X <- x[c(these[1], these, rev(these)[1])]#
+Y <- c(0, y[these], 0)#
+polygon(X, Y, col='#2277AA33', border='#00000044')#
+lines(c(24.43, 30), c(0, 0), lwd=2)#
+arrows(23, max(y)/3, 25.5, max(y)/30, length=0.1)#
+text(23, max(y)/3, 'Area representing the\np-value is very slim!', pos=3)#
+#
+dev.off()
+pdf('geomFitPValueForSP500For1990To2009.pdf', 5, 3)#
+par(mar=c(2, 1, 1, 1), mgp=c(2.1, 0.8, 0), las=1)#
+x <- seq(0, 35, 0.05)#
+y <- dchisq(x, 7) #*1:length(x)#
+plot(x, y, type='l', axes=FALSE, xlim=c(0, 30))#
+abline(h=0)#
+axis(1)#
+#
+these <- which(x > 24.43)#
+X <- x[c(these[1], these, rev(these)[1])]#
+Y <- c(0, y[these], 0)#
+polygon(X, Y, col='#2277AA33', border='#00000044')#
+lines(c(24.43, 30), c(0, 0), lwd=2)#
+arrows(23, max(y)/3, 25.5, max(y)/30, length=0.1)#
+text(23, max(y)/3, 'Area representing the\np-value is very slim!', pos=3)#
+#
+dev.off()
+pdf('geomFitPValueForSP500For1990To2009.pdf', 5, 3)#
+par(mar=c(2, 1, 1, 1), mgp=c(2.1, 0.8, 0), las=1)#
+x <- seq(0, 35, 0.05)#
+y <- dchisq(x, 7) #*1:length(x)#
+plot(x, y, type='l', axes=FALSE, xlim=c(0, 30))#
+abline(h=0)#
+axis(1)#
+#
+these <- which(x > 24.43)#
+X <- x[c(these[1], these, rev(these)[1])]#
+Y <- c(0, y[these], 0)#
+polygon(X, Y, col='#2277AA33', border='#00000044')#
+lines(c(24.43, 500), c(0, 0), lwd=2)#
+arrows(23, max(y)/3, 25.5, max(y)/30, length=0.1)#
+text(23, max(y)/3, 'Area representing the\np-value is very slim!', pos=3)#
+#
+dev.off()
+pdf('geomFitPValueForSP500For1990To2009.pdf', 5, 2)#
+par(mar=c(2, 1, 1, 1), mgp=c(2.1, 0.8, 0), las=1)#
+x <- seq(0, 35, 0.05)#
+y <- dchisq(x, 7) #*1:length(x)#
+plot(x, y, type='l', axes=FALSE, xlim=c(0, 30))#
+abline(h=0)#
+axis(1)#
+#
+these <- which(x > 24.43)#
+X <- x[c(these[1], these, rev(these)[1])]#
+Y <- c(0, y[these], 0)#
+polygon(X, Y, col='#2277AA33', border='#00000044')#
+lines(c(24.43, 500), c(0, 0), lwd=2)#
+arrows(23, max(y)/3, 25.5, max(y)/30, length=0.1)#
+text(23, max(y)/3, 'Area representing the\np-value is very slim!', pos=3)#
+#
+dev.off()
+pdf('geomFitPValueForSP500For1990To2009.pdf', 5, 2)#
+par(mar=c(2, 1, 1, 1), mgp=c(2.1, 0.8, 0), las=1)#
+x <- seq(0, 35, 0.05)#
+y <- dchisq(x, 6) #*1:length(x)#
+plot(x, y, type='l', axes=FALSE, xlim=c(0, 30))#
+abline(h=0)#
+axis(1)#
+#
+these <- which(x > 24.43)#
+X <- x[c(these[1], these, rev(these)[1])]#
+Y <- c(0, y[these], 0)#
+polygon(X, Y, col='#2277AA33', border='#00000044')#
+lines(c(24.43, 500), c(0, 0), lwd=2)#
+arrows(23, max(y)/3, 25.5, max(y)/30, length=0.1)#
+text(23, max(y)/3, 'Area representing the\np-value is very slim!', pos=3)#
+#
+dev.off()
+pdf('geomFitPValueForSP500For1990To2009.pdf', 5, 1.5)#
+par(mar=c(2, 1, 1, 1), mgp=c(2.1, 0.8, 0), las=1)#
+x <- seq(0, 35, 0.05)#
+y <- dchisq(x, 6) #*1:length(x)#
+plot(x, y, type='l', axes=FALSE, xlim=c(0, 30))#
+abline(h=0)#
+axis(1)#
+#
+these <- which(x > 24.43)#
+X <- x[c(these[1], these, rev(these)[1])]#
+Y <- c(0, y[these], 0)#
+polygon(X, Y, col='#2277AA33', border='#00000044')#
+lines(c(24.43, 500), c(0, 0), lwd=2)#
+arrows(23, max(y)/3, 25.5, max(y)/30, length=0.1)#
+text(23, max(y)/3, 'Area representing the\np-value is very slim!', pos=3)#
+#
+dev.off()
+pdf('geomFitPValueForSP500For1990To2009.pdf', 5, 1.85)#
+par(mar=c(2, 1, 1, 1), mgp=c(2.1, 0.8, 0), las=1)#
+x <- seq(0, 35, 0.05)#
+y <- dchisq(x, 6) #*1:length(x)#
+plot(x, y, type='l', axes=FALSE, xlim=c(0, 30))#
+abline(h=0)#
+axis(1)#
+#
+these <- which(x > 24.43)#
+X <- x[c(these[1], these, rev(these)[1])]#
+Y <- c(0, y[these], 0)#
+polygon(X, Y, col='#2277AA33', border='#00000044')#
+lines(c(24.43, 500), c(0, 0), lwd=2)#
+arrows(23, max(y)/3, 25.5, max(y)/30, length=0.1)#
+text(23, max(y)/3, 'Area representing the\np-value is very slim!', pos=3)#
+#
+dev.off()
+pdf('geomFitPValueForSP500For1990To2009.pdf', 5, 1.85)#
+par(mar=c(2, 1, 1, 1), mgp=c(2.1, 0.8, 0), las=1)#
+x <- seq(0, 35, 0.05)#
+y <- dchisq(x, 6) #*1:length(x)#
+plot(x, y, type='l', axes=FALSE, xlim=c(0, 30))#
+abline(h=0)#
+axis(1)#
+#
+these <- which(x > 24.43)#
+X <- x[c(these[1], these, rev(these)[1])]#
+Y <- c(0, y[these], 0)#
+polygon(X, Y, col='#2277AA33', border='#00000044')#
+lines(c(24.43, 500), c(0, 0), lwd=2)#
+arrows(24, max(y)/3, 25.5, max(y)/30, length=0.1)#
+text(24, max(y)/3, 'Area representing the\np-value is very slim!', pos=3)#
+#
+dev.off()
+pdf('geomFitPValueForSP500For1990To2009.pdf', 5, 1.85)#
+par(mar=c(2, 1, 1, 1), mgp=c(2.1, 0.8, 0), las=1)#
+x <- seq(0, 35, 0.05)#
+y <- dchisq(x, 6) #*1:length(x)#
+plot(x, y, type='l', axes=FALSE, xlim=c(0, 30))#
+abline(h=0)#
+axis(1)#
+#
+these <- which(x > 24.43)#
+X <- x[c(these[1], these, rev(these)[1])]#
+Y <- c(0, y[these], 0)#
+polygon(X, Y, col='#2277AA33', border='#00000044')#
+lines(c(24.43, 500), c(0, 0), lwd=2)#
+arrows(24.5, max(y)/3, 25.5, max(y)/30, length=0.1)#
+text(24.4, max(y)/3, 'Area representing the\np-value is very slim!', pos=3)#
+#
+dev.off()
+pdf('jurorHTPValueShown.pdf', 5, 2.5)#
+par(mar=c(2, 1, 1, 1), mgp=c(2.1, 0.8, 0), las=1)#
+x <- seq(0, 35, 0.05)#
+y <- dchisq(x, 3) #*1:length(x)#
+plot(x, y, type='l', axes=FALSE, xlim=c(0, 30))#
+abline(h=0)#
+axis(1)#
+#
+these <- which(x > 5.89)#
+X <- x[c(these[1], these, rev(these)[1])]#
+Y <- c(0, y[these], 0)#
+polygon(X, Y, col='#2277AA33', border='#00000044')#
+lines(c(24.43, 500), c(0, 0), lwd=2)#
+arrows(24.5, max(y)/3, 25.5, max(y)/30, length=0.1)#
+text(24.4, max(y)/3, 'Area representing the\np-value is very slim!', pos=3)#
+#
+dev.off()
+pdf('jurorHTPValueShown.pdf', 5, 2.5)#
+par(mar=c(2, 1, 1, 1), mgp=c(2.1, 0.8, 0), las=1)#
+x <- seq(0, 35, 0.05)#
+y <- dchisq(x, 3) #*1:length(x)#
+plot(x, y, type='l', axes=FALSE, xlim=c(0, 20))#
+abline(h=0)#
+axis(1)#
+#
+these <- which(x > 5.89)#
+X <- x[c(these[1], these, rev(these)[1])]#
+Y <- c(0, y[these], 0)#
+polygon(X, Y, col='#2277AA33', border='#00000044')#
+lines(c(24.43, 500), c(0, 0), lwd=2)#
+#
+dev.off()
+pdf('jurorHTPValueShown.pdf', 5, 2.5)#
+par(mar=c(2, 1, 1, 1), mgp=c(2.1, 0.8, 0), las=1)#
+x <- seq(0, 35, 0.05)#
+y <- dchisq(x, 3) #*1:length(x)#
+plot(x, y, type='l', axes=FALSE, xlim=c(0, 20))#
+abline(h=0)#
+axis(1)#
+#
+these <- which(x > 5.89)#
+X <- x[c(these[1], these, rev(these)[1])]#
+Y <- c(0, y[these], 0)#
+polygon(X, Y, col='#2277AA33', border='#00000044')#
+#
+dev.off()
+pdf('jurorHTPValueShown.pdf', 5, 2.5)#
+par(mar=c(2, 1, 1, 1), mgp=c(2.1, 0.8, 0), las=1)#
+x <- seq(0, 35, 0.05)#
+y <- dchisq(x, 3) #*1:length(x)#
+plot(x, y, type='l', axes=FALSE, xlim=c(0, 16))#
+abline(h=0)#
+axis(1)#
+#
+these <- which(x > 5.89)#
+X <- x[c(these[1], these, rev(these)[1])]#
+Y <- c(0, y[these], 0)#
+polygon(X, Y, col='#2277AA33', border='#00000044')#
+#
+dev.off()
+pdf('jurorHTPValueShown.pdf', 5, 2.25)#
+par(mar=c(2, 1, 1, 1), mgp=c(2.1, 0.8, 0), las=1)#
+x <- seq(0, 35, 0.05)#
+y <- dchisq(x, 3) #*1:length(x)#
+plot(x, y, type='l', axes=FALSE, xlim=c(0, 16))#
+abline(h=0)#
+axis(1)#
+#
+these <- which(x > 5.89)#
+X <- x[c(these[1], these, rev(these)[1])]#
+Y <- c(0, y[these], 0)#
+polygon(X, Y, col='#2277AA33', border='#00000044')#
+#
+dev.off()
+?legend
+COL <- c('#225588', '#558822CC', '#88225599', '#88552266')#
+#
+pdf('chiSquareDistributionWithInceasingDF.pdf', 6, 3)#
+par(mar=c(2, 0.5, 0.25, 0.5), mgp=c(2.1, 0.8, 0), las=1)#
+x <- c(0, seq(0.0000001, 40, 0.05))#
+DF <- c(2.0000001, 4, 9)#
+y <- list()#
+for(i in 1:length(DF)){#
+	y[[i]] <- dchisq(x, DF[i])#
+}#
+plot(0, 0, type='n', xlim=c(0, 25), ylim=range(c(y, recursive=TRUE)), axes=FALSE)#
+for(i in 1:length(DF)){#
+	lines(x, y[[i]], lty=i, col=COL[i], lwd=i/1.5)#
+}#
+abline(h=0)#
+axis(1)#
+#
+legend('topright', lwd=1:4/1.5, col=COL, lty=1:4, legend=paste(round(DF) ), title='Degrees of Freedom', cex=1.2, xjust=0)#
+dev.off()
+COL <- c('#225588', '#558822CC', '#88225599', '#88552266')#
+#
+pdf('chiSquareDistributionWithInceasingDF.pdf', 6, 3)#
+par(mar=c(2, 0.5, 0.25, 0.5), mgp=c(2.1, 0.8, 0), las=1)#
+x <- c(0, seq(0.0000001, 40, 0.05))#
+DF <- c(2.0000001, 4, 9)#
+y <- list()#
+for(i in 1:length(DF)){#
+	y[[i]] <- dchisq(x, DF[i])#
+}#
+plot(0, 0, type='n', xlim=c(0, 25), ylim=range(c(y, recursive=TRUE)), axes=FALSE)#
+for(i in 1:length(DF)){#
+	lines(x, y[[i]], lty=i, col=COL[i], lwd=i/1.5)#
+}#
+abline(h=0)#
+axis(1)#
+#
+legend('topright', lwd=1:4/1.5, col=COL, lty=1:4, legend=paste(round(DF) ), title='Degrees of Freedom', cex=1.2, xjust=1)#
+dev.off()
+COL <- c('#225588', '#558822CC', '#88225599', '#88552266')#
+#
+pdf('chiSquareDistributionWithInceasingDF.pdf', 6, 3)#
+par(mar=c(2, 0.5, 0.25, 0.5), mgp=c(2.1, 0.8, 0), las=1)#
+x <- c(0, seq(0.0000001, 40, 0.05))#
+DF <- c(2.0000001, 4, 9)#
+y <- list()#
+for(i in 1:length(DF)){#
+	y[[i]] <- dchisq(x, DF[i])#
+}#
+plot(0, 0, type='n', xlim=c(0, 25), ylim=range(c(y, recursive=TRUE)), axes=FALSE)#
+for(i in 1:length(DF)){#
+	lines(x, y[[i]], lty=i, col=COL[i], lwd=i/1.5)#
+}#
+abline(h=0)#
+axis(1)#
+#
+legend('topright', lwd=1:4/1.5, col=COL, lty=1:4, legend=paste(round(DF) ), title='Degrees of Freedom', cex=1.2)#
+dev.off()
+.471*.529
+.471*.529*2587
+0.249*2587
+0.2492*2587
+COL <- c('#225588', '#558822CC', '#88225599', '#88552266')#
+#
+pdf('chiSquareDistributionWithInceasingDF.pdf', 6, 3)#
+par(mar=c(2, 0.5, 0.25, 0.5), mgp=c(2.1, 0.8, 0), las=1)#
+x <- c(0, seq(0.0000001, 40, 0.05))#
+DF <- c(2.0000001, 4, 9)#
+y <- list()#
+for(i in 1:length(DF)){#
+	y[[i]] <- dchisq(x, DF[i])#
+}#
+plot(0, 0, type='n', xlim=c(0, 25), ylim=range(c(y, recursive=TRUE)), axes=FALSE)#
+for(i in 1:length(DF)){#
+	lines(x, y[[i]], lty=i, col=COL[i], lwd=i/1.25)#
+}#
+abline(h=0)#
+axis(1)#
+#
+legend('topright', lwd=1:4/1.25, col=COL, lty=1:4, legend=paste(round(DF) ), title='Degrees of Freedom', cex=1.2)#
+dev.off()
+COL <- c('#225588', '#558822CC', '#88225599', '#88552266')#
+#
+pdf('chiSquareDistributionWithInceasingDF.pdf', 6, 3)#
+par(mar=c(2, 0.5, 0.25, 0.5), mgp=c(2.1, 0.8, 0), las=1)#
+x <- c(0, seq(0.0000001, 40, 0.05))#
+DF <- c(2.0000001, 4, 9)#
+y <- list()#
+for(i in 1:length(DF)){#
+	y[[i]] <- dchisq(x, DF[i])#
+}#
+plot(0, 0, type='n', xlim=c(0, 25), ylim=range(c(y, recursive=TRUE)), axes=FALSE)#
+for(i in 1:length(DF)){#
+	lines(x, y[[i]], lty=i, col=COL[i], lwd=i/1)#
+}#
+abline(h=0)#
+axis(1)#
+#
+legend('topright', lwd=1:4/1.25, col=COL, lty=1:4, legend=paste(round(DF) ), title='Degrees of Freedom', cex=1.2)#
+dev.off()
+COL <- c('#225588', '#558822CC', '#88225599', '#88552266')#
+#
+pdf('chiSquareDistributionWithInceasingDF.pdf', 6, 3)#
+par(mar=c(2, 0.5, 0.25, 0.5), mgp=c(2.1, 0.8, 0), las=1)#
+x <- c(0, seq(0.0000001, 40, 0.05))#
+DF <- c(2.0000001, 4, 9)#
+y <- list()#
+for(i in 1:length(DF)){#
+	y[[i]] <- dchisq(x, DF[i])#
+}#
+plot(0, 0, type='n', xlim=c(0, 25), ylim=range(c(y, recursive=TRUE)), axes=FALSE)#
+for(i in 1:length(DF)){#
+	lines(x, y[[i]], lty=i, col=COL[i], lwd=0.5+i/1.25)#
+}#
+abline(h=0)#
+axis(1)#
+#
+legend('topright', lwd=0.5+1:4/1.25, col=COL, lty=1:4, legend=paste(round(DF) ), title='Degrees of Freedom', cex=1.2)#
+dev.off()
+COL <- c('#225588', '#558822CC', '#88225599', '#88552266')#
+#
+pdf('chiSquareDistributionWithInceasingDF.pdf', 6, 3)#
+par(mar=c(2, 0.5, 0.25, 0.5), mgp=c(2.1, 0.8, 0), las=1)#
+x <- c(0, seq(0.0000001, 40, 0.05))#
+DF <- c(2.0000001, 4, 9)#
+y <- list()#
+for(i in 1:length(DF)){#
+	y[[i]] <- dchisq(x, DF[i])#
+}#
+plot(0, 0, type='n', xlim=c(0, 25), ylim=range(c(y, recursive=TRUE)), axes=FALSE)#
+for(i in 1:length(DF)){#
+	lines(x, y[[i]], lty=i, col=COL[i], lwd=i/1.5)#
+}#
+abline(h=0)#
+axis(1)#
+#
+legend('topright', lwd=1:4/1.5, col=COL, lty=1:4, legend=paste(round(DF) ), title='Degrees of Freedom', cex=1.2)#
+dev.off()
+COL <- c('#225588', '#558822CC', '#88225599', '#88552266')#
+#
+pdf('chiSquareDistributionWithInceasingDF.pdf', 6, 3)#
+par(mar=c(2, 0.5, 0.25, 0.5), mgp=c(2.1, 0.8, 0), las=1)#
+x <- c(0, seq(0.0000001, 40, 0.05))#
+DF <- c(2.0000001, 4, 9)#
+y <- list()#
+for(i in 1:length(DF)){#
+	y[[i]] <- dchisq(x, DF[i])#
+}#
+plot(0, 0, type='n', xlim=c(0, 25), ylim=range(c(y, recursive=TRUE)), axes=FALSE)#
+for(i in 1:length(DF)){#
+	lines(x, y[[i]], lty=i, col=COL[i], lwd=0.3+i/1.25)#
+}#
+abline(h=0)#
+axis(1)#
+#
+legend('topright', lwd=0.3+1:4/1.25, col=COL, lty=1:4, legend=paste(round(DF) ), title='Degrees of Freedom', cex=1.2)#
+dev.off()
+COL <- c('#225588', '#558822CC', '#88225599', '#88552266')#
+#
+pdf('chiSquareDistributionWithInceasingDF.pdf', 9, 4.5)#
+par(mar=c(2, 0.5, 0.25, 0.5), mgp=c(2.1, 0.8, 0), las=1)#
+x <- c(0, seq(0.0000001, 40, 0.05))#
+DF <- c(2.0000001, 4, 9)#
+y <- list()#
+for(i in 1:length(DF)){#
+	y[[i]] <- dchisq(x, DF[i])#
+}#
+plot(0, 0, type='n', xlim=c(0, 25), ylim=range(c(y, recursive=TRUE)), axes=FALSE)#
+for(i in 1:length(DF)){#
+	lines(x, y[[i]], lty=i, col=COL[i], lwd=0.3+i/1.25)#
+}#
+abline(h=0)#
+axis(1)#
+#
+legend('topright', lwd=0.3+1:4/1.25, col=COL, lty=1:4, legend=paste(round(DF) ), title='Degrees of Freedom', cex=1.2)#
+dev.off()
+COL <- c('#225588', '#558822CC', '#88225599', '#88552266')#
+#
+pdf('chiSquareDistributionWithInceasingDF.pdf', 8, 4)#
+par(mar=c(2, 0.5, 0.25, 0.5), mgp=c(2.1, 0.8, 0), las=1)#
+x <- c(0, seq(0.0000001, 40, 0.05))#
+DF <- c(2.0000001, 4, 9)#
+y <- list()#
+for(i in 1:length(DF)){#
+	y[[i]] <- dchisq(x, DF[i])#
+}#
+plot(0, 0, type='n', xlim=c(0, 25), ylim=range(c(y, recursive=TRUE)), axes=FALSE)#
+for(i in 1:length(DF)){#
+	lines(x, y[[i]], lty=i, col=COL[i], lwd=0.3+i/1.25)#
+}#
+abline(h=0)#
+axis(1)#
+#
+legend('topright', lwd=0.3+1:4/1.25, col=COL, lty=1:4, legend=paste(round(DF) ), title='Degrees of Freedom', cex=1)#
+dev.off()
+COL <- c('#225588', '#558822CC', '#88225599', '#88552266')#
+#
+pdf('chiSquareDistributionWithInceasingDF.pdf', 7.5, 3.75)#
+par(mar=c(2, 0.5, 0.25, 0.5), mgp=c(2.1, 0.8, 0), las=1)#
+x <- c(0, seq(0.0000001, 40, 0.05))#
+DF <- c(2.0000001, 4, 9)#
+y <- list()#
+for(i in 1:length(DF)){#
+	y[[i]] <- dchisq(x, DF[i])#
+}#
+plot(0, 0, type='n', xlim=c(0, 25), ylim=range(c(y, recursive=TRUE)), axes=FALSE)#
+for(i in 1:length(DF)){#
+	lines(x, y[[i]], lty=i, col=COL[i], lwd=0.3+i/1.25)#
+}#
+abline(h=0)#
+axis(1)#
+#
+legend('topright', lwd=0.3+1:4/1.25, col=COL, lty=1:4, legend=paste(round(DF) ), title='Degrees of Freedom', cex=1)#
+dev.off()

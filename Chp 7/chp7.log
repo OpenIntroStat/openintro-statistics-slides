@@ -1,0 +1,2434 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.9.25)  19 JAN 2014 10:45
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**chp7.tex
+(./chp7.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, h
+ungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, ma
+rathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, 
+kurmanji, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk,
+ polish, portuguese, romanian, romansh, russian, sanskrit, serbian, serbianc, s
+lovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, 
+welsh, loaded.
+(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamer.cls
+(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbasercs.sty
+Package: beamerbasercs 2012/09/19 (rcs-revision 9cdb60d8ebed)
+)
+Document Class: beamer 2011/09/12 development version 3.22 A class for typesett
+ing presentations (rcs-revision 70f9d8411e54)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
+Package: beamerbasemodes 2012/04/15 (rcs-revision cc6557182d97)
+\beamer@tempbox=\box26
+\beamer@tempcount=\count79
+\c@beamerpauses=\count80
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbasedecode.sty
+Package: beamerbasedecode 2010/05/01 (rcs-revision efa082c6111d)
+\beamer@slideinframe=\count81
+\beamer@minimum=\count82
+)
+\beamer@commentbox=\box27
+\beamer@modecount=\count83
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+\headheight=\dimen102
+\headdp=\dimen103
+\footheight=\dimen104
+\sidebarheight=\dimen105
+\beamer@tempdim=\dimen106
+\beamer@finalheight=\dimen107
+\beamer@animht=\dimen108
+\beamer@animdp=\dimen109
+\beamer@animwd=\dimen110
+\beamer@leftmargin=\dimen111
+\beamer@rightmargin=\dimen112
+\beamer@leftsidebar=\dimen113
+\beamer@rightsidebar=\dimen114
+\beamer@boxsize=\dimen115
+\beamer@vboxoffset=\dimen116
+\beamer@descdefault=\dimen117
+\beamer@descriptionwidth=\dimen118
+\beamer@lastskip=\skip41
+\beamer@areabox=\box28
+\beamer@animcurrent=\box29
+\beamer@animshowbox=\box30
+\beamer@sectionbox=\box31
+\beamer@logobox=\box32
+\beamer@linebox=\box33
+\beamer@sectioncount=\count84
+\beamer@subsubsectionmax=\count85
+\beamer@subsectionmax=\count86
+\beamer@sectionmax=\count87
+\beamer@totalheads=\count88
+\beamer@headcounter=\count89
+\beamer@partstartpage=\count90
+\beamer@sectionstartpage=\count91
+\beamer@subsectionstartpage=\count92
+\beamer@animationtempa=\count93
+\beamer@animationtempb=\count94
+\beamer@xpos=\count95
+\beamer@ypos=\count96
+\beamer@showpartnumber=\count97
+\beamer@currentsubsection=\count98
+\beamer@coveringdepth=\count99
+\beamer@sectionadjust=\count100
+\beamer@tocsectionnumber=\count101
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbaseoptions.sty
+Package: beamerbaseoptions 2010/04/27 (rcs-revision 982469101dd6)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+))
+\beamer@paperwidth=\skip42
+\beamer@paperheight=\skip43
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count102
+\Gm@cntv=\count103
+\c@Gm@tempcnt=\count104
+\Gm@bindingoffset=\dimen119
+\Gm@wd@mp=\dimen120
+\Gm@odd@mp=\dimen121
+\Gm@even@mp=\dimen122
+\Gm@layoutwidth=\dimen123
+\Gm@layoutheight=\dimen124
+\Gm@layouthoffset=\dimen125
+\Gm@layoutvoffset=\dimen126
+\Gm@dimlist=\toks15
+)
+
+Class beamer Warning: ``slidestop'' is obsolete. Use ``t'' instead on input lin
+e 343.
+
+
+Class beamer Warning: ``mathserif'' is obsolete. Use font theme ``serif'' with 
+option ``onlymath'' on input line 343.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count105
+))
+\Gin@req@height=\dimen127
+\Gin@req@width=\dimen128
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks16
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box34
+(/usr/local/texlive/2012/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2010/10/25 v2.10 (rcs-revision 1.24)
+))
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks17
+\pgfkeys@temptoks=\toks18
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks19
+))
+\pgf@x=\dimen129
+\pgf@y=\dimen130
+\pgf@xa=\dimen131
+\pgf@ya=\dimen132
+\pgf@xb=\dimen133
+\pgf@yb=\dimen134
+\pgf@xc=\dimen135
+\pgf@yc=\dimen136
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count106
+\c@pgf@countb=\count107
+\c@pgf@countc=\count108
+\c@pgf@countd=\count109
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 900.
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2009/05/22  (rcs-revision 1.26)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
+)))
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
+\pgfsyssoftpath@smallbuffer@items=\count110
+\pgfsyssoftpath@bigbuffer@items=\count111
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) (/usr/local/texlive/2012/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen137
+\pgfmath@count=\count112
+\pgfmath@box=\box35
+\pgfmath@toks=\toks20
+\pgfmath@stack@operand=\toks21
+\pgfmath@stack@operation=\toks22
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)))
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count113
+))
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
+\pgf@picminx=\dimen138
+\pgf@picmaxx=\dimen139
+\pgf@picminy=\dimen140
+\pgf@picmaxy=\dimen141
+\pgf@pathminx=\dimen142
+\pgf@pathmaxx=\dimen143
+\pgf@pathminy=\dimen144
+\pgf@pathmaxy=\dimen145
+\pgf@xx=\dimen146
+\pgf@xy=\dimen147
+\pgf@yx=\dimen148
+\pgf@yy=\dimen149
+\pgf@zx=\dimen150
+\pgf@zy=\dimen151
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
+\pgf@path@lastx=\dimen152
+\pgf@path@lasty=\dimen153
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
+\pgf@shorten@end@additional=\dimen154
+\pgf@shorten@start@additional=\dimen155
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
+\pgfpic=\box36
+\pgf@hbox=\box37
+\pgf@layerbox@main=\box38
+\pgf@picture@serial@count=\count114
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
+\pgflinewidth=\dimen156
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
+\pgf@pt@x=\dimen157
+\pgf@pt@y=\dimen158
+\pgf@pt@temp=\dimen159
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2008/10/09  (rcs-revision 1.8)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
+\pgf@max=\dimen160
+\pgf@sys@shading@range@num=\count115
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
+\pgfexternal@startupbox=\box39
+))
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2010/08/27  (rcs-revision 1.2)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
+)))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/pgf/utilities/xxcolor.sty
+Package: xxcolor 2003/10/24 ver 0.1
+\XC@nummixins=\count116
+\XC@countmixins=\count117
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/08/21 v6.83c Hypertext links for LaTeX
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen161
+\Hy@linkcounter=\count118
+\Hy@pagecounter=\count119
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/08/21 v6.83c Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count120
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 4139.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4139.
+Package hyperref Info: Option `implicit' set `false' on input line 4139.
+Package hyperref Info: Hyper figures OFF on input line 4263.
+Package hyperref Info: Link nesting OFF on input line 4268.
+Package hyperref Info: Hyper index ON on input line 4271.
+Package hyperref Info: Plain pages OFF on input line 4278.
+Package hyperref Info: Backreferencing OFF on input line 4283.
+Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
+Package hyperref Info: Bookmarks ON on input line 4501.
+\c@Hy@tempcnt=\count121
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4854.
+\XeTeXLinkMargin=\dimen162
+\Fld@menulength=\count122
+\Field@Width=\dimen163
+\Fld@charsize=\dimen164
+Package hyperref Info: Hyper figures OFF on input line 6094.
+Package hyperref Info: Link nesting OFF on input line 6099.
+Package hyperref Info: Hyper index ON on input line 6102.
+Package hyperref Info: backreferencing OFF on input line 6109.
+Package hyperref Info: Link coloring OFF on input line 6114.
+Package hyperref Info: Link coloring with OCG OFF on input line 6119.
+Package hyperref Info: PDF/A mode OFF on input line 6124.
+LaTeX Info: Redefining \ref on input line 6164.
+LaTeX Info: Redefining \pageref on input line 6168.
+\Hy@abspage=\count123
+
+
+Package hyperref Message: Stopped early.
+
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/08/21 v6.83c Hyperref driver for pdfTeX
+\Fld@listcount=\count124
+\c@bookmark@seq@number=\count125
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbaserequires.sty
+Package: beamerbaserequires 2010/05/01  (rcs-revision efa082c6111d)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbasecompatibility.st
+y
+Package: beamerbasecompatibility 2012/05/01  (rcs-revision 67c48b3b652d)
+) (/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbasefont.sty
+Package: beamerbasefont 2012/09/19  (rcs-revision 733629cd0c6c)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\@emptytoks=\toks23
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+)))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty
+Package: beamerbasetranslator 2010/06/11  (rcs-revision 85fd1cc7fc42)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/translator/translator.sty
+Package: translator 2010/06/12 ver 1.10
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/translator/translator-lang
+uage-mappings.tex)))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbasemisc.sty
+Package: beamerbasemisc 2012/02/24  (rcs-revision 2ff5461be705)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.sty
+Package: beamerbasetwoscreens 2010/05/01  (rcs-revision efa082c6111d)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbaseoverlay.sty
+Package: beamerbaseoverlay 2012/04/03  (rcs-revision 45744d9ae88b)
+\beamer@argscount=\count126
+\beamer@lastskipcover=\skip44
+\beamer@trivlistdepth=\count127
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbasetitle.sty
+Package: beamerbasetitle 2010/09/21  (rcs-revision f0446ed0b6ae)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbasesection.sty
+Package: beamerbasesection 2012/05/30  (rcs-revision 22ff49def670)
+\c@lecture=\count128
+\c@part=\count129
+\c@section=\count130
+\c@subsection=\count131
+\c@subsubsection=\count132
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbaseframe.sty
+Package: beamerbaseframe 2012/09/13  (rcs-revision dcd846607320)
+\beamer@framebox=\box40
+\beamer@frametitlebox=\box41
+\beamer@zoombox=\box42
+\beamer@zoomcount=\count133
+\beamer@zoomframecount=\count134
+\beamer@frametextheight=\dimen165
+\c@subsectionslide=\count135
+\beamer@frametopskip=\skip45
+\beamer@framebottomskip=\skip46
+\beamer@frametopskipautobreak=\skip47
+\beamer@framebottomskipautobreak=\skip48
+\beamer@envbody=\toks24
+\framewidth=\dimen166
+\c@framenumber=\count136
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty
+Package: beamerbaseverbatim 2012/08/30  (rcs-revision dfdb135076b3)
+\beamer@verbatimfileout=\write4
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
+Package: beamerbaseframesize 2011/09/12  (rcs-revision 70f9d8411e54)
+\beamer@splitbox=\box43
+\beamer@autobreakcount=\count137
+\beamer@autobreaklastheight=\dimen167
+\beamer@frametitletoks=\toks25
+\beamer@framesubtitletoks=\toks26
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbaseframecomponents.
+sty
+Package: beamerbaseframecomponents 2012/09/13  (rcs-revision dcd846607320)
+\beamer@footins=\box44
+) (/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbasecolor.sty
+Package: beamerbasecolor 2010/06/06  (rcs-revision d1a9b48be06d)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbasenotes.sty
+Package: beamerbasenotes 2010/05/01  (rcs-revision efa082c6111d)
+\beamer@frameboxcopy=\box45
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbasetoc.sty
+Package: beamerbasetoc 2012/02/28  (rcs-revision 138681b92320)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbasetemplates.sty
+Package: beamerbasetemplates 2010/05/01  (rcs-revision efa082c6111d)
+\beamer@sbttoks=\toks27
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty
+Package: beamerbaseauxtemplates 2012/05/01  (rcs-revision 67c48b3b652d)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty
+Package: beamerbaseboxes 2012/05/13  (rcs-revision 56972908a390)
+\bmb@box=\box46
+\bmb@colorbox=\box47
+\bmb@boxshadow=\box48
+\bmb@boxshadowball=\box49
+\bmb@boxshadowballlarge=\box50
+\bmb@temp=\dimen168
+\bmb@dima=\dimen169
+\bmb@dimb=\dimen170
+\bmb@prevheight=\dimen171
+)
+\beamer@blockheadheight=\dimen172
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbaselocalstructure.s
+ty
+Package: beamerbaselocalstructure 2012/05/25  (rcs-revision 5ff5e8ed7c0e)
+ (/usr/local/texlive/2012/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
+\@enLab=\toks28
+)
+\c@figure=\count138
+\c@table=\count139
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbasenavigation.sty
+Package: beamerbasenavigation 2012/04/03  (rcs-revision 42a0f21a412d)
+\beamer@section@min@dim=\dimen173
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbasetheorems.sty
+Package: beamerbasetheorems 2010/06/06  (rcs-revision 7e7cc5e53e9d)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks29
+\ex@=\dimen174
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen175
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count140
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count141
+\leftroot@=\count142
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count143
+\DOTSCASE@=\count144
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+\big@size=\dimen176
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count145
+\c@MaxMatrixCols=\count146
+\dotsspace@=\muskip11
+\c@parentequation=\count147
+\dspbrk@lvl=\count148
+\tag@help=\toks30
+\row@=\count149
+\column@=\count150
+\maxfields@=\count151
+\andhelp@=\toks31
+\eqnshift@=\dimen177
+\alignsep@=\dimen178
+\tagshift@=\dimen179
+\tagwidth@=\dimen180
+\totwidth@=\dimen181
+\lineht@=\dimen182
+\@envbody=\toks32
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks33
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2009/07/02 v2.20.1
+\thm@style=\toks34
+\thm@bodyfont=\toks35
+\thm@headfont=\toks36
+\thm@notefont=\toks37
+\thm@headpunct=\toks38
+\thm@preskip=\skip54
+\thm@postskip=\skip55
+\thm@headsep=\skip56
+\dth@everypar=\toks39
+)
+\c@theorem=\count152
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/beamerbasethemes.sty
+Package: beamerbasethemes 2010/05/01  (rcs-revision efa082c6111d)
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/themes/theme/beamerthemede
+fault.sty
+Package: beamerthemedefault 2010/06/17  (rcs-revision d02a7cf4d8ae)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/themes/font/beamerfontthem
+edefault.sty
+Package: beamerfontthemedefault 2010/06/17  (rcs-revision d02a7cf4d8ae)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/themes/color/beamercolorth
+emedefault.sty
+Package: beamercolorthemedefault 2010/06/17  (rcs-revision d02a7cf4d8ae)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/themes/inner/beamerinnerth
+emedefault.sty
+Package: beamerinnerthemedefault 2012/05/01  (rcs-revision 67c48b3b652d)
+\beamer@dima=\dimen183
+\beamer@dimb=\dimen184
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/themes/outer/beamerouterth
+emedefault.sty
+Package: beamerouterthemedefault 2010/06/17  (rcs-revision d02a7cf4d8ae)
+))) (../lec_style.tex
+(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/themes/theme/beamerthemeAn
+nArbor.sty
+Package: beamerthemeAnnArbor 2010/06/17  (rcs-revision d02a7cf4d8ae)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/themes/inner/beamerinnerth
+emerounded.sty
+Package: beamerinnerthemerounded 2010/06/17  (rcs-revision d02a7cf4d8ae)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/themes/outer/beamerouterth
+emeinfolines.sty
+Package: beamerouterthemeinfolines 2012/05/30  (rcs-revision cbdb60c45607)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/themes/color/beamercolorth
+emewolverine.sty
+Package: beamercolorthemewolverine 2010/06/17  (rcs-revision d02a7cf4d8ae)
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/themes/color/beamercolorth
+emeseahorse.sty
+Package: beamercolorthemeseahorse 2010/06/17  (rcs-revision d02a7cf4d8ae)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
+(/usr/local/texlive/2012/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2008/07/08 v3.8m The Babel package
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/babel/english.ldf
+Language: english 2005/03/30 v3.3o English support from the babel system
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+LaTeX Info: Redefining \textlatin on input line 82.
+\babel@savecnt=\count153
+\U@D=\dimen185
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks40
+\inpenc@posthook=\toks41
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/latin1.def
+File: latin1.def 2008/03/30 v1.1d Input encoding file
+))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen186
+\extrarowheight=\dimen187
+\NC@list=\toks42
+\extratabsurround=\skip57
+\backup@length=\skip58
+)
+\everycr=\toks43
+\minrowclearance=\skip59
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen188
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
+\pgfnodeparttextbox=\box53
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen189
+\pgf@nodesepend=\dimen190
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
+)) (/usr/local/texlive/2012/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count154
+\calc@Bcount=\count155
+\calc@Adimen=\dimen191
+\calc@Bdimen=\dimen192
+\calc@Askip=\skip60
+\calc@Bskip=\skip61
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count156
+\calc@Cskip=\skip62
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box54
+\UL@hyphenbox=\box55
+\UL@skip=\skip63
+\UL@hook=\toks44
+\UL@height=\dimen193
+\UL@pe=\count157
+\UL@pixel=\dimen194
+\ULC@box=\box56
+Package: ulem 2012/05/18
+\ULdepth=\dimen195
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
+\c@tracingmulticols=\count158
+\mult@box=\box57
+\multicol@leftmargin=\dimen196
+\c@unbalance=\count159
+\c@collectmore=\count160
+\doublecol@number=\count161
+\multicoltolerance=\count162
+\multicolpretolerance=\count163
+\full@width=\dimen197
+\page@free=\dimen198
+\premulticols=\dimen199
+\postmulticols=\dimen200
+\multicolsep=\skip64
+\multicolbaselineskip=\skip65
+\partial@page=\box58
+\last@line=\box59
+\mult@rightbox=\box60
+\mult@grightbox=\box61
+\mult@gfirstbox=\box62
+\mult@firstbox=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\c@columnbadness=\count164
+\c@finalcolumnbadness=\count165
+\last@try=\dimen201
+\multicolovershoot=\dimen202
+\multicolundershoot=\dimen203
+\mult@nat@firstbox=\box81
+\colbreak@box=\box82
+\multicol@sort@counter=\count166
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/txfonts.sty
+Package: txfonts 2008/01/22 v3.2.1
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/txr/m/n --> OT1/txr/bx/n on input line 22.
+\symitalic=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `italic' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/txss/m/n --> OT1/txss/b/n on input line 41.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/txtt/m/n --> OT1/txtt/b/n on input line 51.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/txmi/m/it --> OML/txmi/bx/it on input line 59.
+\symlettersA=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/txmia/m/it --> U/txmia/bx/it on input line 67.
+LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 70.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/txsy/m/n --> OMS/txsy/bx/n on input line 78.
+LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
+(Font)                  U/msa/m/n --> U/txsya/m/n on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/msa/m/n --> U/txsya/m/n on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/txsya/m/n --> U/txsya/bx/n on input line 94.
+LaTeX Font Info:    Redeclaring symbol font `AMSb' on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `normal'
+(Font)                  U/msb/m/n --> U/txsyb/m/n on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/msb/m/n --> U/txsyb/m/n on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/txsyb/m/n --> U/txsyb/bx/n on input line 103.
+\symsymbolsC=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/txsyc/m/n --> U/txsyc/bx/n on input line 113.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/txex/m/n --> OMX/txex/bx/n on input line 121.
+\symlargesymbolsA=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
+(Font)                  U/txexa/m/n --> U/txexa/bx/n on input line 129.
+LaTeX Info: Redefining \not on input line 1043.
+LaTeX Info: Redefining \textsquare on input line 1063.
+LaTeX Info: Redefining \openbox on input line 1064.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count167
+\lst@gtempboxa=\box83
+\lst@token=\toks45
+\lst@length=\count168
+\lst@currlwidth=\dimen204
+\lst@column=\count169
+\lst@pos=\count170
+\lst@lostspace=\dimen205
+\lst@width=\dimen206
+\lst@newlines=\count171
+\lst@lineno=\count172
+\lst@maxwidth=\dimen207
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count173
+\lst@skipnumbers=\count174
+\lst@framebox=\box84
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2012/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
+\pgffor@iter=\dimen208
+\pgffor@skip=\dimen209
+\pgffor@stack=\toks46
+\pgffor@toks=\toks47
+))
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
+\pgf@plot@mark@count=\count175
+\pgfplotmarksize=\dimen210
+)
+\tikz@lastx=\dimen211
+\tikz@lasty=\dimen212
+\tikz@lastxsaved=\dimen213
+\tikz@lastysaved=\dimen214
+\tikzleveldistance=\dimen215
+\tikzsiblingdistance=\dimen216
+\tikz@figbox=\box85
+\tikz@tempbox=\box86
+\tikztreelevel=\count176
+\tikznumberofchildren=\count177
+\tikznumberofcurrentchild=\count178
+\tikz@fig@count=\count179
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
+\pgfmatrixcurrentrow=\count180
+\pgfmatrixcurrentcolumn=\count181
+\pgf@matrix@numberofcolumns=\count182
+)
+\tikz@expandcount=\count183
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
+)))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/wasysym/wasysym.sty
+Package: wasysym 2003/10/30 v2.0 Wasy-2 symbol support package
+\symwasy=\mathgroup10
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 90.
+)) (./chp7.aux)
+\openout1 = `chp7.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 27.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 27.
+
+ (/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/omltxmi.fd
+File: omltxmi.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 27.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 27.
+
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/omstxsy.fd
+File: omstxsy.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 27.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 27.
+
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/omxtxex.fd
+File: omxtxex.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 27.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 27.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/utxexa.fd
+File: utxexa.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 27.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Try loading font information for OT1+txss on input line 27.
+
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/ot1txss.fd
+File: ot1txss.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 10.40245pt on input line 27.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(21.90005pt, 320.39525pt, 21.90005pt)
+* v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
+* \paperwidth=364.19536pt
+* \paperheight=273.14662pt
+* \textwidth=320.39525pt
+* \textheight=244.6939pt
+* \oddsidemargin=-50.36993pt
+* \evensidemargin=-50.36993pt
+* \topmargin=-72.26999pt
+* \headheight=14.22636pt
+* \headsep=0.0pt
+* \topskip=11.0pt
+* \footskip=14.22636pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count184
+\scratchdimen=\dimen217
+\scratchbox=\box87
+\nofMPsegments=\count185
+\nofMParguments=\count186
+\everyMPshowfont=\toks48
+\MPscratchCnt=\count187
+\MPscratchDim=\dimen218
+\MPnumerator=\count188
+\makeMPintoPDFobject=\count189
+\everyMPtoPDFconversion=\toks49
+) ABD: EveryShipout initializing macros
+\AtBeginShipoutBox=\box88
+Package hyperref Info: Link coloring OFF on input line 27.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/07/31 v2.42 Cross-referencing by name of section
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count190
+)
+LaTeX Info: Redefining \ref on input line 27.
+LaTeX Info: Redefining \pageref on input line 27.
+LaTeX Info: Redefining \nameref on input line 27.
+
+(./chp7.out) (./chp7.out)
+\@outlinefile=\write5
+\openout5 = `chp7.out'.
+
+\symnumbers=\mathgroup11
+\sympureletters=\mathgroup12
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/txr/m/n --> OT1/txr/m/n on input line 27.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 27.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/txr/bx/n --> OT1/txr/bx/n on input line 27.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/txr/bx/n --> OT1/txr/bx/n on input line 27.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 27.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/txss/m/n --> OT1/txss/m/n on input line 27.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/txss/b/n --> OT1/txss/m/n on input line 27.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 27.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/txr/m/it --> OT1/txr/m/it on input line 27.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/txr/bx/it --> OT1/txr/m/it on input line 27.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 27.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/txtt/m/n --> OT1/txtt/m/n on input line 27.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/txtt/b/n --> OT1/txtt/m/n on input line 27.
+LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
+(Font)                  OT1/txr/m/n --> OT1/txr/bx/n on input line 27.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 27.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/txr/bx/n --> OT1/txr/bx/n on input line 27.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/txr/bx/n --> OT1/txr/bx/n on input line 27.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/txss/m/n --> OT1/txss/bx/n on input line 27.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 27.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/txtt/m/n --> OT1/txtt/bx/n on input line 27.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-basic-dictionary/translator-basic-dictionary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-bibliography-dictionary/translator-bibliography-dictionary-English.dict
+Dictionary: translator-bibliography-dictionary, Language: English 
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-environment-dictionary/translator-environment-dictionary-English.dict
+Dictionary: translator-environment-dictionary, Language: English 
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-months-dictionary/translator-months-dictionary-English.dict
+Dictionary: translator-months-dictionary, Language: English 
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-numbers-dictionary/translator-numbers-dictionary-English.dict
+Dictionary: translator-numbers-dictionary, Language: English 
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-theorem-dictionary/translator-theorem-dictionary-English.dict
+Dictionary: translator-theorem-dictionary, Language: English 
+)
+LaTeX Info: Redefining \includegraphics on input line 27.
+\c@lstlisting=\count191
+ (./chp7.nav)
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 5.69998pt on input line 27.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 13.67995pt on input line 37.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 7.59998pt on input line 37.
+
+[1
+
+{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./7-1_linefit_res_corr/7-1_linefit_res_corr.tex (./chp7.toc)
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 3.79999pt on input line 1.
+ [2
+
+] [3
+
+]
+LaTeX Font Info:    Font shape `OT1/txss/m/it' in size <10.95> not available
+(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 38.
+LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
+(Font)              scaled to size 10.40245pt on input line 38.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 9.49997pt on input line 38.
+
+<7-1_linefit_res_corr/figures/poverty/poverty_hsgrad.pdf, id=115, 397.485pt x 3
+10.15875pt>
+File: 7-1_linefit_res_corr/figures/poverty/poverty_hsgrad.pdf Graphic file (typ
+e pdf)
+ <use 7-1_linefit_res_corr/figures/poverty/poverty_hsgrad.pdf>
+Package pdftex.def Info: 7-1_linefit_res_corr/figures/poverty/poverty_hsgrad.pd
+f used on input line 38.
+(pdftex.def)             Requested size: 176.21835pt x 137.50671pt.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 38.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/ot1txr.fd
+File: ot1txr.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+txsya on input line 38.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/utxsya.fd
+File: utxsya.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 38.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/utxsyb.fd
+File: utxsyb.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+txmia on input line 38.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/utxmia.fd
+File: utxmia.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 38.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/utxsyc.fd
+File: utxsyc.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+wasy on input line 38.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/wasysym/uwasy.fd
+File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
+) [4
+
+ <./7-1_linefit_res_corr/figures/poverty/poverty_hsgrad.pdf>]
+File: 7-1_linefit_res_corr/figures/poverty/poverty_hsgrad.pdf Graphic file (typ
+e pdf)
+
+<use 7-1_linefit_res_corr/figures/poverty/poverty_hsgrad.pdf>
+Package pdftex.def Info: 7-1_linefit_res_corr/figures/poverty/poverty_hsgrad.pd
+f used on input line 38.
+(pdftex.def)             Requested size: 176.21835pt x 137.50671pt.
+ [5
+
+]
+File: 7-1_linefit_res_corr/figures/poverty/poverty_hsgrad.pdf Graphic file (typ
+e pdf)
+
+<use 7-1_linefit_res_corr/figures/poverty/poverty_hsgrad.pdf>
+Package pdftex.def Info: 7-1_linefit_res_corr/figures/poverty/poverty_hsgrad.pd
+f used on input line 38.
+(pdftex.def)             Requested size: 176.21835pt x 137.50671pt.
+ [6
+
+]
+File: 7-1_linefit_res_corr/figures/poverty/poverty_hsgrad.pdf Graphic file (typ
+e pdf)
+
+<use 7-1_linefit_res_corr/figures/poverty/poverty_hsgrad.pdf>
+Package pdftex.def Info: 7-1_linefit_res_corr/figures/poverty/poverty_hsgrad.pd
+f used on input line 38.
+(pdftex.def)             Requested size: 176.21835pt x 137.50671pt.
+ [7
+
+]
+File: 7-1_linefit_res_corr/figures/poverty/poverty_hsgrad.pdf Graphic file (typ
+e pdf)
+
+<use 7-1_linefit_res_corr/figures/poverty/poverty_hsgrad.pdf>
+Package pdftex.def Info: 7-1_linefit_res_corr/figures/poverty/poverty_hsgrad.pd
+f used on input line 38.
+(pdftex.def)             Requested size: 176.21835pt x 137.50671pt.
+ [8
+
+]
+File: 7-1_linefit_res_corr/figures/poverty/poverty_hsgrad.pdf Graphic file (typ
+e pdf)
+
+<use 7-1_linefit_res_corr/figures/poverty/poverty_hsgrad.pdf>
+Package pdftex.def Info: 7-1_linefit_res_corr/figures/poverty/poverty_hsgrad.pd
+f used on input line 38.
+(pdftex.def)             Requested size: 176.21835pt x 137.50671pt.
+ [9
+
+] [10
+
+] [11
+
+]
+[12
+
+]
+<7-1_linefit_res_corr/figures/poverty/poverty_hsgrad_line.pdf, id=193, 397.485p
+t x 310.15875pt>
+File: 7-1_linefit_res_corr/figures/poverty/poverty_hsgrad_line.pdf Graphic file
+ (type pdf)
+
+<use 7-1_linefit_res_corr/figures/poverty/poverty_hsgrad_line.pdf>
+Package pdftex.def Info: 7-1_linefit_res_corr/figures/poverty/poverty_hsgrad_li
+ne.pdf used on input line 83.
+(pdftex.def)             Requested size: 192.23909pt x 150.01033pt.
+ [13
+
+ <./7-1_linefit_res_corr/figures/poverty/poverty_hsgrad_line.pdf>]
+File: 7-1_linefit_res_corr/figures/poverty/poverty_hsgrad_line.pdf Graphic file
+ (type pdf)
+
+<use 7-1_linefit_res_corr/figures/poverty/poverty_hsgrad_line.pdf>
+Package pdftex.def Info: 7-1_linefit_res_corr/figures/poverty/poverty_hsgrad_li
+ne.pdf used on input line 83.
+(pdftex.def)             Requested size: 192.23909pt x 150.01033pt.
+ [14
+
+]
+<7-1_linefit_res_corr/figures/poverty/poverty_nohusband.pdf, id=218, 397.485pt 
+x 310.15875pt>
+File: 7-1_linefit_res_corr/figures/poverty/poverty_nohusband.pdf Graphic file (
+type pdf)
+
+<use 7-1_linefit_res_corr/figures/poverty/poverty_nohusband.pdf>
+Package pdftex.def Info: 7-1_linefit_res_corr/figures/poverty/poverty_nohusband
+.pdf used on input line 108.
+(pdftex.def)             Requested size: 192.23909pt x 150.01033pt.
+ [15
+
+ <./7-1_linefit_res_corr/figures/poverty/poverty_nohusband.pdf>]
+File: 7-1_linefit_res_corr/figures/poverty/poverty_nohusband.pdf Graphic file (
+type pdf)
+
+<use 7-1_linefit_res_corr/figures/poverty/poverty_nohusband.pdf>
+Package pdftex.def Info: 7-1_linefit_res_corr/figures/poverty/poverty_nohusband
+.pdf used on input line 108.
+(pdftex.def)             Requested size: 192.23909pt x 150.01033pt.
+ [16
+
+]
+<7-1_linefit_res_corr/figures/cor/cor.pdf, id=242, 397.485pt x 310.15875pt>
+File: 7-1_linefit_res_corr/figures/cor/cor.pdf Graphic file (type pdf)
+
+<use 7-1_linefit_res_corr/figures/cor/cor.pdf>
+Package pdftex.def Info: 7-1_linefit_res_corr/figures/cor/cor.pdf used on input
+ line 129.
+(pdftex.def)             Requested size: 192.23787pt x 150.0056pt.
+ [17
+
+ <./7-1_linefit_res_corr/figures/cor/cor.pdf>]
+File: 7-1_linefit_res_corr/figures/cor/cor.pdf Graphic file (type pdf)
+ <use 7-1_linefit_res_corr/figures/cor/cor.pdf>
+Package pdftex.def Info: 7-1_linefit_res_corr/figures/cor/cor.pdf used on input
+ line 129.
+(pdftex.def)             Requested size: 192.23787pt x 150.0056pt.
+ [18
+
+])
+(./7-2_least_square_reg/7-2_least_square_reg.tex (./chp7.toc) [19
+
+]
+Underfull \hbox (badness 2799) in paragraph at lines 24--24
+\OT1/txss/m/n/10.95 ing ap-pears to be
+ []
+
+
+Underfull \hbox (badness 5161) in paragraph at lines 24--24
+\OT1/txss/m/n/10.95 the lin-ear re-la-tion-
+ []
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 24--24
+\OT1/txss/m/n/10.95 ship be-tween % in
+ []
+
+
+Underfull \hbox (badness 1331) in paragraph at lines 24--24
+\OT1/txss/m/n/10.95 poverty and % HS
+ []
+
+
+<7-2_least_square_reg/figures/poverty/poverty_hsgrad_manylines.pdf, id=299, 397
+.485pt x 361.35pt>
+File: 7-2_least_square_reg/figures/poverty/poverty_hsgrad_manylines.pdf Graphic
+ file (type pdf)
+
+<use 7-2_least_square_reg/figures/poverty/poverty_hsgrad_manylines.pdf>
+Package pdftex.def Info: 7-2_least_square_reg/figures/poverty/poverty_hsgrad_ma
+nylines.pdf used on input line 24.
+(pdftex.def)             Requested size: 224.2757pt x 203.89296pt.
+
+[20
+
+ <./7-2_least_square_reg/figures/poverty/poverty_hsgrad_manylines.pdf>]
+Underfull \hbox (badness 2799) in paragraph at lines 24--24
+\OT1/txss/m/n/10.95 ing ap-pears to be
+ []
+
+
+Underfull \hbox (badness 5161) in paragraph at lines 24--24
+\OT1/txss/m/n/10.95 the lin-ear re-la-tion-
+ []
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 24--24
+\OT1/txss/m/n/10.95 ship be-tween % in
+ []
+
+
+Underfull \hbox (badness 1331) in paragraph at lines 24--24
+\OT1/txss/m/n/10.95 poverty and % HS
+ []
+
+File: 7-2_least_square_reg/figures/poverty/poverty_hsgrad_manylines.pdf Graphic
+ file (type pdf)
+<use 7-2_least_square_reg/figures/poverty/poverty_hsgrad_manylines.pdf>
+Package pdftex.def Info: 7-2_least_square_reg/figures/poverty/poverty_hsgrad_ma
+nylines.pdf used on input line 24.
+(pdftex.def)             Requested size: 224.2757pt x 203.89296pt.
+
+[21
+
+]
+<7-2_least_square_reg/figures/poverty/poverty_hsgrad_res.pdf, id=324, 397.485pt
+ x 310.15875pt>
+File: 7-2_least_square_reg/figures/poverty/poverty_hsgrad_res.pdf Graphic file 
+(type pdf)
+
+<use 7-2_least_square_reg/figures/poverty/poverty_hsgrad_res.pdf>
+Package pdftex.def Info: 7-2_least_square_reg/figures/poverty/poverty_hsgrad_re
+s.pdf used on input line 41.
+(pdftex.def)             Requested size: 256.31717pt x 200.01062pt.
+
+Overfull \vbox (11.45596pt too high) detected at line 41
+ []
+
+[22
+
+ <./7-2_least_square_reg/figures/poverty/poverty_hsgrad_res.pdf>]
+<7-2_least_square_reg/figures/poverty/poverty_hsgrad_res_text.pdf, id=341, 397.
+485pt x 310.15875pt>
+File: 7-2_least_square_reg/figures/poverty/poverty_hsgrad_res_text.pdf Graphic 
+file (type pdf)
+
+<use 7-2_least_square_reg/figures/poverty/poverty_hsgrad_res_text.pdf>
+Package pdftex.def Info: 7-2_least_square_reg/figures/poverty/poverty_hsgrad_re
+s_text.pdf used on input line 69.
+(pdftex.def)             Requested size: 192.23909pt x 150.01033pt.
+ [23
+
+ <./7-2_least_square_reg/figures/poverty/poverty_hsgrad_res_text.pdf>]
+File: 7-2_least_square_reg/figures/poverty/poverty_hsgrad_res_text.pdf Graphic 
+file (type pdf)
+
+<use 7-2_least_square_reg/figures/poverty/poverty_hsgrad_res_text.pdf>
+Package pdftex.def Info: 7-2_least_square_reg/figures/poverty/poverty_hsgrad_re
+s_text.pdf used on input line 69.
+(pdftex.def)             Requested size: 192.23909pt x 150.01033pt.
+ [24
+
+]
+File: 7-2_least_square_reg/figures/poverty/poverty_hsgrad_res_text.pdf Graphic 
+file (type pdf)
+
+<use 7-2_least_square_reg/figures/poverty/poverty_hsgrad_res_text.pdf>
+Package pdftex.def Info: 7-2_least_square_reg/figures/poverty/poverty_hsgrad_re
+s_text.pdf used on input line 69.
+(pdftex.def)             Requested size: 192.23909pt x 150.01033pt.
+ [25
+
+]
+LaTeX Font Info:    Font shape `OT1/txss/m/it' in size <10> not available
+(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 106.
+
+LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
+(Font)              scaled to size 9.49997pt on input line 106.
+
+[26
+
+] [27
+
+] [28
+
+] [29
+
+] [30
+
+] [31
+
+] [32
+
+] [33
+
+]
+<7-2_least_square_reg/figures/poverty/poverty_hsgrad.pdf, id=446, 397.485pt x 3
+10.15875pt>
+File: 7-2_least_square_reg/figures/poverty/poverty_hsgrad.pdf Graphic file (typ
+e pdf)
+ <use 7-2_least_square_reg/figures/poverty/poverty_hsgrad.pdf>
+Package pdftex.def Info: 7-2_least_square_reg/figures/poverty/poverty_hsgrad.pd
+f used on input line 185.
+(pdftex.def)             Requested size: 160.19762pt x 125.00308pt.
+
+Overfull \hbox (9.14075pt too wide) in paragraph at lines 185--185
+[][] 
+ []
+
+[34
+
+ <./7-2_least_square_reg/figures/poverty/poverty_hsgrad.pdf>] [35
+
+] [36
+
+]
+[37
+
+]
+<7-2_least_square_reg/figures/poverty/poverty_hsgrad_line_wide.pdf, id=488, 722
+.7pt x 310.15875pt>
+File: 7-2_least_square_reg/figures/poverty/poverty_hsgrad_line_wide.pdf Graphic
+ file (type pdf)
+
+<use 7-2_least_square_reg/figures/poverty/poverty_hsgrad_line_wide.pdf>
+Package pdftex.def Info: 7-2_least_square_reg/figures/poverty/poverty_hsgrad_li
+ne_wide.pdf used on input line 235.
+(pdftex.def)             Requested size: 217.86641pt x 93.49794pt.
+
+Overfull \hbox (26.84935pt too wide) in paragraph at lines 235--235
+[]  
+ []
+
+[38
+
+ <./7-2_least_square_reg/figures/poverty/poverty_hsgrad_line_wide.pdf>]
+File: 7-2_least_square_reg/figures/poverty/poverty_hsgrad_line_wide.pdf Graphic
+ file (type pdf)
+
+<use 7-2_least_square_reg/figures/poverty/poverty_hsgrad_line_wide.pdf>
+Package pdftex.def Info: 7-2_least_square_reg/figures/poverty/poverty_hsgrad_li
+ne_wide.pdf used on input line 235.
+(pdftex.def)             Requested size: 217.86641pt x 93.49794pt.
+
+Overfull \hbox (26.84935pt too wide) in paragraph at lines 235--235
+[]  
+ []
+
+[39
+
+]
+File: 7-2_least_square_reg/figures/poverty/poverty_hsgrad_line_wide.pdf Graphic
+ file (type pdf)
+ <use 7-2_least_square_reg/figures/poverty/poverty_hsgrad_line_wide.pdf>
+Package pdftex.def Info: 7-2_least_square_reg/figures/poverty/poverty_hsgrad_li
+ne_wide.pdf used on input line 235.
+(pdftex.def)             Requested size: 217.86641pt x 93.49794pt.
+
+Overfull \hbox (26.84935pt too wide) in paragraph at lines 235--235
+[]  
+ []
+
+[40
+
+] [41
+
+] [42
+
+]
+File: 7-2_least_square_reg/figures/poverty/poverty_hsgrad_line_wide.pdf Graphic
+ file (type pdf)
+
+<use 7-2_least_square_reg/figures/poverty/poverty_hsgrad_line_wide.pdf>
+Package pdftex.def Info: 7-2_least_square_reg/figures/poverty/poverty_hsgrad_li
+ne_wide.pdf used on input line 265.
+(pdftex.def)             Requested size: 320.39525pt x 137.50198pt.
+
+[43
+
+]
+<7-2_least_square_reg/figures/poverty/poverty_hsgrad_line.pdf, id=548, 397.485p
+t x 310.15875pt>
+File: 7-2_least_square_reg/figures/poverty/poverty_hsgrad_line.pdf Graphic file
+ (type pdf)
+
+<use 7-2_least_square_reg/figures/poverty/poverty_hsgrad_line.pdf>
+Package pdftex.def Info: 7-2_least_square_reg/figures/poverty/poverty_hsgrad_li
+ne.pdf used on input line 278.
+(pdftex.def)             Requested size: 224.2757pt x 175.00812pt.
+
+Overfull \vbox (2.14246pt too high) detected at line 278
+ []
+
+[44
+
+ <./7-2_least_square_reg/figures/poverty/poverty_hsgrad_line.pdf>]
+<7-2_least_square_reg/figures/diagram.png, id=567, 546.04pt x 368.37625pt>
+File: 7-2_least_square_reg/figures/diagram.png Graphic file (type png)
+
+<use 7-2_least_square_reg/figures/diagram.png>
+Package pdftex.def Info: 7-2_least_square_reg/figures/diagram.png used on input
+ line 310.
+(pdftex.def)             Requested size: 160.19762pt x 108.07422pt.
+LaTeX Font Info:    Font shape `OT1/txss/m/it' in size <9> not available
+(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 310.
+
+LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
+(Font)              scaled to size 8.54997pt on input line 310.
+ [45
+
+ <./7-2_least_square_reg/figures/diagram.png>]
+<7-2_least_square_reg/figures/poverty/poverty_hsgrad_pred.pdf, id=577, 722.7pt 
+x 310.15875pt>
+File: 7-2_least_square_reg/figures/poverty/poverty_hsgrad_pred.pdf Graphic file
+ (type pdf)
+
+<use 7-2_least_square_reg/figures/poverty/poverty_hsgrad_pred.pdf>
+Package pdftex.def Info: 7-2_least_square_reg/figures/poverty/poverty_hsgrad_pr
+ed.pdf used on input line 335.
+(pdftex.def)             Requested size: 288.35376pt x 123.74895pt.
+
+Overfull \vbox (3.19432pt too high) detected at line 335
+ []
+
+[46
+
+ <./7-2_least_square_reg/figures/poverty/poverty_hsgrad_pred.pdf>]
+File: 7-2_least_square_reg/figures/poverty/poverty_hsgrad_line_wide.pdf Graphic
+ file (type pdf)
+
+<use 7-2_least_square_reg/figures/poverty/poverty_hsgrad_line_wide.pdf>
+Package pdftex.def Info: 7-2_least_square_reg/figures/poverty/poverty_hsgrad_li
+ne_wide.pdf used on input line 354.
+(pdftex.def)             Requested size: 320.39525pt x 137.50198pt.
+
+[47
+
+]
+<7-2_least_square_reg/figures/extrapolation.png, id=602, 572.8602pt x 303.0522p
+t>
+File: 7-2_least_square_reg/figures/extrapolation.png Graphic file (type png)
+ <use 7-2_least_square_reg/figures/extrapolation.png>
+Package pdftex.def Info: 7-2_least_square_reg/figures/extrapolation.png used on
+ input line 365.
+(pdftex.def)             Requested size: 320.39525pt x 169.49535pt.
+ [48
+
+ <./7-2_least_square_reg/figures/extrapolation.png>]
+<7-2_least_square_reg/figures/womenOutsprintBBC.png, id=612, 669.50125pt x 603.
+25375pt>
+File: 7-2_least_square_reg/figures/womenOutsprintBBC.png Graphic file (type png
+)
+ <use 7-2_least_square_reg/figures/womenOutsprintBBC.png>
+Package pdftex.def Info: 7-2_least_square_reg/figures/womenOutsprintBBC.png use
+d on input line 376.
+(pdftex.def)             Requested size: 224.2757pt x 202.08435pt.
+ [49
+
+ <./7-2_least_square_reg/figures/womenOutsprintBBC.png>]
+<7-2_least_square_reg/figures/womenOutsprint.png, id=623, 905.3825pt x 601.2462
+5pt>
+File: 7-2_least_square_reg/figures/womenOutsprint.png Graphic file (type png)
+ <use 7-2_least_square_reg/figures/womenOutsprint.png>
+Package pdftex.def Info: 7-2_least_square_reg/figures/womenOutsprint.png used o
+n input line 387.
+(pdftex.def)             Requested size: 320.39525pt x 212.76042pt.
+
+Overfull \vbox (10.44453pt too high) detected at line 387
+ []
+
+[50
+
+ <./7-2_least_square_reg/figures/womenOutsprint.png>] [51
+
+] [52
+
+] [53
+
+]
+<7-2_least_square_reg/figures/sampleLinesAndResPlots/sampleLinesAndResPlots.pdf
+, id=658, 361.35pt x 180.675pt>
+File: 7-2_least_square_reg/figures/sampleLinesAndResPlots/sampleLinesAndResPlot
+s.pdf Graphic file (type pdf)
+
+<use 7-2_least_square_reg/figures/sampleLinesAndResPlots/sampleLinesAndResPlots
+.pdf>
+Package pdftex.def Info: 7-2_least_square_reg/figures/sampleLinesAndResPlots/sa
+mpleLinesAndResPlots.pdf used on input line 437.
+(pdftex.def)             Requested size: 224.2757pt x 112.13863pt.
+
+Overfull \vbox (7.31131pt too high) detected at line 437
+ []
+
+[54
+
+ <./7-2_least_square_reg/figures/sampleLinesAndResPlots/sampleLinesAndResPlots.
+pdf>]
+File: 7-2_least_square_reg/figures/sampleLinesAndResPlots/sampleLinesAndResPlot
+s.pdf Graphic file (type pdf)
+
+<use 7-2_least_square_reg/figures/sampleLinesAndResPlots/sampleLinesAndResPlots
+.pdf>
+Package pdftex.def Info: 7-2_least_square_reg/figures/sampleLinesAndResPlots/sa
+mpleLinesAndResPlots.pdf used on input line 437.
+(pdftex.def)             Requested size: 224.2757pt x 112.13863pt.
+
+Overfull \vbox (7.31131pt too high) detected at line 437
+ []
+
+[55
+
+]
+File: 7-2_least_square_reg/figures/sampleLinesAndResPlots/sampleLinesAndResPlot
+s.pdf Graphic file (type pdf)
+
+<use 7-2_least_square_reg/figures/sampleLinesAndResPlots/sampleLinesAndResPlots
+.pdf>
+Package pdftex.def Info: 7-2_least_square_reg/figures/sampleLinesAndResPlots/sa
+mpleLinesAndResPlots.pdf used on input line 437.
+(pdftex.def)             Requested size: 224.2757pt x 112.13863pt.
+
+Overfull \vbox (7.31131pt too high) detected at line 437
+ []
+
+[56
+
+]
+<7-2_least_square_reg/figures/poverty/poverty_hsgrad_resplot.pdf, id=695, 397.4
+85pt x 433.62pt>
+File: 7-2_least_square_reg/figures/poverty/poverty_hsgrad_resplot.pdf Graphic f
+ile (type pdf)
+
+<use 7-2_least_square_reg/figures/poverty/poverty_hsgrad_resplot.pdf>
+Package pdftex.def Info: 7-2_least_square_reg/figures/poverty/poverty_hsgrad_re
+splot.pdf used on input line 469.
+(pdftex.def)             Requested size: 160.19762pt x 174.76161pt.
+LaTeX Font Info:    Font shape `OT1/txss/m/it' in size <17.28> not available
+(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 469.
+
+LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
+(Font)              scaled to size 16.41594pt on input line 469.
+
+Overfull \hbox (33.14153pt too wide) in paragraph at lines 469--469
+[]  
+ []
+
+
+Overfull \hbox (33.14153pt too wide) in paragraph at lines 469--469
+[]  
+ []
+
+[57
+
+ <./7-2_least_square_reg/figures/poverty/poverty_hsgrad_resplot.pdf>]
+File: 7-2_least_square_reg/figures/poverty/poverty_hsgrad_resplot.pdf Graphic f
+ile (type pdf)
+
+<use 7-2_least_square_reg/figures/poverty/poverty_hsgrad_resplot.pdf>
+Package pdftex.def Info: 7-2_least_square_reg/figures/poverty/poverty_hsgrad_re
+splot.pdf used on input line 469.
+(pdftex.def)             Requested size: 160.19762pt x 174.76161pt.
+
+Overfull \hbox (33.14153pt too wide) in paragraph at lines 469--469
+[]  
+ []
+
+
+Overfull \hbox (33.14153pt too wide) in paragraph at lines 469--469
+[]  
+ []
+
+[58
+
+]
+<7-2_least_square_reg/figures/poverty/normal_res.pdf, id=722, 722.7pt x 310.158
+75pt>
+File: 7-2_least_square_reg/figures/poverty/normal_res.pdf Graphic file (type pd
+f)
+ <use 7-2_least_square_reg/figures/poverty/normal_res.pdf>
+Package pdftex.def Info: 7-2_least_square_reg/figures/poverty/normal_res.pdf us
+ed on input line 495.
+(pdftex.def)             Requested size: 320.39525pt x 137.50198pt.
+ [59
+
+ <./7-2_least_square_reg/figures/poverty/normal_res.pdf>]
+File: 7-2_least_square_reg/figures/poverty/normal_res.pdf Graphic file (type pd
+f)
+
+<use 7-2_least_square_reg/figures/poverty/normal_res.pdf>
+Package pdftex.def Info: 7-2_least_square_reg/figures/poverty/normal_res.pdf us
+ed on input line 495.
+(pdftex.def)             Requested size: 320.39525pt x 137.50198pt.
+ [60
+
+]
+File: 7-2_least_square_reg/figures/poverty/normal_res.pdf Graphic file (type pd
+f)
+
+<use 7-2_least_square_reg/figures/poverty/normal_res.pdf>
+Package pdftex.def Info: 7-2_least_square_reg/figures/poverty/normal_res.pdf us
+ed on input line 495.
+(pdftex.def)             Requested size: 320.39525pt x 137.50198pt.
+ [61
+
+]
+<7-2_least_square_reg/figures/poverty/poverty_hsgrad_tube.pdf, id=758, 397.485p
+t x 433.62pt>
+File: 7-2_least_square_reg/figures/poverty/poverty_hsgrad_tube.pdf Graphic file
+ (type pdf)
+
+<use 7-2_least_square_reg/figures/poverty/poverty_hsgrad_tube.pdf>
+Package pdftex.def Info: 7-2_least_square_reg/figures/poverty/poverty_hsgrad_tu
+be.pdf used on input line 529.
+(pdftex.def)             Requested size: 160.19762pt x 174.76161pt.
+ [62
+
+ <./7-2_least_square_reg/figures/poverty/poverty_hsgrad_tube.pdf>]
+File: 7-2_least_square_reg/figures/poverty/poverty_hsgrad_tube.pdf Graphic file
+ (type pdf)
+
+<use 7-2_least_square_reg/figures/poverty/poverty_hsgrad_tube.pdf>
+Package pdftex.def Info: 7-2_least_square_reg/figures/poverty/poverty_hsgrad_tu
+be.pdf used on input line 529.
+(pdftex.def)             Requested size: 160.19762pt x 174.76161pt.
+ [63
+
+]
+File: 7-2_least_square_reg/figures/poverty/poverty_hsgrad_tube.pdf Graphic file
+ (type pdf)
+
+<use 7-2_least_square_reg/figures/poverty/poverty_hsgrad_tube.pdf>
+Package pdftex.def Info: 7-2_least_square_reg/figures/poverty/poverty_hsgrad_tu
+be.pdf used on input line 529.
+(pdftex.def)             Requested size: 160.19762pt x 174.76161pt.
+ [64
+
+]
+File: 7-2_least_square_reg/figures/poverty/poverty_hsgrad_tube.pdf Graphic file
+ (type pdf)
+
+<use 7-2_least_square_reg/figures/poverty/poverty_hsgrad_tube.pdf>
+Package pdftex.def Info: 7-2_least_square_reg/figures/poverty/poverty_hsgrad_tu
+be.pdf used on input line 529.
+(pdftex.def)             Requested size: 160.19762pt x 174.76161pt.
+ [65
+
+]
+<7-2_least_square_reg/figures/problems/nonlinear.pdf, id=802, 194.04916pt x 230
+.72087pt>
+File: 7-2_least_square_reg/figures/problems/nonlinear.pdf Graphic file (type pd
+f)
+ <use 7-2_least_square_reg/figures/problems/nonlinear.pdf>
+Package pdftex.def Info: 7-2_least_square_reg/figures/problems/nonlinear.pdf us
+ed on input line 552.
+(pdftex.def)             Requested size: 160.19762pt x 190.47026pt.
+ [66
+
+ <./7-2_least_square_reg/figures/problems/nonlinear.pdf>]
+File: 7-2_least_square_reg/figures/problems/nonlinear.pdf Graphic file (type pd
+f)
+
+<use 7-2_least_square_reg/figures/problems/nonlinear.pdf>
+Package pdftex.def Info: 7-2_least_square_reg/figures/problems/nonlinear.pdf us
+ed on input line 552.
+(pdftex.def)             Requested size: 160.19762pt x 190.47026pt.
+ [67
+
+]
+<7-2_least_square_reg/figures/problems/heteroscedastic.pdf, id=835, 192.7154pt 
+x 230.05399pt>
+File: 7-2_least_square_reg/figures/problems/heteroscedastic.pdf Graphic file (t
+ype pdf)
+ <use 7-2_least_square_reg/figures/problems/heteroscedastic.pdf>
+Package pdftex.def Info: 7-2_least_square_reg/figures/problems/heteroscedastic.
+pdf used on input line 575.
+(pdftex.def)             Requested size: 160.19762pt x 191.24663pt.
+
+[68
+
+ <./7-2_least_square_reg/figures/problems/heteroscedastic.pdf>]
+File: 7-2_least_square_reg/figures/problems/heteroscedastic.pdf Graphic file (t
+ype pdf)
+
+<use 7-2_least_square_reg/figures/problems/heteroscedastic.pdf>
+Package pdftex.def Info: 7-2_least_square_reg/figures/problems/heteroscedastic.
+pdf used on input line 575.
+(pdftex.def)             Requested size: 160.19762pt x 191.24663pt.
+ [69
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 579.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 579.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 579.
+
+[70
+
+] [71
+
+] [72
+
+] [73
+
+] [74
+
+]
+File: 7-2_least_square_reg/figures/poverty/poverty_hsgrad.pdf Graphic file (typ
+e pdf)
+
+<use 7-2_least_square_reg/figures/poverty/poverty_hsgrad.pdf>
+Package pdftex.def Info: 7-2_least_square_reg/figures/poverty/poverty_hsgrad.pd
+f used on input line 635.
+(pdftex.def)             Requested size: 112.14029pt x 87.5017pt.
+ [75
+
+]
+File: 7-2_least_square_reg/figures/poverty/poverty_hsgrad.pdf Graphic file (typ
+e pdf)
+
+<use 7-2_least_square_reg/figures/poverty/poverty_hsgrad.pdf>
+Package pdftex.def Info: 7-2_least_square_reg/figures/poverty/poverty_hsgrad.pd
+f used on input line 635.
+(pdftex.def)             Requested size: 112.14029pt x 87.5017pt.
+ [76
+
+] [77
+
+]
+[78
+
+] [79
+
+] [80
+
+] [81
+
+] [82
+
+] [83
+
+] [84
+
+] [85
+
+]) (./7-3_outliers/7-3_outliers.tex
+(./chp7.toc) [86
+
+]
+<7-3_outliers/figures/outlierPlots/out4.pdf, id=1008, 397.485pt x 433.62pt>
+File: 7-3_outliers/figures/outlierPlots/out4.pdf Graphic file (type pdf)
+
+<use 7-3_outliers/figures/outlierPlots/out4.pdf>
+Package pdftex.def Info: 7-3_outliers/figures/outlierPlots/out4.pdf used on inp
+ut line 20.
+(pdftex.def)             Requested size: 160.19762pt x 174.76161pt.
+ [87
+
+ <./7-3_outliers/figures/outlierPlots/out4.pdf>]
+Underfull \hbox (badness 1275) in paragraph at lines 38--38
+[]\OT1/txss/m/n/10.95 How do out-liers in-flu-ence
+ []
+
+<7-3_outliers/figures/outlierPlots/out5.pdf, id=1025, 397.485pt x 433.62pt>
+File: 7-3_outliers/figures/outlierPlots/out5.pdf Graphic file (type pdf)
+
+<use 7-3_outliers/figures/outlierPlots/out5.pdf>
+Package pdftex.def Info: 7-3_outliers/figures/outlierPlots/out5.pdf used on inp
+ut line 38.
+(pdftex.def)             Requested size: 192.23909pt x 209.72319pt.
+
+Overfull \vbox (5.4073pt too high) detected at line 38
+ []
+
+[88
+
+ <./7-3_outliers/figures/outlierPlots/out5.pdf>]
+Underfull \hbox (badness 1275) in paragraph at lines 38--38
+[]\OT1/txss/m/n/10.95 How do out-liers in-flu-ence
+ []
+
+File: 7-3_outliers/figures/outlierPlots/out5.pdf Graphic file (type pdf)
+<use 7-3_outliers/figures/outlierPlots/out5.pdf>
+Package pdftex.def Info: 7-3_outliers/figures/outlierPlots/out5.pdf used on inp
+ut line 38.
+(pdftex.def)             Requested size: 192.23909pt x 209.72319pt.
+
+Overfull \vbox (5.4073pt too high) detected at line 38
+ []
+
+[89
+
+] [90
+
+] [91
+
+] [92
+
+] [93
+
+]
+<7-3_outliers/figures/stars/star.pdf, id=1078, 397.485pt x 310.15875pt>
+File: 7-3_outliers/figures/stars/star.pdf Graphic file (type pdf)
+
+<use 7-3_outliers/figures/stars/star.pdf>
+Package pdftex.def Info: 7-3_outliers/figures/stars/star.pdf used on input line
+ 84.
+(pdftex.def)             Requested size: 224.2757pt x 175.00812pt.
+
+<7-3_outliers/figures/stars/cyg.pdf, id=1079, 168.63pt x 192.2382pt>
+File: 7-3_outliers/figures/stars/cyg.pdf Graphic file (type pdf)
+
+<use 7-3_outliers/figures/stars/cyg.pdf>
+Package pdftex.def Info: 7-3_outliers/figures/stars/cyg.pdf used on input line 
+84.
+(pdftex.def)             Requested size: 96.11954pt x 109.5769pt.
+
+Overfull \vbox (0.18077pt too high) detected at line 84
+ []
+
+[94
+
+ <./7-3_outliers/figures/stars/star.pdf> <./7-3_outliers/figures/stars/cyg.pdf>
+]
+<7-3_outliers/figures/outlierPlots/out6.pdf, id=1104, 397.485pt x 433.62pt>
+File: 7-3_outliers/figures/outlierPlots/out6.pdf Graphic file (type pdf)
+
+<use 7-3_outliers/figures/outlierPlots/out6.pdf>
+Package pdftex.def Info: 7-3_outliers/figures/outlierPlots/out6.pdf used on inp
+ut line 107.
+(pdftex.def)             Requested size: 192.23909pt x 209.72319pt.
+
+Overfull \vbox (5.4073pt too high) detected at line 107
+ []
+
+[95
+
+ <./7-3_outliers/figures/outlierPlots/out6.pdf>]
+File: 7-3_outliers/figures/outlierPlots/out6.pdf Graphic file (type pdf)
+
+<use 7-3_outliers/figures/outlierPlots/out6.pdf>
+Package pdftex.def Info: 7-3_outliers/figures/outlierPlots/out6.pdf used on inp
+ut line 107.
+(pdftex.def)             Requested size: 192.23909pt x 209.72319pt.
+
+Overfull \vbox (5.4073pt too high) detected at line 107
+ []
+
+[96
+
+]
+<7-3_outliers/figures/outlierPlots/out1.pdf, id=1129, 397.485pt x 433.62pt>
+File: 7-3_outliers/figures/outlierPlots/out1.pdf Graphic file (type pdf)
+
+<use 7-3_outliers/figures/outlierPlots/out1.pdf>
+Package pdftex.def Info: 7-3_outliers/figures/outlierPlots/out1.pdf used on inp
+ut line 126.
+(pdftex.def)             Requested size: 192.23909pt x 209.72319pt.
+
+Overfull \vbox (5.4073pt too high) detected at line 126
+ []
+
+[97
+
+ <./7-3_outliers/figures/outlierPlots/out1.pdf>]
+File: 7-3_outliers/figures/outlierPlots/out1.pdf Graphic file (type pdf)
+
+<use 7-3_outliers/figures/outlierPlots/out1.pdf>
+Package pdftex.def Info: 7-3_outliers/figures/outlierPlots/out1.pdf used on inp
+ut line 126.
+(pdftex.def)             Requested size: 192.23909pt x 209.72319pt.
+
+Overfull \vbox (5.4073pt too high) detected at line 126
+ []
+
+[98
+
+] [99
+
+] [100
+
+]
+<7-3_outliers/figures/outlierPlots/out5-1.pdf, id=1168, 397.485pt x 433.62pt>
+File: 7-3_outliers/figures/outlierPlots/out5-1.pdf Graphic file (type pdf)
+
+<use 7-3_outliers/figures/outlierPlots/out5-1.pdf>
+Package pdftex.def Info: 7-3_outliers/figures/outlierPlots/out5-1.pdf used on i
+nput line 166.
+(pdftex.def)             Requested size: 160.19762pt x 174.76161pt.
+File: 7-3_outliers/figures/outlierPlots/out5.pdf Graphic file (type pdf)
+
+<use 7-3_outliers/figures/outlierPlots/out5.pdf>
+Package pdftex.def Info: 7-3_outliers/figures/outlierPlots/out5.pdf used on inp
+ut line 166.
+(pdftex.def)             Requested size: 160.19762pt x 174.76161pt.
+ [101
+
+ <./7-3_outliers/figures/outlierPlots/out5-1.pdf>]) (./7-4_inf_lin_reg/7-4_inf_
+lin_reg.tex (./chp7.toc)
+[102
+
+]
+<7-4_inf_lin_reg/figures/twins/twins_IQ.pdf, id=1201, 433.62pt x 289.08pt>
+File: 7-4_inf_lin_reg/figures/twins/twins_IQ.pdf Graphic file (type pdf)
+
+<use 7-4_inf_lin_reg/figures/twins/twins_IQ.pdf>
+Package pdftex.def Info: 7-4_inf_lin_reg/figures/twins/twins_IQ.pdf used on inp
+ut line 18.
+(pdftex.def)             Requested size: 224.2757pt x 149.51965pt.
+
+Overfull \vbox (3.69377pt too high) detected at line 18
+ []
+
+[103
+
+ <./7-4_inf_lin_reg/figures/twins/twins_IQ.pdf>]
+\openout4 = `chp7.vrb'.
+
+ (./chp7.vrb
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 8.54997pt on input line 5.
+LaTeX Font Info:    Try loading font information for OT1+txtt on input line 6.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/txfonts/ot1txtt.fd
+File: ot1txtt.fd 2000/12/15 v3.1
+)) [104
+
+]
+(./chp7.vrb) [105
+
+] [106
+
+] [107
+
+] [108
+
+] [109
+
+] [110
+
+] [111
+
+] [112
+
+] [113
+
+] [114
+
+]
+[115
+
+] [116
+
+] [117
+
+] [118
+
+]
+<7-4_inf_lin_reg/figures/la/Prop_EduHigherThan16th.pdf, id=1343, 433.62pt x 397
+.485pt>
+File: 7-4_inf_lin_reg/figures/la/Prop_EduHigherThan16th.pdf Graphic file (type 
+pdf)
+ <use 7-4_inf_lin_reg/figures/la/Prop_EduHigherThan16th.pdf>
+Package pdftex.def Info: 7-4_inf_lin_reg/figures/la/Prop_EduHigherThan16th.pdf 
+used on input line 157.
+(pdftex.def)             Requested size: 169.80908pt x 155.66142pt.
+
+<7-4_inf_lin_reg/figures/la/Prop_RaceEthHispanic.pdf, id=1344, 433.62pt x 397.4
+85pt>
+File: 7-4_inf_lin_reg/figures/la/Prop_RaceEthHispanic.pdf Graphic file (type pd
+f)
+ <use 7-4_inf_lin_reg/figures/la/Prop_RaceEthHispanic.pdf>
+Package pdftex.def Info: 7-4_inf_lin_reg/figures/la/Prop_RaceEthHispanic.pdf us
+ed on input line 157.
+(pdftex.def)             Requested size: 169.80908pt x 155.66142pt.
+
+Overfull \hbox (19.22292pt too wide) in paragraph at lines 157--157
+ [][] 
+ []
+
+
+Overfull \vbox (0.15388pt too high) detected at line 157
+ []
+
+[119
+
+ <./7-4_inf_lin_reg/figures/la/Prop_EduHigherThan16th.pdf> <./7-4_inf_lin_reg/f
+igures/la/Prop_RaceEthHispanic.pdf>]
+<7-4_inf_lin_reg/figures/la/la.pdf, id=1362, 397.485pt x 310.15875pt>
+File: 7-4_inf_lin_reg/figures/la/la.pdf Graphic file (type pdf)
+
+<use 7-4_inf_lin_reg/figures/la/la.pdf>
+Package pdftex.def Info: 7-4_inf_lin_reg/figures/la/la.pdf used on input line 1
+70.
+(pdftex.def)             Requested size: 224.2757pt x 175.00812pt.
+
+Overfull \vbox (6.0722pt too high) detected at line 170
+ []
+
+[120
+
+ <./7-4_inf_lin_reg/figures/la/la.pdf>] [121
+
+] [122
+
+] [123
+
+] [124
+
+] [125
+
+]
+[126
+
+] [127
+
+] [128
+
+] [129
+
+] [130
+
+] [131
+
+] [132
+
+] [133
+
+] [134
+
+] [135
+
+] [136
+
+] [137
+
+]
+[138
+
+] [139
+
+] [140
+
+])
+\tf@nav=\write6
+\openout6 = `chp7.nav'.
+
+\tf@toc=\write7
+\openout7 = `chp7.toc'.
+
+\tf@snm=\write8
+\openout8 = `chp7.snm'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 49.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 49.
+ (./chp7.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 49.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 49.
+Package rerunfilecheck Info: File `chp7.out' has not changed.
+(rerunfilecheck)             Checksum: 5D4C3F31AA50B68596526C0371A5B345;1185.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 49.
+ ) 
+Here is how much of TeX's memory you used:
+ 21864 strings out of 493488
+ 405304 string characters out of 3141326
+ 466621 words of memory out of 3000000
+ 24229 multiletter control sequences out of 15000+200000
+ 81549 words of font info for 191 fonts, out of 3000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 49i,18n,64p,393b,773s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2012/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/lo
+cal/texlive/2012/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/te
+xlive/2012/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2
+012/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2012/tex
+mf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/local/texlive/2012/texmf-dis
+t/fonts/type1/public/txfonts/txsyb.pfb></usr/local/texlive/2012/texmf-dist/font
+s/type1/public/txfonts/txsyc.pfb></usr/local/texlive/2012/texmf-dist/fonts/type
+1/public/txfonts/txtt.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/h
+elvetic/uhvr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/helvetic
+/uhvr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/times/utmr8a.pf
+b></usr/local/texlive/2012/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on chp7.pdf (140 pages, 1332606 bytes).
+PDF statistics:
+ 1652 PDF objects out of 1728 (max. 8388607)
+ 1406 compressed objects within 15 object streams
+ 296 named destinations out of 1000 (max. 500000)
+ 373 words of extra memory for PDF output out of 10000 (max. 10000000)
+

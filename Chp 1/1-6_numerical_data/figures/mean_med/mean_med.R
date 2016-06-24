@@ -1,0 +1,37 @@
+set.seed(20)
+
+pdf("rs.pdf", width = 5, height = 3)
+par(mar=c(1,1,1,1))
+rs = rpois(10000,.5)
+d = rs
+plot(density(d), axes = FALSE, xlab = "", ylab = "", main = "Right-skewed")
+abline(h = 0, col = "gray")
+box()
+abline(v = mean(d), col = "blue", lty = 2, lwd = 3)
+abline(v = median(d), col = "darkgreen", lty = 1, lwd = 3)
+legend("topright", inset = 0.05, col = c("blue","darkgreen"), legend = c("mean","median"), lty = c(2,1), lwd = 3)
+dev.off()
+
+pdf("sym.pdf", width = 5, height = 3)
+par(mar=c(1,1,1,1))
+sym = rnorm(10000, 0,1)
+d = sym
+plot(density(d), axes = FALSE, xlab = "", ylab = "", main = "Symmetric")
+abline(h = 0, col = "gray")
+box()
+abline(v = mean(d), col = "blue", lty = 2, lwd = 3)
+abline(v = median(d), col = "darkgreen", lty = 1, lwd = 3)
+legend("topright", inset = 0.05, col = c("blue","darkgreen"), legend = c("mean","median"), lty = c(2,1), lwd = 3)
+dev.off()
+
+pdf("ls.pdf", width = 5, height = 3)
+par(mar=c(1,1,1,1))
+ls = rbeta(10000,8,0.5)
+d = ls
+plot(density(d), axes = FALSE, xlab = "", ylab = "", main = "Left-skewed")
+abline(h = 0, col = "gray")
+box()
+abline(v = mean(d), col = "blue", lty = 2, lwd = 3)
+abline(v = median(d), col = "darkgreen", lty = 1, lwd = 3)
+legend("topleft", inset = 0.05, col = c("blue","darkgreen"), legend = c("mean","median"), lty = c(2,1), lwd = 3)
+dev.off()

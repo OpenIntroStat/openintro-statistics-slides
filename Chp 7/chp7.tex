@@ -1,0 +1,49 @@
+\documentclass[slidestop,compress,mathserif]{beamer}
+
+%%% To get handouts:
+%\documentclass[11pt,containsverbatim,handout]{beamer}
+%% include when making handouts
+%\usepackage{pgfpages}
+%\pgfpagesuselayout{4 on 1}[letterpaper,landscape,border shrink=5mm]
+
+%%% To get rid of solutions on handouts:
+\newcommand{\soln}[1]{\textit{#1}}				% For slides
+%\newcommand{\soln}[1]{ }	% For handouts
+
+\newcommand{\solnGr}[1]{#1}
+%\newcommand{\solnGr}{ }
+
+\input{../lec_style.tex}
+
+%%%%%%%%%%%%%%%%%%%%%
+
+\title[Chp 7: Intro. to linear regression]{Chapter 7: Introduction to linear regression}
+\author{OpenIntro Statistics, 2nd Edition}
+\date{}
+\institute{}
+
+%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%
+
+% Title Page
+
+\begin{frame}[plain]
+
+\titlepage
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{7-1_linefit_res_corr/7-1_linefit_res_corr}
+\input{7-2_least_square_reg/7-2_least_square_reg}
+\input{7-3_outliers/7-3_outliers}
+\input{7-4_inf_lin_reg/7-4_inf_lin_reg}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}

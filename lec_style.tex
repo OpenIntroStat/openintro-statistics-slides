@@ -1,0 +1,280 @@
+\usetheme{AnnArbor}
+
+% Load color theme: There are a variety of color themes available, not limited to the ones listed below. Make sure to use only one at a time and comment out the rest.
+%\usecolortheme{albatross}
+%\usecolortheme{dolphin}
+\usecolortheme{seahorse}
+%\usecolortheme{seagull}
+
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{amssymb}
+%\usepackage{cancel}
+\usepackage{epstopdf}
+\usepackage{amsmath}  	% this permits text in eqnarray among other benefits
+\usepackage{url}		% produces hyperlinks
+\usepackage{hyperref}	% allows for color usage in tables
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{colortbl}	% allows for color usage in tables
+\usepackage{multirow}	% allows for rows that span multiple rows in tables
+\usepackage{color}		% this package has a variety of color options
+\usepackage{pgf}
+\usepackage{calc}
+\usepackage{ulem}
+\usepackage{multicol}
+\usepackage{textcomp}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{tikz}
+\usepackage{array}
+\usepackage{wasysym}
+\usepackage{fancyvrb}
+
+
+%%%%%%%%%%%%%%%%
+% Remove navigation symbols
+%%%%%%%%%%%%%%%%
+
+\setbeamertemplate{navigation symbols}{}
+
+%%%%%%%%%%%%%%%%
+% User defined colors
+%%%%%%%%%%%%%%%%
+
+\xdefinecolor{oiB}{rgb}{0.22,0.52,0.72}
+\definecolor{oiG}{rgb}{.298,.447,.114}
+\xdefinecolor{hlblue}{rgb}{0.051,0.65,1}
+\xdefinecolor{gray}{rgb}{0.5, 0.5, 0.5}
+\xdefinecolor{darkGray}{rgb}{0.3, 0.3, 0.3}
+\xdefinecolor{darkerGray}{rgb}{0.2, 0.2, 0.2}
+\xdefinecolor{rubineRed}{rgb}{0.89,0,0.30}
+\xdefinecolor{irishGreen}{rgb}{0,0.60,0}	
+\definecolor{lightGreen}{rgb}{0.387,0.581,0.148} 
+
+%%%%%%%%%%%%%%%%
+% Template colors
+%%%%%%%%%%%%%%%%
+
+\setbeamercolor*{palette primary}{fg=white,bg= oiB!80!black!90}
+\setbeamercolor*{palette secondary}{fg=black,bg= oiB!80!black}
+\setbeamercolor*{palette tertiary}{fg=white,bg= oiB!80!black!80}
+\setbeamercolor*{palette quaternary}{fg=white,bg= oiB}
+\setbeamercolor{structure}{fg= oiB}
+\setbeamercolor{frametitle}{bg= oiB!90}
+\setbeamertemplate{blocks}[shadow=false]
+\setbeamersize{text margin left=2em,text margin right=2em}
+
+\setbeamercolor{code body}{bg=gray!20!white!80,fg=black}
+
+%%%%%%%%%%%%%%%%
+% Get rid of fancy enumerated list bullets
+%%%%%%%%%%%%%%%%
+
+\setbeamertemplate{enumerate items}[default]
+
+%%%%%%%%%%%%%%%%
+% Custom commands
+%%%%%%%%%%%%%%%%
+
+% degree
+\newcommand{\degree}{\ensuremath{^\circ}}
+
+% cite
+\newcommand{\ct}[1]{
+\vfill
+{\tiny #1}}
+
+% Note
+\newcommand{\Note}[1]{
+\rule{2.5cm}{0.25pt} \\ \textit{\footnotesize{\textcolor{rubineRed}{Note:} \textcolor{darkerGray}{#1}}}}
+
+% Remember
+\newcommand{\Remember}[1]{\textit{\scriptsize{\textcolor{orange}{Remember:} #1}}}
+
+% expected counts
+\newcommand{\ex}[1]{\textit{\textcolor{blue}{#1}}}
+
+% red
+\newcommand{\red}[1]{\textit{\textcolor{rubineRed}{#1}}}
+
+% pink
+\newcommand{\pink}[1]{\textit{\textcolor{rubineRed!90!white!50}{#1}}}
+
+% green
+\newcommand{\green}[1]{\textit{\textcolor{irishGreen}{#1}}}
+
+% orange
+\newcommand{\orange}[1]{\textit{\textcolor{orange}{#1}}}
+
+% links: webURL, webLin, appLink
+\newcommand{\webURL}[1]{\urlstyle{same}{ \textit{\textcolor{darkGray}{\url{#1}}}}}
+\newcommand{\webLink}[2]{\href{#1}{\textcolor{darkGray}{{#2}}}}
+\newcommand{\appLink}[2]{\href{#1}{\textcolor{white}{{#2}}}}
+
+% mail
+\newcommand{\mail}[1]{\href{mailto:#1}{\textit{\textcolor{darkGray}{#1}}}}
+
+% highlighting: hl, hlGr, mathhl
+\newcommand{\hl}[1]{\textit{\textcolor{hlblue}{#1}}}
+\newcommand{\hlGr}[1]{\textit{\textcolor{lightGreen}{#1}}}
+\newcommand{\mathhl}[1]{\textcolor{hlblue}{\ensuremath{#1}}}
+
+% two col: two columns
+\newenvironment{twocol}[4]{
+\begin{columns}[c]
+\column{#1\textwidth}
+#3
+\column{#2\textwidth}
+#4
+\end{columns}
+}
+
+% slot (for probability calculations)
+\newenvironment{slot}[2]{
+\begin{array}{c} 
+\underline{#1} \\ 
+#2
+\end{array}
+}
+
+% pr: left and right parentheses
+\newcommand{\pr}[1]{
+\left( #1 \right)
+}
+
+% solnMult: solutions for practice questions
+
+\newcommand{\solnMult}[1]{
+\item[] \vspace{-0.59cm}
+\only<1>{\item #1}
+\soln{\only<2->{\item \red{#1}}}
+}
+
+% cancel
+\newcommand{\cancel}[1]{%
+    \tikz[baseline=(tocancel.base)]{
+        \node[inner sep=0pt,outer sep=0pt] (tocancel) {#1};
+        \draw[red, line width=0.5mm] (tocancel.south west) -- (tocancel.north east);
+    }%
+}
+
+% removepagenumbers
+\newcommand{\removepagenumbers}{% 
+  \setbeamertemplate{footline}{
+    %
+    \begin{beamercolorbox}[colsep=1.5pt]{upper separation line foot}
+    \end{beamercolorbox}
+    \begin{beamercolorbox}[ht=2.5ex,dp=1.125ex,%
+      leftskip=.3cm,rightskip=.3cm plus1fil]{author in head/foot}%
+      \leavevmode{\usebeamerfont{author in head/foot}\insertshortauthor}%
+%      \hfill%
+%      {\usebeamerfont{author in head/foot}\usebeamercolor[fg]{institute in head/foot}\insertshortinstitute}%
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[ht=2.5ex,dp=1.125ex,%
+      leftskip=.3cm,rightskip=.3cm plus1fil]{title in head/foot}%
+      {\usebeamerfont{title in head/foot}\insertshorttitle}%
+      \hfill%
+      {\usebeamerfont{author in head/foot}\usebeamercolor[fg]{institute in head/foot}\insertshortinstitute}%
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[colsep=1.5pt]{lower separation line foot}
+    \end{beamercolorbox}
+    }
+}
+
+%%%%%%%%%%%%%%%%
+% Custom boxes
+%%%%%%%%%%%%%%%%
+
+% app: application exercise
+
+\setbeamercolor{app body}{bg=white,fg=oiG}
+
+\newcommand{\app}[1]{
+\begin{beamerboxesrounded}[shadow = false, lower = app body]{}
+#1
+\end{beamerboxesrounded}
+}
+
+% dq: discussion question
+
+\setbeamercolor{disc ques body}{bg=white,fg=oiB}
+
+\newcommand{\dq}[1]{
+\begin{beamerboxesrounded}[shadow = false, lower = disc ques body]{}
+#1
+\end{beamerboxesrounded}
+}
+
+% pq: practice question
+
+\setbeamercolor{prac ques body}{bg=white,fg=oiB}
+
+\newcommand{\pq}[1]{
+\begin{beamerboxesrounded}[shadow = false, lower = prac ques body]{}
+#1
+\end{beamerboxesrounded}
+}
+
+% formula
+
+\setbeamercolor{formula body}{bg=white,fg=oiB!55!black!95}
+
+\newcommand{\formula}[1]{
+\begin{beamerboxesrounded}[shadow = false, lower = formula body]{}
+#1
+\end{beamerboxesrounded}
+}
+
+
+%%%%%%%%%%%%%%%%
+% Change margin
+%%%%%%%%%%%%%%%%
+
+\newenvironment{changemargin}[2]{%
+\begin{list}{}{%
+\setlength{\topsep}{0pt}%
+\setlength{\leftmargin}{#1}%
+\setlength{\rightmargin}{#2}%
+\setlength{\listparindent}{\parindent}%
+\setlength{\itemindent}{\parindent}%
+\setlength{\parsep}{\parskip}%
+}%
+\item}{\end{list}}
+
+%%%%%%%%%%%%%%%%
+% Footnote
+%%%%%%%%%%%%%%%%
+
+\long\def\symbolfootnote[#1]#2{\begingroup%
+\def\thefootnote{\fnsymbol{footnote}}\footnote[#1]{#2}\endgroup}
+
+%%%%%%%%%%%%%%%%
+% Commands from the book
+%%%%%%%%%%%%%%%%
+
+\newenvironment{data}[1]{\texttt{#1}}{}
+\newenvironment{var}[1]{\texttt{#1}}{}
+\newenvironment{resp}[1]{\texttt{#1}}{}
+
+%%%%%%%%%%%%%%%%
+% Graphics
+%%%%%%%%%%%%%%%%
+
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+
+%%%%%%%%%%%%%%%%
+% TOC slides
+%%%%%%%%%%%%%%%%
+
+\AtBeginSection[] 
+{ 
+  \addtocounter{framenumber}{-1} 
+  % 
+  {\removepagenumbers 
+    \begin{frame}<beamer> [shrink]
+    \tableofcontents[currentsection,hideothersubsections] 
+    \vspace{0.25cm}
+  \end{frame} 
+  } 
+} 

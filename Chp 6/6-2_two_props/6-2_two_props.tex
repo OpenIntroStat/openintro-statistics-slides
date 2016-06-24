@@ -1,0 +1,388 @@
+\section{Difference of two proportions}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Melting ice cap}
+
+\pq{Scientists predict that global warming may have big effects on the polar regions within the next 100 years. One of the possible effects is that the northern ice cap may completely melt. Would this bother you a great deal, some, a little, or not at all if it actually happened?}
+
+\begin{enumerate}[(a)]
+\item A great deal
+\item Some
+\item A little
+\item Not at all
+\end{enumerate}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Results from the GSS}
+
+The GSS asks the same question, below are the distributions of responses from the 2010 GSS as well as from a group of introductory statistics students at Duke University: \\
+
+\begin{center}
+\begin{tabular}{l r r}
+\hline
+				& GSS	& Duke \\
+\hline
+A great deal		& 454	& 69 \\
+Some			& 124 	& 30\\
+A little			& 52 		& 4\\
+Not at all			& 50 		& 2 \\
+\hline
+Total				& 680 	& 105\\
+\hline
+\end{tabular}
+\end{center}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Parameter and point estimate}
+
+\begin{itemize}
+
+\item \hl{Parameter of interest:} Difference between the proportions of \red{all} Duke students and \red{all} Americans who would be bothered a great deal by the northern ice cap completely melting.
+\[ \mathhl{ p_{Duke} - p_{US} }\]
+
+\pause
+
+\item \hl{Point estimate:} Difference between the proportions of \red{sampled} Duke students and \red{sampled} Americans who would be bothered a great deal by the northern ice cap completely melting.
+\[ \mathhl{ \hat{p}_{Duke} - \hat{p}_{US} }\]
+
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Inference for comparing proportions}
+
+\begin{itemize}
+
+\item The details are the same as before...
+
+\pause
+
+\item CI: \textcolor{orange}{$point~estimate \pm margin~of~error$}
+
+\pause
+
+\item HT: Use \textcolor{orange}{$Z = \frac{point~estimate - null~value}{SE}$} to find appropriate p-value.
+
+\pause
+
+\item We just need the appropriate standard error of the point estimate ($SE_{ \hat{p}_{Duke} - \hat{p}_{US}}$), which is the only new concept.
+
+\end{itemize}
+
+\pause
+
+\formula{Standard error of the difference between two sample proportions}
+{
+\[ SE_{(\hat{p}_1 - \hat{p}_2)} = \sqrt{ \frac{p_1(1-p_1)}{n_1} + \frac{p_2(1-p_2)}{n_2} } \]
+}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Confidence intervals for difference of proportions}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Conditions for CI for difference of proportions}
+
+\begin{enumerate}
+
+\item \hl{Independence within groups: }
+\begin{itemize}
+\item The US group is sampled randomly and we're assuming that the Duke group represents a random sample as well.
+\pause
+\item $n_{Duke}$ $<$ 10\% of all Duke students and 680 $<$ 10\% of all Americans.
+\end{itemize}
+\pause
+We can assume that the attitudes of Duke students in the sample are independent of each other, and attitudes of US residents in the sample are independent of each other as well.
+
+\pause
+
+\item \hl{Independence between groups: }
+The sampled Duke students and the US residents are independent of each other.
+
+\pause
+
+\item \hl{Success-failure:} \\
+At least 10 observed successes and 10 observed failures in the two groups.
+
+\end{enumerate}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{}
+
+\dq{Construct a 95\% confidence interval for the difference between the proportions of Duke students and Americans who would be bothered a great deal by the melting of the northern ice cap \red{($p_{Duke} - p_{US}$)}.}
+
+{\footnotesize
+\begin{center}
+\begin{tabular}{l | c c}
+Data			& Duke		& US \\
+\hline
+A great deal	& 69			& 454 \\
+Not a great deal& 36			& 226 \\
+\hline
+Total			& 105		& 680 \\
+\hline
+\pause
+$\hat{p}$		& 0.657		& 0.668
+\end{tabular}
+\end{center}
+}
+
+\pause
+
+\soln{
+\begin{eqnarray*}
+&& (\hat{p}_{Duke} - \hat{p}_{US}) \pm z^\star \times \sqrt{ \frac{ \hat{p}_{Duke} (1 - \hat{p}_{Duke})}{n_{Duke} } + \frac{ \hat{p}_{US} (1 -  \hat{p}_{US})}{n_{US} } }  \\
+\pause
+&=& (0.657 - 0.668) \pause \pm 1.96 \pause \times \sqrt{ \frac{0.657 \times 0.343}{105} + \frac{0.668 \times 0.332}{680} } \\
+\pause
+&=& -0.011 \pm \pause 1.96 \times 0.0497 \\
+\pause
+&=& -0.011 \pm 0.097 \\
+\pause
+&=& (-0.108, 0.086)
+\end{eqnarray*}
+}
+
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{HT for comparing proportions}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+
+\pq{Which of the following is the correct set of hypotheses for testing if the proportion of all Duke students who would be bothered a great deal by the melting of the northern ice cap differs from the proportion of all Americans who do?}
+
+\begin{enumerate}[(a)]
+\solnMult{ $H_0:  p_{Duke} = p_{US}$ \\
+$H_A:  p_{Duke} \ne p_{US}$ }
+\item $H_0:  \hat{p}_{Duke} = \hat{p}_{US}$ \\
+$H_A:  \hat{p}_{Duke} \ne \hat{p}_{US}$
+\solnMult{ $H_0:  p_{Duke} - p_{US} = 0$ \\
+$H_A:  p_{Duke} - p_{US} \ne 0$ }
+\item $H_0:  p_{Duke} = p_{US}$ \\
+$H_A:  p_{Duke} < p_{US}$
+\end{enumerate}
+
+\soln{
+\only<2>{\red{Both (a) and (c) are correct.}}
+}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Flashback to working with one proportion}
+
+\begin{itemize}
+
+\item When constructing a confidence interval for a population proportion, we check if the \red{observed} number of successes and failures are at least 10.
+\[ n\hat{p} \ge 10 \qquad \qquad n(1-\hat{p}) \ge 10 \]
+
+\pause
+
+\item When conducting a hypothesis test for a population proportion, we check if the \red{expected} number of successes and failures are at least 10.
+\[ np_0 \ge 10 \qquad \qquad n(1-p_0) \ge 10 \]
+
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Pooled estimate of a proportion}
+
+\begin{itemize}
+
+\item In the case of comparing two proportions where $H_0: p_1 = p_2$, there isn't a given null value we can use to calculated the \red{expected} number of successes and failures in each sample.
+
+\pause
+
+\item Therefore, we need to first find a common (\hl{pooled}) proportion for the two groups, and use that in our analysis.
+
+\pause
+
+\item This simply means finding the proportion of total successes among the total number of observations.
+
+\end{itemize}
+
+$\:$ \\
+
+\formula{Pooled estimate of a proportion}
+{ \[ \hat{p} = \frac{\#~of~successes_1 + \#~of~successes_2}{n_1 + n_2} \] }
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{}
+
+\dq{Calculate the estimated \underline{pooled proportion} of Duke students and Americans who would be bothered a great deal by the melting of the northern ice cap. Which sample proportion ($\hat{p}_{Duke}$ or $\hat{p}_{US}$) the pooled estimate is closer to? Why?}
+
+{\footnotesize
+\begin{center}
+\begin{tabular}{l | c c}
+Data			& Duke		& US \\
+\hline
+A great deal	& 69			& 454 \\
+Not a great deal& 36			& 226 \\
+\hline
+Total			& 105		& 680 \\
+\hline
+$\hat{p}$		& 0.657		& 0.668
+\end{tabular}
+\end{center}
+}
+
+\pause
+
+\soln{
+\begin{eqnarray*}
+\hat{p} &=& \frac{\#~of~successes_1 + \#~of~successes_2}{n_1 + n_2} \\
+\pause
+&=& \frac{69+454}{105+680} \pause = \frac{523}{785} \pause = 0.666
+\end{eqnarray*}
+}
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{}
+
+\dq{Do these data suggest that the proportion of all Duke students who would be bothered a great deal by the melting of the northern ice cap differs from the proportion of all Americans who do? Calculate the test statistic, the p-value, and interpret your conclusion in context of the data.}
+
+{\footnotesize
+\begin{center}
+\begin{tabular}{l | c c}
+Data			& Duke		& US \\
+\hline
+A great deal	& 69			& 454 \\
+Not a great deal& 36			& 226 \\
+\hline
+Total			& 105		& 680 \\
+\hline
+$\hat{p}$		& 0.657		& 0.668
+\end{tabular}
+\end{center}
+}
+
+\pause
+
+\soln{
+\begin{eqnarray*}
+Z &=& \frac{(\hat{p}_{Duke} - \hat{p}_{US})}{\sqrt{ \frac{ \hat{p} (1 - \hat{p})}{n_{Duke} } + \frac{ \hat{p} (1 -  \hat{p})}{n_{US} } }} \\
+\pause 
+&=& \frac{(0.657 - 0.668)}{\sqrt{ \frac{0.666 \times 0.334}{105} + \frac{0.666 \times 0.334}{680} }} = \pause \frac{-0.011}{0.0495} \pause = -0.22 \\
+\pause
+p-value &=& 2 \times P(Z < -0.22) \pause = 2 \times 0.41 = 0.82
+\end{eqnarray*}
+}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Recap}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Recap - comparing two proportions}
+
+\begin{itemize}
+
+\item Population parameter: $(p_1 - p_2)$, point estimate: $(\hat{p}_1 - \hat{p}_2)$
+
+\pause
+
+\item Conditions:
+\pause
+\begin{itemize}
+\item independence within groups \\
+- random sample and 10\% condition met for both groups
+\item independence between groups
+\item at least 10 successes and failures in each group\\ 
+- if not $\rightarrow$ randomization (Section 6.4)
+\end{itemize}
+
+\pause
+
+\item $SE_{(\hat{p}_1 - \hat{p}_2)} = \sqrt{ \frac{p_1(1-p_1)}{n_1} + \frac{p_2(1-p_2)}{n_2} }$
+\begin{itemize}
+\item for CI: use $\hat{p}_1$ and $\hat{p}_2$
+\item for HT:
+\begin{itemize}
+\item when $H_0: p_1 = p_2$: use $\hat{p}_{pool} = \frac{\#~suc_1 + \#suc_2}{n_1 + n_2}$
+\item when $H_0: p_1 - p_2 = $ \textit{(some value other than 0)}: use $\hat{p}_1$ and $\hat{p}_2$ \\
+- this is pretty rare
+\end{itemize}
+\end{itemize}
+
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Reference - standard error calculations}
+
+\begin{center}
+\begin{tabular}{l | l | l}
+			& one sample					& two samples \\ 
+\hline
+& & \\
+mean		& $SE = \frac{s}{\sqrt{n}}$			& $SE = \sqrt{ \frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}$ \\
+& & \\
+\hline
+& & \\
+proportion		& $SE = \sqrt{ \frac{p(1-p)}{n} }$	& $SE = \sqrt{ \frac{p_1(1-p_1)}{n_1} + \frac{p_2(1-p_2)}{n_2} }$	 \\	
+& & \\
+\end{tabular}
+\end{center}
+
+\pause
+
+\begin{itemize}
+
+\item When working with means, it's very rare that $\sigma$ is known, so we usually use $s$.
+
+\pause
+
+\item When working with proportions, 
+\begin{itemize}
+\item if doing a hypothesis test, $p$ comes from the null hypothesis
+\item if constructing a confidence interval, use $\hat{p}$ instead
+\end{itemize}
+
+\end{itemize}
+
+\end{frame}

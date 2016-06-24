@@ -1,0 +1,53 @@
+\documentclass[slidestop,compress,mathserif]{beamer}
+
+%%% To get handouts:
+%\documentclass[11pt,containsverbatim,handout]{beamer}
+%% include when making handouts
+%\usepackage{pgfpages}
+%\pgfpagesuselayout{4 on 1}[letterpaper,landscape,border shrink=5mm]
+
+%%% To get rid of solutions on handouts:
+\newcommand{\soln}[1]{\textit{#1}}				% For slides
+%\newcommand{\soln}[1]{ }	% For handouts
+
+\newcommand{\solnGr}[1]{#1}
+%\newcommand{\solnGr}{ }
+
+\input{../lec_style.tex}
+
+%%%%%%%%%%%%%%%%%%%%%
+
+\title[Chp 2: Probability]{Chapter 2: Probability}
+\author{OpenIntro Statistics, 2nd Edition}
+\date{}
+\institute{}
+
+%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%
+
+% Title Page
+
+\begin{frame}[plain]
+
+\titlepage
+
+{\footnotesize Slides developed by Mine \c{C}etinkaya-Rundel of OpenIntro \\
+The slides may be copied, edited, and/or shared via the \webLink{http://creativecommons.org/licenses/by-sa/3.0/us/}{CC BY-SA license} \\
+Some images may be included under fair use guidelines (educational purposes)}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{2-1_define_probability/2-1_define_probability}
+\input{2-2_conditional_probability/2-2_conditional_probability}
+\input{2-3_sample_from_small_population/2-3_sample_from_small_population}
+\input{2-4_random_variables/2-4_random_variables}
+\input{2-5_continuous_distributions/2-5_continuous_distributions}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}

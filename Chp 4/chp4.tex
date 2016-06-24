@@ -1,0 +1,51 @@
+\documentclass[slidestop,compress,mathserif]{beamer}
+
+%%% To get handouts:
+%\documentclass[11pt,containsverbatim,handout]{beamer}
+%% include when making handouts
+%\usepackage{pgfpages}
+%\pgfpagesuselayout{4 on 1}[letterpaper,landscape,border shrink=5mm]
+
+%%% To get rid of solutions on handouts:
+\newcommand{\soln}[1]{\textit{#1}}				% For slides
+%\newcommand{\soln}[1]{ }	% For handouts
+
+\newcommand{\solnGr}[1]{#1}
+%\newcommand{\solnGr}{ }
+
+\input{../lec_style.tex}
+
+%%%%%%%%%%%%%%%%%%%%%
+
+\title[Chp 4: Foundations for inference]{Chapter 4: Foundations for inference}
+\author{OpenIntro Statistics, 2nd Edition}
+\date{}
+\institute{}
+
+%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%
+
+% Title Page
+
+\begin{frame}[plain]
+
+\titlepage
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{4-1_var_in_est/4-1_var_in_est }
+\input{4-2_conf_int/4-2_conf_int}
+\input{4-3_hyp_test/4-3_hyp_test}
+\input{4-4_clt/4-4_clt}
+\input{4-5_inf_other_est/4-5_inf_other_est}
+\input{4-6_samp_size_power/4-6_samp_size_power}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
