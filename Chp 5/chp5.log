@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  23 JUN 2016 17:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  27 JUN 2016 17:04
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1407,17 +1407,18 @@ LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 Overfull \vbox (76.51149pt too high) detected at line 59
  []
 
-<../kitten.jpg, id=100, 401.5pt x 301.125pt>
-File: ../kitten.jpg Graphic file (type jpg)
- <use ../kitten.jpg>
-Package pdftex.def Info: ../kitten.jpg used on input line 59.
-(pdftex.def)             Requested size: 364.19536pt x 273.16493pt.
+<../OpenIntro_Grid_4_3-01.jpg, id=100, 1027.9203pt x 770.88pt>
+File: ../OpenIntro_Grid_4_3-01.jpg Graphic file (type jpg)
+
+<use ../OpenIntro_Grid_4_3-01.jpg>
+Package pdftex.def Info: ../OpenIntro_Grid_4_3-01.jpg used on input line 59.
+(pdftex.def)             Requested size: 364.19536pt x 273.11736pt.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 (Font)              scaled to size 3.79999pt on input line 59.
  [1
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../kitt
-en.jpg> <../oiLogo_highres.png>] (./5-1_one_t/5-1_one_t.tex
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Open
+Intro_Grid_4_3-01.jpg> <../oiLogo_highres.png>] (./5-1_one_t/5-1_one_t.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 3.
@@ -2897,8 +2898,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 79.
  ) 
 Here is how much of TeX's memory you used:
  24662 strings out of 493089
- 466891 string characters out of 6134842
- 546364 words of memory out of 5000000
+ 466966 string characters out of 6134842
+ 546367 words of memory out of 5000000
  26963 multiletter control sequences out of 15000+600000
  91564 words of font info for 206 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2916,7 +2917,7 @@ onts/txtt.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvb
 </usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/l
 ocal/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texli
 ve/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on chp5.pdf (229 pages, 2986516 bytes).
+Output written on chp5.pdf (229 pages, 6982384 bytes).
 PDF statistics:
  1637 PDF objects out of 1728 (max. 8388607)
  1331 compressed objects within 14 object streams

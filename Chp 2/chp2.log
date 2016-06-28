@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  23 JUN 2016 17:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  27 JUN 2016 17:03
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1407,24 +1407,25 @@ LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 Overfull \vbox (76.51149pt too high) detected at line 59
  []
 
-<../kitten.jpg, id=120, 401.5pt x 301.125pt>
-File: ../kitten.jpg Graphic file (type jpg)
- <use ../kitten.jpg>
-Package pdftex.def Info: ../kitten.jpg used on input line 59.
-(pdftex.def)             Requested size: 364.19536pt x 273.16493pt.
+<../OpenIntro_Grid_4_3-01.jpg, id=120, 1027.9203pt x 770.88pt>
+File: ../OpenIntro_Grid_4_3-01.jpg Graphic file (type jpg)
+
+<use ../OpenIntro_Grid_4_3-01.jpg>
+Package pdftex.def Info: ../OpenIntro_Grid_4_3-01.jpg used on input line 59.
+(pdftex.def)             Requested size: 364.19536pt x 273.11736pt.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 (Font)              scaled to size 3.79999pt on input line 59.
  [1
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../kitt
-en.jpg> <../oiLogo_highres.png>] (./2-1_define_probability/2-1_define_probabili
-ty.tex
-[2
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Open
+Intro_Grid_4_3-01.jpg> <../oiLogo_highres.png>] (./2-1_define_probability/2-1_d
+efine_probability.tex [2
 
 ]
 LaTeX Font Info:    Try loading font information for TS1+txss on input line 32.
 
- (/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/ts1txss.fd
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/ts1txss.fd
 File: ts1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `TS1/txss/m/n' will be
@@ -2641,7 +2642,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 79.
  ) 
 Here is how much of TeX's memory you used:
  24423 strings out of 493089
- 464302 string characters out of 6134842
+ 464377 string characters out of 6134842
  535347 words of memory out of 5000000
  26874 multiletter control sequences out of 15000+600000
  74073 words of font info for 165 fonts, out of 8000000 for 9000
@@ -2659,7 +2660,7 @@ ic/uhvr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvr
 8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></u
 sr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/local/
 texlive/2015/texmf-dist/fonts/type1/public/wasy2-ps/wasy10.pfb>
-Output written on chp2.pdf (174 pages, 762613 bytes).
+Output written on chp2.pdf (174 pages, 4758479 bytes).
 PDF statistics:
  1235 PDF objects out of 1440 (max. 8388607)
  1009 compressed objects within 11 object streams

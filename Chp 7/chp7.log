@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  23 JUN 2016 17:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  27 JUN 2016 17:05
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1407,18 +1407,19 @@ LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 Overfull \vbox (76.51149pt too high) detected at line 59
  []
 
-<../kitten.jpg, id=80, 401.5pt x 301.125pt>
-File: ../kitten.jpg Graphic file (type jpg)
- <use ../kitten.jpg>
-Package pdftex.def Info: ../kitten.jpg used on input line 59.
-(pdftex.def)             Requested size: 364.19536pt x 273.16493pt.
+<../OpenIntro_Grid_4_3-01.jpg, id=80, 1027.9203pt x 770.88pt>
+File: ../OpenIntro_Grid_4_3-01.jpg Graphic file (type jpg)
+
+<use ../OpenIntro_Grid_4_3-01.jpg>
+Package pdftex.def Info: ../OpenIntro_Grid_4_3-01.jpg used on input line 59.
+(pdftex.def)             Requested size: 364.19536pt x 273.11736pt.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 (Font)              scaled to size 3.79999pt on input line 59.
  [1
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../kitt
-en.jpg> <../oiLogo_highres.png>] (./7-1_linefit_res_corr/7-1_linefit_res_corr.t
-ex [2
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Open
+Intro_Grid_4_3-01.jpg> <../oiLogo_highres.png>] (./7-1_linefit_res_corr/7-1_lin
+efit_res_corr.tex [2
 
 ]
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
@@ -1427,8 +1428,7 @@ LaTeX Font Info:    Font shape `OT1/txss/bx/n' in size <12> not available
 (Font)              Font shape `OT1/txss/b/n' tried instead on input line 12.
 LaTeX Font Info:    Font shape `OT1/txss/b/n' will be
 (Font)              scaled to size 11.39996pt on input line 12.
-
-[3
+ [3
 
 ]
 LaTeX Font Info:    Font shape `OT1/txss/m/it' in size <10.95> not available
@@ -2594,8 +2594,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 78.
  ) 
 Here is how much of TeX's memory you used:
  24417 strings out of 493089
- 466714 string characters out of 6134842
- 537375 words of memory out of 5000000
+ 466789 string characters out of 6134842
+ 537378 words of memory out of 5000000
  26923 multiletter control sequences out of 15000+600000
  84564 words of font info for 198 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2614,7 +2614,7 @@ ic/uhvb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvr
 8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/loca
 l/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on chp7.pdf (140 pages, 1322052 bytes).
+Output written on chp7.pdf (140 pages, 5317911 bytes).
 PDF statistics:
  1243 PDF objects out of 1440 (max. 8388607)
  1004 compressed objects within 11 object streams

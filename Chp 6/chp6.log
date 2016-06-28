@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  23 JUN 2016 17:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  27 JUN 2016 17:05
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1407,17 +1407,19 @@ LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 Overfull \vbox (76.51149pt too high) detected at line 59
  []
 
-<../kitten.jpg, id=120, 401.5pt x 301.125pt>
-File: ../kitten.jpg Graphic file (type jpg)
- <use ../kitten.jpg>
-Package pdftex.def Info: ../kitten.jpg used on input line 59.
-(pdftex.def)             Requested size: 364.19536pt x 273.16493pt.
+<../OpenIntro_Grid_4_3-01.jpg, id=120, 1027.9203pt x 770.88pt>
+File: ../OpenIntro_Grid_4_3-01.jpg Graphic file (type jpg)
+
+<use ../OpenIntro_Grid_4_3-01.jpg>
+Package pdftex.def Info: ../OpenIntro_Grid_4_3-01.jpg used on input line 59.
+(pdftex.def)             Requested size: 364.19536pt x 273.11736pt.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 (Font)              scaled to size 3.79999pt on input line 59.
  [1
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../kitt
-en.jpg> <../oiLogo_highres.png>] (./6-1_single_prop/6-1_single_prop.tex [2
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Open
+Intro_Grid_4_3-01.jpg> <../oiLogo_highres.png>] (./6-1_single_prop/6-1_single_p
+rop.tex [2
 
 ]
 LaTeX Font Info:    Font shape `OT1/txss/m/it' in size <10.95> not available
@@ -1435,13 +1437,13 @@ LaTeX Font Info:    Font shape `OT1/txss/bx/n' in size <12> not available
 (Font)              Font shape `OT1/txss/b/n' tried instead on input line 34.
 LaTeX Font Info:    Font shape `OT1/txss/b/n' will be
 (Font)              scaled to size 11.39996pt on input line 34.
-
-[5
+ [5
 
 ]
 LaTeX Font Info:    Try loading font information for TS1+txss on input line 57.
 
- (/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/ts1txss.fd
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/ts1txss.fd
 File: ts1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `TS1/txss/m/n' will be
@@ -2730,8 +2732,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 80.
  ) 
 Here is how much of TeX's memory you used:
  24925 strings out of 493089
- 469727 string characters out of 6134842
- 553459 words of memory out of 5000000
+ 469802 string characters out of 6134842
+ 553462 words of memory out of 5000000
  27227 multiletter control sequences out of 15000+600000
  73843 words of font info for 166 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2748,7 +2750,7 @@ ic/uhvb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvr
 8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/loca
 l/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on chp6.pdf (224 pages, 1829119 bytes).
+Output written on chp6.pdf (224 pages, 5824980 bytes).
 PDF statistics:
  1584 PDF objects out of 1728 (max. 8388607)
  1288 compressed objects within 13 object streams
