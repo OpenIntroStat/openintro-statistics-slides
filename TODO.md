@@ -1,2 +1,1 @@
-- replace kitty image with OI background
 - write make file to compile all slides at once

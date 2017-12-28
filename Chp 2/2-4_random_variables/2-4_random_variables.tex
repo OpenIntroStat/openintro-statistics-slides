@@ -176,7 +176,7 @@ where $a$ and $b$ are some fixed numbers.
 \soln{
 \pause
 \begin{align*} 
-E(5S + 4C) &= 5 \times E(S) + 4 \times E(C) \\
+E(S + S + S + S + S + C + C + C + C) &= 5 \times E(S) + 4 \times E(C) \\
 &= 5 \times 10 + 4 \times 15 \\
 &= 50 + 60 \\
 &= 110~min 
@@ -217,15 +217,15 @@ E(5S + 4C) &= 5 \times E(S) + 4 \times E(C) \\
 \begin{frame}
 \frametitle{Calculating the variance of a linear combination}
 
-\dq{The standard deviation of the time you take for each statistics homework problem is 1.5 minutes, and it is 2 minutes for each chemistry problem. What is the standard deviation of the time you expect to spend on statistics and physics homework for the week if you have 5 statistics and 4 chemistry homework problems assigned?}
+\dq{The standard deviation of the time you take for each statistics homework problem is 1.5 minutes, and it is 2 minutes for each chemistry problem. What is the standard deviation of the time you expect to spend on statistics and physics homework for the week if you have 5 statistics and 4 chemistry homework problems assigned? Suppose that the time it takes to complete each problem is independent of another.}
 
 \soln{
 \pause
 \begin{align*} 
-V(5S + 4C) &= 5^2 \times V(S) + 4^2 \times V(C) \\
-&= 25 \times 1.5^2 + 16 \times 2^2 \\
-&= 56.25 + 64 \\
-&= 120.25 
+V(S + S + S + S + S + C + C + C + C) &= V(S) + V(S) + V(S) + V(S) + V(S) + V(C) + V(C) + V(C) + V(C) \\
+&= 5 \times V(S) + 4 \times V(C) \\
+&= 5 \times 1.5^2 + 4 \times 2^2 \\
+&= 27.25
 \end{align*}
 }
 
