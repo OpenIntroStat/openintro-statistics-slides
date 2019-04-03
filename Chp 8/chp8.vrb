@@ -1,8 +1,0 @@
-\frametitle{Comparing models}
-
-\vspace{-8mm}
-
-\begin{center}
-\includegraphics[width=0.7\textwidth]{8-4_logistic_reg/figures/spam/ROC_comp.pdf}
-\end{center}
-
