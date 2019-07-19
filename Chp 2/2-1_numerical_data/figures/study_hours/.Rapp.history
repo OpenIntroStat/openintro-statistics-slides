@@ -1,0 +1,924 @@
+library(openintro)#
+data(COL)#
+#
+d = read.csv("study_hours.csv")#
+#
+study_hours = d$study_hours[!is.na(d$study_hours)]#
+#
+# box#
+#
+myPDF('study_hours_box.pdf', 6, 4, mar=c(0.5,4,0,1), cex.axis = 1.5, cex.lab = 1.25)#
+#
+boxPlot(study_hours, col = COL[1,3], ylab = "# of study hours / week")#
+#
+dev.off()#
+#
+# layout#
+#
+myPDF("study_hours_box_layout.pdf", 6, 4)#
+par(mar=c(0.8,4,0,1), mgp=c(2.8, 0.7, 0), las=1)#
+#
+boxPlot(study_hours, col = COL[1,3], ylab = "# of study hours / week", axes=FALSE, xlim = c(0,3.5), pch = 20)#
+axis(2)#
+#
+arrows(2,0, 1.40,min(study_hours)-0.5, length=0.08)#
+text(2,0,'lower whisker', pos=4)#
+#
+arrows(2, 8, 1.40, quantile(study_hours, 0.25), length=0.08)#
+text(2,8,expression(Q[1]~~'(first quartile)'), pos=4)#
+#
+m <- median(study_hours)#
+arrows(2, m, 1.40, m, length=0.08)#
+text(2,m,'median', pos=4)#
+#
+q <- quantile(study_hours, 0.75)#
+arrows(2, q, 1.40, q, length=0.08)#
+text(2,q,expression(Q[3]~~'(third quartile)'), pos=4)#
+#
+arrows(2, 30, 1.40, 30, length=0.08)#
+text(2,30,'upper whisker', pos=4)#
+#
+arrows(2, q+1.5*IQR(study_hours)-0.65, 1.40, q+1.5*IQR(study_hours)-0.65, length=0.08)#
+lines(c(0.72,1.28), rep(q+1.5*IQR(study_hours)-0.65,2), lty=3, col='#00000066')#
+text(2,q+1.5*IQR(study_hours)-0.65,'max whisker reach', pos=4)#
+#
+arrows(2, 37.5, 1.40, 40, length=0.08)#
+arrows(2, 37.5, 1.40, 35, length=0.08)#
+text(2,37.5,'suspected outliers', pos=4)#
+#
+points(rep(0.4, 99), rev(sort(study_hours))[1:99], cex=rep(1.5, 27), col=rep(COL[1,3], 99), pch=rep(20, 99))#
+points(rep(0.4, 99), sort(study_hours)[1:99], cex=rep(1, 27), col=rep(COL[2], 99), pch=rep(1, 99))#
+#
+dev.off()
+fact=NULL#
+# horiz=FALSE#
+# width=2/3#
+# lwd=1#
+# lcol='black'#
+# medianLwd=2#
+# pch=20#
+# pchCex=1.8#
+# col=rgb(0,0,0,0.25)#
+# add=FALSE#
+# key=NULL#
+# axes=TRUE#
+# xlab=''#
+# ylab=''#
+# xlim=NULL#
+# ylim=NULL#
+#
+`boxPlot` <-#
+function(x, fact=NULL, horiz=FALSE, width=2/3, lwd=1, lcol='black', medianLwd=2, pch=20, pchCex=1.8, col=rgb(0,0,0,0.25), add=FALSE, key=NULL, axes=TRUE, xlab='', ylab='', xlim=NULL, ylim=NULL, na.rm=TRUE, ...){#
+  if(!is.null(fact)[1]){#
+  	if(na.rm){#
+  	  keep <- !is.na(x) & !is.na(fact)#
+  	  fact <- fact[keep]#
+  	  x    <- x[keep]#
+  	}#
+  	if(is.null(key)[1]){#
+  	  if(is.factor(fact)[1]){#
+  	    uFact <- levels(fact)#
+  	  } else {#
+  	    uFact <- sort(unique(fact))#
+  	  }#
+  	  key   <- uFact#
+  	} else {#
+  	  uFact <- key#
+  	}#
+  	N    <- length(uFact)#
+  	fact <- as.character(fact)#
+  	makePlot <- FALSE#
+  	if(is.logical(add) && add == FALSE){#
+  	  add  <- 1:length(uFact)#
+  	  makePlot <- TRUE#
+  	}#
+  	if(is.null(xlim)[1]){#
+  	  xlim <- c(1-width,N+width)#
+  	  if(horiz){#
+  	    xlim <- range(x)#
+  	  }#
+  	}#
+  	if(is.null(ylim)[1]){#
+  	  ylim <- range(x)#
+  	  if(horiz){#
+  	    ylim <- c(1-width,N+width)#
+  	  }#
+  	}#
+    if(makePlot){#
+      plot(0, 0, type="n", xlab=xlab, ylab=ylab,#
+           xlim=xlim, ylim=ylim, axes=FALSE)#
+      if(axes){#
+        axis(ifelse(horiz, 2, 1), at=add, labels=uFact)#
+  	    axis(ifelse(horiz, 1, 2))#
+      }#
+    }#
+  	if(N > 1){#
+  	  for(i in 1:N){#
+  	    Recall(x[fact == uFact[i]], fact=NULL, horiz=horiz, width=width,#
+  	        lwd=lwd, lcol=lcol, medianLwd=medianLwd, pch=pch,#
+  	        pchCex=pchCex, col=col, add=add[i], na.rm=FALSE, ...)#
+  	  }#
+  	}#
+  } else {#
+  	if(na.rm){#
+  	  keep <- !is.na(x)#
+  	  x    <- x[keep]#
+  	}#
+  	if(is.logical(add) && add == FALSE){#
+  	  add <- 1#
+  	  if(is.null(xlim)[1]){#
+  	    xlim <- c(add-width,add+width)#
+  	    if(horiz){#
+  	      xlim <- range(x)#
+  	    }#
+  	  }#
+  	  if(is.null(ylim)[1]){#
+  	    ylim <- range(x)#
+  	    if(horiz){#
+  	      ylim <- c(1-width,N+width)#
+  	    }#
+      }#
+      plot(0, 0, type="n", xlab=xlab, ylab=ylab,#
+           xlim=xlim, ylim=ylim, axes=FALSE)#
+      if(axes){#
+  	    axis(ifelse(horiz, 1, 2))#
+      }#
+  	}#
+  	FN    <- c(min(x), quantile(x, c(0.25, 0.5, 0.75)), max(x))#
+  	IQR   <- FN[4] - FN[2]#
+  	FENCE <- FN[c(2,4)] + 1.5*IQR*c(-1,1)#
+  	below <- x < FENCE[1]#
+  	above <- x > FENCE[2]#
+  	if(!any(below)){#
+  	  FENCE[1] <- FN[1]#
+  	} else {#
+  	  FENCE[1] <- min(x[!below])#
+  	}#
+  	if(!any(above)){#
+  	  FENCE[2] <- FN[5]#
+  	} else {#
+  	  FENCE[2] <- max(x[!above])#
+  	}#
+  	show  <- below | above#
+  	w     <- width/2#
+  	if(horiz){#
+  	  rect(FN[2], add-w, FN[4], add+w, lwd=lwd, border=lcol)#
+  	  lines(rep(FN[3], 2), add+w*c(-1,1), lwd=medianLwd, col=lcol)#
+  	  lines(c(FENCE[1], FN[2]), rep(add,2), lwd=lwd, col=lcol)#
+  	  lines(rep(FENCE[1], 2), add+w*c(-1,1), lwd=lwd, col=lcol)#
+  	  lines(c(FENCE[2], FN[4]), rep(add,2), lwd=lwd, col=lcol)#
+  	  lines(rep(FENCE[2], 2), add+w*c(-1,1), lwd=lwd, col=lcol)#
+  	  if(any(show)){#
+  	    points(x[show], rep(add, sum(show)),#
+  	           pch=pch, cex=pchCex, col=col)#
+  	  }#
+  	} else {#
+  	  rect(add-w, FN[2], add+w, FN[4], lwd=lwd, border=lcol)#
+  	  lines(add+w*c(-1,1), rep(FN[3], 2), lwd=medianLwd, col=lcol)#
+  	  lines(rep(add,2), c(FENCE[1], FN[2]), lwd=lwd, col=lcol)#
+  	  lines(add+w*c(-1,1), rep(FENCE[1], 2), lwd=lwd, col=lcol)#
+  	  lines(rep(add,2), c(FENCE[2], FN[4]), lwd=lwd, col=lcol)#
+  	  lines(add+w*c(-1,1), rep(FENCE[2], 2), lwd=lwd, col=lcol)#
+  	  if(any(show)){#
+  	    points(rep(add, sum(show)), x[show],#
+  	           pch=pch, cex=pchCex, col=col)#
+  	  }#
+  	}#
+  }#
+}
+library(openintro)#
+data(COL)#
+#
+d = read.csv("study_hours.csv")#
+#
+study_hours = d$study_hours[!is.na(d$study_hours)]#
+#
+# box#
+#
+myPDF('study_hours_box.pdf', 6, 4, mar=c(0.5,4,0,1), cex.axis = 1.5, cex.lab = 1.25)#
+#
+boxPlot(study_hours, col = COL[1,3], ylab = "# of study hours / week")#
+#
+dev.off()#
+#
+# layout#
+#
+myPDF("study_hours_box_layout.pdf", 6, 4)#
+par(mar=c(0.8,4,0,1), mgp=c(2.8, 0.7, 0), las=1)#
+#
+boxPlot(study_hours, col = COL[1,3], ylab = "# of study hours / week", axes=FALSE, xlim = c(0,3.5), pch = 20)#
+axis(2)#
+#
+arrows(2,0, 1.40,min(study_hours)-0.5, length=0.08)#
+text(2,0,'lower whisker', pos=4)#
+#
+arrows(2, 8, 1.40, quantile(study_hours, 0.25), length=0.08)#
+text(2,8,expression(Q[1]~~'(first quartile)'), pos=4)#
+#
+m <- median(study_hours)#
+arrows(2, m, 1.40, m, length=0.08)#
+text(2,m,'median', pos=4)#
+#
+q <- quantile(study_hours, 0.75)#
+arrows(2, q, 1.40, q, length=0.08)#
+text(2,q,expression(Q[3]~~'(third quartile)'), pos=4)#
+#
+arrows(2, 30, 1.40, 30, length=0.08)#
+text(2,30,'upper whisker', pos=4)#
+#
+arrows(2, q+1.5*IQR(study_hours)-0.65, 1.40, q+1.5*IQR(study_hours)-0.65, length=0.08)#
+lines(c(0.72,1.28), rep(q+1.5*IQR(study_hours)-0.65,2), lty=3, col='#00000066')#
+text(2,q+1.5*IQR(study_hours)-0.65,'max whisker reach', pos=4)#
+#
+arrows(2, 37.5, 1.40, 40, length=0.08)#
+arrows(2, 37.5, 1.40, 35, length=0.08)#
+text(2,37.5,'suspected outliers', pos=4)#
+#
+points(rep(0.4, 99), rev(sort(study_hours))[1:99], cex=rep(1.5, 27), col=rep(COL[1,3], 99), pch=rep(20, 99))#
+points(rep(0.4, 99), sort(study_hours)[1:99], cex=rep(1, 27), col=rep(COL[2], 99), pch=rep(1, 99))#
+#
+dev.off()
+fact=NULL#
+# horiz=FALSE#
+# width=2/3#
+# lwd=1#
+# lcol='black'#
+# medianLwd=2#
+# pch=20#
+# pchCex=1.8#
+# col=rgb(0,0,0,0.25)#
+# add=FALSE#
+# key=NULL#
+# axes=TRUE#
+# xlab=''#
+# ylab=''#
+# xlim=NULL#
+# ylim=NULL#
+#
+`boxPlot` <-#
+function(x, fact=NULL, horiz=FALSE, width=2/3, lwd=1, lcol='black', medianLwd=2, pch=20, pchCex=1.8, col=rgb(0,0,0,0.25), add=FALSE, key=NULL, axes=TRUE, xlab='', ylab='', xlim=NULL, ylim=NULL, na.rm=TRUE, ...){#
+  if(!is.null(fact)[1]){#
+  	if(na.rm){#
+  	  keep <- !is.na(x) & !is.na(fact)#
+  	  fact <- fact[keep]#
+  	  x    <- x[keep]#
+  	}#
+  	if(is.null(key)[1]){#
+  	  if(is.factor(fact)[1]){#
+  	    uFact <- levels(fact)#
+  	  } else {#
+  	    uFact <- sort(unique(fact))#
+  	  }#
+  	  key   <- uFact#
+  	} else {#
+  	  uFact <- key#
+  	}#
+  	N    <- length(uFact)#
+  	fact <- as.character(fact)#
+  	makePlot <- FALSE#
+  	if(is.logical(add) && add == FALSE){#
+  	  add  <- 1:length(uFact)#
+  	  makePlot <- TRUE#
+  	}#
+  	if(is.null(xlim)[1]){#
+  	  xlim <- c(1-width,N+width)#
+  	  if(horiz){#
+  	    xlim <- range(x)#
+  	  }#
+  	}#
+  	if(is.null(ylim)[1]){#
+  	  ylim <- range(x)#
+  	  if(horiz){#
+  	    ylim <- c(1-width,N+width)#
+  	  }#
+  	}#
+    if(makePlot){#
+      plot(0, 0, type="n", xlab=xlab, ylab=ylab,#
+           xlim=xlim, ylim=ylim, axes=FALSE)#
+      if(axes){#
+        axis(ifelse(horiz, 2, 1), at=add, labels=uFact)#
+  	    axis(ifelse(horiz, 1, 2))#
+      }#
+    }#
+  	if(N > 1){#
+  	  for(i in 1:N){#
+  	    Recall(x[fact == uFact[i]], fact=NULL, horiz=horiz, width=width,#
+  	        lwd=lwd, lcol=lcol, medianLwd=medianLwd, pch=pch,#
+  	        pchCex=pchCex, col=col, add=add[i], na.rm=FALSE, ...)#
+  	  }#
+  	}#
+  } else {#
+  	if(na.rm){#
+  	  keep <- !is.na(x)#
+  	  x    <- x[keep]#
+  	}#
+  	if(is.logical(add) && add == FALSE){#
+  	  add <- 1#
+  	  if(is.null(xlim)[1]){#
+  	    xlim <- c(add-width,add+width)#
+  	    if(horiz){#
+  	      xlim <- range(x)#
+  	    }#
+  	  }#
+  	  if(is.null(ylim)[1]){#
+  	    ylim <- range(x)#
+  	    if(horiz){#
+  	      ylim <- c(1-width,N+width)#
+  	    }#
+      }#
+      plot(0, 0, type="n", xlab=xlab, ylab=ylab,#
+           xlim=xlim, ylim=ylim, axes=FALSE)#
+      if(axes){#
+  	    axis(ifelse(horiz, 1, 2))#
+      }#
+  	}#
+  	FN    <- c(min(x), quantile(x, c(0.25, 0.5, 0.75)), max(x))#
+  	IQR   <- FN[4] - FN[2]#
+  	FENCE <- FN[c(2,4)] + 1.5*IQR*c(-1,1)#
+  	below <- x < FENCE[1]#
+  	above <- x > FENCE[2]#
+  	if(!any(below)){#
+  	  FENCE[1] <- FN[1]#
+  	} else {#
+  	  FENCE[1] <- min(x[x >= FENCE[1]])#
+  	}#
+  	if(!any(above)){#
+  	  FENCE[2] <- FN[5]#
+  	} else {#
+  	  FENCE[2] <- max(x[x <= FENCE[2]])#
+  	}#
+  	show  <- below | above#
+  	w     <- width/2#
+  	if(horiz){#
+  	  rect(FN[2], add-w, FN[4], add+w, lwd=lwd, border=lcol)#
+  	  lines(rep(FN[3], 2), add+w*c(-1,1), lwd=medianLwd, col=lcol)#
+  	  lines(c(FENCE[1], FN[2]), rep(add,2), lwd=lwd, col=lcol)#
+  	  lines(rep(FENCE[1], 2), add+w*c(-1,1), lwd=lwd, col=lcol)#
+  	  lines(c(FENCE[2], FN[4]), rep(add,2), lwd=lwd, col=lcol)#
+  	  lines(rep(FENCE[2], 2), add+w*c(-1,1), lwd=lwd, col=lcol)#
+  	  if(any(show)){#
+  	    points(x[show], rep(add, sum(show)),#
+  	           pch=pch, cex=pchCex, col=col)#
+  	  }#
+  	} else {#
+  	  rect(add-w, FN[2], add+w, FN[4], lwd=lwd, border=lcol)#
+  	  lines(add+w*c(-1,1), rep(FN[3], 2), lwd=medianLwd, col=lcol)#
+  	  lines(rep(add,2), c(FENCE[1], FN[2]), lwd=lwd, col=lcol)#
+  	  lines(add+w*c(-1,1), rep(FENCE[1], 2), lwd=lwd, col=lcol)#
+  	  lines(rep(add,2), c(FENCE[2], FN[4]), lwd=lwd, col=lcol)#
+  	  lines(add+w*c(-1,1), rep(FENCE[2], 2), lwd=lwd, col=lcol)#
+  	  if(any(show)){#
+  	    points(rep(add, sum(show)), x[show],#
+  	           pch=pch, cex=pchCex, col=col)#
+  	  }#
+  	}#
+  }#
+}
+library(openintro)#
+data(COL)#
+#
+d = read.csv("study_hours.csv")#
+#
+study_hours = d$study_hours[!is.na(d$study_hours)]#
+#
+# box#
+#
+myPDF('study_hours_box.pdf', 6, 4, mar=c(0.5,4,0,1), cex.axis = 1.5, cex.lab = 1.25)#
+#
+boxPlot(study_hours, col = COL[1,3], ylab = "# of study hours / week")#
+#
+dev.off()#
+#
+# layout#
+#
+myPDF("study_hours_box_layout.pdf", 6, 4)#
+par(mar=c(0.8,4,0,1), mgp=c(2.8, 0.7, 0), las=1)#
+#
+boxPlot(study_hours, col = COL[1,3], ylab = "# of study hours / week", axes=FALSE, xlim = c(0,3.5), pch = 20)#
+axis(2)#
+#
+arrows(2,0, 1.40,min(study_hours)-0.5, length=0.08)#
+text(2,0,'lower whisker', pos=4)#
+#
+arrows(2, 8, 1.40, quantile(study_hours, 0.25), length=0.08)#
+text(2,8,expression(Q[1]~~'(first quartile)'), pos=4)#
+#
+m <- median(study_hours)#
+arrows(2, m, 1.40, m, length=0.08)#
+text(2,m,'median', pos=4)#
+#
+q <- quantile(study_hours, 0.75)#
+arrows(2, q, 1.40, q, length=0.08)#
+text(2,q,expression(Q[3]~~'(third quartile)'), pos=4)#
+#
+arrows(2, 30, 1.40, 30, length=0.08)#
+text(2,30,'upper whisker', pos=4)#
+#
+arrows(2, q+1.5*IQR(study_hours)-0.65, 1.40, q+1.5*IQR(study_hours)-0.65, length=0.08)#
+lines(c(0.72,1.28), rep(q+1.5*IQR(study_hours)-0.65,2), lty=3, col='#00000066')#
+text(2,q+1.5*IQR(study_hours)-0.65,'max whisker reach', pos=4)#
+#
+arrows(2, 37.5, 1.40, 40, length=0.08)#
+arrows(2, 37.5, 1.40, 35, length=0.08)#
+text(2,37.5,'suspected outliers', pos=4)#
+#
+points(rep(0.4, 99), rev(sort(study_hours))[1:99], cex=rep(1.5, 27), col=rep(COL[1,3], 99), pch=rep(20, 99))#
+points(rep(0.4, 99), sort(study_hours)[1:99], cex=rep(1, 27), col=rep(COL[2], 99), pch=rep(1, 99))#
+#
+dev.off()
+x <- study_hours
+fact=NULL#
+horiz=FALSE#
+width=2/3#
+lwd=1#
+lcol='black'#
+medianLwd=2#
+pch=20#
+pchCex=1.8#
+col=rgb(0,0,0,0.25)#
+add=FALSE#
+key=NULL#
+axes=TRUE#
+xlab=''#
+ylab=''#
+xlim=NULL#
+ylim=NULL
+col = COL[1,3]
+ylab = "# of study hours / week"
+axes=FALSE
+xlim = c(0,3.5)
+pch = 20
+!is.null(fact)[1])
+!is.null(fact)[1]
+na.rm
+na.rm=TRUE
+na.rm
+keep <- !is.na(x)
+keep
+x    <- x[keep]
+x
+is.logical(add)
+add == FALSE
+add <- 1
+is.null(xlim)[1]
+is.null(ylim)[1]
+ylim <- range(x)
+horiz
+plot(0, 0, type="n", xlab=xlab, ylab=ylab,#
+           xlim=xlim, ylim=ylim, axes=FALSE)
+axes
+FN    <- c(min(x), quantile(x, c(0.25, 0.5, 0.75)), max(x))#
+  	IQR   <- FN[4] - FN[2]#
+  	FENCE <- FN[c(2,4)] + 1.5*IQR*c(-1,1)#
+  	below <- x < FENCE[1]#
+  	above <- x > FENCE[2]
+!any(below)
+FN
+FENCE
+!any(below)
+!any(above)
+above
+x[above]
+summary(x[above])
+!any(above)
+max(x[!above])
+FENCE[2] <- max(x[!above])
+FENCE
+FN[1]
+!any(below)
+FENCE[1] <- FN[1]
+FENCE
+horiz
+rect(add-w, FN[2], add+w, FN[4], lwd=lwd, border=lcol)#
+  	  lines(add+w*c(-1,1), rep(FN[3], 2), lwd=medianLwd, col=lcol)#
+  	  lines(rep(add,2), c(FENCE[1], FN[2]), lwd=lwd, col=lcol)#
+  	  lines(add+w*c(-1,1), rep(FENCE[1], 2), lwd=lwd, col=lcol)#
+  	  lines(rep(add,2), c(FENCE[2], FN[4]), lwd=lwd, col=lcol)#
+  	  lines(add+w*c(-1,1), rep(FENCE[2], 2), lwd=lwd, col=lcol)
+show  <- below | above#
+  	w     <- width/2
+rect(add-w, FN[2], add+w, FN[4], lwd=lwd, border=lcol)#
+  	  lines(add+w*c(-1,1), rep(FN[3], 2), lwd=medianLwd, col=lcol)#
+  	  lines(rep(add,2), c(FENCE[1], FN[2]), lwd=lwd, col=lcol)#
+  	  lines(add+w*c(-1,1), rep(FENCE[1], 2), lwd=lwd, col=lcol)#
+  	  lines(rep(add,2), c(FENCE[2], FN[4]), lwd=lwd, col=lcol)#
+  	  lines(add+w*c(-1,1), rep(FENCE[2], 2), lwd=lwd, col=lcol)
+any(show)
+points(rep(add, sum(show)), x[show],#
+  	           pch=pch, cex=pchCex, col=col)
+fact=NULL#
+# horiz=FALSE#
+# width=2/3#
+# lwd=1#
+# lcol='black'#
+# medianLwd=2#
+# pch=20#
+# pchCex=1.8#
+# col=rgb(0,0,0,0.25)#
+# add=FALSE#
+# key=NULL#
+# axes=TRUE#
+# xlab=''#
+# ylab=''#
+# xlim=NULL#
+# ylim=NULL#
+# na.rm=TRUE#
+#
+`boxPlot` <-#
+function(x, fact=NULL, horiz=FALSE, width=2/3, lwd=1, lcol='black', medianLwd=2, pch=20, pchCex=1.8, col=rgb(0,0,0,0.25), add=FALSE, key=NULL, axes=TRUE, xlab='', ylab='', xlim=NULL, ylim=NULL, na.rm=TRUE, ...){#
+  if(!is.null(fact)[1]){#
+  	if(na.rm){#
+  	  keep <- !is.na(x) & !is.na(fact)#
+  	  fact <- fact[keep]#
+  	  x    <- x[keep]#
+  	}#
+  	if(is.null(key)[1]){#
+  	  if(is.factor(fact)[1]){#
+  	    uFact <- levels(fact)#
+  	  } else {#
+  	    uFact <- sort(unique(fact))#
+  	  }#
+  	  key   <- uFact#
+  	} else {#
+  	  uFact <- key#
+  	}#
+  	N    <- length(uFact)#
+  	fact <- as.character(fact)#
+  	makePlot <- FALSE#
+  	if(is.logical(add) && add == FALSE){#
+  	  add  <- 1:length(uFact)#
+  	  makePlot <- TRUE#
+  	}#
+  	if(is.null(xlim)[1]){#
+  	  xlim <- c(1-width,N+width)#
+  	  if(horiz){#
+  	    xlim <- range(x)#
+  	  }#
+  	}#
+  	if(is.null(ylim)[1]){#
+  	  ylim <- range(x)#
+  	  if(horiz){#
+  	    ylim <- c(1-width,N+width)#
+  	  }#
+  	}#
+    if(makePlot){#
+      plot(0, 0, type="n", xlab=xlab, ylab=ylab,#
+           xlim=xlim, ylim=ylim, axes=FALSE)#
+      if(axes){#
+        axis(ifelse(horiz, 2, 1), at=add, labels=uFact)#
+  	    axis(ifelse(horiz, 1, 2))#
+      }#
+    }#
+  	if(N > 1){#
+  	  for(i in 1:N){#
+  	    Recall(x[fact == uFact[i]], fact=NULL, horiz=horiz, width=width,#
+  	        lwd=lwd, lcol=lcol, medianLwd=medianLwd, pch=pch,#
+  	        pchCex=pchCex, col=col, add=add[i], na.rm=FALSE, ...)#
+  	  }#
+  	}#
+  } else {#
+  	if(na.rm){#
+  	  keep <- !is.na(x)#
+  	  x    <- x[keep]#
+  	}#
+  	if(is.logical(add) && add == FALSE){#
+  	  add <- 1#
+  	  if(is.null(xlim)[1]){#
+  	    xlim <- c(add-width,add+width)#
+  	    if(horiz){#
+  	      xlim <- range(x)#
+  	    }#
+  	  }#
+  	  if(is.null(ylim)[1]){#
+  	    ylim <- range(x)#
+  	    if(horiz){#
+  	      ylim <- c(1-width,N+width)#
+  	    }#
+      }#
+      plot(0, 0, type="n", xlab=xlab, ylab=ylab,#
+           xlim=xlim, ylim=ylim, axes=FALSE)#
+      if(axes){#
+  	    axis(ifelse(horiz, 1, 2))#
+      }#
+  	}#
+  	FN    <- c(min(x), quantile(x, c(0.25, 0.5, 0.75)), max(x))#
+  	IQR   <- FN[4] - FN[2]#
+  	FENCE <- FN[c(2,4)] + 1.5*IQR*c(-1,1)#
+  	below <- x < FENCE[1]#
+  	above <- x > FENCE[2]#
+  	if(!any(below)){#
+  	  FENCE[1] <- FN[1]#
+  	} else {#
+  	  FENCE[1] <- min(x[!below])#
+  	}#
+  	if(!any(above)){#
+  	  FENCE[2] <- FN[5]#
+  	} else {#
+  	  FENCE[2] <- max(x[!above])#
+  	}#
+  	show  <- below | above#
+  	w     <- width/2#
+  	if(horiz){#
+  	  rect(FN[2], add-w, FN[4], add+w, lwd=lwd, border=lcol)#
+  	  lines(rep(FN[3], 2), add+w*c(-1,1), lwd=medianLwd, col=lcol)#
+  	  lines(c(FENCE[1], FN[2]), rep(add,2), lwd=lwd, col=lcol)#
+  	  lines(rep(FENCE[1], 2), add+w*c(-1,1), lwd=lwd, col=lcol)#
+  	  lines(c(FENCE[2], FN[4]), rep(add,2), lwd=lwd, col=lcol)#
+  	  lines(rep(FENCE[2], 2), add+w*c(-1,1), lwd=lwd, col=lcol)#
+  	  if(any(show)){#
+  	    points(x[show], rep(add, sum(show)),#
+  	           pch=pch, cex=pchCex, col=col)#
+  	  }#
+  	} else {#
+  	  rect(add-w, FN[2], add+w, FN[4], lwd=lwd, border=lcol)#
+  	  lines(add+w*c(-1,1), rep(FN[3], 2), lwd=medianLwd, col=lcol)#
+  	  lines(rep(add,2), c(FENCE[1], FN[2]), lwd=lwd, col=lcol)#
+  	  lines(add+w*c(-1,1), rep(FENCE[1], 2), lwd=lwd, col=lcol)#
+  	  lines(rep(add,2), c(FENCE[2], FN[4]), lwd=lwd, col=lcol)#
+  	  lines(add+w*c(-1,1), rep(FENCE[2], 2), lwd=lwd, col=lcol)#
+  	  if(any(show)){#
+  	    points(rep(add, sum(show)), x[show],#
+  	           pch=pch, cex=pchCex, col=col)#
+  	  }#
+  	}#
+  }#
+}
+library(openintro)#
+data(COL)#
+#
+d = read.csv("study_hours.csv")#
+#
+study_hours = d$study_hours[!is.na(d$study_hours)]#
+#
+# box#
+#
+myPDF('study_hours_box.pdf', 6, 4, mar=c(0.5,4,0,1), cex.axis = 1.5, cex.lab = 1.25)#
+#
+boxPlot(study_hours, col = COL[1,3], ylab = "# of study hours / week")#
+#
+dev.off()
+fact=NULL#
+# horiz=FALSE#
+# width=2/3#
+# lwd=1#
+# lcol='black'#
+# medianLwd=2#
+# pch=20#
+# pchCex=1.8#
+# col=rgb(0,0,0,0.25)#
+# add=FALSE#
+# key=NULL#
+# axes=TRUE#
+# xlab=''#
+# ylab=''#
+# xlim=NULL#
+# ylim=NULL#
+# na.rm=TRUE#
+#
+`boxPlot` <-#
+function(x, fact=NULL, horiz=FALSE, width=2/3, lwd=1, lcol='black', medianLwd=2, pch=20, pchCex=1.8, col=rgb(0,0,0,0.25), add=FALSE, key=NULL, axes=TRUE, xlab='', ylab='', xlim=NULL, ylim=NULL, na.rm=TRUE, ...){#
+  if(!is.null(fact)[1]){#
+  	if(na.rm){#
+  	  keep <- !is.na(x) & !is.na(fact)#
+  	  fact <- fact[keep]#
+  	  x    <- x[keep]#
+  	}#
+  	if(is.null(key)[1]){#
+  	  if(is.factor(fact)[1]){#
+  	    uFact <- levels(fact)#
+  	  } else {#
+  	    uFact <- sort(unique(fact))#
+  	  }#
+  	  key   <- uFact#
+  	} else {#
+  	  uFact <- key#
+  	}#
+  	N    <- length(uFact)#
+  	fact <- as.character(fact)#
+  	makePlot <- FALSE#
+  	if(is.logical(add) && add == FALSE){#
+  	  add  <- 1:length(uFact)#
+  	  makePlot <- TRUE#
+  	}#
+  	if(is.null(xlim)[1]){#
+  	  xlim <- c(1-width,N+width)#
+  	  if(horiz){#
+  	    xlim <- range(x)#
+  	  }#
+  	}#
+  	if(is.null(ylim)[1]){#
+  	  ylim <- range(x)#
+  	  if(horiz){#
+  	    ylim <- c(1-width,N+width)#
+  	  }#
+  	}#
+    if(makePlot){#
+      plot(0, 0, type="n", xlab=xlab, ylab=ylab,#
+           xlim=xlim, ylim=ylim, axes=FALSE)#
+      if(axes){#
+        axis(ifelse(horiz, 2, 1), at=add, labels=uFact)#
+  	    axis(ifelse(horiz, 1, 2))#
+      }#
+    }#
+  	if(N > 1){#
+  	  for(i in 1:N){#
+  	    Recall(x[fact == uFact[i]], fact=NULL, horiz=horiz, width=width,#
+  	        lwd=lwd, lcol=lcol, medianLwd=medianLwd, pch=pch,#
+  	        pchCex=pchCex, col=col, add=add[i], na.rm=FALSE, ...)#
+  	  }#
+  	}#
+  } else {#
+  	if(na.rm){#
+  	  keep <- !is.na(x)#
+  	  x    <- x[keep]#
+  	}#
+  	if(is.logical(add) && add == FALSE){#
+  	  add <- 1#
+  	  if(is.null(xlim)[1]){#
+  	    xlim <- c(add-width,add+width)#
+  	    if(horiz){#
+  	      xlim <- range(x)#
+  	    }#
+  	  }#
+  	  if(is.null(ylim)[1]){#
+  	    ylim <- range(x)#
+  	    if(horiz){#
+  	      ylim <- c(1-width,N+width)#
+  	    }#
+      }#
+      plot(0, 0, type="n", xlab=xlab, ylab=ylab,#
+           xlim=xlim, ylim=ylim, axes=FALSE)#
+      if(axes){#
+  	    axis(ifelse(horiz, 1, 2))#
+      }#
+  	}#
+  	FN    <- c(min(x), quantile(x, c(0.25, 0.5, 0.75)), max(x))#
+  	IQR   <- FN[4] - FN[2]#
+  	FENCE <- FN[c(2,4)] + 1.5*IQR*c(-1,1)#
+  	below <- x < FENCE[1]#
+  	above <- x > FENCE[2]#
+  	if(!any(below)){#
+  	  FENCE[1] <- FN[1]#
+  	} else {#
+  	  FENCE[1] <- min(x[!below])#
+  	}#
+  	if(!any(above)){#
+  	  FENCE[2] <- FN[5]#
+  	} else {#
+  	  FENCE[2] <- max(x[!above])#
+  	}#
+  	show  <- below | above#
+  	w     <- width/2#
+  	if(horiz){#
+  	  rect(FN[2], add-w, FN[4], add+w, lwd=lwd, border=lcol)#
+  	  lines(rep(FN[3], 2), add+w*c(-1,1), lwd=medianLwd, col=lcol)#
+  	  lines(c(FENCE[1], FN[2]), rep(add,2), lwd=lwd, col=lcol)#
+  	  lines(rep(FENCE[1], 2), add+w*c(-1,1), lwd=lwd, col=lcol)#
+  	  lines(c(FENCE[2], FN[4]), rep(add,2), lwd=lwd, col=lcol)#
+  	  lines(rep(FENCE[2], 2), add+w*c(-1,1), lwd=lwd, col=lcol)#
+  	  if(any(show)){#
+  	    points(x[show], rep(add, sum(show)),#
+  	           pch=pch, cex=pchCex, col=col)#
+  	  }#
+  	} else {#
+  	  rect(add-w, FN[2], add+w, FN[4], lwd=lwd, border=lcol)#
+  	  lines(add+w*c(-1,1), rep(FN[3], 2), lwd=medianLwd, col=lcol)#
+  	  lines(rep(add,2), c(FENCE[1], FN[2]), lwd=lwd, col=lcol)#
+  	  lines(add+w*c(-1,1), rep(FENCE[1], 2), lwd=lwd, col=lcol)#
+  	  lines(rep(add,2), c(FENCE[2], FN[4]), lwd=lwd, col=lcol)#
+  	  lines(add+w*c(-1,1), rep(FENCE[2], 2), lwd=lwd, col=lcol)#
+  	  if(any(show)){#
+  	    points(rep(add, sum(show)), x[show],#
+  	           pch=pch, cex=pchCex, col=col)#
+  	  }#
+  	}#
+  }#
+}
+par(mar=c(0.8,4,0,1), mgp=c(2.8, 0.7, 0), las=1)#
+#
+boxPlot(study_hours, col = COL[1,3], ylab = "# of study hours / week", axes=FALSE, xlim = c(0,3.5), pch = 20)#
+axis(2)
+arrows(2,0, 1.40,min(study_hours)-0.5, length=0.08)#
+text(2,0,'lower whisker', pos=4)#
+#
+arrows(2, 8, 1.40, quantile(study_hours, 0.25), length=0.08)#
+text(2,8,expression(Q[1]~~'(first quartile)'), pos=4)
+m <- median(study_hours)#
+arrows(2, m, 1.40, m, length=0.08)#
+text(2,m,'median', pos=4)#
+#
+q <- quantile(study_hours, 0.75)#
+arrows(2, q, 1.40, q, length=0.08)#
+text(2,q,expression(Q[3]~~'(third quartile)'), pos=4)
+arrows(2, 30, 1.40, 30, length=0.08)#
+text(2,30,'upper whisker', pos=4)#
+#
+arrows(2, q+1.5*IQR(study_hours)-0.65, 1.40, q+1.5*IQR(study_hours)-0.65, length=0.08)
+q
+arrows(2, q+1.5*IQR(study_hours)-0.65, 1.40, q+1.5*IQR(study_hours)-0.65, length=0.08)#
+lines(c(0.72,1.28), rep(q+1.5*IQR(study_hours)-0.65,2), lty=3, col='#00000066')#
+text(2,q+1.5*IQR(study_hours)-0.65,'max whisker reach', pos=4)
+library(openintro)#
+data(COL)#
+#
+d = read.csv("study_hours.csv")#
+#
+study_hours = d$study_hours[!is.na(d$study_hours)]#
+#
+# box#
+#
+myPDF('study_hours_box.pdf', 6, 4, mar=c(0.5,4,0,1), cex.axis = 1.5, cex.lab = 1.25)#
+#
+boxPlot(study_hours, col = COL[1,3], ylab = "# of study hours / week")#
+#
+dev.off()#
+#
+# layout#
+#
+myPDF("study_hours_box_layout.pdf", 6, 4)#
+par(mar=c(0.8,4,0,1), mgp=c(2.8, 0.7, 0), las=1)#
+#
+boxPlot(study_hours, col = COL[1,3], ylab = "# of study hours / week", axes=FALSE, xlim = c(0,3.5), pch = 20)#
+axis(2)#
+#
+arrows(2,0, 1.40,min(study_hours)-0.5, length=0.08)#
+text(2,0,'lower whisker', pos=4)#
+#
+arrows(2, 8, 1.40, quantile(study_hours, 0.25), length=0.08)#
+text(2,8,expression(Q[1]~~'(first quartile)'), pos=4)#
+#
+m <- median(study_hours)#
+arrows(2, m, 1.40, m, length=0.08)#
+text(2,m,'median', pos=4)#
+#
+q <- quantile(study_hours, 0.75)#
+arrows(2, q, 1.40, q, length=0.08)#
+text(2,q,expression(Q[3]~~'(third quartile)'), pos=4)#
+#
+arrows(2, 30, 1.40, 30, length=0.08)#
+text(2,30,'upper whisker', pos=4)#
+#
+arrows(2, q+1.5*IQR(study_hours)-0.65, 1.40, q+1.5*IQR(study_hours)-0.65, length=0.08)#
+lines(c(0.72,1.28), rep(q+1.5*IQR(study_hours)-0.65,2), lty=3, col='#00000066')#
+text(2,q+1.5*IQR(study_hours)-0.65,'max whisker reach', pos=4)#
+#
+arrows(2, 37.5, 1.40, 40, length=0.08)#
+arrows(2, 37.5, 1.40, 35, length=0.08)#
+text(2,37.5,'suspected outliers', pos=4)#
+#
+points(rep(0.4, 99), rev(sort(study_hours))[1:99], cex=rep(1.5, 27), col=rep(COL[1,3], 99), pch=rep(20, 99))#
+points(rep(0.4, 99), sort(study_hours)[1:99], cex=rep(1, 27), col=rep(COL[2], 99), pch=rep(1, 99))#
+#
+dev.off()
+library(openintro)#
+data(COL)#
+#
+d = read.csv("study_hours.csv")#
+#
+study_hours = d$study_hours[!is.na(d$study_hours)]#
+#
+# box#
+#
+myPDF('study_hours_box.pdf', 6, 4, mar=c(0.5,4,0,1), cex.axis = 1.5, cex.lab = 1.25)#
+#
+boxPlot(study_hours, col = COL[1,3], ylab = "# of study hours / week")#
+#
+dev.off()#
+#
+# layout#
+#
+myPDF("study_hours_box_layout.pdf", 6, 4)#
+par(mar=c(0.8,4,0,1), mgp=c(2.8, 0.7, 0), las=1)#
+#
+boxPlot(study_hours, col = COL[1,3], ylab = "# of study hours / week", axes=FALSE, xlim = c(0,3.5), pch = 20)#
+axis(2)#
+#
+arrows(2,0, 1.40,min(study_hours)-0.5, length=0.08)#
+text(2,0,'lower whisker', pos=4)#
+#
+arrows(2, 8, 1.40, quantile(study_hours, 0.25), length=0.08)#
+text(2,8,expression(Q[1]~~'(first quartile)'), pos=4)#
+#
+m <- median(study_hours)#
+arrows(2, m, 1.40, m, length=0.08)#
+text(2,m,'median', pos=4)#
+#
+q <- quantile(study_hours, 0.75)#
+arrows(2, q, 1.40, q, length=0.08)#
+text(2,q,expression(Q[3]~~'(third quartile)'), pos=4)#
+#
+arrows(2, 30, 1.40, 30, length=0.08)#
+text(2,30,'upper whisker', pos=4)#
+#
+arrows(2, q+1.5*IQR(study_hours)-0.65, 1.40, q+1.5*IQR(study_hours)-0.65, length=0.08)#
+lines(c(0.72,1.28), rep(q+1.5*IQR(study_hours)-0.65,2), lty=3, col='#00000066')#
+text(2,q+1.5*IQR(study_hours)-0.65,'max whisker reach', pos=4)#
+#
+arrows(2, 37.5, 1.40, 40, length=0.08)#
+arrows(2, 37.5, 1.40, 35, length=0.08)#
+text(2,37.5,'suspected outliers', pos=4)#
+#
+points(rep(0.4, 99), rev(sort(study_hours))[1:99], cex=rep(1.5, 27), col=rep(COL[1,3], 99), pch=rep(20, 99))#
+points(rep(0.4, 99), sort(study_hours)[1:99], cex=rep(1, 27), col=rep(COL[2], 99), pch=rep(1, 99))#
+#
+dev.off()
