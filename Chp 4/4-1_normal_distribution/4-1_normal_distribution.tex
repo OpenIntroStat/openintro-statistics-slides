@@ -189,7 +189,7 @@ Since we cannot just compare these two raw scores, we instead compare how many s
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subsection{Normal probability table}
+\subsection{Finding tail areas}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -298,105 +298,36 @@ Let $X$ = amount of ketchup in a bottle: $X \sim N(\mu = 36, \sigma = 0.11)$ \\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{frame}
-\frametitle{Finding the exact probability - using the Z table}
+\begin{frame}[fragile]
+\frametitle{Finding the exact probability - using R}
 
-\only<1>{
-{\footnotesize
-\begin{tabular}{| rrrrr | rrrrr | c}
-  \cline{1-10}
-&&& \multicolumn{4}{c}{Second decimal place of $Z$} &&& \\
-  \cline{1-10}
-0.09 &  0.08 &  0.07 &  0.06 &  0.05 &  0.04 &  0.03 &  0.02 &  0.01 &  0.00 & $Z$  \\
-    \hline
-    \hline
-  \tiny{0.0014} & \tiny{0.0014} & \tiny{0.0015} & \tiny{0.0015} & \tiny{0.0016} & \tiny{0.0016} & \tiny{0.0017} & \tiny{0.0018} & \tiny{0.0018} & \tiny{0.0019} & $-2.9$ \\
-  \tiny{0.0019} & \tiny{0.0020} & \tiny{0.0021} & \tiny{0.0021} & \tiny{0.0022} & \tiny{0.0023} & \tiny{0.0023} & \tiny{0.0024} & \tiny{0.0025} & \tiny{0.0026} & $-2.8$ \\
-  \tiny{0.0026} & \tiny{0.0027} & \tiny{0.0028} & \tiny{0.0029} & \tiny{0.0030} & \tiny{0.0031} & \tiny{0.0032} & \tiny{0.0033} & \tiny{0.0034} & \tiny{0.0035} & $-2.7$ \\
-  \tiny{0.0036} & \tiny{0.0037} & \tiny{0.0038} & \tiny{0.0039} & \tiny{0.0040} & \tiny{0.0041} & \tiny{0.0043} & \tiny{0.0044} & \tiny{0.0045} & \tiny{0.0047} & $-2.6$ \\
-  \tiny{0.0048} & \tiny{0.0049} & \tiny{0.0051} & \tiny{0.0052} & \tiny{0.0054} & \tiny{0.0055} & \tiny{0.0057} & \tiny{0.0059} & \tiny{0.0060} & \tiny{0.0062} & $-2.5$ \\
-    \hline
-  \tiny{0.0064} & \tiny{0.0066} & \tiny{0.0068} & \tiny{0.0069} & \tiny{0.0071} & \tiny{0.0073} & \tiny{0.0075} & \tiny{0.0078} & \tiny{0.0080} & \tiny{0.0082} & $-2.4$ \\
-  \tiny{0.0084} & \tiny{0.0087} & \tiny{0.0089} & \tiny{0.0091} & \tiny{0.0094} & \tiny{0.0096} & \tiny{0.0099} & \tiny{0.0102} & \tiny{0.0104} & \tiny{0.0107} & $-2.3$ \\
-  \tiny{0.0110} & \tiny{0.0113} & \tiny{0.0116} & \tiny{0.0119} & \tiny{0.0122} & \tiny{0.0125} & \tiny{0.0129} & \tiny{0.0132} & \tiny{0.0136} & \tiny{0.0139} & $-2.2$ \\
-  \tiny{0.0143} & \tiny{0.0146} & \tiny{0.0150} & \tiny{0.0154} & \tiny{0.0158} & \tiny{0.0162} & \tiny{0.0166} & \tiny{0.0170} & \tiny{0.0174} & \tiny{0.0179} & $-2.1$ \\
-  \tiny{0.0183} & \tiny{0.0188} & \tiny{0.0192} & \tiny{0.0197} & \tiny{0.0202} & \tiny{0.0207} & \tiny{0.0212} & \tiny{0.0217} & \tiny{0.0222} & \tiny{0.0228} & $-2.0$ \\
-    \hline
-  \tiny{0.0233} & \tiny{0.0239} & \tiny{0.0244} & \tiny{0.0250} & \tiny{0.0256} & \tiny{0.0262} & \tiny{0.0268} & \tiny{0.0274} & \tiny{0.0281} & \tiny{0.0287} & $-1.9$ \\
-  \tiny{0.0294} & \tiny{0.0301} & \tiny{0.0307} & \tiny{0.0314} & \tiny{0.0322} & \tiny{0.0329} & \tiny{0.0336} & \tiny{0.0344} & \tiny{0.0351} & \tiny{0.0359} & $-1.8$ \\
-  \tiny{0.0367} & \tiny{0.0375} & \tiny{0.0384} & \tiny{0.0392} & \tiny{0.0401} & \tiny{0.0409} & \tiny{0.0418} & \tiny{0.0427} & \tiny{0.0436} & \tiny{0.0446} & $-1.7$ \\
-  \tiny{0.0455} & \tiny{0.0465} & \tiny{0.0475} & \tiny{0.0485} & \tiny{0.0495} & \tiny{0.0505} & \tiny{0.0516} & \tiny{0.0526} & \tiny{0.0537} & \tiny{0.0548} & $-1.6$ \\
-  \tiny{0.0559} & \tiny{0.0571} & \tiny{0.0582} & \tiny{0.0594} & \tiny{0.0606} & \tiny{0.0618} & \tiny{0.0630} & \tiny{0.0643} & \tiny{0.0655} & \tiny{0.0668} & $-1.5$ \\
-\hline
-\end{tabular}
-}}
+\begin{beamerboxesrounded}[shadow = true, lower = code body]{}
+{\small \begin{verbatim}
+> pnorm(-1.82, mean = 0, sd = 1)
+[1] 0.0344
+\end{verbatim}
+}
+\end{beamerboxesrounded}
 
-\soln{
-\only<2|handout:0>{
-{\footnotesize
-\begin{tabular}{| rrrrr | rr>{\columncolor[gray]{0.6}[0pt]}rrr | c}
-  \cline{1-10}
-&&& \multicolumn{4}{c}{Second decimal place of $Z$} &&& \\
-  \cline{1-10}
-0.09 &  0.08 &  0.07 &  0.06 &  0.05 &  0.04 &  0.03 &  0.02 &  0.01 &  0.00 & $Z$  \\
-    \hline
-    \hline
-  \tiny{0.0014} & \tiny{0.0014} & \tiny{0.0015} & \tiny{0.0015} & \tiny{0.0016} & \tiny{0.0016} & \tiny{0.0017} & \tiny{0.0018} & \tiny{0.0018} & \tiny{0.0019} & $-2.9$ \\
-  \tiny{0.0019} & \tiny{0.0020} & \tiny{0.0021} & \tiny{0.0021} & \tiny{0.0022} & \tiny{0.0023} & \tiny{0.0023} & \tiny{0.0024} & \tiny{0.0025} & \tiny{0.0026} & $-2.8$ \\
-  \tiny{0.0026} & \tiny{0.0027} & \tiny{0.0028} & \tiny{0.0029} & \tiny{0.0030} & \tiny{0.0031} & \tiny{0.0032} & \tiny{0.0033} & \tiny{0.0034} & \tiny{0.0035} & $-2.7$ \\
-  \tiny{0.0036} & \tiny{0.0037} & \tiny{0.0038} & \tiny{0.0039} & \tiny{0.0040} & \tiny{0.0041} & \tiny{0.0043} & \tiny{0.0044} & \tiny{0.0045} & \tiny{0.0047} & $-2.6$ \\
-  \tiny{0.0048} & \tiny{0.0049} & \tiny{0.0051} & \tiny{0.0052} & \tiny{0.0054} & \tiny{0.0055} & \tiny{0.0057} & \tiny{0.0059} & \tiny{0.0060} & \tiny{0.0062} & $-2.5$ \\
-    \hline
-  \tiny{0.0064} & \tiny{0.0066} & \tiny{0.0068} & \tiny{0.0069} & \tiny{0.0071} & \tiny{0.0073} & \tiny{0.0075} & \tiny{0.0078} & \tiny{0.0080} & \tiny{0.0082} & $-2.4$ \\
-  \tiny{0.0084} & \tiny{0.0087} & \tiny{0.0089} & \tiny{0.0091} & \tiny{0.0094} & \tiny{0.0096} & \tiny{0.0099} & \tiny{0.0102} & \tiny{0.0104} & \tiny{0.0107} & $-2.3$ \\
-  \tiny{0.0110} & \tiny{0.0113} & \tiny{0.0116} & \tiny{0.0119} & \tiny{0.0122} & \tiny{0.0125} & \tiny{0.0129} & \tiny{0.0132} & \tiny{0.0136} & \tiny{0.0139} & $-2.2$ \\
-  \tiny{0.0143} & \tiny{0.0146} & \tiny{0.0150} & \tiny{0.0154} & \tiny{0.0158} & \tiny{0.0162} & \tiny{0.0166} & \tiny{0.0170} & \tiny{0.0174} & \tiny{0.0179} & $-2.1$ \\
-  \tiny{0.0183} & \tiny{0.0188} & \tiny{0.0192} & \tiny{0.0197} & \tiny{0.0202} & \tiny{0.0207} & \tiny{0.0212} & \tiny{0.0217} & \tiny{0.0222} & \tiny{0.0228} & $-2.0$ \\
-    \hline
-  \tiny{0.0233} & \tiny{0.0239} & \tiny{0.0244} & \tiny{0.0250} & \tiny{0.0256} & \tiny{0.0262} & \tiny{0.0268} & \tiny{0.0274} & \tiny{0.0281} & \tiny{0.0287} & $-1.9$ \\
-\rowcolor[gray]{.6}
-  \tiny{0.0294} & \tiny{0.0301} & \tiny{0.0307} & \tiny{0.0314} & \tiny{0.0322} & \tiny{0.0329} & \tiny{0.0336} & \orange{\tiny{0.0344}} & \tiny{0.0351} & \tiny{0.0359} & $-1.8$ \\
-  \tiny{0.0367} & \tiny{0.0375} & \tiny{0.0384} & \tiny{0.0392} & \tiny{0.0401} & \tiny{0.0409} & \tiny{0.0418} & \tiny{0.0427} & \tiny{0.0436} & \tiny{0.0446} & $-1.7$ \\
-  \tiny{0.0455} & \tiny{0.0465} & \tiny{0.0475} & \tiny{0.0485} & \tiny{0.0495} & \tiny{0.0505} & \tiny{0.0516} & \tiny{0.0526} & \tiny{0.0537} & \tiny{0.0548} & $-1.6$ \\
-  \tiny{0.0559} & \tiny{0.0571} & \tiny{0.0582} & \tiny{0.0594} & \tiny{0.0606} & \tiny{0.0618} & \tiny{0.0630} & \tiny{0.0643} & \tiny{0.0655} & \tiny{0.0668} & $-1.5$ \\
-\hline
-\end{tabular}
-}}}
+$\:$ \\
+\pause
+
+OR
+
+$\:$ \\
+\pause
+
+\begin{beamerboxesrounded}[shadow = true, lower = code body]{}
+{\small \begin{verbatim}
+> pnorm(35.8, mean = 36, sd = 0.11)
+[1] 0.0345
+\end{verbatim}
+}
+\end{beamerboxesrounded}
+
 
 \end{frame}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%\begin{frame}[fragile]
-%\frametitle{Finding the exact probability - using R}
-%
-%\begin{beamerboxesrounded}[shadow = true, lower = code body]{}
-%{\small \begin{verbatim}
-%> pnorm(-1.82, mean = 0, sd = 1)
-%[1] 0.0344
-%\end{verbatim}
-%}
-%\end{beamerboxesrounded}
-%
-%$\:$ \\
-%\pause
-%
-%OR
-%
-%$\:$ \\
-%\pause
-%
-%\begin{beamerboxesrounded}[shadow = true, lower = code body]{}
-%{\small \begin{verbatim}
-%> pnorm(35.8, mean = 36, sd = 0.11)
-%[1] 0.0345
-%\end{verbatim}
-%}
-%\end{beamerboxesrounded}
-%
-%
-%\end{frame}
-%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{frame}
@@ -459,19 +390,13 @@ P(35.8 < X < 36.2) &=& P(-1.82 < Z < 1.82) = 0.9656 - 0.0344 = 0.9312
 }
 {
 \pause
-{\footnotesize
-\begin{tabular}{| r >{\columncolor[gray]{0.9}[0pt]}rrrr | c |}
-\hline
-0.09 &  0.08 &  0.07 &  0.06 &  0.05 & $Z$  \\
-    \hline
-    \hline
-  \tiny{0.0233} & \tiny{0.0239} & \tiny{0.0244} & \tiny{0.0250} & \tiny{0.0256} & $-1.9$ \\
-  \rowcolor[gray]{.9}
-  \tiny{0.0294} & \tiny{\orange{0.0301}} & \tiny{0.0307} & \tiny{0.0314} & \tiny{0.0322} &$-1.8$ \\
-  \tiny{0.0367} & \tiny{0.0375} & \tiny{0.0384} & \tiny{0.0392} & \tiny{0.0401} &$-1.7$ \\
-\hline
-\end{tabular}
+\begin{beamerboxesrounded}[shadow = true, lower = code body]{}
+{\small \begin{verbatim}
+> qnorm(0.03)
+[1] -1.880794
+\end{verbatim}
 }
+\end{beamerboxesrounded}
 }
 \pause
 \begin{eqnarray*}
@@ -510,20 +435,13 @@ x &=& (-1.88 \times 0.73) + 98.2 = 96.8\degree F
 }
 {
 \pause
-{\footnotesize
-\begin{tabular}{|c | rrr >{\columncolor[gray]{0.9}[0pt]}rr |}
-\hline
-$Z$ & 0.05 & 0.06 & 0.07 & 0.08 & 0.09 \\
-  \hline
-  \hline
-  1.0 & \tiny{0.8531} & \tiny{0.8554} & \tiny{0.8577} & \tiny{0.8599} & \tiny{0.8621} \\
-  1.1  & \tiny{0.8749} & \tiny{0.8770} & \tiny{0.8790} & \tiny{0.8810} & \tiny{0.8830} \\
-   \rowcolor[gray]{.9}
- 1.2 & \tiny{0.8944} & \tiny{0.8962} & \tiny{0.8980} & \tiny{\orange{0.8997}} & \tiny{0.9015} \\
-  1.3 & \tiny{0.9115} & \tiny{0.9131} & \tiny{0.9147} & \tiny{0.9162} & \tiny{0.9177} \\
-   \hline
-\end{tabular}
+\begin{beamerboxesrounded}[shadow = true, lower = code body]{}
+{\small \begin{verbatim}
+> qnorm(0.90)
+[1] 1.281552
+\end{verbatim}
 }
+\end{beamerboxesrounded}
 }
 }
 \pause
