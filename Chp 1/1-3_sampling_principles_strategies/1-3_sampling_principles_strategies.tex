@@ -1,6 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Overview of data collection principles}
+\section{Sampling principles and strategies}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -13,7 +13,7 @@
 
 \twocol{0.5}{0.5}{
 \begin{center}
-\includegraphics[width=\textwidth]{1-3_data_collection_principles/figures/running}
+\includegraphics[width=\textwidth]{1-3_sampling_principles_strategies/figures/running}
 \end{center}
 \vspace{-0.5cm}
 {\tiny \webURL{http://well.blogs.nytimes.com/2012/08/29/finding-your-ideal-running-form}}
@@ -64,12 +64,14 @@ $\:$ \\
 
 \subsection{Sampling from a population}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \begin{frame}
 \frametitle{Census}
 
 \begin{itemize}
 
-\item Wouldn't it be better to just include everyone and ``sample" the entire population? 
+\item Wouldn't it bes better to just include everyone and ``sample" the entire population? 
 
 \begin{itemize}
 \item This is called a \hl{census}.
@@ -96,7 +98,7 @@ $\:$ \\
 \vfill
 
 \begin{center}
-\includegraphics[width=0.90\textwidth]{1-3_data_collection_principles/figures/census_illegal_immig}
+\includegraphics[width=0.90\textwidth]{1-3_sampling_principles_strategies/figures/census_illegal_immig}
 \end{center}
 
 \ct{\webURL{http://www.npr.org/templates/story/story.php?storyId=125380052}}
@@ -153,8 +155,8 @@ $\:$ \\
 \pause
 
 \begin{center}
-\includegraphics[width=0.25\textwidth]{1-3_data_collection_principles/figures/vol_resp_bias/vol_resp_bias_q}\pause
-\includegraphics[width=0.25\textwidth]{1-3_data_collection_principles/figures/vol_resp_bias/vol_resp_bias_res} \\
+\includegraphics[width=0.25\textwidth]{1-3_sampling_principles_strategies/figures/vol_resp_bias/vol_resp_bias_q}\pause
+\includegraphics[width=0.25\textwidth]{1-3_sampling_principles_strategies/figures/vol_resp_bias/vol_resp_bias_res} \\
 {\tiny cnn.com, Jan 14, 2012}
 \end{center}
 
@@ -179,14 +181,14 @@ $\:$ \\
 
 \column{0.35\textwidth}
 
-\includegraphics[width= \textwidth]{1-3_data_collection_principles/figures/landon_fdr/landon}
+\includegraphics[width= \textwidth]{1-3_sampling_principles_strategies/figures/landon_fdr/landon}
 
 \column{0.3\textwidth}
 In 1936, Landon sought the Republican presidential nomination opposing the re-election of FDR.
 
 \column{0.35\textwidth}
 
-\includegraphics[width= \textwidth]{1-3_data_collection_principles/figures/landon_fdr/fdr}
+\includegraphics[width= \textwidth]{1-3_sampling_principles_strategies/figures/landon_fdr/fdr}
 
 \end{columns}
 
@@ -213,7 +215,7 @@ In 1936, Landon sought the Republican presidential nomination opposing the re-el
 
 \column{0.3\textwidth}
 
-\includegraphics[width= \textwidth]{1-3_data_collection_principles/figures/literaryDigest}
+\includegraphics[width= \textwidth]{1-3_sampling_principles_strategies/figures/literaryDigest}
 
 \end{columns}
 
@@ -295,22 +297,18 @@ In 1936, Landon sought the Republican presidential nomination opposing the re-el
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subsection{Explanatory and response variables}
+\subsection{Observational studies}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{frame}
-\frametitle{Explanatory and response variables}
+\frametitle{Observational studies}
 
 \begin{itemize}
 
-\item To identify the explanatory variable in a pair of variables, identify which of the two is suspected of affecting the other:
+\item Researchers collect data in a way that does not directly interfere with how the data arise.
 
-\begin{center}
-explanatory variable $\xrightarrow{might~affect}$response variable
-\end{center}
-
-\item Labeling variables as explanatory and response does not guarantee the relationship between the two is actually causal, even if there is an association identified between the two variables. We use these labels only to keep track of which variable we suspect affects the other.
+\item Results of an observational study can generally be used to establish an association between the explanatory and response variables.
 
 \end{itemize}
 
@@ -318,32 +316,91 @@ explanatory variable $\xrightarrow{might~affect}$response variable
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subsection{Observational studies and experiments}
+\subsection{Four sampling methods}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{frame}
-\frametitle{Observational studies and experiments}
+\frametitle{Obtaining good samples}
 
 \begin{itemize}
 
-\item \hl{Observational study:} Researchers collect data in a way that does not directly interfere with how the data arise, i.e. they merely ``observe", and can only establish an association between the explanatory and response variables.
+\item Almost all statistical methods are based on the notion of implied randomness. 
 
-\pause
+\item If observational data are not collected in a random framework from a population, these statistical methods -- the estimates and errors associated with the estimates -- are not reliable.
 
-\item \hl{Experiment:} Researchers randomly assign subjects to various treatments in order to establish causal connections between the explanatory and response variables.
-
-\pause
-
-\item If you're going to walk away with one thing from this class, let it be ``correlation does not imply causation".
-
-\begin{center}
-\includegraphics[width=0.55\textwidth]{1-3_data_collection_principles/figures/xkcd_correlation} \\
-{\tiny \webURL{http://xkcd.com/552/}}
-\end{center}
+\item Most commonly used random sampling techniques are \hl{simple}, \hl{stratified}, and \hl{cluster} sampling.
 
 \end{itemize}
 
 \end{frame}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Simple random sample}
+
+Randomly select cases from the population, where there is no implied connection between the points that are selected.
+
+\begin{center}
+\includegraphics[width=0.9\textwidth]{1-3_sampling_principles_strategies/figures/sampling_methods/simple}
+\end{center}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Stratified sample}
+
+\hl{Strata} are made up of similar observations. We take a simple random sample from \underline{each} stratum.
+
+\begin{center}
+\includegraphics[width=0.9\textwidth]{1-3_sampling_principles_strategies/figures/sampling_methods/stratified}
+\end{center}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Cluster sample}
+
+\hl{Clusters} are usually not made up of homogeneous observations. We take a simple random sample of clusters, and then sample \underline{all} observations in that cluster. Usually preferred for economical reasons.
+
+\begin{center}
+\includegraphics[width=0.9\textwidth]{1-3_sampling_principles_strategies/figures/sampling_methods/cluster}
+\end{center}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Multistage sample}
+
+\hl{Clusters} are usually not made up of homogeneous observations.  We take a simple random sample of clusters, and then take a simple random sample of observations from the sampled clusters.
+
+\begin{center}
+\includegraphics[width=0.9\textwidth]{1-3_sampling_principles_strategies/figures/sampling_methods/multistage}
+\end{center}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Practice}
+
+\pq{A city council has requested a household survey be conducted in a suburban area of their city. The area is broken into many distinct and unique neighborhoods, some including large homes, some with only apartments. Which approach would likely be the \emph{least} effective?}
+
+\begin{enumerate}[(a)]
+\item Simple random sampling
+\solnMult{Cluster sampling}
+\item Stratified sampling
+\item Blocked sampling
+\end{enumerate}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
