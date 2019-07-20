@@ -377,19 +377,26 @@ P(35.8 < X < 36.2) &=& P(-1.82 < Z < 1.82) = 0.9656 - 0.0344 = 0.9312
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{frame}
+\begin{frame}[fragile]
 \frametitle{Finding cutoff points}
 
 \dq{Body temperatures of healthy humans are distributed nearly normally with mean 98.2$\degree$F and standard deviation 0.73$\degree$F. What is the cutoff for the lowest 3\% of human body temperatures?}
 
 \pause
 
-\twocol{0.35}{0.65}
+\twocol{0.3}{0.7}
 {
 \includegraphics[width=\textwidth]{4-1_normal_distribution/figures/temp/tempLOW3PERC}
 }
 {
 \pause
+\begin{eqnarray*}
+P(X < x) &=& 0.03 \rightarrow P(Z < \orange{-1.88}) = 0.03 \\ \pause
+Z &=& \frac{obs~-~mean}{SD} \rightarrow \frac{x - 98.2}{0.73} = -1.88 \\ \pause
+x &=& (-1.88 \times 0.73) + 98.2 = 96.8\degree F
+\end{eqnarray*}
+}
+$\:$ \\
 \begin{beamerboxesrounded}[shadow = true, lower = code body]{}
 {\small \begin{verbatim}
 > qnorm(0.03)
@@ -397,21 +404,14 @@ P(35.8 < X < 36.2) &=& P(-1.82 < Z < 1.82) = 0.9656 - 0.0344 = 0.9312
 \end{verbatim}
 }
 \end{beamerboxesrounded}
-}
-\pause
-\begin{eqnarray*}
-P(X < x) &=& 0.03 \rightarrow P(Z < \orange{-1.88}) = 0.03 \\ \pause
-Z &=& \frac{obs~-~mean}{SD} \rightarrow \frac{x - 98.2}{0.73} = -1.88 \\ \pause
-x &=& (-1.88 \times 0.73) + 98.2 = 96.8\degree F
-\end{eqnarray*}
 
 \ct{Mackowiak, Wasserman, and Levine (1992), \textit{A Critical Appraisal of 98.6 Degrees F, the Upper Limit of the Normal Body Temperature, and Other Legacies of Carl Reinhold August Wunderlick}.}
 
 \end{frame}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{frame}
+\begin{frame}[fragile]
 \frametitle{Practice}
 
 \pq{Body temperatures of healthy humans are distributed nearly normally with mean 98.2$\degree$F and standard deviation 0.73$\degree$F. What is the cutoff for the highest 10\% of human body temperatures?}
@@ -429,31 +429,23 @@ x &=& (-1.88 \times 0.73) + 98.2 = 96.8\degree F
 \soln{
 \vspace{-0.5cm}
 \pause
-\twocol{0.35}{0.65}
+\twocol{0.3}{0.7}
 {
 \includegraphics[width=\textwidth]{4-1_normal_distribution/figures/temp/tempHIGH10PERC}
 }
 {
-\pause
-\begin{beamerboxesrounded}[shadow = true, lower = code body]{}
-{\small \begin{verbatim}
-> qnorm(0.90)
-[1] 1.281552
-\end{verbatim}
-}
-\end{beamerboxesrounded}
-}
-}
 \pause
 \begin{eqnarray*}
 P(X > x) &=& 0.10 \rightarrow P(Z < \orange{1.28}) = 0.90 \\ \pause
 Z &=& \frac{obs~-~mean}{SD} \rightarrow \frac{x - 98.2}{0.73} = 1.28 \\ \pause
 x &=& (1.28 \times 0.73) + 98.2 = 99.1
 \end{eqnarray*}
+}
+}
 
 \end{frame}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsection{68-95-99.7 rule}
 

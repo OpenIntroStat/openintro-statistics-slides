@@ -499,7 +499,7 @@ When the sample size is large enough, the binomial distribution with parameters 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{frame}
+\begin{frame}[fragile]
 \frametitle{}
 
 \dq{What is the probability that the average Facebook user with 245 friends has 70 or more friends who would be considered power users?}
@@ -512,32 +512,39 @@ When the sample size is large enough, the binomial distribution with parameters 
 \end{center}
 }
 {
-\pause
 \[ Z = \frac{obs - mean}{SD} = \frac{70 - 61.25}{6.78} = 1.29 \]
-
-\pause
-{\footnotesize
-\begin{tabular}{c | rrrr>{\columncolor[gray]{0.6}[0pt]}r |}
-  \cline{2-6}
-& \multicolumn{5}{c}{Second decimal place of $Z$}  \\
-  \cline{2-6}
-$Z$ & 0.05 & 0.06 & 0.07 & 0.08 & 0.09   \\
-  \hline
-  \hline
-  1.0 & \tiny{0.8531} & \tiny{0.8554} & \tiny{0.8577} & \tiny{0.8599} & \tiny{0.8621} \\
-  1.1 & \tiny{0.8749} & \tiny{0.8770} & \tiny{0.8790} & \tiny{0.8810} & \tiny{0.8830} \\
-\rowcolor[gray]{.6}
-  1.2 & \tiny{0.8944} & \tiny{0.8962} & \tiny{0.8980} & \tiny{0.8997} & \orange{\tiny{0.9015}} \\  
-\end{tabular}
-}
-
-\pause
 \[ P(Z > 1.29) = 1 - 0.9015 = 0.0985 \]
 }
 
+\begin{beamerboxesrounded}[shadow = true, lower = code body]{}
+{\small \begin{verbatim}
+> pnorm(1.29)
+[1] 0.9014747
+\end{verbatim}
+}
+\end{beamerboxesrounded}
+
 \end{frame}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\subsection{The normal approximation breaks down on small intervals}
 
-\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{The normal approximation breaks down on small intervals}
+
+\begin{itemize}
+
+\item The normal approximation to the binomial distribution tends to perform poorly when estimat- ing the probability of a small range of counts, even when the conditions are met.
+
+\item This approximation for intervals of values is usually improved if cutoff values are extended by 0.5 in both directions.
+
+\item The tip to add extra area when applying the normal approximation is most often useful when examining a range of observations. While it is possible to also apply this correction when computing a tail area, the benefit of the modification usually disappears since the total interval is typically quite wide.
+
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
