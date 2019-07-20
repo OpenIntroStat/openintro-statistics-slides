@@ -15,22 +15,21 @@ A table that summarizes data for two categorical variables is called a \hl{conti
 
 $\:$ \\
 \pause
-The contingency table below shows the distribution of students' genders and whether or not they are looking for a spouse while in college.
+The contingency table below shows the distribution of survival and ages of passengers on the Titanic.
 
 \begin{center}
-\begin{tabular}{l l cc rr}
-					& 			& \multicolumn{2}{c}{{looking for spouse}} \\
+\begin{tabular}{l l cc r}
+					               & 			 & \multicolumn{2}{c}{{Survival}} \\
   \cline{3-4}
-					&			& No	& Yes	& Total & \hspace{3mm}  \\ 
+					               &			 & Died	 & Survived	& Total \\ 
   \cline{2-5}
-\multirow{2}{*}{{gender}}& Female 		& 86 	& 51 		& 137 \\ 
-  					& Male 		& 52 	& 18	 	& 70\\ 
+\multirow{2}{*}{{gender}}& Adult & 1438  & 654 	  	& 2092 \\ 
+  					             & Child & 52 	 & 57	 	    & 109\\ 
   \cline{2-5}
-  					& Total		& 138& 69	&  207 \\
+  					             & Total & 1490  & 711	    &  2201 \\
   \cline{2-5}
 \end{tabular}
 \end{center}
-
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -41,19 +40,17 @@ The contingency table below shows the distribution of students' genders and whet
 A \hl{bar plot} is a common way to display a single categorical variable. A bar plot where proportions instead of frequencies are shown is called a \hl{relative frequency bar plot}.
 
 \begin{center}
-\includegraphics[width=0.45\textwidth]{2-2_categorical_data/figures/gender_spouse/gender_bar}
-\includegraphics[width=0.45\textwidth]{2-2_categorical_data/figures/gender_spouse/gender_rel_bar}
+\includegraphics[width=0.45\textwidth]{2-2_categorical_data/figures/titanic_age_survival/titanic_bar}
+\includegraphics[width=0.45\textwidth]{2-2_categorical_data/figures/titanic_age_survival/titanic_rel_bar}
 \end{center}
 
 \pause
 
 \dq{How are bar plots different than histograms?}
 
-\soln{\pause{{\scriptsize Bar plots are used for displaying distributions of categorical variables, while histograms are used for numerical variables. The x-axis in a histogram is a number line,  hence the order of the bars cannot be changed, while in a bar plot the categories can be listed in any order (though some orderings make more sense than others, especially for ordinal variables.)}}}
+\soln{\pause{{\tiny Bar plots are used for displaying distributions of categorical variables,  histograms are used for numerical variables. The x-axis in a histogram is a number line,  hence the order of the bars cannot be changed. In a bar plot, the categories can be listed in any order (though some orderings make more sense than others, especially for ordinal variables.)}}}
 
 \end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -64,18 +61,18 @@ A \hl{bar plot} is a common way to display a single categorical variable. A bar 
 \begin{frame}
 \frametitle{Choosing the appropriate proportion}
 
-\dq{Does there appear to be a relationship between gender and whether the student is looking for a spouse in college?}
+\dq{Does there appear to be a relationship between age and survival for passengers on the Titanic?}
 
 \begin{center}
 \begin{tabular}{l l cc r}
-					& 			& \multicolumn{2}{c}{{looking for spouse}} \\
+					               & 			 & \multicolumn{2}{c}{{Survival}} \\
   \cline{3-4}
-					&			& No	& Yes	& Total \\ 
+					               &			 & Died	 & Survived	& Total \\ 
   \cline{2-5}
-\multirow{2}{*}{{gender}}& Female 		& 86 	& 51 		& 137 \\ 
-  					& Male 		& 52 	& 18	 	& 70\\ 
+\multirow{2}{*}{{Age}}& Adult & 1438  & 654 	  	& 2092 \\ 
+  					             & Child & 52 	 & 57	 	    & 109\\ 
   \cline{2-5}
-  					& Total		& 138& 69	&  207 \\
+  					             & Total & 1490  & 711	    &  2201 \\
   \cline{2-5}
 \end{tabular}
 \end{center}
@@ -88,11 +85,11 @@ To answer this question we examine the row proportions:
 
 \begin{itemize}
 
-\item \% Females looking for a spouse: $51 / 137 \approx 0.37$ \\
+\item \% Adults who survived: 654 / 2092 $\approx 0.31$ \\
 
 \pause
 
-\item \% Males looking for a spouse: $18 / 70 \approx 0.26$ \\
+\item \% Children who survived: 57 / 109 $\approx 0.52$ \\
 
 \end{itemize}
 
@@ -100,19 +97,56 @@ To answer this question we examine the row proportions:
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subsection{Segmented bar and mosaic plots}
+\subsection{Using a bar plot with two variables}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{frame}
-\frametitle{Segmented bar and mosaic plots}
+\frametitle{Bar plots with two variables}
+
+\begin{itemize}
+
+\item \hl{Stacked bar plot:} Graphical display of contingency table information,
+for counts.
+
+\item \hl{Side-by-side bar plot:} Displays the same information by placing bars 
+next to, instead of on top of, each other.
+
+\item \hl{Standardized stacked bar plot}: Graphical display of contingency table 
+information, for proportions.
+
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
 
 \dq{What are the differences between the three visualizations shown below?}
 
 \begin{center}
-\includegraphics[width=0.33\textwidth]{2-2_categorical_data/figures/gender_spouse/gender_seg_bar}
-\includegraphics[width=0.33\textwidth]{2-2_categorical_data/figures/gender_spouse/gender_rel_seg_bar}
-\includegraphics[width=0.33\textwidth]{2-2_categorical_data/figures/gender_spouse/gender_mosaic}
+\includegraphics[width=0.5\textwidth]{2-2_categorical_data/figures/titanic_age_survival/titanic_seg_bar}
+\includegraphics[width=0.5\textwidth]{2-2_categorical_data/figures/titanic_age_survival/titanic_seg_bar_dodge} \\
+\includegraphics[width=0.5\textwidth]{2-2_categorical_data/figures/titanic_age_survival/titanic_rel_seg_bar}
+\end{center}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Mosaic plots}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Mosaic plots}
+
+\dq{What is the difference between the two visualizations shown below?}
+
+\begin{center}
+\includegraphics[width=0.5\textwidth]{2-2_categorical_data/figures/titanic_age_survival/titanic_rel_seg_bar}
+\includegraphics[width=0.5\textwidth]{2-2_categorical_data/figures/titanic_age_survival/titanic_mosaic}
 \end{center}
 
 \end{frame}
