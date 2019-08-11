@@ -31,7 +31,7 @@
 \frametitle{Data}
 
 \begin{center}
-\includegraphics[width=0.7\textwidth]{7-3_diff_two_mean/figures/diamonds/diamondBox}
+\includegraphics[width=0.7\textwidth]{7-3_diff_two_mean/figures/diamonds/diamondBox.pdf}
 \end{center}
 
 {\small
@@ -210,57 +210,26 @@ $= min(22,29) = 22$} \\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{frame}
+\begin{frame}[fragile]
 \frametitle{p-value}
 
 \pq{Which of the following is the correct p-value for this hypothesis test?}
 
 \[ T = -2.508 \qquad \only<1-2 | handout:0>{df = 22} \] 
 
-\twocol{0.42}{0.58}
-{
 \begin{enumerate}[(a)]
 \item between 0.005 and 0.01
 \solnMult{between 0.01 and 0.025}
 \item between 0.02 and 0.05
 \item between 0.01 and 0.02
 \end{enumerate}
-}
-{
-\only<1>{
-{\footnotesize
-\begin{tabular}{r | r r  r r r}
-\hline
-one tail & \hspace{1.5mm}  0.100 & \hspace{1.5mm} 0.050 & \hspace{1.5mm} {0.025} & \hspace{1.5mm} {0.010} & \hspace{1.5mm} 0.005  \\
-two tails & 0.200 & 0.100 & 0.050 & 0.020 & 0.010 \\
-\hline
-df \hfill 21  &  {  1.32} & {  1.72} & {  2.08} & {  2.52} & {  2.83}  \\ 
-22  &  {  1.32} & {  1.72} & {  2.07} & {  2.51} & {  2.82}  \\ 
-23  &  {  1.32} & {  1.71} & {  2.07} & {  2.50} & {  2.81}  \\ 
-24  &  {  1.32} & {  1.71} & {  2.06} & {  2.49} & {  2.80}  \\ 
-25  &  {  1.32} & {  1.71} & {  2.06} & {  2.49} & {  2.79}  \\ 
-\hline
-\end{tabular}
-}
-}
 
-\only<2|handout:0>{
-{\footnotesize
-\begin{tabular}{r | r r  >{\columncolor[gray]{.6}[.5\tabcolsep]}r  >{\columncolor[gray]{.6}[.5\tabcolsep]}r r}
-\hline
-one tail & \hspace{1.5mm}  0.100 & \hspace{1.5mm} 0.050 & \hspace{1.5mm} \orange{0.025} & \hspace{1.5mm} \orange{0.010} & \hspace{1.5mm} 0.005  \\
-two tails & 0.200 & 0.100 & 0.050 & 0.020 & 0.010 \\
-\hline
-df \hfill 21  &  {  1.32} & {  1.72} & {  2.08} & {  2.52} & {  2.83}  \\ 
-  \rowcolor[gray]{.6}
-22  &  {  1.32} & {  1.72} & \orange{  2.07} & \orange{  2.51} & {  2.82}  \\ 
-23  &  {  1.32} & {  1.71} & {  2.07} & {  2.50} & {  2.81}  \\ 
-24  &  {  1.32} & {  1.71} & {  2.06} & {  2.49} & {  2.80}  \\ 
-25  &  {  1.32} & {  1.71} & {  2.06} & {  2.49} & {  2.79}  \\ 
-\hline
-\end{tabular}
-}
-}}
+\pause
+
+\begin{verbatim}
+> pt(q = -2.508, df = 22)
+[1] 0.0100071
+\end{verbatim}
 
 \end{frame}
 
@@ -316,7 +285,7 @@ df \hfill 21  &  {  1.32} & {  1.72} & {  2.08} & {  2.52} & {  2.83}  \\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{frame}
+\begin{frame}[fragile]
 \frametitle{Critical value}
 
 \pq{What is the appropriate $t^\star$ for a confidence interval for the average difference between the point prices of 0.99 and 1 carat diamonds?}
@@ -328,42 +297,14 @@ df \hfill 21  &  {  1.32} & {  1.72} & {  2.08} & {  2.52} & {  2.83}  \\
 \item 2.82
 \end{enumerate}
 
-\only<1>{
-{\small
-\begin{center}
-\begin{tabular}{r | r r r r r}
-\hline
-one tail & \hspace{1.5mm}  0.100 & \hspace{1.5mm} {0.050} & \hspace{1.5mm} {0.025} & \hspace{1.5mm} {0.010} & \hspace{1.5mm} 0.005  \\
-two tails & 0.200 & 0.100 & 0.050 & 0.020 & 0.010 \\
-\hline
-df \hfill 21  &  {  1.32} & {  1.72} & {  2.08} & {  2.52} & {  2.83}  \\ 
-22  &  {  1.32} & {  1.72} & {  2.07} & {  2.51} & {  2.82}  \\ 
-23  &  {  1.32} & {  1.71} & {  2.07} & {  2.50} & {  2.81}  \\ 
-24  &  {  1.32} & {  1.71} & {  2.06} & {  2.49} & {  2.80}  \\ 
-25  &  {  1.32} & {  1.71} & {  2.06} & {  2.49} & {  2.79}  \\ 
-\end{tabular}
-\end{center}
-}}
 
-\only<2|handout:0>{
-\begin{center}
-{\small
-\begin{tabular}{r | r >{\columncolor[gray]{.6}[.5\tabcolsep]}r r  r r}
-\hline
-one tail & \hspace{1.5mm}  0.100 & \hspace{1.5mm} {0.050} & \hspace{1.5mm} {0.025} & \hspace{1.5mm} {0.010} & \hspace{1.5mm} 0.005  \\
-two tails & 0.200 & \orange{0.100} & 0.050 & 0.020 & 0.010 \\
-\hline
-df \hfill 21  &  {  1.32} & {  1.72} & {  2.08} & {  2.52} & {  2.83}  \\ 
-  \rowcolor[gray]{.6}
-22  &  {  1.32} & \orange{  1.72} & {  2.07} & {  2.51} & {  2.82}  \\ 
-23  &  {  1.32} & {  1.71} & {  2.07} & {  2.50} & {  2.81}  \\ 
-24  &  {  1.32} & {  1.71} & {  2.06} & {  2.49} & {  2.80}  \\ 
-25  &  {  1.32} & {  1.71} & {  2.06} & {  2.49} & {  2.79}  \\ 
-\hline
-\end{tabular}
-}
-\end{center}
-}
+\pause 
+
+\begin{verbatim}
+> qt(p = 0.95, df = 22)
+
+[1] 1.717144
+\end{verbatim}
 
 
 \end{frame}

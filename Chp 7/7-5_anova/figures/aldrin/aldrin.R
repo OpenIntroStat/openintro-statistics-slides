@@ -1,9 +1,7 @@
-setwd("~/Desktop/Teaching/Sta 101 - F12/Lecture slides/Unit 4/Lecture 3/figures/aldrin")
-
 library(openintro)
 library(xtable)
 
-aldrin = read.csv("aldrin.csv", h = T)
+aldrin = read.csv("aldrin.csv", header = T)
 
 # dotplot
 
@@ -51,16 +49,7 @@ dev.off()
 
 pdf("normal.pdf", height = 5, width = 10)
 
-par(mar=c(2,4,2,1), las=1, mgp=c(3,0.7,0), cex.lab = 1.25, cex.axis = 1.25, mfrow = c(2,3))
-
-qqnorm(aldrin$aldrin[aldrin$depth == "bottom"], main = "bottom", pch = 19, col = COL[1,3], ylab = "")
-qqline(aldrin$aldrin[aldrin$depth == "bottom"], col = COL[1])
-
-qqnorm(aldrin$aldrin[aldrin$depth == "middepth"], main = "middepth", pch = 19, col = COL[1,3], ylab = "")
-qqline(aldrin$aldrin[aldrin$depth == "middepth"], col = COL[1])
-
-qqnorm(aldrin$aldrin[aldrin$depth == "surface"], main = "surface", pch = 19, col = COL[1,3], ylab = "")
-qqline(aldrin$aldrin[aldrin$depth == "surface"], col = COL[1])
+par(mar=c(2,4,2,1), las=1, mgp=c(3,0.7,0), cex.lab = 1.25, cex.axis = 1.25, mfrow = c(1,3))
 
 hist(aldrin$aldrin[aldrin$depth == "bottom"], col = COL[1], main = "", ylab = "", axes = FALSE)
 axis(1, at = c(3,5,7,9))

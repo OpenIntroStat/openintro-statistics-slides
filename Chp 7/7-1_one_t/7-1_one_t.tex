@@ -335,7 +335,7 @@ df &=& 10 - 1 = 9
 
 \pause
 
-\item Or when these aren't available, we can use a \webLink{https://www.openintro.org/download.php?file=os2_prob_tables&referrer=/stat/textbook.php}{$t$-table}.
+\item Or when these aren't available, we can use a $t$-table.
 
 \end{itemize}
 
@@ -343,105 +343,15 @@ df &=& 10 - 1 = 9
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{frame}
-\frametitle{Finding the p-value}
-
-Locate the calculated $T$ statistic on the appropriate $df$ row, obtain the p-value from the corresponding column heading (one or two tail, depending on the alternative hypothesis).
-
-{\scriptsize
-\begin{center}
-\begin{tabular}{r | rrr rr}
-one tail & \hspace{1.5mm}  0.100 & \hspace{1.5mm} 0.050 & \hspace{1.5mm} 0.025 & \hspace{1.5mm} 0.010 & \hspace{1.5mm} 0.005  \\
-two tails & 0.200 & 0.100 & 0.050 & 0.020 & 0.010 \\
-\hline
-{$df$} \hfill 1  &  {  3.08} & {  6.31} & { 12.71} & { 31.82} & { 63.66}  \\ 
-2  &  {  1.89} & {  2.92} & {  4.30} & {  6.96} & {  9.92}  \\ 
-3  &  {  1.64} & {  2.35} & {  3.18} & {  4.54} & {  5.84}  \\ 
-$\vdots$ & $\vdots$ &$\vdots$ &$\vdots$ &$\vdots$ & \\
-17  &  {  1.33} & {  1.74} & {  2.11} & {  2.57} & {  2.90}  \\ 
-18  &  {  1.33} & {  1.73} & {  2.10} & {  2.55} & {  2.88}  \\ 
-19  &  {  1.33} & {  1.73} & {  2.09} & {  2.54} & {  2.86}  \\ 
-20  &  {  1.33} & {  1.72} & {  2.09} & {  2.53} & {  2.85}  \\ 
-$\vdots$ & $\vdots$ &$\vdots$ &$\vdots$ &$\vdots$ & \\
-400  &  {  1.28} & {  1.65} & {  1.97} & {  2.34} & {  2.59}  \\ 
-500  &  {  1.28} & {  1.65} & {  1.96} & {  2.33} & {  2.59}  \\ 
-$\infty$  &  {  1.28} & {  1.64} & {  1.96} & {  2.33} & {  2.58}  \\ 
-\end{tabular}
-\end{center}
-}
-
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{frame}
-\frametitle{Finding the p-value (cont.)}
+\frametitle{Conclusion of the test}
 
-\only<1>{
-{\footnotesize
-\begin{center}
-\begin{tabular}{r | rrr rr}
-\hline
-one tail & \hspace{1.5mm}  0.100 & \hspace{1.5mm} 0.050 & \hspace{1.5mm} 0.025 & \hspace{1.5mm} 0.010 & \hspace{1.5mm} 0.005  \\
-two tails & 0.200 & 0.100 & 0.050 & 0.020 & 0.010 \\
-\hline
-{df} \hfill 6  &  {  1.44} & {  1.94} & {  2.45} & {  3.14} & {  3.71}  \\ 
-7  &  {  1.41} & {  1.89} & {  2.36} & {  3.00} & {  3.50}  \\ 
-8  &  {  1.40} & {  1.86} & {  2.31} & {  2.90} & {  3.36}  \\ 
-9  &  {  1.38} & {  1.83} & {  2.26} & {  2.82} & {  3.25}  \\ 
-10  &  {  1.37} & {  1.81} & {  2.23} & {  2.76} & {  3.17}  \\ 
-\end{tabular}
-\end{center}
-}
-}
+\dq{What is the conclusion of this hypothesis test?}
 
-\only<2 | handout:0>{
-{\footnotesize
-\begin{center}
-\begin{tabular}{r | rrr rr}
-\hline
-one tail & \hspace{1.5mm}  0.100 & \hspace{1.5mm} 0.050 & \hspace{1.5mm} 0.025 & \hspace{1.5mm} 0.010 & \hspace{1.5mm} 0.005  \\
-two tails & 0.200 & 0.100 & 0.050 & 0.020 & 0.010 \\
-\hline
-{df} \hfill 6  &  {  1.44} & {  1.94} & {  2.45} & {  3.14} & {  3.71}  \\ 
-7  &  {  1.41} & {  1.89} & {  2.36} & {  3.00} & {  3.50}  \\ 
-8  &  {  1.40} & {  1.86} & {  2.31} & {  2.90} & {  3.36}  \\ 
-  \rowcolor[gray]{.6}
-9  &  {  1.38} & {  1.83} & {  2.26} & {  2.82} & {  3.25}  \\ 
-10  &  {  1.37} & {  1.81} & {  2.23} & {  2.76} & {  3.17}  \\ 
-\end{tabular}
-\end{center}
-}
-}
+\pause
 
-\only<3-| handout:0>{
-{\footnotesize
-\begin{center}
-\begin{tabular}{r | rrr rr r}
-\hline
-one tail & \hspace{1.5mm}  0.100 & \hspace{1.5mm} 0.050 & \hspace{1.5mm} 0.025 & \hspace{1.5mm} 0.010 & \hspace{1.5mm} 0.005  \\
-  \rowcolor[gray]{.6}
-two tails & 0.200 & 0.100 & 0.050 & 0.020 & \orange{0.010} & \mathhl{\rightarrow} \\
-\hline
-{df} \hfill 6  &  {  1.44} & {  1.94} & {  2.45} & {  3.14} & {  3.71}  \\ 
-7  &  {  1.41} & {  1.89} & {  2.36} & {  3.00} & {  3.50}  \\ 
-8  &  {  1.40} & {  1.86} & {  2.31} & {  2.90} & {  3.36}  \\ 
-  \rowcolor[gray]{.6}
-9  &  {  1.38} & {  1.83} & {  2.26} & {  2.82} & \orange{  3.25} & \mathhl{\rightarrow}  \\ 
-10  &  {  1.37} & {  1.81} & {  2.23} & {  2.76} & {  3.17}  \\ 
-\end{tabular}
-\end{center}
-}
-}
-
-\twocol{0.5}{0.5}{
-\includegraphics[width=1.1\textwidth]{7-1_one_t/figures/friday/fridayPvalue}
-}
-{
-$T = 4.94$
-\only<4->{\dq{What is the conclusion of the hypothesis test?}}
-\soln{\only<5>{The data provide convincing evidence of a difference between traffic flow on Friday 6$^{\text{th}}$ and 13$^{\text{th}}$.}}
-}
+Since the p-value is quite low, we conclude that the data provide strong evidence of a difference between traffic flow on Friday 6$^{\text{th}}$ and 13$^{\text{th}}$.
 
 \end{frame}
 
@@ -495,88 +405,18 @@ $T = 4.94$
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{frame}
+\begin{frame}[fragile]
 \frametitle{Finding the critical $t$ ($t^\star$)}
 
-\twocol{0.5}{0.5}{
-\only<1-3>{\includegraphics[width=\textwidth]{7-1_one_t/figures/middle95/middle95_1}}
-\only<4| handout:0>{\includegraphics[width=\textwidth]{7-1_one_t/figures/middle95/middle95_2}}
-}
-{
-$n = 10$, $df = 10 - 1 = 9$, $t^\star$ is at the intersection of row $df = 9$ and two tail probability 0.05.
-}
 
-\only<1>{
-{\small
-\begin{center}
-\begin{tabular}{r | r r r r r}
-\hline
-one tail & \hspace{1.5mm}  0.100 & \hspace{1.5mm} 0.050 & \hspace{1.5mm} 0.025 & \hspace{1.5mm} 0.010 & \hspace{1.5mm} 0.005  \\
-two tails & 0.200 & 0.100 & 0.050 & 0.020 & {0.010} \\
-\hline
-{df} \hfill 6  &  {  1.44} & {  1.94} & {  2.45} & {  3.14} & {  3.71}  \\ 
-7  &  {  1.41} & {  1.89} & {  2.36} & {  3.00} & {  3.50}  \\ 
-8  &  {  1.40} & {  1.86} & {  2.31} & {  2.90} & {  3.36}  \\ 
-9  &  {  1.38} & {  1.83} & {  2.26} & {  2.82} & {  3.25} \\ 
-10  &  {  1.37} & {  1.81} & {  2.23} & {  2.76} & {  3.17}  \\ 
-\end{tabular}
-\end{center}
-}}
+Using R:
+\begin{verbatim}
 
-\only<2 | handout:0>{
-{\small
-\begin{center}
-\begin{tabular}{r | r r r r r}
-\hline
-one tail & \hspace{1.5mm}  0.100 & \hspace{1.5mm} 0.050 & \hspace{1.5mm} 0.025 & \hspace{1.5mm} 0.010 & \hspace{1.5mm} 0.005  \\
-two tails & 0.200 & 0.100 & 0.050 & 0.020 & {0.010} \\
-\hline
-{df} \hfill 6  &  {  1.44} & {  1.94} & {  2.45} & {  3.14} & {  3.71}  \\ 
-7  &  {  1.41} & {  1.89} & {  2.36} & {  3.00} & {  3.50}  \\ 
-8  &  {  1.40} & {  1.86} & {  2.31} & {  2.90} & {  3.36}  \\ 
-  \rowcolor[gray]{.6}
-9  &  {  1.38} & {  1.83} & {  2.26} & {  2.82} & {  3.25} \\ 
-10  &  {  1.37} & {  1.81} & {  2.23} & {  2.76} & {  3.17}  \\ 
-\end{tabular}
-\end{center}
-}}
+> qt(p = 0.975, df = 9)
 
-\only<3 | handout:0>{
-{\small
-\begin{center}
-\begin{tabular}{r | r r >{\columncolor[gray]{.6}[.5\tabcolsep]}r r r}
-\hline
-one tail & \hspace{1.5mm}  0.100 & \hspace{1.5mm} 0.050 & \hspace{1.5mm} 0.025 & \hspace{1.5mm} 0.010 & \hspace{1.5mm} 0.005  \\
-two tails & 0.200 & 0.100 & \orange{0.050} & 0.020 & {0.010} \\
-\hline
-{df} \hfill 6  &  {  1.44} & {  1.94} & {  2.45} & {  3.14} & {  3.71}  \\ 
-7  &  {  1.41} & {  1.89} & {  2.36} & {  3.00} & {  3.50}  \\ 
-8  &  {  1.40} & {  1.86} & {  2.31} & {  2.90} & {  3.36}  \\ 
-  \rowcolor[gray]{.6}
-9  &  {  1.38} & {  1.83} & {  2.26} & {  2.82} & {  3.25} \\ 
-10  &  {  1.37} & {  1.81} & {  2.23} & {  2.76} & {  3.17}  \\ 
-\end{tabular}
-\end{center}
-}}
+[1] 2.262157
 
-\only<4 | handout:0>{
-{\small
-\begin{center}
-\begin{tabular}{r | r r >{\columncolor[gray]{.6}[.5\tabcolsep]}r r r}
-\hline
-one tail & \hspace{1.5mm}  0.100 & \hspace{1.5mm} 0.050 & \hspace{1.5mm} 0.025 & \hspace{1.5mm} 0.010 & \hspace{1.5mm} 0.005  \\
-two tails & 0.200 & 0.100 & \orange{0.050} & 0.020 & {0.010} \\
-\hline
-{df} \hfill 6  &  {  1.44} & {  1.94} & {  2.45} & {  3.14} & {  3.71}  \\ 
-7  &  {  1.41} & {  1.89} & {  2.36} & {  3.00} & {  3.50}  \\ 
-8  &  {  1.40} & {  1.86} & {  2.31} & {  2.90} & {  3.36}  \\ 
-  \rowcolor[gray]{.6}
-9  &  {  1.38} & {  1.83} & \orange{  2.26} & {  2.82} & {  3.25} \\ 
-10  &  {  1.37} & {  1.81} & {  2.23} & {  2.76} & {  3.17}  \\ 
-\end{tabular}
-\end{center}
-}}
-
+\end{verbatim}
 
 \end{frame}
 
