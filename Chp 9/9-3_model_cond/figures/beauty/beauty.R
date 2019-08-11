@@ -11,12 +11,9 @@ m_final = lm(profevaluation ~ beauty + gender + age + formal + native + tenure, 
 
 # nearly normal residuals
 
-pdf("normal_res.pdf", height = 4.3, width = 10)
+pdf("normal_res.pdf", height = 4.3, width = 5)
 
-par(mar=c(2,4,2,1), las=1, mgp=c(3,0.7,0), cex.lab = 1.25, cex.axis = 1.25, mfrow = c(1,2))
-
-qqnorm(m_final$residuals, main = "Normal probability plot of residuals", pch = 19, col = COL[1,2])
-qqline(m_final$residuals, col = COL[1], lwd = 2)
+par(mar=c(2,4,2,1), las=1, mgp=c(3,0.7,0), cex.lab = 1.25, cex.axis = 1.25)
 
 hist(m_final$residuals, main = "Histogram of residuals", col = COL[1])
 

@@ -19,7 +19,107 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subsection{Many variables in a model}
+\subsection{Indicator and categorical variables as predictors}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Poverty vs. region (east, west)}
+
+
+\[ \widehat{poverty} = 11.17 + 0.38 \times west \]
+
+\begin{itemize}
+
+\item Explanatory variable: region, \hl{reference level:} east
+
+\item \hl{Intercept:} The estimated average poverty percentage in eastern states is 11.17\%
+\pause
+\begin{itemize}
+\item This is the value we get if we plug in \orange{0} for the explanatory variable
+\end{itemize}
+
+\pause
+
+\item \hl{Slope:} The estimated average poverty percentage in western states is 0.38\% higher than eastern states.
+\pause
+\begin{itemize}
+\item Then, the estimated average poverty percentage in western states is 11.17 + 0.38 =  11.55\%.
+\pause
+\item This is the value we get if we plug in \orange{1} for the explanatory variable
+\end{itemize}
+
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Poverty vs. region (northeast, midwest, west, south)}
+
+\pq{Which region (northeast, midwest, west, or south) is the reference level?}
+
+{\small
+\begin{center}
+\begin{tabular}{rrrrr}
+  \hline
+ & Estimate & Std. Error & t value & Pr($>$$|$t$|$) \\ 
+  \hline
+(Intercept) & 9.50 & 0.87 & 10.94 & 0.00 \\ 
+region4midwest & 0.03 & 1.15 & 0.02 & 0.98 \\ 
+region4west & 1.79 & 1.13 & 1.59 & 0.12 \\ 
+region4south & 4.16 & 1.07 & 3.87 & 0.00 \\ 
+   \hline
+\end{tabular}
+\end{center}
+}
+
+\begin{enumerate}[(a)]
+\solnMult{northeast}
+\item midwest
+\item west
+\item south
+\item cannot tell
+\end{enumerate}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Poverty vs. region (northeast, midwest, west, south)}
+
+\pq{Which region (northeast, midwest, west, or south) has the lowest poverty percentage?}
+
+{\small
+\begin{center}
+\begin{tabular}{rrrrr}
+  \hline
+ & Estimate & Std. Error & t value & Pr($>$$|$t$|$) \\ 
+  \hline
+(Intercept) & 9.50 & 0.87 & 10.94 & 0.00 \\ 
+region4midwest & 0.03 & 1.15 & 0.02 & 0.98 \\ 
+region4west & 1.79 & 1.13 & 1.59 & 0.12 \\ 
+region4south & 4.16 & 1.07 & 3.87 & 0.00 \\ 
+   \hline
+\end{tabular}
+\end{center}
+}
+
+\begin{enumerate}[(a)]
+\solnMult{northeast}
+\item midwest
+\item west
+\item south
+\item cannot tell
+\end{enumerate}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Including and assessing many variables in a model}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -27,7 +127,7 @@
 \frametitle{Weights of books}
 
 \twocol{0.6}{0.4}{
-{\small
+{\footnotesize
 \begin{center}
 \begin{tabular}{rrrc}
   \hline
@@ -67,7 +167,7 @@
 \begin{frame}
 \frametitle{Weights of books (cont.)}
 
-\twocol{0.45}{0.45}
+\twocol{0.45}{0.4}
 {
 \pq{{\small The scatterplot shows the relationship between weights and volumes of books as well as the regression output. Which of the below is correct?}}
 }
@@ -450,7 +550,7 @@ than those whose moms did not work.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subsection{Adjusted $R^2$}
+\subsection{Adjusted $R^2$ as a better tool for multiple regression}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

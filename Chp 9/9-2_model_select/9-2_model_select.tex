@@ -4,7 +4,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subsection{Identifying significance}
+\subsection{Identifying variables in the model that may not be helpful}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -260,7 +260,7 @@ $\:$ \\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subsection{Model selection methods}
+\subsection{Two model selection strategies}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -279,20 +279,10 @@ $\:$ \\
 
 \begin{enumerate}
 
-\item $R^2_{adj}$ approach: 
-\begin{itemize}
 \item Start with the full model
 \item Drop one variable at a time and record $R^2_{adj}$ of each smaller model
 \item Pick the model with the highest increase in $R^2_{adj}$
 \item Repeat until none of the models yield an increase in $R^2_{adj}$
-\end{itemize}
-
-\item p-value approach: 
-\begin{itemize}
-\item Start with the full model
-\item Drop the variable with the highest p-value and refit a smaller model
-\item Repeat until all variables left in the model are significant
-\end{itemize}
 
 \end{enumerate}
 
@@ -301,14 +291,12 @@ $\:$ \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{frame}[shrink]
-\frametitle{Backward-elimination: $R^2_{adj}$ approach}
+\frametitle{Backward-elimination}
 
-\vspace{-0.15cm}
+\vspace{-0.3cm}
 
 {\tiny
 \begin{tabular}{l | l | c}
-\textbf{Step}		& \textbf{Variables included}	& $\mathbf{R^2_{adj}}$ \\
-\hline
 Full		& beauty + gender + age + formal + lower + native + minority + students + tenure & \orange{0.0839} \pause \\
 \hline
 Step 1 	& gender + age + formal + lower + native + minority + students + tenure		& 0.0642 \\
@@ -353,7 +341,11 @@ Step 4	& gender + age + formal + native + tenure 							& 0.0667 \\
 \begin{frame}[fragile]
 \frametitle{\texttt{step} function in R}
 
-{\scriptsize
+The \texttt{step} function in R does a similar backward elimination process, 
+however it uses a different metric called AIC (Akaike Information Criterion) 
+instead of adjusted $R^2$ to do the model selection.
+
+{\tiny
 \begin{verbatim}
 Call:
 lm(formula = profevaluation ~ beauty + gender + age + formal + 
@@ -369,10 +361,54 @@ tenuretenure track       tenuretenured
 \end{verbatim}
 }
 
-$\:$
-
 \pause
 Best model: beauty + gender + age + formal + native + tenure
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Forward-selection}
+
+\begin{enumerate}
+
+\item Start with regressions of response vs. each explanatory variable
+\item Pick the model with the highest $R^2_{adj}$
+\item Add the remaining variables one at a time to the existing model, and once again pick the model  with the highest $R^2_{adj}$
+\item Repeat until the addition of any of the remanning variables does not result in a higher $R^2_{adj}$
+
+\end{enumerate}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{The p-value approach, an alternative to adjusted $R^2$}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\subsection{Backward and forward}
+
+\begin{itemize}
+
+\item Backward elimination with the p-value approach: 
+\begin{enumerate}
+\item Start with the full model
+\item Drop the variable with the highest p-value and refit a smaller model
+\item Repeat until all variables left in the model are significant
+\end{enumerate}
+
+\item Backward elimination with the p-value approach: 
+\begin{enumerate}
+\item Start with regressions of response vs. each explanatory variable
+\item Pick the variable with the lowest significant p-value 
+\item Add the remaining variables one at a time to the existing model, and pick the variable with the lowest significant p-value
+\item Repeat until any of the remaining variables does not have a significant p-value
+\end{enumerate}
+
+\end{itemize}
 
 \end{frame}
 
@@ -386,23 +422,23 @@ Best model: beauty + gender + age + formal + native + tenure
 \textbf{Step}		& \multicolumn{10}{c}{ \textbf{Variables included \& p-value} } \\
 \hline
 Full		& beauty	& gender		& age	& formal		& lower 	& native	 	& minority		& students	& tenure		& tenure \\
-		& 		& male		& 		& yes		& yes	 & non english	& yes		& 			& tenure track	& tenured \\
+		& 		& male		& 		& yes		& yes	 & nonenglish	& yes		& 			& tenure track	& tenured \\
 		&  0.00 	&  0.00 		& 0.01	& 0.04		& 0.29	& 0.06		& \orange{0.35}	& 0.30		& 0.02		& 0.02 \pause \\
 \hline
 Step 1	& beauty	& gender		& age	& formal		& lower 		& native	 	& 			& students	& tenure		& tenure \\
-		& 		& male		& 		& yes		& yes		& non english	& 			& 			& tenure track	& tenured \\
+		& 		& male		& 		& yes		& yes		& nonenglish	& 			& 			& tenure track	& tenured \\
 		&  0.00 	&  0.00 		& 0.01	& 0.04		& \orange{0.38}	& 0.03		&			& 0.34		& 0.02		& 0.01 \pause\\
 \hline
 Step 2	& beauty	& gender		& age	& formal		& 	 		& native	 	& 			& students	& tenure		& tenure \\
-		& 		& male		& 		& yes		& 			& non english	& 			& 			& tenure track	& tenured \\
+		& 		& male		& 		& yes		& 			& nonenglish	& 			& 			& tenure track	& tenured \\
 		&  0.00 	&  0.00 		& 0.01	& 0.05		& 			& 0.02		&			& \orange{0.44}	& 0.01		& 0.01\pause \\
 \hline
 Step 3 	& beauty	& gender		& age	& formal		& 	 		& native	 	& 			& 			& tenure		& tenure \\
-		& 		& male		& 		& yes		& 			& non english	& 			& 			& tenure track	& tenured \\
+		& 		& male		& 		& yes		& 			& nonenglish	& 			& 			& tenure track	& tenured \\
 		&  0.00 	&  0.00 		& 0.01	& \orange{0.06}	& 			& 0.02		&			& 			& 0.01		& 0.01 \pause \\
 \hline
 Step 	4	& beauty	& gender		& age	& 			& 	 		& native	 	& 			& 			& tenure		& tenure \\
-		& 		& male		& 		& 			& 			& non english	& 			& 			& tenure track	& tenured \\
+		& 		& male		& 		& 			& 			& nonenglish	& 			& 			& tenure track	& tenured \\
 		&  0.00 	&  0.00 		& 0.01	&			& 			& \orange{0.06}	&			& 			& 0.01		& 0.01 \pause \\
 \hline
 Step 5 	& beauty	& gender		& age	& 			& 	 		& 		 	& 			& 			& tenure		& tenure \\
@@ -421,53 +457,20 @@ Best model: beauty + gender + age + tenure
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{frame}
-\frametitle{Forward-selection}
+\frametitle{Adjusted $R^2$ vs. p-value approaches}
 
-\begin{enumerate}
-
-\item $R^2_{adj}$ approach: 
 \begin{itemize}
-\item Start with regressions of response vs. each explanatory variable
-\item Pick the model with the highest $R^2_{adj}$
-\item Add the remaining variables one at a time to the existing model, and once again pick the model  with the highest $R^2_{adj}$
-\item Repeat until the addition of any of the remanning variables does not result in a higher $R^2_{adj}$
+
+\item The two approaches are similar, but they sometimes lead to different models, with the adjusted $R^2$ approach tending to include more predictors in the final model.
+
+\item When the sole goal is to improve prediction accuracy, use $R^2$ . This is commonly the case in machine learning applications.
+
+\item When we care about understanding which variables are statistically significant predictors of the response, or if there is interest in producing a simpler model at the potential cost of a little prediction accuracy, then the p-value approach is preferred.
+
+\item Regardless of the approach we use, our job is not done after variable selection -- we must still verify the model conditions are reasonable.
+
 \end{itemize}
-
-\item $p-value$ approach: 
-\begin{itemize}
-\item Start with regressions of response vs. each explanatory variable
-\item Pick the variable with the lowest significant p-value 
-\item Add the remaining variables one at a time to the existing model, and pick the variable with the lowest significant p-value
-\item Repeat until any of the remaining variables does not have a significant p-value
-\end{itemize}
-
-\textit{In forward-selection the p-value approach isn't any simpler (you still need to fit a bunch of models), so there's almost no incentive to use it.}
-
-\end{enumerate}
 
 \end{frame}
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{frame}[fragile]
-\frametitle{Selected model}
-
-\begin{center}
-\begin{tabular}{rrrrr}
-  \hline
- & Estimate & Std. Error & t value & Pr($>$$|$t$|$) \\ 
-  \hline
-(Intercept) & 4.6284 & 0.1673 & 27.66 & 0.00 \\ 
-  beauty & 0.1055 & 0.0328 & 3.21 & 0.00 \\ 
-  gender.male & 0.2081 & 0.0519 & 4.01 & 0.00 \\ 
-  age & -0.0088 & 0.0032 & -2.75 & 0.01 \\ 
-  formal.yes & 0.1324 & 0.0714 & 1.85 & 0.06 \\ 
-  native:non english & -0.2430 & 0.1080 & -2.25 & 0.02 \\ 
-  tenure:tenure track & -0.2068 & 0.0839 & -2.46 & 0.01 \\ 
-  tenure:tenured & -0.1760 & 0.0641 & -2.74 & 0.01 \\ 
-   \hline
-\end{tabular}
-\end{center}
-
-\end{frame}

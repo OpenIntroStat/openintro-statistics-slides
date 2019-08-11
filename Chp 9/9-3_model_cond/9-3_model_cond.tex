@@ -4,6 +4,10 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\subsection{Diagnostic plots}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \begin{frame}
 \frametitle{Modeling conditions}
 
@@ -13,7 +17,7 @@ $\:$ \\
 
 The model depends on the following conditions
 \begin{enumerate}
-\item residuals are nearly normal (primary concern relates to residuals that are outliers)
+\item residuals are nearly normal (less important for larger data sets)
 \item residuals have constant variability
 \item residuals are independent
 \item each variable is linearly related to the outcome \\
@@ -31,7 +35,7 @@ We often use graphical methods to check the validity of these conditions, which 
 normal probability plot and/or histogram of residuals: \\
 
 \begin{center}
-\includegraphics[width=\textwidth]{9-3_model_cond/figures/beauty/normal_res}
+\includegraphics[width=0.6\textwidth]{9-3_model_cond/figures/beauty/normal_res}
 \end{center}
 
 \dq{Does this condition appear to be satisfied?}
@@ -125,3 +129,63 @@ scatterplot of residuals vs. each (numerical) explanatory variable:
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Options for improving the model fit}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Several options for improving a model}
+
+\begin{itemize}
+
+\item Transforming variables
+\item Seeking out additional variables to fill model gaps
+\item Using more advanced methods that would account for challenges around inconsistent variability or nonlinear relationships between predictors and the outcome
+
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Transformations}
+
+If the concern with the model is non-linear relationships between the explanatory 
+variable(s) and the response variable, transforming the response variable can be helpful. 
+
+\begin{itemize}
+
+\item Log transformation (log $y$)
+\item Square root transformation ($\sqrt{y}$)
+\item Inverse transformation ($1/y$)
+\item Truncation (cap the max value possible)
+
+\end{itemize}
+
+It is also possible to apply transformations to the explanatory variable(s), however 
+such transformations tend to make the model coefficients even harder to interpret.
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Models can be wrong, but useful}
+
+\begin{quote}
+All models are wrong, but some are useful. - George Box
+\end{quote}
+
+\begin{itemize}
+
+\item No model is perfect, but even imperfect models can be useful, as long as we are clear and report the model's shortcomings.
+
+\item If conditions are grossly violated, we should not report the model results, but instead consider a new model, even if it means learning more statistical methods or hiring someone who can help.
+
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
