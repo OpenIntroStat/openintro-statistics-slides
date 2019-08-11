@@ -4,6 +4,10 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\subsection{Fitting a line to data}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \begin{frame}
 \frametitle{Modeling numerical variables}
 
@@ -38,6 +42,106 @@ The \hl{scatterplot} below shows the relationship between HS graduate rate in al
 }
 
 \end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Using a linear regression to predict poverty}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+
+The linear model for predicting poverty from high school graduation rate in the US is
+
+\[ \hat{poverty} = 64.78 - 0.62 * HS_grad \]
+
+The ``hat" is used to signify that this is an estimate.
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+
+\dq{The high school graduate rate in Georgia is 85.1\%. What poverty level does the model predict for this state?}
+
+\pause
+
+\[ 64.78 - 0.62 * 85.1 = 12.018 \]
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Eyeballing the line}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Eyeballing the line}
+
+\twocol{0.3}{0.7}
+{
+\pq{Which of the following appears to be the line that best fits the linear relationship between \% in poverty and \% HS grad? Choose one.}
+\soln{\only<2>{\orange{
+(a)
+}}}
+}
+{
+\begin{center}
+\includegraphics[width=\textwidth]{8-2_least_square_reg/figures/poverty/poverty_hsgrad_manylines}
+\end{center}
+}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Residuals}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Residuals}
+
+\hl{Residuals} are the leftovers from the model fit: Data = Fit + Residual
+
+\begin{center}
+\includegraphics[width=0.8\textwidth]{8-2_least_square_reg/figures/poverty/poverty_hsgrad_res}
+\end{center}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Residuals (cont.)}
+
+\formula{Residual}{
+Residual is the difference between the observed ($y_i$) and predicted $\hat{y}_i$. 
+\[ e_i = y_i - \hat{y}_i \]
+}
+\vspace{-0.5cm}
+\twocol{0.6}{0.4}
+{
+\begin{center}
+\includegraphics[width=\textwidth]{8-2_least_square_reg/figures/poverty/poverty_hsgrad_res_text}
+\end{center}
+}
+{
+\pause
+\begin{itemize}
+\item \% living in poverty in DC is 5.44\% more than predicted.
+\pause
+\item \% living in poverty in RI is 4.16\% less than predicted.
+\end{itemize}
+}
+
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Describing linear relationships with correlation}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

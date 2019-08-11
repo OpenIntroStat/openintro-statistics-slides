@@ -4,80 +4,12 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subsection{Eyeballing the line}
+\subsection{An objective measure for finding the best line}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{frame}
-\frametitle{Eyeballing the line}
-
-\twocol{0.3}{0.7}
-{
-\pq{Which of the following appears to be the line that best fits the linear relationship between \% in poverty and \% HS grad? Choose one.}
-\soln{\only<2>{\orange{
-(a)
-}}}
-}
-{
-\begin{center}
-\includegraphics[width=\textwidth]{8-2_least_square_reg/figures/poverty/poverty_hsgrad_manylines}
-\end{center}
-}
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\subsection{Residuals}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{frame}
-\frametitle{Residuals}
-
-\hl{Residuals} are the leftovers from the model fit: Data = Fit + Residual
-
-\begin{center}
-\includegraphics[width=0.8\textwidth]{8-2_least_square_reg/figures/poverty/poverty_hsgrad_res}
-\end{center}
-
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{frame}
-\frametitle{Residuals (cont.)}
-
-\formula{Residual}{
-Residual is the difference between the observed ($y_i$) and predicted $\hat{y}_i$. 
-\[ e_i = y_i - \hat{y}_i \]
-}
-\vspace{-0.5cm}
-\twocol{0.6}{0.4}
-{
-\begin{center}
-\includegraphics[width=\textwidth]{8-2_least_square_reg/figures/poverty/poverty_hsgrad_res_text}
-\end{center}
-}
-{
-\pause
-\begin{itemize}
-\item \% living in poverty in DC is 5.44\% more than predicted.
-\pause
-\item \% living in poverty in RI is 4.16\% less than predicted.
-\end{itemize}
-}
-
-
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\subsection{Best line}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{frame}
-\frametitle{A measure for the best line}
+\frametitle{An objective measure for finding the best line}
 
 \begin{itemize}
 
@@ -157,7 +89,195 @@ Residual is the difference between the observed ($y_i$) and predicted $\hat{y}_i
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subsection{The least squares line}
+\subsection{Conditions for the least squares line}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Conditions for the least squares line}
+
+\begin{enumerate}
+
+\item Linearity
+
+\pause
+
+\item Nearly normal residuals
+
+\pause
+
+\item Constant variability
+
+\end{enumerate}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Conditions: (1) Linearity}
+
+\begin{itemize}
+
+\item The relationship between the explanatory and the response variable should be linear. 
+
+\pause
+
+\item Methods for fitting a model to non-linear relationships exist, but are beyond the scope of this class. If this topic is of interest, an \href{http://www.openintro.org/download.php?file=os2_extra_nonlinear_relationships&referrer=/stat/textbook.php}{Online Extra is available on openintro.org} covering new techniques.
+
+\pause
+
+\item Check using a scatterplot of the data, or a \hl{residuals plot}.
+
+\end{itemize}
+
+\begin{center}
+\includegraphics[width=0.7\textwidth]{8-2_least_square_reg/figures/sampleLinesAndResPlots/sampleLinesAndResPlots}
+\end{center}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Anatomy of a residuals plot}
+
+\twocol{0.5}{0.5}
+{
+\begin{center}
+\includegraphics[width=\textwidth]{8-2_least_square_reg/figures/poverty/poverty_hsgrad_resplot}
+\end{center}
+}
+{
+\green{{\LARGE $\blacktriangle$}} \hl{RI:}
+\begin{align*}
+\%~HS~grad &= 81 \qquad \%~in~poverty = 10.3 \\
+\widehat{\%~in~poverty} &= 64.68 - 0.62 * 81 = 14.46 \\
+e &= \%~in~poverty - \widehat{\%~in~poverty} \\
+&= 10.3 - 14.46 = \green{$-4.16$}
+\end{align*}
+$\:$
+\pause
+\textcolor{red}{{\Large $\blacksquare$}} \hl{DC:}
+\begin{align*}
+\%~HS~grad &= 86 \qquad \%~in~poverty = 16.8 \\
+\widehat{\%~in~poverty} &= 64.68 - 0.62 * 86 = 11.36 \\
+e &= \%~in~poverty - \widehat{\%~in~poverty} \\
+&= 16.8 - 11.36 = \textcolor{red}{5.44}
+\end{align*}
+}
+
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Conditions: (2) Nearly normal residuals}
+
+\begin{itemize}
+
+\item The residuals should be nearly normal.
+
+\pause
+
+\item This condition may not be satisfied when there are unusual observations that don't follow the trend of the rest of the data.
+
+\pause
+
+\item Check using a histogram.
+
+\end{itemize}
+
+\begin{center}
+\includegraphics[width=0.5\textwidth]{8-2_least_square_reg/figures/poverty/normal_res}
+\end{center}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Conditions: (3) Constant variability}
+
+\twocol{0.5}{0.5}
+{
+\begin{center}
+\includegraphics[width=\textwidth]{8-2_least_square_reg/figures/poverty/poverty_hsgrad_tube}
+\end{center}
+}
+{
+\begin{itemize}
+
+\item The variability of points around the least squares line should be roughly constant.
+
+\pause
+
+\item This implies that the variability of residuals around the 0 line should be roughly constant as well.
+
+\pause
+
+\item Also called \hl{homoscedasticity}.
+
+\pause
+
+\item Check using a residuals plot.
+
+\end{itemize}
+}
+
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Checking conditions}
+
+\twocol{0.5}{0.5}
+{
+\pq{What condition is this linear model obviously violating?}
+\begin{enumerate}[(a)]
+\item Constant variability
+\solnMult{Linear relationship}
+\item Normal residuals
+\item No extreme outliers
+\end{enumerate}
+}
+{
+\begin{center}
+\includegraphics[width=\textwidth]{8-2_least_square_reg/figures/problems/nonlinear}
+\end{center}
+}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Checking conditions}
+
+\twocol{0.5}{0.5}
+{
+\pq{What condition is this linear model obviously violating?}
+\begin{enumerate}[(a)]
+\solnMult{ Constant variability}
+\item Linear relationship
+\item Normal residuals
+\item No extreme outliers
+\end{enumerate}
+}
+{
+\begin{center}
+\includegraphics[width=\textwidth]{8-2_least_square_reg/figures/problems/heteroscedastic}
+\end{center}
+}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Finding the least squares line}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -185,6 +305,10 @@ sd		& $s_x = 3.73$		& $s_y = 3.1$ \\
 }
 
 \end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Interpreting regression model parameter estimates}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -390,195 +514,7 @@ $\:$ \\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subsection{Conditions for the least squares line}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{frame}
-\frametitle{Conditions for the least squares line}
-
-\begin{enumerate}
-
-\item Linearity
-
-\pause
-
-\item Nearly normal residuals
-
-\pause
-
-\item Constant variability
-
-\end{enumerate}
-
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{frame}
-\frametitle{Conditions: (1) Linearity}
-
-\begin{itemize}
-
-\item The relationship between the explanatory and the response variable should be linear. 
-
-\pause
-
-\item Methods for fitting a model to non-linear relationships exist, but are beyond the scope of this class. If this topic is of interest, an \href{http://www.openintro.org/download.php?file=os2_extra_nonlinear_relationships&referrer=/stat/textbook.php}{Online Extra is available on openintro.org} covering new techniques.
-
-\pause
-
-\item Check using a scatterplot of the data, or a \hl{residuals plot}.
-
-\end{itemize}
-
-\begin{center}
-\includegraphics[width=0.7\textwidth]{8-2_least_square_reg/figures/sampleLinesAndResPlots/sampleLinesAndResPlots}
-\end{center}
-
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{frame}
-\frametitle{Anatomy of a residuals plot}
-
-\twocol{0.5}{0.5}
-{
-\begin{center}
-\includegraphics[width=\textwidth]{8-2_least_square_reg/figures/poverty/poverty_hsgrad_resplot}
-\end{center}
-}
-{
-\green{{\LARGE $\blacktriangle$}} \hl{RI:}
-\begin{align*}
-\%~HS~grad &= 81 \qquad \%~in~poverty = 10.3 \\
-\widehat{\%~in~poverty} &= 64.68 - 0.62 * 81 = 14.46 \\
-e &= \%~in~poverty - \widehat{\%~in~poverty} \\
-&= 10.3 - 14.46 = \green{$-4.16$}
-\end{align*}
-$\:$
-\pause
-\textcolor{red}{{\Large $\blacksquare$}} \hl{DC:}
-\begin{align*}
-\%~HS~grad &= 86 \qquad \%~in~poverty = 16.8 \\
-\widehat{\%~in~poverty} &= 64.68 - 0.62 * 86 = 11.36 \\
-e &= \%~in~poverty - \widehat{\%~in~poverty} \\
-&= 16.8 - 11.36 = \textcolor{red}{5.44}
-\end{align*}
-}
-
-\end{frame}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{frame}
-\frametitle{Conditions: (2) Nearly normal residuals}
-
-\begin{itemize}
-
-\item The residuals should be nearly normal.
-
-\pause
-
-\item This condition may not be satisfied when there are unusual observations that don't follow the trend of the rest of the data.
-
-\pause
-
-\item Check using a histogram or normal probability plot of residuals.
-
-\end{itemize}
-
-\begin{center}
-\includegraphics[width=\textwidth]{8-2_least_square_reg/figures/poverty/normal_res}
-\end{center}
-
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{frame}
-\frametitle{Conditions: (3) Constant variability}
-
-\twocol{0.5}{0.5}
-{
-\begin{center}
-\includegraphics[width=\textwidth]{8-2_least_square_reg/figures/poverty/poverty_hsgrad_tube}
-\end{center}
-}
-{
-\begin{itemize}
-
-\item The variability of points around the least squares line should be roughly constant.
-
-\pause
-
-\item This implies that the variability of residuals around the 0 line should be roughly constant as well.
-
-\pause
-
-\item Also called \hl{homoscedasticity}.
-
-\pause
-
-\item Check using a histogram or normal probability plot of residuals.
-
-\end{itemize}
-}
-
-
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{frame}
-\frametitle{Checking conditions}
-
-\twocol{0.5}{0.5}
-{
-\pq{What condition is this linear model obviously violating?}
-\begin{enumerate}[(a)]
-\item Constant variability
-\solnMult{Linear relationship}
-\item Normal residuals
-\item No extreme outliers
-\end{enumerate}
-}
-{
-\begin{center}
-\includegraphics[width=\textwidth]{8-2_least_square_reg/figures/problems/nonlinear}
-\end{center}
-}
-
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{frame}
-\frametitle{Checking conditions}
-
-\twocol{0.5}{0.5}
-{
-\pq{What condition is this linear model obviously violating?}
-\begin{enumerate}[(a)]
-\solnMult{ Constant variability}
-\item Linear relationship
-\item Normal residuals
-\item No extreme outliers
-\end{enumerate}
-}
-{
-\begin{center}
-\includegraphics[width=\textwidth]{8-2_least_square_reg/figures/problems/heteroscedastic}
-\end{center}
-}
-
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\subsection{$R^2$}
+\subsection{Using $R^2$ to describe the strength of a fit}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

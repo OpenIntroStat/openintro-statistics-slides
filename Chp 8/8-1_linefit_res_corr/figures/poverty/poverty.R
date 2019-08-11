@@ -1,6 +1,7 @@
-poverty = read.table("poverty.txt", h = T, sep = "\t")
+poverty = read.table("poverty.txt", header = T, sep = "\t")
 
 library(openintro)
+library(broom)
 data(COL)
 
 # scatterplot
@@ -19,9 +20,18 @@ lm_pov_grad = lm(poverty$Poverty ~ poverty$Graduates)
 abline(lm_pov_grad, col = COL[4], lwd = 3)
 dev.off()
 
+# linreg
+
+lm(poverty$Poverty ~ poverty$Graduates)
+
+tidy(lm(poverty$Poverty ~ poverty$Graduates)) %>%
+  xtable()
+
+
 # scatterplot, %poverty vs.%no husband
 
 pdf("poverty_nohusband.pdf", 5.5, 4.3)
 par(mar=c(4,4,1,1), las=1, mgp=c(2.5,0.7,0), cex.lab = 1.5, cex.axis = 1.5)
 plot(poverty$Poverty ~ poverty$PercentFemaleHouseholderNoHusbandPresent, ylab = "% in poverty", xlab = "% female householder, no husband present", pch=19, col=COL[1,2])
 dev.off()
+

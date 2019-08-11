@@ -1,4 +1,4 @@
-poverty = read.table("poverty.txt", h = T, sep = "\t")
+poverty = read.table("poverty.txt", header = T, sep = "\t")
 
 library(openintro)
 data(COL)
@@ -147,14 +147,9 @@ poverty[40,]
 
 # normality of residuals
 
-pdf("normal_res.pdf", 10, 4.3)
-
-par(mfrow=c(1,2))
+pdf("normal_res.pdf", 5, 4.3)
 
 histPlot(lm_pov_grad$residuals, col = COL[1], xlab = "residuals")
-
-qqnorm(lm_pov_grad$residuals, pch = 19, col = COL[1,2])
-qqline(lm_pov_grad$residuals, pch = 19, col = COL[1])
 
 dev.off()
 
