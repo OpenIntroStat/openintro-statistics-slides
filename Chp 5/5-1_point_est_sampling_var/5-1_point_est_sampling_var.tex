@@ -154,8 +154,7 @@ sum(sampled sampled_entries == "support") / 1000
 \begin{frame}
 \frametitle{Sampling distribution}
 
-Suppose you were to repeat this process many times. The distribution of $\hat{p}$s 
-you What you just constructed is called a \hl{sampling distribution}.
+Suppose you were to repeat this process many times and obtain many $\hat{p}$s. This distribution is called a \hl{sampling distribution}.
 
 \begin{center}
 \includegraphics[width=0.6\textwidth]{5-1_point_est_sampling_var/figures/solar-power/solar-power-sampling.pdf}
@@ -176,7 +175,7 @@ you What you just constructed is called a \hl{sampling distribution}.
 
 $\:$ \\
 \soln{\only<2>{
-Approximately 0.88, the true population proportion.
+The distribution is unimodal and roughly symmetric. A reasonable guess for the true population proportion is the center of this distribution, approximately 0.88.
 }}
 
 \end{frame}
@@ -206,7 +205,7 @@ Approximately 0.88, the true population proportion.
 \frametitle{Central Limit Theorem}
 
 \formula{Central limit theorem}
-{Sample proportions will be nearly normally distributed with mean equal to the population mean, $p$, and standard error equal to $\sqrt{\frac{p~(1-p)}{n}}$.
+{Sample proportions will be nearly normally distributed with mean equal to the population proportion, $p$, and standard error equal to $\sqrt{\frac{p~(1-p)}{n}}$.
 \[ \hat{p} \sim N \pr{ mean = p, SE = \sqrt{\frac{p~(1-p)}{n}} } \]
 }
 
@@ -293,7 +292,7 @@ This is difficult to verify if you don't know the population proportion (or can'
 
 \begin{frame}
 
-\dq{What happens when $np$ and/or $n(1-p)$ < 10?}
+\dq{What happens when $np$ and/or $n(1-p)$ $<$ 10?}
 
 \begin{center}
 \includegraphics[width=0.45\textwidth]{5-1_point_est_sampling_var/figures/clt_prop_grid/clt_prop_grid_1.pdf}
