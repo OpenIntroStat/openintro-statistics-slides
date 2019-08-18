@@ -75,8 +75,6 @@ Total						& 670
 
 \item And we also know that \textcolor{orange}{$ME = critical~value \times standard~error$} of the point estimate.
 
-\[ \mathhl{SE_{\hat{p}} = ?} \]
-
 \end{itemize}
 
 \pause
@@ -104,20 +102,15 @@ Sample proportions will be nearly normally distributed with mean equal to the po
 \[ \hat{p} \sim N \pr{ mean = p, SE = \sqrt{\frac{p~(1-p)}{n}} } \]
 }
 
-\begin{itemize}
+But of course this is true only under certain conditions...
 
-\item But of course this is true only under certain conditions...
+\dq{Any guesses?}
 
-\dq{any guesses?}
-
-\soln{\pause{independent observations, at least 10 successes and 10 failures}}
+\soln{\pause{Independent observations, at least 10 successes and 10 failures}}
 
 \pause
-\vfill
 
 \Note{If $p$ is unknown (most cases), we use $\hat{p}$ in the calculation of the standard error.}
-
-\end{itemize}
 
 \end{frame}
 
@@ -232,7 +225,7 @@ Given: $n = 670, \hat{p} = 0.85$. First check conditions.
 \[ ME = z^\star \times SE\]
 \pause
 \begin{eqnarray*}
-0.01 &\ge& 1.96 \times \sqrt{\frac{0.85 \times 0.15}{n}} \orange{$\rightarrow$ \text{Use estimate for $\hat{p}$ from previous study}} \\
+0.01 &\ge& 1.96 \times \sqrt{\frac{0.85 \times 0.15}{n}} \orange{$\rightarrow$ \text{Use $\hat{p}$ from previous study}} \\
 \pause
 0.01^2 &\ge& 1.96^2 \times \frac{0.85 \times 0.15}{n} \\
 \pause

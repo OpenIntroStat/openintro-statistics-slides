@@ -248,7 +248,7 @@ In R we fit a GLM in the same was as a linear model except using \var{glm} inste
 
 \vspace{2mm}
 
-{\footnotesize
+{\scriptsize
 \begin{verbatim}
 summary(glm(Status ~ Age, data=donner, family=binomial))
 
@@ -410,7 +410,7 @@ Simple interpretation is only possible in terms of log odds and log odds ratios 
 \begin{frame}[fragile]
 \frametitle{Example - Donner Party - Age and Gender}
 \vspace{-3mm}
-{\scriptsize
+{\tiny
 \begin{verbatim}
 summary(glm(Status ~ Age + Sex, data=donner, family=binomial))
 
@@ -639,6 +639,7 @@ A 1972 - 1981 health survey in The Hague, Netherlands, discovered an association
 \begin{frame}
 \frametitle{Example - Birdkeeping and Lung Cancer - Data}
 
+{\scriptsize
 \begin{tabular}{rllllrrr}
   \hline
     & \var{LC} & \var{FM} & \var{SS} & \var{BK} & \var{AG} & \var{YR} & \var{CD} \\ 
@@ -650,8 +651,7 @@ A 1972 - 1981 health survey in The Hague, Netherlands, discovered an association
 147 & NoCancer & Female & Low & NoBird & 65.00 & 7.00 & 2.00 \\ 
    \hline
 \end{tabular}
-
-~\\
+}
 
 {\small
 \begin{center}
@@ -702,7 +702,7 @@ No Lung Cancer & \textcolor{oiB}{$\triangle$}      & \textcolor{oiB}{$\circ$}
 
 \vspace{-5mm}
 
-{\scriptsize
+{\tiny
 \begin{verbatim}
 summary(glm(LC ~ FM + SS + BK + AG + YR + CD, data=bird, family=binomial))
 
