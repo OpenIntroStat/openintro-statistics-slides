@@ -10,3 +10,4 @@
 *.log
 *.vrb
 *.snm
+.Rhistory
