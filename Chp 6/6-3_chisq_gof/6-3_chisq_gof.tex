@@ -11,7 +11,7 @@
 \begin{frame}
 \frametitle{Weldon's dice}
 
-\twocol{0.7}{0.3}
+\twocol{0.75}{0.25}
 {
 \begin{itemize}
 
@@ -39,7 +39,7 @@
 \begin{frame}
 \frametitle{Labby's dice}
 
-\twocol{0.5}{0.5}
+\twocol{0.6}{0.4}
 {
 \begin{itemize}
 
@@ -84,7 +84,7 @@
 \end{itemize}
 
 \begin{center}
-\includegraphics[width=0.55\textwidth]{6-3_chisq_gof/figures/dice/labbyPipCounts}
+\includegraphics[width=0.5\textwidth]{6-3_chisq_gof/figures/dice/labbyPipCounts}
 \end{center}
 
 \end{frame}
@@ -118,7 +118,7 @@ The table below shows the observed and expected counts from Labby's experiment.
 
 {\small
 \begin{center}
-\renewcommand\arraystretch{1.25}
+\renewcommand\arraystretch{1.2}
 \begin{tabular}{c | c c}
 Outcome	& Observed	& Expected \\
 \hline
@@ -340,148 +340,37 @@ As the df increases,
 
 \pause
 
-\item For this we can use technology, or a \hl{chi-square probability table}.
+\item For this we can use technology,or a chi-square probability table.
+
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}[fragile]
+\frametitle{Finding areas under the chi-square curve (cont.)}
+
+\dq{Estimate the shaded area (above the cutoff value of 10) under the $\chi^2$ curve with $df = 6$.}
 
 \pause
 
-\item  This table works a lot like the $t$ table, but only provides upper tail values.
-\end{itemize}
+\begin{verbatim}
 
-\begin{center}
-\includegraphics[width=0.3\textwidth]{6-3_chisq_gof/figures/above5Point1WithDF5/above5Point1WithDF5}
-\end{center}
+> pchisq(q = 10, df = 6, lower.tail = FALSE)
 
-{\scriptsize
-\begin{center}
-\begin{tabular}{r | rrrr | rrrr |}
-  \hline
-Upper tail & 0.3 & 0.2 & 0.1 & 0.05 & 0.02 & 0.01 & 0.005 & 0.001 \\ 
-  \hline
-df \hfill 1 &  1.07 &  1.64 &  2.71 &  3.84 &  5.41 &  6.63 &  7.88 &  10.83 \\ 
-  2 &  2.41 &  3.22 &  4.61 &  5.99 &  7.82 &  9.21 &  10.60 &  13.82 \\ 
-  3 &  3.66 &  4.64 &  6.25 &  7.81 &  9.84 &  11.34 &  12.84 &  16.27 \\ 
-  4 &  4.88 &  5.99 &  7.78 &  9.49 &  11.67 &  13.28 &  14.86 &  18.47 \\ 
-  5 &  6.06 &  7.29 &  9.24 &  11.07 &  13.39 &  15.09 &  16.75 &  20.52 \\ 
-  \hline
-  6 &  7.23 &  8.56 &  10.64 &  12.59 &  15.03 &  16.81 &  18.55 &  22.46 \\ 
-  7 &  8.38 &  9.80 &  12.02 &  14.07 &  16.62 &  18.48 &  20.28 &  24.32 \\ 
-  $\cdots$ &   &   &   &   &   &   &   &   \\ 
-\end{tabular}
-\end{center}
-}
+[1] 0.124652
+
+\end{verbatim}
 
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{frame}
+\begin{frame}[fragile]
 \frametitle{Finding areas under the chi-square curve (cont.)}
 
-\dq{Estimate the shaded area under the chi-square curve with $df = 6$.}
-
-\twocol{0.6}{0.4}{
-\begin{center}
-\includegraphics[width=0.67\textwidth]{6-3_chisq_gof/figures/above10WithDF6/above10WithDF6}
-\end{center}
-}
-{\only<4 |handout:0>{\orange{$P(\chi^2_{df = 6} > 10)$\\ is between 0.1 and 0.2}}
-}
-
-\only<1>{
-\begin{center}
-{\footnotesize
-\begin{tabular}{r | rrrr | rrrr |}
-  \hline
-Upper tail & 0.3 & 0.2 & 0.1 & 0.05 & 0.02 & 0.01 & 0.005 & 0.001 \\ 
-  \hline
-df \hfill 1 &  1.07 &  1.64 &  2.71 &  3.84 &  5.41 &  6.63 &  7.88 &  10.83 \\ 
-  2 &  2.41 &  3.22 &  4.61 &  5.99 &  7.82 &  9.21 &  10.60 &  13.82 \\ 
-  3 &  3.66 &  4.64 &  6.25 &  7.81 &  9.84 &  11.34 &  12.84 &  16.27 \\ 
-  4 &  4.88 &  5.99 &  7.78 &  9.49 &  11.67 &  13.28 &  14.86 &  18.47 \\ 
-  5 &  6.06 &  7.29 &  9.24 &  11.07 &  13.39 &  15.09 &  16.75 &  20.52 \\ 
-  \hline
-  6 &  7.23 &  8.56 &   10.64  &  12.59 &  15.03 &  16.81 &  18.55 &  22.46 \\ 
-  7 &  8.38 &  9.80 &  12.02 &  14.07 &  16.62 &  18.48 &  20.28 &  24.32 \\ 
-  \hline
-\end{tabular}
-}
-\end{center}
-}
-
-\only<2 | handout:0>{
-\begin{center}
-{\footnotesize
-\begin{tabular}{r | rrrr | rrrr |}
-  \hline
-Upper tail & 0.3 & 0.2 & 0.1 & 0.05 & 0.02 & 0.01 & 0.005 & 0.001 \\ 
-  \hline
-df \hfill 1 &  1.07 &  1.64 &  2.71 &  3.84 &  5.41 &  6.63 &  7.88 &  10.83 \\ 
-  2 &  2.41 &  3.22 &  4.61 &  5.99 &  7.82 &  9.21 &  10.60 &  13.82 \\ 
-  3 &  3.66 &  4.64 &  6.25 &  7.81 &  9.84 &  11.34 &  12.84 &  16.27 \\ 
-  4 &  4.88 &  5.99 &  7.78 &  9.49 &  11.67 &  13.28 &  14.86 &  18.47 \\ 
-  5 &  6.06 &  7.29 &  9.24 &  11.07 &  13.39 &  15.09 &  16.75 &  20.52 \\ 
-  \hline
-\rowcolor[gray]{.6}
-  6 &  7.23 &  8.56 &   10.64  &  12.59 &  15.03 &  16.81 &  18.55 &  22.46 \\ 
-  7 &  8.38 &  9.80 &  12.02 &  14.07 &  16.62 &  18.48 &  20.28 &  24.32 \\ 
-  \hline
-\end{tabular}
-}
-\end{center}
-}
-
-\only<3 | handout:0>{
-\begin{center}
-{\footnotesize
-\begin{tabular}{r | rrrr | rrrr |}
-  \hline
-Upper tail & 0.3 & 0.2 & 0.1 & 0.05 & 0.02 & 0.01 & 0.005 & 0.001 \\ 
-  \hline
-df \hfill 1 &  1.07 &  1.64 &  2.71 &  3.84 &  5.41 &  6.63 &  7.88 &  10.83 \\ 
-  2 &  2.41 &  3.22 &  4.61 &  5.99 &  7.82 &  9.21 &  10.60 &  13.82 \\ 
-  3 &  3.66 &  4.64 &  6.25 &  7.81 &  9.84 &  11.34 &  12.84 &  16.27 \\ 
-  4 &  4.88 &  5.99 &  7.78 &  9.49 &  11.67 &  13.28 &  14.86 &  18.47 \\ 
-  5 &  6.06 &  7.29 &  9.24 &  11.07 &  13.39 &  15.09 &  16.75 &  20.52 \\ 
-  \hline
-  \rowcolor[gray]{.6}
-  6 &  7.23 & \orange{ 8.56 }&  \orange{ 10.64 } &  12.59 &  15.03 &  16.81 &  18.55 &  22.46 \\ 
-  7 &  8.38 &  9.80 &  12.02 &  14.07 &  16.62 &  18.48 &  20.28 &  24.32 \\ 
-  \hline
-\end{tabular}
-}
-\end{center}
-}
-
-\only<4 | handout:0>{
-\begin{center}
-{\footnotesize
-\begin{tabular}{r | r >{\columncolor[gray]{0.6}[.5\tabcolsep]}r >{\columncolor[gray]{0.6}[.5\tabcolsep]}rr | rrrr |}
-  \hline
-Upper tail & 0.3 & \orange{0.2} & \orange{0.1} & 0.05 & 0.02 & 0.01 & 0.005 & 0.001 \\ 
-  \hline
-df \hfill 1 &  1.07 &  1.64 &  2.71 &  3.84 &  5.41 &  6.63 &  7.88 &  10.83 \\ 
-  2 &  2.41 &  3.22 &  4.61 &  5.99 &  7.82 &  9.21 &  10.60 &  13.82 \\ 
-  3 &  3.66 &  4.64 &  6.25 &  7.81 &  9.84 &  11.34 &  12.84 &  16.27 \\ 
-  4 &  4.88 &  5.99 &  7.78 &  9.49 &  11.67 &  13.28 &  14.86 &  18.47 \\ 
-  5 &  6.06 &  7.29 &  9.24 &  11.07 &  13.39 &  15.09 &  16.75 &  20.52 \\ 
-  \hline
-  \rowcolor[gray]{.6}
-  6 &  7.23 & \orange{ 8.56 }&  \orange{ 10.64 } &  12.59 &  15.03 &  16.81 &  18.55 &  22.46 \\ 
-  7 &  8.38 &  9.80 &  12.02 &  14.07 &  16.62 &  18.48 &  20.28 &  24.32 \\ 
-  \hline
-\end{tabular}
-}
-\end{center}
-}
-
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{frame}
-\frametitle{Finding areas under the chi-square curve (cont.)}
-
-\pq{Estimate the shaded area (above 17) under the $\chi^2$ curve with $df = 9$.}
+\pq{Estimate the shaded area (above the cutoff value of 17) under the $\chi^2$ curve with $df = 9$.}
 
 \twocol{0.6}{0.4}{
 \begin{center}
@@ -501,49 +390,21 @@ df \hfill 1 &  1.07 &  1.64 &  2.71 &  3.84 &  5.41 &  6.63 &  7.88 &  10.83 \\
 }
 }
 
-\only<1>{
-\begin{center}
-{\scriptsize
-\begin{tabular}{r | rrrr | rrrr |}
-  \hline
-Upper tail & 0.3 & 0.2 & 0.1 & 0.05 & 0.02 & 0.01 & 0.005 & 0.001 \\ 
-  \hline
-df  \hfill 7 &  8.38 &  9.80 &  12.02 &  14.07 &  16.62 &  18.48 &  20.28 &  24.32 \\ 
-  8 &  9.52 &  11.03 &  13.36 &  15.51 &  18.17 &  20.09 &  21.95 &  26.12 \\ 
-  9 &  10.66 &  12.24 &  14.68 &  16.92 &  19.68 &  21.67 &  23.59 &  27.88 \\ 
-  10 &  11.78 &  13.44 &  15.99 &  18.31 &  21.16 &  23.21 &  25.19 &  29.59 \\ 
-  \hline
-  11 &   12.90 &  14.63 &  17.28 &  19.68 &  22.62 &  24.72 &  26.76 &  31.26 \\ 
-\end{tabular}
-}
-\end{center}
-}
+\pause
 
-\only<2 | handout:0>{
-\begin{center}
-{\scriptsize
-\begin{tabular}{r | rrr >{\columncolor[gray]{0.6}[.5\tabcolsep]}r | >{\columncolor[gray]{0.6}[.5\tabcolsep]}rrrr |}
-  \hline
-Upper tail & 0.3 & 0.2 & 0.1 & \orange{ 0.05 } & \orange{ 0.02 } & 0.01 & 0.005 & 0.001 \\ 
-  \hline
-df  \hfill 7 &  8.38 &  9.80 &  12.02 &  14.07 &  16.62 &  18.48 &  20.28 &  24.32 \\ 
-  8 &  9.52 &  11.03 &  13.36 &  15.51 &  18.17 &  20.09 &  21.95 &  26.12 \\ 
-    \rowcolor[gray]{.6}
-  9 &  10.66 &  12.24 &  14.68 &  \orange{16.92 }&  \orange{19.68} &  21.67 &  23.59 &  27.88 \\ 
-  10 &  11.78 &  13.44 &  15.99 &  18.31 &  21.16 &  23.21 &  25.19 &  29.59 \\ 
-  \hline
-  11 &   12.90 &  14.63 &  17.28 &  19.68 &  22.62 &  24.72 &  26.76 &  31.26 \\ 
-  \hline
-\end{tabular}
-}
-\end{center}
-}
+\begin{verbatim}
+
+> pchisq(q = 17, df = 9, lower.tail = FALSE)
+
+[1] 0.04871598
+
+\end{verbatim}
 
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{frame}
+\begin{frame}[fragile]
 \frametitle{Finding areas under the chi-square curve (one more)}
 
 \pq{Estimate the shaded area (above 30) under the $\chi^2$ curve with $df = 10$.}
@@ -566,72 +427,15 @@ df  \hfill 7 &  8.38 &  9.80 &  12.02 &  14.07 &  16.62 &  18.48 &  20.28 &  24.
 }
 }
 
-\only<1>{
-\begin{center}
-{\scriptsize
-\begin{tabular}{r | rrrr | rrrr |}
-  \hline
-Upper tail & 0.3 & 0.2 & 0.1 & 0.05 & 0.02 & 0.01 & 0.005 & 0.001 \\ 
-  \hline
-df  \hfill 7 &  8.38 &  9.80 &  12.02 &  14.07 &  16.62 &  18.48 &  20.28 &  24.32 \\ 
-  8 &  9.52 &  11.03 &  13.36 &  15.51 &  18.17 &  20.09 &  21.95 &  26.12 \\ 
-  9 &  10.66 &  12.24 &  14.68 &  16.92 &  19.68 &  21.67 &  23.59 &  27.88 \\ 
-  10 &  11.78 &  13.44 &  15.99 &  18.31 &  21.16 &  23.21 &  25.19 &  29.59 \\ 
-  \hline
-  11 &   12.90 &  14.63 &  17.28 &  19.68 &  22.62 &  24.72 &  26.76 &  31.26 \\ 
-\end{tabular}
-}
-\end{center}
-}
-
-\only<2 | handout:0>{
-\begin{center}
-{\scriptsize
-\begin{tabular}{r | rrrr | rrr>{\columncolor[gray]{0.6}[.5\tabcolsep]}r | c}
-  \cline{1-9}
-Upper tail & 0.3 & 0.2 & 0.1 & 0.05 &  0.02  & 0.01 & 0.005 & \orange{0.001} & \mathhl{\rightarrow}  \\ 
-  \cline{1-9}
-df  \hfill 7 &  8.38 &  9.80 &  12.02 &  14.07 &  16.62 &  18.48 &  20.28 &  24.32 \\ 
-  8 &  9.52 &  11.03 &  13.36 &  15.51 &  18.17 &  20.09 &  21.95 &  26.12 \\ 
-  9 &  10.66 &  12.24 &  14.68 &  16.92 &  19.68 &  21.67 &  23.59 &  27.88 \\ 
-    \rowcolor[gray]{.6}
-  10 &  11.78 &  13.44 &  15.99 &  18.31 &  21.16 &  23.21 &  25.19 &  \orange{29.59} & \mathhl{\rightarrow} \\ 
-  \cline{1-9}
-  11 &   12.90 &  14.63 &  17.28 &  19.68 &  22.62 &  24.72 &  26.76 &  31.26 \\ 
-  \cline{1-9}
-\end{tabular}
-}
-\end{center}
-}
-
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{frame}[fragile]
-\frametitle{Finding the tail areas using computation}
-
-\begin{itemize}
-
-\item While probability tables are very helpful in understanding how probability distributions work, and provide quick reference when computational resources are not available, they are somewhat archaic.
-
 \pause
 
-\item Using R:
-{\footnotesize
-\begin{lstlisting}
-pchisq(q = 30, df = 10, lower.tail = FALSE)
-# 0.0008566412
-\end{lstlisting}
-}
+\begin{verbatim}
 
-\pause
+> pchisq(q = 30, df = 10, lower.tail = FALSE)
 
-\item Using a web applet:
+[1] 0.0008566412
 
-\webURL{http://bitly.com/dist_calc}
-
-\end{itemize}
+\end{verbatim}
 
 \end{frame}
 
@@ -702,23 +506,6 @@ The \hl{p-value} for a chi-square test is defined as the \hl{tail area above the
 {
 p-value = $P(\chi^2_{df = 5} > 24.67)$\\ is less than 0.001
 }
-
-\begin{center}
-{\footnotesize
-\begin{tabular}{r | rrrr | rrrr r}
-  \hline
-Upper tail & 0.3 & 0.2 & 0.1 & 0.05 & 0.02 & 0.01 & 0.005 & 0.001 & \orange{$\rightarrow$}  \\ 
-  \hline
-df \hfill 1 &  1.07 &  1.64 &  2.71 &  3.84 &  5.41 &  6.63 &  7.88 &  10.83 \\ 
-  2 &  2.41 &  3.22 &  4.61 &  5.99 &  7.82 &  9.21 &  10.60 &  13.82 \\ 
-  3 &  3.66 &  4.64 &  6.25 &  7.81 &  9.84 &  11.34 &  12.84 &  16.27 \\ 
-  4 &  4.88 &  5.99 &  7.78 &  9.49 &  11.67 &  13.28 &  14.86 &  18.47 \\ 
-  \rowcolor[gray]{.6}
-  5 &  6.06 &  7.29 &  9.24 &  11.07 &  13.39 &  15.09 &  16.75 &  20.52 &\orange{$\rightarrow$} \\ 
-  \hline
-\end{tabular}
-}
-\end{center}
 
 \end{frame}
 

@@ -1,0 +1,115 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Poisson distribution}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Poisson distribution}
+
+\begin{itemize}
+
+\item The \hl{Poisson distribution} is often useful for estimating the number of rare events in a large population over a short unit of time for a fixed population if the individuals within the population are independent.
+
+\item The \hl{rate} for a Poisson distribution is the average number of occurrences in a mostly-fixed population per unit of time, and is typically denoted by \mathhl{\lambda}.
+
+\item Using the rate, we can describe the probability of observing exactly $k$ rare events in a single unit of time.
+
+\end{itemize}
+
+\vfill
+
+\formula{Poisson distribution}
+{
+P(observe $k$ rare events) = $\frac{\lambda^k e^{-\lambda}}{k!}$, \\
+where $k$ may take a value 0, 1, 2, and so on, and $k!$ represents $k$-factorial. The letter $e \approx 2.718$ is the base of the natural logarithm. \\
+
+The mean and standard deviation of this distribution are $\lambda$ and $\sqrt{\lambda}$, respectively.
+}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+
+\dq{Suppose that in a rural region of a developing country electricity power failures occur following a Poisson distribution with an average of 2 failures every week. Calculate the probability that in a given week the electricity fails only once.}
+
+\pause
+
+Given $\lambda = 2$.
+
+\pause
+
+\begin{eqnarray*}
+P(\text{only 1 failure in a week}) &=& \frac{2^1 \times e^{-2}}{1!} \\
+\pause
+&=& \frac{2 \times e^{-2}}{1} \\
+\pause
+&=& 0.27
+\end{eqnarray*}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+
+\dq{Suppose that in a rural region of a developing country electricity power failures occur following a Poisson distribution with an average of 2 failures every week. Calculate the probability that on a given \underline{day} the electricity fails three times.}
+
+\pause
+
+We are given the weekly failure rate, but to answer this question we need to first calculate the average rate of failure on a given day: $\lambda_{day} = \frac{2}{7} = 0.2857$. Note that we are assuming that the probability of power failure is the same on any day of the week, i.e. we assume independence.
+
+\pause
+
+\begin{eqnarray*}
+P(\text{3 failures on a given day}) &=& \frac{0.2857^1 \times e^{-0.2857}}{3!} \\
+\pause
+&=& \frac{0.2857 \times e^{-0.2857}}{6} \\
+\pause
+&=& 0.0358
+\end{eqnarray*}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Is it Poisson?}
+
+\begin{itemize}
+
+\item A random variable may follow a Poisson distribution if the event being considered is rare, the population is large, and the events occur independently of each other
+
+\item However we can think of situations where the events are not really independent. For example, if we are interested in the probability of a certain number of weddings over one summer, we should take into consideration that weekends are more popular for weddings.
+
+\item In this case, a Poisson model may sometimes still be reasonable if we allow it to have a different rate for different times; we could model the rate as higher on weekends than on weekdays.
+
+\item The idea of modeling rates for a Poisson distribution against a second variable (day of the week) forms the
+foundation of some more advanced methods called \hl{generalized linear models}. There are beyond the scope of this course, but we will discuss a foundation of linear models in Chapters 7 and 8.
+
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Practice}
+
+\pq{A random variable that follows which of the following distributions can take on values other than positive integers?}
+
+\begin{enumerate}[(a)]
+\item Poisson
+\item Negative binomial
+\item Binomial
+\solnMult{Normal}
+\item Geometric
+\end{enumerate}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
