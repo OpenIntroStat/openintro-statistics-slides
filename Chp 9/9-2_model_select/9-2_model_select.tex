@@ -369,7 +369,7 @@ Best model: beauty + gender + age + formal + native + tenure
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{frame}
-\frametitle{Forward-selection}
+\frametitle{Forward selection}
 
 \begin{enumerate}
 
@@ -400,7 +400,7 @@ Best model: beauty + gender + age + formal + native + tenure
 \item Repeat until all variables left in the model are significant
 \end{enumerate}
 
-\item Backward elimination with the p-value approach: 
+\item Forward selection with the p-value approach: 
 \begin{enumerate}
 \item Start with regressions of response vs. each explanatory variable
 \item Pick the variable with the lowest significant p-value 
@@ -417,6 +417,7 @@ Best model: beauty + gender + age + formal + native + tenure
 \begin{frame}
 \frametitle{Backward-elimination: $p-value$ approach}
 
+\resizebox{\textwidth}{!}{%
 {\tiny
 \begin{tabular}{l | rrrrrrrrrr }
 \textbf{Step}		& \multicolumn{10}{c}{ \textbf{Variables included \& p-value} } \\
@@ -445,7 +446,7 @@ Step 5 	& beauty	& gender		& age	& 			& 	 		& 		 	& 			& 			& tenure		& tenure \
 		& 		& male		& 		& 			& 			&			& 			& 			& tenure track	& tenured \\
 		&  0.00 	&  0.00 		& 0.01	&			& 			& 			&			& 			& 0.01		& 0.01 \\
 \end{tabular}
-}
+}}
 
 $\:$ \\
 
