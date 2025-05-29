@@ -64,6 +64,135 @@ Some images may be included under fair use guidelines (educational purposes).}}
 % Sections
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\section{Experiments}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Principles of experimental design}
+
+	\begin{enumerate}
+		\item \hl{Control:} Control for the (potential) effect of variables other than the ones directly being studied.
+		\item \hl{Randomize:} Randomly assign subjects to treatments, and randomly sample from the population whenever possible.
+		\item \hl{Replicate:} Within a study, replicate by collecting a sufficiently large sample. Or replicate the entire study.
+		\item \hl{Block:} If there are variables that are known or suspected to affect the response variable, first group subjects into \hl{blocks} based on these variables, and then randomize cases within each block to treatment groups.
+	\end{enumerate}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+	\frametitle{More on blocking}
+
+	\twocol{0.25}{0.75}
+	{
+	\begin{center}
+	%\includegraphics[width=\textwidth]{../../Chp 1/1-4_experiments/figures/gu}
+	\end{center}
+	}
+	{
+	\begin{itemize}
+		\item We would like to design an experiment to investigate if energy gels make you run faster:
+		\pause
+		\begin{itemize}
+			\item Treatment: energy gel
+			\item Control: no energy gel
+		\end{itemize}
+		\pause
+		\item It is suspected that energy gels might affect pro and amateur athletes differently, therefore we block for pro status:
+		\pause
+		\begin{itemize}
+			\item Divide the sample to pro and amateur
+			\item Randomly assign pro athletes to treatment and control groups
+			\item Randomly assign amateur athletes to treatment and control groups
+			\item Pro/amateur status is equally represented in the resulting treatment and control groups
+		\end{itemize}
+	\end{itemize}
+	}
+
+	\pause
+	\dq{Why is this important? Can you think of other variables to block for?}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \begin{frame}
+% 	\frametitle{Practice}
+
+% 	\pq{A study is designed to test the effect of light level and noise level on exam performance of students. The researcher also believes that light and noise levels might have different effects on males and females, so wants to make sure both genders are equally represented in each group. Which of the below is correct?}
+
+% 	\begin{enumerate}[(a)]
+% 		\item There are 3 explanatory variables (light, noise, gender) and 1 response variable (exam performance)
+% 		\solnMult{There are 2 explanatory variables (light and noise), 1 blocking variable (gender), and 1 response variable (exam performance)}
+% 		\item There is 1 explanatory variable (gender) and 3 response variables (light, noise, exam performance)
+% 		\item There are 2 blocking variables (light and noise), 1 explanatory variable (gender), and 1 response variable (exam performance)
+% 	\end{enumerate}
+
+% \end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+	\frametitle{Difference between blocking and explanatory variables}
+
+	\begin{itemize}
+		\item Factors are conditions we can impose on the experimental units.
+		\item Blocking variables are characteristics that the experimental units come with, that we would like to control for.
+		\item Blocking is like stratifying, except used in experimental settings when randomly assigning, as opposed to when sampling.
+	\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+	\frametitle{More experimental design terminology...}
+
+	\begin{itemize}
+		\item \hl{Placebo:} fake treatment, often used as the control group for medical studies
+		\item \hl{Placebo effect:} experimental units showing improvement simply because they believe they are receiving a special treatment
+		\item \hl{Blinding:} when experimental units do not know whether they are in the control or treatment group
+		\item \hl{Double-blind:} when both the experimental units and the researchers who interact with the patients do not know who is in the control and who is in the treatment group
+
+	\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \begin{frame}
+% 	\frametitle{Practice}
+
+% 	\pq{What is the main difference between observational studies and experiments?}
+
+% 	\begin{enumerate}[(a)]
+% 		\item Experiments take place in a lab while observational studies do not need to.
+% 		\item In an observational study we only look at what happened in the past.
+% 		\solnMult{Most experiments use random assignment while observational studies do not.}
+% 		\item Observational studies are completely useless since no causal inference can be made based on their findings.
+% 	\end{enumerate}
+
+% \end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+	\frametitle{Random assignment vs. random sampling}
+
+	\begin{center}
+	%\includegraphics[width=\textwidth]{../../Chp 1/1-4_experiments/figures/random_sample_assignment}
+	\end{center}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Edfinity Quiz}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Examining numerical data}
@@ -328,6 +457,29 @@ symmetric \\
 
 \end{frame}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Median}
+
+\begin{itemize}
+
+\item The \hl{median} is the value that splits the data in half when ordered in ascending order.
+
+\[ 0,1,\orange{2},3,4 \]
+
+\item If there are an even number of observations, then the median is the average of the two values in the middle.
+
+\[ 0,1,\underline{2,3},4,5 \rightarrow \frac{2 + 3}{2} = \orange{2.5} \]
+
+\item Since the median is the midpoint of the data, 50\% of the values are below it. Hence, it is also the \hl{$50^{th}$ percentile}.
+
+\end{itemize}
+
+\end{frame}
+
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{R Demo: Plotting numerical data and computing means}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -479,28 +631,7 @@ The \hl{standard deviation} is the square root of the variance, and has the same
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subsection{Box plots, quartiles, and the median}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{frame}
-\frametitle{Median}
-
-\begin{itemize}
-
-\item The \hl{median} is the value that splits the data in half when ordered in ascending order.
-
-\[ 0,1,\orange{2},3,4 \]
-
-\item If there are an even number of observations, then the median is the average of the two values in the middle.
-
-\[ 0,1,\underline{2,3},4,5 \rightarrow \frac{2 + 3}{2} = \orange{2.5} \]
-
-\item Since the median is the midpoint of the data, 50\% of the values are below it. Hence, it is also the \hl{$50^{th}$ percentile}.
-
-\end{itemize}
-
-\end{frame}
+\subsection{Box plots and quartiles}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -520,6 +651,10 @@ The \hl{standard deviation} is the square root of the variance, and has the same
 \end{itemize}
 
 \end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{R Demo: Measures of Variability (Variance, StDev, IQR)}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -598,212 +733,8 @@ The box in a \hl{box plot} represents the middle 50\% of the data, and the thick
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\subsection{Robust statistics}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{frame}
-\frametitle{Extreme observations}
-
-\dq{How would sample statistics such as mean, median, SD, and IQR of household income be affected if the largest value was replaced with \$10 million? What if the smallest value was replaced with \$10 million?}
-
-\begin{center}
-%\includegraphics[width=\textwidth]{2-1_numerical_data/figures/house_income/house_income_dot_stacked}
-\end{center}
-
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{frame}
-\frametitle{Robust statistics}
-
-\begin{center}
-%\includegraphics[width=\textwidth]{2-1_numerical_data/figures/house_income/house_income_dot_stacked}
-\end{center}
-
-{\small
-\begin{center}
-\begin{tabular}{l c cc c cc}
-  \hline
-& \hspace{0mm} & \multicolumn{2}{c}{\bf robust} & \hspace{2mm} & \multicolumn{2}{c}{\bf not robust} \\
-scenario && median & IQR && $\bar{x}$ & $s$ \\ 
-  \hline
-original data && 190K & 200K && 245K & 226K \\ 
-move largest to \$10 million && 190K & 200K && 309K & 853K \\ 
-move smallest to \$10 million && 200K & 200K && 316K & 854K \\ 
-   \hline
-\end{tabular}
-\end{center}
-}
-
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{frame}
-\frametitle{Robust statistics}
-
-Median and IQR are more robust to skewness and outliers than mean and SD. Therefore,
-
-\begin{itemize}
-\item for skewed distributions it is often more helpful to use median and IQR to describe the center and spread
-\item for symmetric distributions it is often more helpful to use the mean and SD to describe the center and spread
-\end{itemize}
-
-$\:$ \\
-
-\pause
-
-\dq{If you would like to estimate the typical household income for a student, would you be more interested in the mean or median income?}
-
-\soln{\pause{Median}}
-
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{frame}
-\frametitle{Mean vs. median}
-
-\begin{itemize}
-
-\item If the distribution is symmetric, center is often defined as the mean: mean $\approx$ median
-
-\begin{center}
-%\includegraphics[width=0.33\textwidth]{2-1_numerical_data/figures/mean_med/sym}
-\end{center}
-
-\item If the distribution is skewed or has extreme outliers, center is often defined as the median
-\begin{itemize}
-\item Right-skewed: mean $>$ median
-\item Left-skewed: mean $<$ median \\
-\end{itemize}
-
-\end{itemize}
-
-\begin{center}
-%\includegraphics[width=0.33\textwidth]{2-1_numerical_data/figures/mean_med/rs}
-%\includegraphics[width=0.33\textwidth]{2-1_numerical_data/figures/mean_med/ls}\\
-\end{center}
-
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{R Demo: Shapes of distributions and summary statistics}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Edfinity Quiz}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%\begin{frame}
-%\frametitle{Practice}
-
-%\pq{{\small Which is most likely true for the distribution of percentage of time actually spent taking notes in class versus on Facebook, Twitter, etc.?}}
-
-%\vspace{-0.5cm}
-
-%\begin{columns}
-%\column{0.7\textwidth}
-%\begin{center}
-%\includegraphics[width=0.9\textwidth]{2-1_numerical_data/figures/notes_perc/notes_perc_hist}
-%\end{center}
-%\column{0.3\textwidth}
-%$\:$ \\
-%$\:$ \\
-%\soln{\only<2>{\orange{median: 80\% \\ mean: 76\%}}}
-%\end{columns}
-
-%{\small
-%\begin{multicols}{2}
-%\begin{enumerate}[(a)]
-%\item mean$>$ median
-%\solnMult{mean $<$ median}
-%\item mean $\approx$ median
-%\item impossible to tell
-%\end{enumerate}
-%\end{multicols}
-%}
-
-%\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\subsection{Transforming data}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{frame}
-\frametitle{Extremely skewed data}
-
-When data are extremely skewed, transforming them might make modeling easier. A common transformation is the \hl{log transformation}.
-
-$\:$ \\
-\pause
-The histograms on the left shows the distribution of number of basketball games attended by students. The histogram on the right shows the distribution of log of number of games attended.
-
-\begin{center}
-%\includegraphics[width=0.5\textwidth]{2-1_numerical_data/figures/basket_games/basket_games_hist}
-%\includegraphics[width=0.5\textwidth]{2-1_numerical_data/figures/basket_games/basket_games_hist_log}
-\end{center}
-
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{frame}
-\frametitle{Pros and cons of transformations}
-
-\begin{itemize}
-
-\item Skewed data are easier to model with when they are transformed because outliers tend to become far less prominent after an appropriate transformation. \\
-$\:$ \\
-\renewcommand{\arraystretch}{1.5}
-\begin{tabular}{l r r r r }
-\# of games		&  70 	& 50 		& 25 		 		& $\cdots$ \\
-log(\# of games)	& 4.25	& 3.91 	& 3.22 	 	& $\cdots$
-\end{tabular}
-
-$\:$ \\
-
-\item However, results of an analysis in log units of the measured variable might be difficult to interpret.
-
-\end{itemize}
-
-\pause
-
-\dq{What other variables would you expect to be extremely skewed?}
-
-\soln{\pause{Salary, housing prices, etc.}}
-
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\subsection{Mapping data}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{frame}
-\frametitle{Intensity maps}
-
-\dq{What patterns are apparent in the change in population between 2000 and 2010?}
-
-\begin{center}
-%\includegraphics[width=0.95\textwidth]{2-1_numerical_data/figures/change_in_pop_intensity}
-\end{center}
-
-\ct{\webURL{http://projects.nytimes.com/census/2010/map}}
-
-\end{frame}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % End document
