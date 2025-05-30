@@ -63,6 +63,291 @@ Some images may be included under fair use guidelines (educational purposes).}}
 % Sections
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\begin{frame}
+\frametitle{Box plot}
+
+The box in a \hl{box plot} represents the middle 50\% of the data, and the thick line in the box is the median.
+
+\begin{center}
+%\includegraphics[width=0.7\textwidth]{2-1_numerical_data/figures/study_hours/study_hours_box}
+\end{center}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Anatomy of a box plot}
+
+\begin{center}
+%\includegraphics[width=0.95\textwidth]{2-1_numerical_data/figures/study_hours/study_hours_box_layout}
+\end{center}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}[fragile]
+\frametitle{Whiskers and outliers}
+
+\begin{itemize}
+
+\item \hl{Whiskers} of a box plot can extend up to $1.5 \times IQR$ away from the quartiles.
+\formula{
+\vspace{-0.5cm}
+\begin{align*} 
+\text{max~upper~whisker~reach} &= Q3 + 1.5 \times IQR \\
+\text{max~lower~whisker~reach} &= Q1 - 1.5 \times IQR
+\end{align*}
+}
+\pause
+\vspace{-0.5cm}
+{\small
+\begin{align*}
+\text{IQR}&: 20 - 10 = 10 \\
+\text{max~upper~whisker~reach}&= 20 + 1.5 \times 10 = 35 \\
+\text{max~lower~whisker~reach}&= 10 - 1.5 \times 10 = -5
+\end{align*}
+}
+
+\pause
+\vspace{-0.25cm}
+\item A potential \hl{outlier} is defined as an observation beyond the maximum reach of the whiskers. It is an observation that appears extreme relative to the rest of the data.
+
+\end{itemize}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Outliers (cont.)}
+
+\dq{Why is it important to look for outliers?}
+
+\soln{
+\onslide<2->{
+\begin{itemize}
+\item Identify extreme skew in the distribution.
+\item Identify data collection and entry errors.
+\item Provide insight into interesting features of the data.
+\end{itemize}
+}
+}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Edfinity Quiz and Forum Brainstorm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Robust statistics}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Extreme observations}
+
+\dq{How would sample statistics such as mean, median, SD, and IQR of household income be affected if the largest value was replaced with \$10 million? What if the smallest value was replaced with \$10 million?}
+
+\begin{center}
+%\includegraphics[width=\textwidth]{2-1_numerical_data/figures/house_income/house_income_dot_stacked}
+\end{center}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Edfinity/applet: Robust statistics}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Robust statistics}
+
+\begin{center}
+%\includegraphics[width=\textwidth]{2-1_numerical_data/figures/house_income/house_income_dot_stacked}
+\end{center}
+
+{\small
+\begin{center}
+\begin{tabular}{l c cc c cc}
+  \hline
+& \hspace{0mm} & \multicolumn{2}{c}{\bf robust} & \hspace{2mm} & \multicolumn{2}{c}{\bf not robust} \\
+scenario && median & IQR && $\bar{x}$ & $s$ \\ 
+  \hline
+original data && 190K & 200K && 245K & 226K \\ 
+move largest to \$10 million && 190K & 200K && 309K & 853K \\ 
+move smallest to \$10 million && 200K & 200K && 316K & 854K \\ 
+   \hline
+\end{tabular}
+\end{center}
+}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Robust statistics}
+
+Median and IQR are more robust to skewness and outliers than mean and SD. Therefore,
+
+\begin{itemize}
+\item for skewed distributions it is often more helpful to use median and IQR to describe the center and spread
+\item for symmetric distributions it is often more helpful to use the mean and SD to describe the center and spread
+\end{itemize}
+
+$\:$ \\
+
+\pause
+
+\dq{If you would like to estimate the typical household income for a student, would you be more interested in the mean or median income?}
+
+\soln{\pause{Median}}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Mean vs. median}
+
+\begin{itemize}
+
+\item If the distribution is symmetric, center is often defined as the mean: mean $\approx$ median
+
+\begin{center}
+%\includegraphics[width=0.33\textwidth]{2-1_numerical_data/figures/mean_med/sym}
+\end{center}
+
+\item If the distribution is skewed or has extreme outliers, center is often defined as the median
+\begin{itemize}
+\item Right-skewed: mean $>$ median
+\item Left-skewed: mean $<$ median \\
+\end{itemize}
+
+\end{itemize}
+
+\begin{center}
+%\includegraphics[width=0.33\textwidth]{2-1_numerical_data/figures/mean_med/rs}
+%\includegraphics[width=0.33\textwidth]{2-1_numerical_data/figures/mean_med/ls}\\
+\end{center}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \begin{frame}
+% \frametitle{Practice}
+
+% \pq{{\small Which is most likely true for the distribution of percentage of time actually spent taking notes in class versus on Facebook, Twitter, etc.?}}
+
+% \vspace{-0.5cm}
+
+% \begin{columns}
+% \column{0.7\textwidth}
+% \begin{center}
+% % \includegraphics[width=0.9\textwidth]{2-1_numerical_data/figures/notes_perc/notes_perc_hist}
+% \end{center}
+% \column{0.3\textwidth}
+% $\:$ \\
+% $\:$ \\
+% \soln{\only<2>{\orange{median: 80\% \\ mean: 76\%}}}
+% \end{columns}
+
+% {\small
+% \begin{multicols}{2}
+% \begin{enumerate}[(a)]
+% \item mean$>$ median
+% \solnMult{mean $<$ median}
+% \item mean $\approx$ median
+% \item impossible to tell
+% \end{enumerate}
+% \end{multicols}
+% }
+
+% \end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Edfinity: Mean/median}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Transforming data}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Extremely skewed data}
+
+When data are extremely skewed, transforming them might make modeling easier. A common transformation is the \hl{log transformation}.
+
+$\:$ \\
+\pause
+The histograms on the left shows the distribution of number of basketball games attended by students. The histogram on the right shows the distribution of log of number of games attended.
+
+\begin{center}
+%\includegraphics[width=0.5\textwidth]{2-1_numerical_data/figures/basket_games/basket_games_hist}
+%\includegraphics[width=0.5\textwidth]{2-1_numerical_data/figures/basket_games/basket_games_hist_log}
+\end{center}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Pros and cons of transformations}
+
+\begin{itemize}
+
+\item Skewed data are easier to model with when they are transformed because outliers tend to become far less prominent after an appropriate transformation. \\
+$\:$ \\
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{l r r r r }
+\# of games		&  70 	& 50 		& 25 		 		& $\cdots$ \\
+log(\# of games)	& 4.25	& 3.91 	& 3.22 	 	& $\cdots$
+\end{tabular}
+
+$\:$ \\
+
+\item However, results of an analysis in log units of the measured variable might be difficult to interpret.
+
+\end{itemize}
+
+\pause
+
+\dq{What other variables would you expect to be extremely skewed?}
+
+\soln{\pause{Salary, housing prices, etc.}}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Mapping data}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Intensity maps}
+
+\dq{What patterns are apparent in the change in population between 2000 and 2010?}
+
+\begin{center}
+%\includegraphics[width=0.95\textwidth]{2-1_numerical_data/figures/change_in_pop_intensity}
+\end{center}
+
+\ct{\webURL{http://projects.nytimes.com/census/2010/map}}
+
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Considering categorical data}
@@ -255,10 +540,6 @@ information, for proportions.
 \end{center}
 
 \end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{R Demo: Creating and Interpreting Plots of Categorical Data}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
