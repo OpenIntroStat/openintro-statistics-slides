@@ -1,0 +1,147 @@
+---
+title: "MA213 Basic Statistics and Probability - Lab 6 guide"
+bibliography: references.bib
+output:
+  pdf_document: default
+  html_document:
+    code_download: true 
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+library(dplyr)
+```
+
+## Project 2 work week 1 guide
+
+------------------------------------------------------------------------
+
+## Learning Objectives
+
+-   One sample means with the t-distribution
+
+-   Paired Data
+
+## One sample means with the t-distribution
+
+A college wants to know if their students’ average GPA is greater than the national average, which is reported to be 2.5:
+
+```{r}
+# loading the data from csv file
+df <- read.csv("GPA_t.csv")
+df
+
+```
+
+First, let's plot 10 students' GPA
+
+```{r}
+ggplot(data=df, aes(x=GPA)) +
+  geom_histogram(bins = 5)
+
+# suggested bins: ceiling(log2(n) + 1) # round up of 4.32
+```
+
+Computations
+
+```{r}
+# hypothesis 
+# H_0 : mu = 2.5 vs H_a : mu > 2.5
+
+# Sample mean and standard deviation
+xbar <- mean(df$GPA)
+s <- sd(df$GPA)
+
+xbar
+s
+
+# ---- 3. Test statistic and p-value ----
+n <- length(df$GPA)
+SE <- s / sqrt(n)
+Tstat = (xbar - 2.5) / SE
+n
+SE
+Tstat
+
+```
+
+Calculate the p-value.
+
+```{r}
+
+df = n-1
+
+1-pt(Tstat, df)
+# or
+pt(Tstat, df, lower.tail = FALSE)
+
+```
+
+What is your conclusion?
+
+## Paired Data
+
+A course instructor wants to know whether the final exam is more difficult than the midterm exam. The instructor collects scores from 100 students for both the midterm and final exams. The data is stored in the file `Exam_data.csv`, with columns midterm_exam and final_exam, representing individual scores on each exam.
+
+```{r}
+# loading the data from csv file
+df <- read.csv("Exam_data.csv")
+glimpse(df)
+
+```
+
+Let's create `diff` column
+
+```{r}
+df_new <- df %>% mutate(diff = midterm_exam - final_exam)
+glimpse(df_new)
+
+
+```
+
+First, let's plot `diff`
+
+```{r}
+ggplot(data=df_new, aes(x=diff)) +
+  geom_histogram(bins=8)
+
+# ceiling(log2(100) + 1) # round up of 7.643856 
+```
+
+Computations
+
+```{r}
+# hypothesis 
+# H_0 : mu_diff = 0 vs H_a : mu_diff > 0 
+
+# Sample mean and standard deviation
+xbar <- mean(df_new$diff)
+s <- sd(df_new$diff)
+
+xbar
+s
+
+# ---- 3. Test statistic and p-value ----
+n <- length(df_new$diff)
+SE <- s / sqrt(n)
+Tstat = (xbar - 0) / SE # why 0?
+n
+SE
+Tstat
+
+```
+
+Calculate the p-value.
+
+```{r}
+
+df = n-1
+
+1-pt(Tstat, df)
+# or
+pt(Tstat, df, lower.tail = FALSE)
+
+```
+
+What is your conclusion?
