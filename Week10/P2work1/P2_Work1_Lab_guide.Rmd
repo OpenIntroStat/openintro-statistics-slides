@@ -1,8 +1,6 @@
 ---
-title: "MA213 Basic Statistics and Probability - Lab 6 guide"
-bibliography: references.bib
+title: "MA213 Basic Statistics and Probability - Lab 6 Guide"
 output:
-  pdf_document: default
   html_document:
     code_download: true 
 ---
@@ -25,7 +23,7 @@ library(dplyr)
 
 ## One sample means with the t-distribution
 
-A college wants to know if their students’ average GPA is greater than the national average, which is reported to be 2.5:
+A college wants to know whether their students’ average GPA is greater than the national average, which is reported to be 2.5.
 
 ```{r}
 # loading the data from csv file
@@ -34,16 +32,16 @@ df
 
 ```
 
-First, let's plot 10 students' GPA
+First, let's make a histogram plot for 10 students' GPA.
 
 ```{r}
 ggplot(data=df, aes(x=GPA)) +
   geom_histogram(bins = 5)
 
-# suggested bins: ceiling(log2(n) + 1) # round up of 4.32
+# Suggested bins based on Sturges' rule: ceiling(log2(n) + 1)
 ```
 
-Computations
+We can obtain the test statistic.
 
 ```{r}
 # hypothesis 
@@ -56,7 +54,7 @@ s <- sd(df$GPA)
 xbar
 s
 
-# ---- 3. Test statistic and p-value ----
+# ---- Test statistic and p-value ----
 n <- length(df$GPA)
 SE <- s / sqrt(n)
 Tstat = (xbar - 2.5) / SE
@@ -66,7 +64,7 @@ Tstat
 
 ```
 
-Calculate the p-value.
+Calculate the p-value of the test.
 
 ```{r}
 
@@ -78,7 +76,7 @@ pt(Tstat, df, lower.tail = FALSE)
 
 ```
 
-What is your conclusion?
+Based on the p-value, what is your conclusion at the 0.05 significance level?
 
 ## Paired Data
 
@@ -91,7 +89,7 @@ glimpse(df)
 
 ```
 
-Let's create `diff` column
+Let's create a new column called `diff`, which represents the difference between midterm and final exam scores.
 
 ```{r}
 df_new <- df %>% mutate(diff = midterm_exam - final_exam)
@@ -100,7 +98,7 @@ glimpse(df_new)
 
 ```
 
-First, let's plot `diff`
+First, let's make a histogram plot of `diff`
 
 ```{r}
 ggplot(data=df_new, aes(x=diff)) +
@@ -109,7 +107,7 @@ ggplot(data=df_new, aes(x=diff)) +
 # ceiling(log2(100) + 1) # round up of 7.643856 
 ```
 
-Computations
+We can obtain the test statistic.
 
 ```{r}
 # hypothesis 
@@ -125,7 +123,7 @@ s
 # ---- 3. Test statistic and p-value ----
 n <- length(df_new$diff)
 SE <- s / sqrt(n)
-Tstat = (xbar - 0) / SE # why 0?
+Tstat = (xbar - 0) / SE  # 0 represents the hypothesized mean difference (H0)
 n
 SE
 Tstat
@@ -144,4 +142,4 @@ pt(Tstat, df, lower.tail = FALSE)
 
 ```
 
-What is your conclusion?
+Based on the p-value, what is your conclusion at the 0.05 significance level?
