@@ -1,0 +1,182 @@
+---
+title: "MA213 Basic Statistics and Probability"
+output:
+  html_document:
+    code_download: true 
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+library(dplyr)
+```
+
+## Project 2 work week 1 guide
+
+------------------------------------------------------------------------
+
+## Learning Objectives
+
+-   Difference of two means
+
+-   Comparing many means with ANOVA
+
+## Difference of two means
+
+Each year the US Environmental Protection Agency (EPA) releases fuel economy data on cars manufactured in that year. Below are summary statistics on fuel efficiency (in miles/gallon) from independent random samples of cars with manual and automatic transmissions manufactured in 2012. Do these data provide strong evidence of a difference between the average fuel efficiency of cars with manual and automatic transmissions in terms of their average city mileage? Assume that conditions for inference are satisfied.
+
+```{r}
+# loading the data from csv file
+df <- read.csv("mileage.csv")
+glimpse(df)
+
+summary(df$gpa)
+unique(df$major)
+
+
+```
+
+We can assume that the data are independent within and between the two groups, because the data come from independent random samples.
+
+\
+We are going to get each transmission group.
+
+```{r}
+
+Manual_df <- df %>% filter(transmission=="Manual")
+Automatic_df <- df %>% filter(transmission=="Automatic")
+
+summary(Manual_df)
+summary(Automatic_df)
+
+```
+
+We will make histogram for both groups.
+
+```{r}
+ggplot(data=Manual_df, aes(x=mileage)) +
+  geom_histogram(bins = 5)
+
+# Suggested bins based on Sturges' rule: ceiling(log2(n) + 1)
+```
+
+```{r}
+ggplot(data=Automatic_df, aes(x=mileage)) +
+  geom_histogram(bins = 5)
+
+
+```
+
+We can obtain the test statistic.
+
+```{r}
+# hypothesis 
+# H_0 : mu_manual - mu_auto = 0
+
+# Sample mean and standard deviation
+xbar1 <- mean(Manual_df$mileage)
+xbar2 <- mean(Automatic_df$mileage)
+
+s1 <- sd(Manual_df$mileage)
+s2 <- sd(Automatic_df$mileage)
+
+n1 <- length(Manual_df$mileage)
+n2 <- length(Automatic_df$mileage)
+  
+SE <- sqrt( s1^2/n1 + s2^2/n2 )
+  
+Test_stat <- (xbar1-xbar2)-0 / SE
+
+
+# ---- Test statistic and p-value ----
+
+SE
+Test_stat
+(1-pt(Test_stat, n1-1))*2 
+```
+
+Based on the p-value, we conclude that there is strong evidence at the 0.05 significance level to suggest a difference in the average city mileage between cars with manual and automatic transmissions.
+
+## Comparing many means with ANOVA
+
+Undergraduate students taking an introductory statistics course at Boston University conducted a survey about GPA and major. We want to test if the mean GPA differs by major (4 groups).
+
+```{r}
+# loading the data from csv file
+df <- read.csv("gpa_major.csv")
+glimpse(df)
+
+summary(df$gpa)
+unique(df$major)
+
+
+```
+
+We assume that the data are independent within and between the groups and the data come from independent random samples.
+
+\
+We are going to get each group.
+
+```{r}
+
+Bio_df <- df %>% filter(major=="Biology")
+Stat_df <- df %>% filter(major=="Statistics")
+Eng_df <- df %>% filter(major=="Engineering")
+Hist_df <- df %>% filter(major=="History")
+
+
+summary(Bio_df)
+summary(Stat_df)
+summary(Eng_df)
+summary(Hist_df)
+
+```
+
+We will make box plots and histograms of majors.
+
+```{r}
+
+ggplot(df, aes(x = major, y = gpa, fill = major)) +
+  geom_boxplot() +
+  labs(title = "GPA Distribution by Major",
+       x = "Major",
+       y = "GPA") +
+  theme_minimal() +
+  theme(legend.position = "none")
+
+```
+
+```{r}
+ggplot(data=Bio_df, aes(x=gpa)) +
+  geom_histogram(bins = 5)
+
+ggplot(data=Stat_df, aes(x=gpa)) +
+  geom_histogram(bins = 5)
+
+ggplot(data=Eng_df, aes(x=gpa)) +
+  geom_histogram(bins = 5)
+
+ggplot(data=Hist_df, aes(x=gpa)) +
+  geom_histogram(bins = 5)
+
+```
+
+Fit one-way ANOVA and show table up to the F statistic
+
+```{r}
+# H_0 : mu_bio = mu_stat = mu_eng = mu_hist
+# H_a : At least one mean is different from the others
+
+
+fit <- aov(gpa ~ major, data = df)
+anova_tab <- anova(fit)
+print(anova_tab)
+
+
+### equivalently 
+fit <- lm(gpa ~ major, data = df)
+anova_tab2 <- anova(fit)
+print(anova_tab2)
+```
+
+Based on the p-value of 0.01544, which is less than the 0.05 significance level, we reject the null hypothesis. This provides strong evidence that there is a significant difference in mean GPA among at least some of the four majors.
