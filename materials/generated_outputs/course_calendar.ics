@@ -114,8 +114,7 @@ DTSTAMP:20260101T000000Z
 DTSTART;TZID=America/New_York:20260909T111500
 DTEND;TZID=America/New_York:20260909T120500
 SUMMARY:Lecture 3
-DESCRIPTION:Examining numerical data (Chapter 2.1)\nNear Labor Day Holiday\
- , Classes Suspended
+DESCRIPTION:Examining numerical data (Chapter 2.1)
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-09-09-2-Discussion-B4@ma213-course-calendar
@@ -609,8 +608,7 @@ DTSTART;TZID=America/New_York:20261013T111500
 DTEND;TZID=America/New_York:20261013T120500
 SUMMARY:Lecture 16
 DESCRIPTION:Point estimates and sampling variability\, continued (Chapter 5
- .1)\nNear Indigenous People's Day Holiday\, Classes Suspended | Substitute
-  a Monday schedule of classes
+ .1)
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-13-3-Discussion-B1@ma213-course-calendar
@@ -646,8 +644,7 @@ DTSTAMP:20260101T000000Z
 DTSTART;TZID=America/New_York:20261014T111500
 DTEND;TZID=America/New_York:20261014T120500
 SUMMARY:Quiz 2
-DESCRIPTION:in the lecture time\nNear Indigenous People's Day Holiday\, Cla
- sses Suspended | Near Substitute a Monday schedule of classes
+DESCRIPTION:in the lecture time
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-14-2-Discussion-B4@ma213-course-calendar
@@ -961,8 +958,7 @@ DTSTAMP:20260101T000000Z
 DTSTART;TZID=America/New_York:20261104T111500
 DTEND;TZID=America/New_York:20261104T120500
 SUMMARY:Quiz 3
-DESCRIPTION:tentative\nPrerequisite not yet covered: M3.L05: Distinguish St
- atistical vs. Practical Significance (first covered Lecture 28)
+DESCRIPTION:tentative
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-04-2-Discussion-B4@ma213-course-calendar
@@ -1232,8 +1228,7 @@ DTSTAMP:20260101T000000Z
 DTSTART;TZID=America/New_York:20261123T111500
 DTEND;TZID=America/New_York:20261123T120500
 SUMMARY:Lecture 32
-DESCRIPTION:Frequentist modeling using the likelihood function\nNear Thanks
- giving Recess
+DESCRIPTION:Frequentist modeling using the likelihood function
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-23-2-Discussion-B1@ma213-course-calendar
@@ -1317,7 +1312,7 @@ DTSTAMP:20260101T000000Z
 DTSTART;TZID=America/New_York:20261130T111500
 DTEND;TZID=America/New_York:20261130T120500
 SUMMARY:Quiz 4
-DESCRIPTION:tentative\nNear Thanksgiving Recess | Classes Resume
+DESCRIPTION:tentative
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-30-3-Lab-8@ma213-course-calendar
@@ -1395,8 +1390,7 @@ DTSTAMP:20260101T000000Z
 DTSTART;TZID=America/New_York:20261202T111500
 DTEND;TZID=America/New_York:20261202T120500
 SUMMARY:Lecture 33
-DESCRIPTION:Bayesian modeling with discrete distributions\nNear Classes Res
- ume
+DESCRIPTION:Bayesian modeling with discrete distributions
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-02-2-Discussion-B4@ma213-course-calendar
@@ -1483,8 +1477,7 @@ DTSTAMP:20260101T000000Z
 DTSTART;TZID=America/New_York:20261209T111500
 DTEND;TZID=America/New_York:20261209T120500
 SUMMARY:Quiz 5
-DESCRIPTION:tentative\nNear Last Day of Classes\; Second Seven-Week Session
-  Ends | Near Study Period
+DESCRIPTION:tentative
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-09-2-Discussion-B4@ma213-course-calendar
@@ -1521,8 +1514,7 @@ DTSTAMP:20260101T000000Z
 DTSTART;TZID=America/New_York:20261210T111500
 DTEND;TZID=America/New_York:20261210T120500
 SUMMARY:Lecture 36
-DESCRIPTION:Wrap-up and evaluations\nLast Day of Classes\; Second Seven-Wee
- k Session Ends | Near Study Period
+DESCRIPTION:Wrap-up and evaluations
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-11-1-Academic-Calendar@ma213-course-calendar

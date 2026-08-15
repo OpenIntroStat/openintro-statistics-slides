@@ -15,22 +15,6 @@ nav:
   - Labs: lab_summary.md
   - Learning Objectives: learning_objectives.md
   # BEGIN GENERATED NAV
-  - Lab Materials:
-      - Lab 1: materials/Lab1_agenda.md
-  - Instructor Plans:
-      - Lab 1: materials/Lab1_plan.md
-      - Lab 2: materials/Lab2_plan.md
-      - Lab 3: materials/Lab3_plan.md
-      - Project1-1: materials/P1_1_plan.md
-      - Project1-2: materials/P1_2_plan.md
-      - Lab 4: materials/Lab4_plan.md
-      - Lab 5: materials/Lab5_plan.md
-      - Lab 6: materials/Lab6_plan.md
-      - Project2-1: materials/P2_1_plan.md
-      - Project2-2: materials/P2_2_plan.md
-      - Project2-3: materials/P2_3_plan.md
-      - Lab 7: materials/Lab7_plan.md
-      - Lab 8: materials/Lab8_plan.md
   # END GENERATED NAV
 
 extra_css:

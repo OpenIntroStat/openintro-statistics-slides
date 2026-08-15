@@ -44,15 +44,15 @@ This version preserves the original course sequence so that the lab flow stays f
   - Use R for Data Management and Exploration
 - **Pre-Lab Activity:**
   - Review the lecture notes on categorical and numerical variables
-  - Complete a short tutorial on `dplyr` and plotting
+  - Complete Tutorial 2 and submit the hash code to Blackboard
 - **In-Lab Activity:**
   - Decide whether variables are categorical or numerical
-  - Use `filter()`, `mutate()`, and `summarize()`
+  - Use `filter()`, `mutate()`, `group_by()`, and `summarize()`
+  - Build and read a contingency table
   - Write interpretations in context
 - **Post-Lab Activity:**
-  - Submit a short analysis summary with tables and written conclusions
   - Lab2 in-lab activity submission
-  - Lab2 GradeScope
+  - Complete Tutorial 3 and submit the hash code by 10pm Tuesday
 - **Deliverables:**
   - Lab1 in-lab activity submission
   - Tutorial 1

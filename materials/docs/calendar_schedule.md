@@ -137,7 +137,6 @@ This month view is generated from course summaries, `materials/instructor_inputs
 <h3>Lecture 3</h3>
 <p class="calendar-event__time">11:15 AM-12:05 PM</p>
 <p>Examining numerical data (Chapter 2.1)</p>
-<p class="calendar-event__meta">Near Labor Day Holiday, Classes Suspended</p>
 </article>
 <article class="calendar-event calendar-event--discussion">
 <div class="calendar-event__kind">Discussion</div>
@@ -663,7 +662,6 @@ This month view is generated from course summaries, `materials/instructor_inputs
 <h3>Lecture 16</h3>
 <p class="calendar-event__time">11:15 AM-12:05 PM</p>
 <p>Point estimates and sampling variability, continued (Chapter 5.1)</p>
-<p class="calendar-event__meta">Near Indigenous People&#x27;s Day Holiday, Classes Suspended | Substitute a Monday schedule of classes</p>
 </article>
 <article class="calendar-event calendar-event--discussion">
 <div class="calendar-event__kind">Discussion</div>
@@ -694,7 +692,6 @@ This month view is generated from course summaries, `materials/instructor_inputs
 <h3>Quiz 2</h3>
 <p class="calendar-event__time">11:15 AM-12:05 PM</p>
 <p>in the lecture time</p>
-<p class="calendar-event__meta">Near Indigenous People&#x27;s Day Holiday, Classes Suspended | Near Substitute a Monday schedule of classes</p>
 </article>
 <article class="calendar-event calendar-event--discussion">
 <div class="calendar-event__kind">Discussion</div>
@@ -1025,7 +1022,6 @@ This month view is generated from course summaries, `materials/instructor_inputs
 <h3>Quiz 3</h3>
 <p class="calendar-event__time">11:15 AM-12:05 PM</p>
 <p>tentative</p>
-<p class="calendar-event__meta">Prerequisite not yet covered: M3.L05: Distinguish Statistical vs. Practical Significance (first covered Lecture 28)</p>
 </article>
 <article class="calendar-event calendar-event--discussion">
 <div class="calendar-event__kind">Discussion</div>
@@ -1286,7 +1282,6 @@ This month view is generated from course summaries, `materials/instructor_inputs
 <h3>Lecture 32</h3>
 <p class="calendar-event__time">11:15 AM-12:05 PM</p>
 <p>Frequentist modeling using the likelihood function</p>
-<p class="calendar-event__meta">Near Thanksgiving Recess</p>
 </article>
 <article class="calendar-event calendar-event--discussion">
 <div class="calendar-event__kind">Discussion</div>
@@ -1364,7 +1359,6 @@ This month view is generated from course summaries, `materials/instructor_inputs
 <h3>Quiz 4</h3>
 <p class="calendar-event__time">11:15 AM-12:05 PM</p>
 <p>tentative</p>
-<p class="calendar-event__meta">Near Thanksgiving Recess | Classes Resume</p>
 </article>
 <article class="calendar-event calendar-event--lab">
 <div class="calendar-event__kind">Lab</div>
@@ -1483,7 +1477,6 @@ This month view is generated from course summaries, `materials/instructor_inputs
 <h3>Lecture 33</h3>
 <p class="calendar-event__time">11:15 AM-12:05 PM</p>
 <p>Bayesian modeling with discrete distributions</p>
-<p class="calendar-event__meta">Near Classes Resume</p>
 </article>
 <article class="calendar-event calendar-event--discussion">
 <div class="calendar-event__kind">Discussion</div>
@@ -1571,7 +1564,6 @@ This month view is generated from course summaries, `materials/instructor_inputs
 <h3>Quiz 5</h3>
 <p class="calendar-event__time">11:15 AM-12:05 PM</p>
 <p>tentative</p>
-<p class="calendar-event__meta">Near Last Day of Classes; Second Seven-Week Session Ends | Near Study Period</p>
 </article>
 <article class="calendar-event calendar-event--discussion">
 <div class="calendar-event__kind">Discussion</div>
@@ -1601,7 +1593,6 @@ This month view is generated from course summaries, `materials/instructor_inputs
 <h3>Lecture 36</h3>
 <p class="calendar-event__time">11:15 AM-12:05 PM</p>
 <p>Wrap-up and evaluations</p>
-<p class="calendar-event__meta">Last Day of Classes; Second Seven-Week Session Ends | Near Study Period</p>
 </article>
 </section>
 <section class="calendar-date calendar-date--term-edge">
